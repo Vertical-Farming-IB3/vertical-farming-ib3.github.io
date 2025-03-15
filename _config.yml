@@ -16,7 +16,7 @@ timezone:
 
 title: IB3 - Vertical Farm # the main title
 
-tagline: De Bachelorproef van 2024-2025 # it will display as the subtitle
+tagline: Bachelorproef '24-'25 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
