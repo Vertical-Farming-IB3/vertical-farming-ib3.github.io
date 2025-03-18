@@ -1,6 +1,5 @@
 ---
-layout: archives
-icon: fas fa-archive
+icon: fas fa-leaf
 order: 3
 ---
 
