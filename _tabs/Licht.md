@@ -1,4 +1,4 @@
 ---
-icon: fas fa-lightbulb-o
+icon: fas fa-lightbulb
 order: 3
 ---
