@@ -8,6 +8,6 @@ order: 5
  {: .prompt-tip } -->
 
 > Under construction
-{: .prompt-tip }
+{: .prompt-warning }
 
 
