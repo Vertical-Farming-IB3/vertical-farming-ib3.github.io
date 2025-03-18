@@ -1,0 +1,31 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 60px; /* Adjust as needed */
+    padding: 10px 0;
+  }
+  
+  .footer-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+  }
+  
+  .footer-logo {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .footer-logo img {
+    display: block;
+  }
