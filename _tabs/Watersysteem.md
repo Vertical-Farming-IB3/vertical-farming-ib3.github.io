@@ -12,7 +12,7 @@ order: 2
 
 ## Plan
 <!--![Schematische tekening van het watersysteem](../assets/img/Watersysteem/Plan_Watersysteem.png) -->
-<img src="../assets/img/Watersysteem/Plan_Watersysteem.png" alt="Schematische tekening van het watersysteem" width="200"/>
+<img src="../assets/img/Watersysteem/Plan_Watersysteem.png" alt="Schematische tekening van het watersysteem" width="800"/>
 
 Het systeem bestaat uit onderstaande componenten, aan elkaar gekoppeld:
 
@@ -36,7 +36,7 @@ De bloembakken van vorig project worden hergebruikt als reservoirs. Deze zijn ru
 ![Waterpomp](../assets/img/Watersysteem/Waterpomp.jpg)  
 De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v) heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft eenmaxiale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
 
-### Mixer
+### Mixer:
 ![Luchtpomp](../assets/img/Watersysteem/luchtpomp.jpg)  
 Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekozen voor de circulatie van het water. Dit wordt gedaan om de groei van algen te voorkomen.
 
