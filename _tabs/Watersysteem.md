@@ -10,4 +10,10 @@ order: 2
 > Under construction
 {: .prompt-tip }
 
+## Plan
+![Schematische tekening van het watersysteem](../assets/img/Watersysteem/Plan_Watersysteem.png)
 
+Het systeem bestaat uit onderstaande componenten, aan elkaar gekoppeld:
+
+- **Reservoirs**
+1 waterreservoir, 1 voedingsstofreservoir en 1 mengreservoir.
