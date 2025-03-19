@@ -4,14 +4,11 @@ icon: fas fa-droplet
 order: 2
 ---
 
-<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
- {: .prompt-tip } -->
 
 > Under construction
 {: .prompt-warning }
 
 ## Plan
-<!--![Schematische tekening van het watersysteem](../assets/img/Watersysteem/Plan_Watersysteem.png) -->
 <img src="../assets/img/Watersysteem/Plan_Watersysteem.png" alt="Schematische tekening van het watersysteem" width="800"/>
 
 Het systeem bestaat uit onderstaande componenten, aan elkaar gekoppeld:
@@ -27,17 +24,17 @@ Er zijn 2 pompen aanwezig om het water en de voedingsstoffen naar het mengreserv
 # Compontenten/onderdelen
 
 ### Reservoirs:  
-![Reservoir](../assets/img/Watersysteem/reservoir.JPEG)  
+<img src="../assets/img/Watersysteem/reservoir.JPEG" alt="Reservoir" width="600">  
 De bloembakken van vorig project worden hergebruikt als reservoirs. Deze zijn ruim genoeg en kunnen makkelijk geïntegreerd worden in het ontwerp.
 
 ## Sensoren en Actuatoren
 
 ### Waterpomp:  
-![Waterpomp](../assets/img/Watersysteem/Waterpomp.jpg)  
+<img src="../assets/img/Watersysteem/Waterpomp.jpg" alt="Waterpomp" width="600">  
 De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v) heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft eenmaxiale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
 
 ### Mixer:
-![Luchtpomp](../assets/img/Watersysteem/luchtpomp.jpg)  
+<img src="../assets/img/Watersysteem/luchtpomp.jpg" alt="Luchtpomp" width="600">  
 Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekozen voor de circulatie van het water. Dit wordt gedaan om de groei van algen te voorkomen.
 
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
