@@ -11,7 +11,8 @@ order: 2
 {: .prompt-warning }
 
 ## Plan
-![Schematische tekening van het watersysteem](../assets/img/Watersysteem/Plan_Watersysteem.png)
+<!--![Schematische tekening van het watersysteem](../assets/img/Watersysteem/Plan_Watersysteem.png) -->
+<img src="../assets/img/Watersysteem/Plan_Watersysteem.png" alt="Schematische tekening van het watersysteem" width="200"/>
 
 Het systeem bestaat uit onderstaande componenten, aan elkaar gekoppeld:
 
