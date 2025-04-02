@@ -48,9 +48,9 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 - **Witte verf** - Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
 
 ## PCB
-<div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="{{ site.baseurl }}/assets/img/pb_front.png" alt="PCB Front" style="width: 65%;">
-    <img src="{{ site.baseurl }}/assets/img/pb_back.png" alt="PCB Back" style="width: 65%;">
+<div style="display: flex; justify-content: center; gap: 4px;">
+    <img src="{{ site.baseurl }}/assets/img/pb_front.png" alt="PCB Front" style="width: 40%;">
+    <img src="{{ site.baseurl }}/assets/img/pb_back.png" alt="PCB Back" style="width: 40%;">
 </div>
 
 ## Planten
