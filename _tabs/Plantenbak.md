@@ -30,8 +30,13 @@ order: 1
         color: white;
     }
 
-    .section {
+    .tab-section {
+        display: none;
         padding-top: 20px;
+    }
+
+    .tab-section.active {
+        display: block;
     }
 
     .pcb-container {
@@ -49,13 +54,13 @@ order: 1
 </style>
 
 <ul class="nav-tabs">
-    <li class="nav-item active" onclick="scrollToSection('bedoeling', this)">De bedoeling</li>
-    <li class="nav-item" onclick="scrollToSection('benodigdheden', this)">Benodigdheden</li>
-    <li class="nav-item" onclick="scrollToSection('pcb', this)">PCB</li>
-    <li class="nav-item" onclick="scrollToSection('planten', this)">Planten</li>
+    <li class="nav-item active" data-target="section-bedoeling">De bedoeling</li>
+    <li class="nav-item" data-target="section-benodigdheden">Benodigdheden</li>
+    <li class="nav-item" data-target="section-pcb">PCB</li>
+    <li class="nav-item" data-target="section-planten">Planten</li>
 </ul>
 
-<div class="section" id="bedoeling">
+<div id="section-bedoeling" class="tab-section active">
     <h2>De bedoeling</h2>
     <p>Onze bordjes moeten deze functionaliteit hebben:</p>
     <ul>
@@ -69,7 +74,7 @@ order: 1
     </ul>
 </div>
 
-<div class="section" id="benodigdheden">
+<div id="section-benodigdheden" class="tab-section">
     <h2>Benodigdheden</h2>
     <p>Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende onderdelen en materialen:</p>
 
@@ -102,7 +107,7 @@ order: 1
     </ul>
 </div>
 
-<div class="section" id="pcb">
+<div id="section-pcb" class="tab-section">
     <h2>PCB</h2>
     <div class="pcb-container">
         <img src="{{ site.baseurl }}/assets/img/pb_front.png" alt="PCB Front">
@@ -110,7 +115,7 @@ order: 1
     </div>
 </div>
 
-<div class="section" id="planten">
+<div id="section-planten" class="tab-section">
     <h2>Planten</h2>
     <p>We kozen deze soorten:</p>
     <ul>
@@ -124,11 +129,25 @@ order: 1
 </div>
 
 <script>
-    function scrollToSection(id, element) {
-        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-
-        // Update actieve tab
-        document.querySelectorAll(".nav-item").forEach(tab => tab.classList.remove("active"));
-        element.classList.add("active");
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    // Add click event to all tab items
+    document.querySelectorAll('.nav-tabs .nav-item').forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            // Remove active class from all tabs and sections
+            document.querySelectorAll('.nav-tabs .nav-item').forEach(function(item) {
+                item.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-section').forEach(function(section) {
+                section.classList.remove('active');
+            });
+            
+            // Add active class to clicked tab
+            this.classList.add('active');
+            
+            // Get target section ID and show it
+            var targetId = this.getAttribute('data-target');
+            document.getElementById(targetId).classList.add('active');
+        });
+    });
+});
 </script>
