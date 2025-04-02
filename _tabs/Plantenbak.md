@@ -14,6 +14,11 @@ order: 1
         padding: 0;
         gap: 10px;
         margin-bottom: 20px;
+        position: sticky;
+        top: 0;
+        background: white;
+        z-index: 100;
+        padding: 10px 0;
     }
 
     .nav-tabs .nav-item {
@@ -31,12 +36,8 @@ order: 1
     }
 
     .tab-section {
-        display: none;
         padding-top: 20px;
-    }
-
-    .tab-section.active {
-        display: block;
+        scroll-margin-top: 80px; /* Adjust based on your header height */
     }
 
     .pcb-container {
@@ -54,13 +55,13 @@ order: 1
 </style>
 
 <ul class="nav-tabs">
-    <li class="nav-item active" data-target="section-bedoeling">De bedoeling</li>
+    <li class="nav-item" data-target="section-bedoeling">De bedoeling</li>
     <li class="nav-item" data-target="section-benodigdheden">Benodigdheden</li>
     <li class="nav-item" data-target="section-pcb">PCB</li>
     <li class="nav-item" data-target="section-planten">Planten</li>
 </ul>
 
-<div id="section-bedoeling" class="tab-section active">
+<div id="section-bedoeling" class="tab-section">
     <h2>De bedoeling</h2>
     <p>Onze bordjes moeten deze functionaliteit hebben:</p>
     <ul>
@@ -130,24 +131,48 @@ order: 1
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Function to update active tab based on scroll position
+    function updateActiveTab() {
+        const sections = document.querySelectorAll('.tab-section');
+        const navItems = document.querySelectorAll('.nav-item');
+        
+        let currentSection = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (window.scrollY >= (sectionTop - 100)) {
+                currentSection = section.id;
+            }
+        });
+        
+        navItems.forEach(item => {
+            item.classList.remove('active');
+            if (item.getAttribute('data-target') === currentSection) {
+                item.classList.add('active');
+            }
+        });
+    }
+    
     // Add click event to all tab items
     document.querySelectorAll('.nav-tabs .nav-item').forEach(function(tab) {
         tab.addEventListener('click', function() {
-            // Remove active class from all tabs and sections
-            document.querySelectorAll('.nav-tabs .nav-item').forEach(function(item) {
-                item.classList.remove('active');
-            });
-            document.querySelectorAll('.tab-section').forEach(function(section) {
-                section.classList.remove('active');
-            });
+            const targetId = this.getAttribute('data-target');
+            const targetSection = document.getElementById(targetId);
             
-            // Add active class to clicked tab
-            this.classList.add('active');
-            
-            // Get target section ID and show it
-            var targetId = this.getAttribute('data-target');
-            document.getElementById(targetId).classList.add('active');
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            }
         });
     });
+    
+    // Update active tab on scroll
+    window.addEventListener('scroll', updateActiveTab);
+    
+    // Set initial active tab
+    updateActiveTab();
 });
 </script>
