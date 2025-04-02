@@ -48,10 +48,44 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 - **Witte verf** - Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
 
 ## PCB
-<div style="display: flex; justify-content: center; gap: 4px;">
+<div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
     <img src="{{ site.baseurl }}/assets/img/pb_front.png" alt="PCB Front" style="width: 40%;">
     <img src="{{ site.baseurl }}/assets/img/pb_back.png" alt="PCB Back" style="width: 40%;">
 </div>
+
+<div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab">Tab 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab">Tab 2</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+            <p>Inhoud voor Tab 1</p>
+        </div>
+        <div class="tab-pane fade" id="tab2" role="tabpanel">
+            <p>Inhoud voor Tab 2</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var tabs = document.querySelectorAll("[data-toggle='tab']");
+        tabs.forEach(tab => {
+            tab.addEventListener("click", function (event) {
+                event.preventDefault();
+                document.querySelector(".nav-link.active").classList.remove("active");
+                document.querySelector(".tab-pane.show.active").classList.remove("show", "active");
+                this.classList.add("active");
+                document.querySelector(this.getAttribute("href")).classList.add("show", "active");
+            });
+        });
+    });
+</script>
 
 ## Planten
 We kozen deze soorten:
