@@ -49,8 +49,8 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 ## PCB
 <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="{{ site.baseurl }}/assets/images/pb_front.png" alt="PCB Front" style="width: 45%;">
-    <img src="{{ site.baseurl }}/assets/images/pb_back.png" alt="PCB Back" style="width: 45%;">
+    <img src="{{ site.baseurl }}/assets/img/pb_front.png" alt="PCB Front" style="width: 45%;">
+    <img src="{{ site.baseurl }}/assets/img/pb_back.png" alt="PCB Back" style="width: 45%;">
 </div>
 
 ## Planten
