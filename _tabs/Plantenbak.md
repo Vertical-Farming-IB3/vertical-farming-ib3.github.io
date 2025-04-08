@@ -51,14 +51,23 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     <img src="{{ site.baseurl }}/assets/img/pb_back.png" alt="PCB Back" style="width: 40%;">
 </div>
 
-
 ## Planten
 We kozen deze soorten:
 
-- Koriander
-- Basilicum
-- Oregano
-- Snijsla
+- Koriander ★★★
+- Basilicum ★
+- Oregano ★★
+- Snijsla ★★★
 - Munt
 
-Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien.
+Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker te groeien.
+
+## De bakken
+
+## Bak 1: in rockwol
+
+<img src="/assets/img/bak_water.png" alt="bak met water">
+
+## Bak 2: rechtstreeks in water
+
+
