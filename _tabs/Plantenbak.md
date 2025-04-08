@@ -64,10 +64,10 @@ Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in d
 
 ## De bakken
 
-## Bak 1: in rockwol
+### Bak 1: in rockwol
 
 <img src="/assets/img/bak_water.png" alt="bak met water">
 
-## Bak 2: rechtstreeks in water
+### Bak 2: rechtstreeks in water
 
 
