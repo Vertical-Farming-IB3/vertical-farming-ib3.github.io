@@ -1,17 +1,14 @@
 ---
-layout: page
-title: Home
-permalink: /
+layout: home
+title: Welkom bij Plant-T
 ---
 
-# Welkom bij Plant-T 🌿
+# Welkom bij Plant-T 🌱
 
-Welkom op de website van ons bachelorproefproject rond verticale landbouw.
+Dit is de hoofdpagina van ons project over verticale landbouw.
 
-## Navigatie
-
-- [Plantenbak](tabs/plantenbak)
-- [Water](tabs/water)
-- [Licht](tabs/licht)
-- [Power](tabs/power)
-- [Bibliografie](tabs/bibliografie)
+- [Plantenbak](tabs/plantenbak.md)
+- [Water](tabs/water.md)
+- [Licht](tabs/licht.md)
+- [Power](tabs/power.md)
+- [Bibliografie](tabs/bibliografie.md)
