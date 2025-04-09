@@ -66,8 +66,7 @@ Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in d
 
 ### Bak 1: in rockwol
 
-<img src="/assets/img/bak_water.png" alt="bak met water">
 
 ### Bak 2: rechtstreeks in water
 
-
+<img src="/assets/img/bak_water.png" alt="bak met water">
