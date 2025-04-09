@@ -4,8 +4,3 @@
 
 [Link](https://vertical-farming-ib3.github.io/) naar de site
 
-
-> Under construction
-{: .prompt-warning }
-
-## test
