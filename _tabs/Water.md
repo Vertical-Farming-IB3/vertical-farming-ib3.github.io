@@ -21,7 +21,7 @@ De luchtstenen (aangevoerd door luchtpompen) in het water- en voedingsstofreserv
 ### Pompen en Pompsysteem:  
 Er zijn 2 pompen aanwezig om het water en de voedingsstoffen naar het mengreservoir te brengen. Er is per lade een pomp voorzien om de gemengde vloeistof te transporteren naar de bijhorende lade.
 
-# Compontenten/onderdelen
+# Componenten/onderdelen
 
 ### Reservoirs:  
 <img src="../assets/img/Watersysteem/reservoir.JPEG" alt="Reservoir" width="400">  
