@@ -229,3 +229,5 @@ home:
     paginate: 5           # Number of posts per page
     image: true           # Show featured images
     excerpt: true         # Show post excerpts
+  display_content:
+    enabled: true          # Critical! Shows your Markdown content
