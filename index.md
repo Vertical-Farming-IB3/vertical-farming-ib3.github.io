@@ -1,7 +1,15 @@
 ---
-layout: home
+layout: page
+title: "Vertical Farming Innovations"
 ---
 
-# Welcome to My Site
+![Vertical Farm](/assets/img/vertical-farm.jpg)  
 
-This is custom content that appears above the post list.
+Welcome to the future of **sustainable agriculture**!  
+
+🔬 We explore:  
+✅ Hydroponics  
+✅ Aeroponics  
+✅ Smart LED Lighting  
+
+[Explore Our Research →](/research/)

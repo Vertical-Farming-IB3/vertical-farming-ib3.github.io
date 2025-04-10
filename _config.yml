@@ -223,7 +223,4 @@ jekyll-archives:
 
 home:
   posts:
-    title: "Recent Posts"  # Section title
-    paginate: 5           # Number of posts per page
-    image: true           # Show featured images
-    excerpt: true         # Show post excerpts
+    enabled: false  # Disable posts on home
