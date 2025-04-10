@@ -31,10 +31,54 @@ De bloembakken van vorig project worden hergebruikt als reservoirs. Deze zijn ru
 
 ### Waterpomp:  
 <img src="../assets/img/Watersysteem/Waterpomp.jpg" alt="Waterpomp" width="400">  
-De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft eenmaxiale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
+De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft een maximale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
 
 ### Mixer:
 <img src="../assets/img/Watersysteem/luchtpomp.jpg" alt="Luchtpomp" width="400">  
 Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekozen voor de circulatie van het water. Dit wordt gedaan om de groei van algen te voorkomen.
 
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
+
+
+<!-- Toevoer en afvoer first draft -->
+<!-- Werken Charlotte en ik nu de site af en Kjell en Sander de code? Navragen... -->
+# Intro
+Het deel water van de vertical farm omvat twee grote delen:
+    - Irregatie en waterafvoer
+    - Pompen en stuurlogica
+In dit deel word dieper ingegaan op de hardware gefocused rond water toe- en afvoer, en het water zelf. De watertoevoer is nauw verbonden aan de pomplogica, voor de waterafvoer is gebruik gemaakt van zwaartekracht. Er zijn meerdere concepten doorlopen, uiteindelijk is gekozen voor een kastsysteem waarbij water afloopt naar een centraal reservoir, waar het restwater gefilterd <!-- UV-C + gaas? --> en hergebruikt kan worden. In dit mengvat kan ook schoon water en voedingsstoffen toegevoegd worden om een optimale waterconditie te creëren voor de planten. Voor de watertoevoer is geopteerd om met twee verschillende methodes te werken namelijk drip hydroponics/ NFT en een flood and drain. <!-- nakijken, volgens mij andere benamingen op toledo --> 
+Op deze manier konden we de twee methoden vergelijken, het systeem is volledig modulair, dus naar de toekomst toe kan de tweede lade ook omgebouwd worden naar de best werkende methode.
+
+<!-- 
+    Persoonlijke nota 
+    Mss voor verbeteringen naar de toekomst, is natuurlijk wel stuk complexer
+
+Momenteel word gewerkt met een systeem waarin tegelijk twee lades gevoed kunnen worden, deze twee lades worden gevoed vanuit hetzelfde mengvat, verschillende planten kunnen echter voordeel halen uit verschillende concentraties voedingsstoffen, dit maakt het interresant om het mengvat eventueel op te splitsen in twee delen. Er is echter gekozen voor een 1 vat systeem om een meting uit te kunnen voeren met de hoogtesensor, probes, UV-C ...
+-->
+
+<!-- nog iets? Komt van alles op, maar vergeet het soms ook, wat is de scope van de website? -->
+
+## Componenten
+### Algemeen
+[8 mm tubing](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter)
+[push-in fittings](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A)
+[push-in caps]()
+[Regenpijp](https://www.gamma.be/nl/assortiment/martens-buis-sanitair-glad-grijs-3-m-x-90-mm-x-1-8-mm/p/B463443?base_click=true)
+
+<!--
+    Bakken nakijken met team plantenbak
+    Hoeveel details hier (main componenten?)
+-->
+### Systeem 1
+Ventiel
+### Systeem 2
+8mm Druppelirrigatie 
+
+## Voedingsstoffen
+<!-- Waar moet dit komen te staan, kan hier uitleggen maar gaat beter staan bij probes, staan nog niet uitgelegd in bovenstaande stuk.-->
+
+<!-- 
+    Hoe doet iedereen die algemene dingen, verwerkt iedereen zijn stukje, komt daar nog een tab voor, ...?
+    Idem met energie etc... 
+-->
+## Dashboard?
