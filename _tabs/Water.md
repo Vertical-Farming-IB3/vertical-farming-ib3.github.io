@@ -39,8 +39,12 @@ Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekoz
 
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
 
+<!-- Aanvulling -->
+### Probes:
 
-<!-- Toevoer en afvoer first draft -->
+
+
+<!-- Toevoer en afvoer first draft, integreren met bestaand -->
 <!-- Werken Charlotte en ik nu de site af en Kjell en Sander de code? Navragen... -->
 # Intro
 Het deel water van de vertical farm omvat twee grote delen:
@@ -59,11 +63,11 @@ Momenteel word gewerkt met een systeem waarin tegelijk twee lades gevoed kunnen 
 <!-- nog iets? Komt van alles op, maar vergeet het soms ook, wat is de scope van de website? -->
 
 ## Componenten
-### Algemeen
-* [8 mm tubing](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter)
-* [push-in fittings](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A)
-* [push-in caps](#)
-* [Regenpijp](https://www.gamma.be/nl/assortiment/martens-buis-sanitair-glad-grijs-3-m-x-90-mm-x-1-8-mm/p/B463443?base_click=true)
+### Algemeen    <!-- Mss voor uniformiteit ook settelen op een stijl, markdown of html -->
+* [8 mm tubing](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"}
+* [push-in fittings](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"}
+* [push-in caps](#){:target="_blank"}
+* [Regenpijp](https://www.gamma.be/nl/assortiment/martens-buis-sanitair-glad-grijs-3-m-x-90-mm-x-1-8-mm/p/B463443?base_click=true){:target="_blank"}
 
 <!--
     Bakken nakijken met team plantenbak
