@@ -224,13 +224,10 @@ jekyll-archives:
 
 home:
   posts:
-    enabled: true
     title: "Recent Posts"
     paginate: 5
     image: true
     excerpt: true
-  # Add these lines:
-  display_content:
-    enabled: true
+  content:
+    enabled: true  # This is the key setting
     excerpt: false
-    image: false

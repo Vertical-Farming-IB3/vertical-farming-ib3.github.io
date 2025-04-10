@@ -1,15 +1,11 @@
 ---
 layout: home
-title: "Plant-T Vertical Farming"
 ---
 
-<div class="home-content">
-# Welcome to Our Vertical Farming Project
+<div class="home-custom-content" markdown="1">
 
-This is the official site for our bachelor's project at KU Leuven.
+# Welcome to Plant-T Vertical Farming!
 
-## Project Goals
-- Develop sustainable vertical farming solutions
-- Engineer efficient growth systems
-- Research optimal plant conditions
+This content WILL appear above your posts.
+
 </div>
