@@ -1,6 +1,5 @@
 .container{
     display: flex;
-    /* 
     height: 30vh;
     flex-direction: row;
     justify-content: space-evenly;
@@ -9,7 +8,6 @@
     align-content: flex-start;
     column-gap: 1em;
     row-gap: 1em;
-    */
 }
 .box{
     width: 150px;
