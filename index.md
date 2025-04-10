@@ -1,15 +1,11 @@
 ---
-layout: page
+layout: default
 title: Home
 permalink: /
 ---
 
-# Welkom bij Plant-T 🌱
+# Welcome to Plant-T 🌱
 
-Welkom op de website van ons bachelorproefproject rond verticale landbouw.
+This is our vertical farming project homepage.
 
-- [Plantenbak](tabs/plantenbak)
-- [Water](tabs/water)
-- [Licht](tabs/licht)
-- [Power](tabs/power)
-- [Bibliografie](tabs/bibliografie)
+[Visit our Wiki](wiki)
