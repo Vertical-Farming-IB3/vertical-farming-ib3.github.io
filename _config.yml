@@ -224,6 +224,7 @@ jekyll-archives:
 
 home:
   posts:
+    enabled: true
     title: "Recent Posts"  # Section title
     paginate: 5           # Number of posts per page
     image: true           # Show featured images
