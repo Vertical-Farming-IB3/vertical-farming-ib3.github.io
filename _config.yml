@@ -225,9 +225,12 @@ jekyll-archives:
 home:
   posts:
     enabled: true
-    title: "Recent Posts"  # Section title
-    paginate: 5           # Number of posts per page
-    image: true           # Show featured images
-    excerpt: true         # Show post excerpts
+    title: "Recent Posts"
+    paginate: 5
+    image: true
+    excerpt: true
+  # Add these lines:
   display_content:
-    enabled: true          # Critical! Shows your Markdown content
+    enabled: true
+    excerpt: false
+    image: false
