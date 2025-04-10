@@ -10,11 +10,13 @@
     row-gap: 1em;
 }
 .box{
-    width: 150px;
-    height: 150px;
-    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    border-radius: 15px;
+    min-width: 200px;
+    min-height: 200px;
+    font-size: 2em;
 }
 #txt1{
     /* 
