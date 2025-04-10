@@ -47,8 +47,8 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 ## PCB
 <div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
-    <img src="{{ site.baseurl }}/assets/img/pb_front.png" alt="PCB Front" style="width: 40%;">
-    <img src="{{ site.baseurl }}/assets/img/pb_back.png" alt="PCB Back" style="width: 40%;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_front.png" alt="PCB Front" style="width: 40%;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="width: 40%;">
 </div>
 
 ## Planten
@@ -69,4 +69,4 @@ Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in d
 
 ### Bak 2: rechtstreeks in water
 
-<img src="/assets/img/bak_water.png" alt="bak met water">
+<img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
