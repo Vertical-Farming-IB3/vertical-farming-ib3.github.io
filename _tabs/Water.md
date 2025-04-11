@@ -4,6 +4,8 @@ icon: fas fa-droplet
 order: 2
 ---
 
+<!-- Nog zeer chaotisch, maar komt in orde -->
+
 
 > Under construction
 {: .prompt-warning }
@@ -39,6 +41,10 @@ Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekoz
 
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
 
+<!-- Wrm twee titels reservoirs? + onder reservoirs kopje UV-C? -->
+
+### UV-C:  
+
 <!-- Aanvulling -->
 ### Probes:
 Elke plant heeft dezelfde voedingsstoffen nodig, deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). En hiernaast zijn er ook nog vele micronutriënten.
@@ -56,7 +62,7 @@ De reden waarom we het Calciumgehalte opmeten en niet het Fosforgehalte is omdat
 
 De referentie probe is essentieeel voor het uitlezen van de overige probes. De ph-sensor is geintegreerd omdat verschillende planten houden van een verschillende bodem zuurtegraad. Er is beslist om geen temperatuurprobe te integreeren, we werken namelijk met een installatie binnenshuis, we veronderstellend dat de temperatuur relatief constant blijft. Daarnaast word de temperatuur in de kast gemeten, we zien dit als voldoende maatstaaf om de watertemperatuur te bepalen.
 
-Dit maakt dat in totaal 5 probes zijn geïntegreerd. Deze probes worden gecallibreerd voor ze gebruikt kunnen worden, daarvoor zijn nog enkele componenten nodig, deze zullen we hieronder bespreken. De probes worden uitgelezen aan de hand van ADC-convertoren, deze zijn gerecycled uit het vorige project.
+Dit maakt dat in totaal 5 probes zijn geïntegreerd. Deze probes worden gecallibreerd voor ze gebruikt kunnen worden, daarvoor zijn nog enkele componenten nodig, deze zullen we hieronder bespreken. De probes worden uitgelezen aan de hand van ADC-convertoren. <!-- , deze zijn gerecycled uit het vorige project.--> <!-- Dit klopt dan niet, gebeurd dit op print, de gerecycleerde ADC is voor vermogenmeting -->
 
 <!--
 #### Kallibratie
