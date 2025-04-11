@@ -88,6 +88,7 @@ _Eigenlijke stockoplossingen_
 | K<sup>+</sup>    | KOH             | 56,1100 | 200                            | 0,5829                    | 2,9145            | 2,0300                            |
 
 **Kalibratievloeistoffen**
+
 Voor het kalibreren van de elektroden maken we gebruik van een driepuntsmeting, hiervoor maken we drie verschillende concentraties van de stockoplossing; een lage, medium en hoge concentratie. We meten vervolgens voor deze drie concentraties de probes (=elektroden) uit, waarna we een lineaire benadering kunnen trekken door deze drie punten. Op deze rechte kunnen we vervolgens met goede precisie onze probes kalibreren. Dit is nauwkeuriger dan een kallibratie met 1 meetpunt.
 
 |                  | Low    | Medium | High   |
@@ -98,14 +99,18 @@ Voor het kalibreren van de elektroden maken we gebruik van een driepuntsmeting, 
 | K<sup>+</sup>    | 100    | 200    | 400    |
 
 **Referentie vloeistof**
+
 De elektroden hebben ook een referentie nodig, hiervoor wordt een referentie probe gevuld met een bekende vloeistof. Dit is 3M KCl gesatureerd met AgCl. Deze oplossing kunnen  we echter aankopen en hoeven we niet zelf te maken.
 
 **Voedingsstoffen** <!-- hier of op verwijzing hieronder? Vet of titel? #### Voedingsstof  -->
+
 We hebben ervoor gekozen om geen eigen voedingsstoffen samen te stellen voor het voeden van de planten, in de plaats daarvan kozen we voor een commerciële oplossing. We hebben hiervoor plantenvoeding gekocht. Deze plantenvoeding heef een NK waarde van  2.5-4. Deze waarde verwijst naar de verhouding van stikstof en kalium in de voedingsstof. In ons geval bevat de voeding 2.5% Stikstof, dit bevordert de bladgroei en algemene groei van de plant en 4% Kalium, dit versterkt de weerstand van de plant, bevordert de wortelontwikkeling en de bloei/vruchtvorming. Er staat geen fosfor vermeld, dit wil zeggen dat de gekozen plantenvoeding weinig tot geen fosfor bevat. Voor een betere opbrengst van de kast is het dus een goeie optie in een later stadium te kijken voor hogere kwaliteit voedingsstoffen. In de gebruikershandleiding staan ook aanbevolen verhoudingen voor verschillende soorten planten namelijk: kruiden ¼ dop per 2l, groenten 1 dop per 5l. Dit is een interessante verhouding om mee te nemen voor de  tuning van de vertical farm en de mogelijke verschillende gewassen.
 
 **Kallibratie**
 
 Zodra de drie concentraties voor een sensor zijn gemaakt, vindt de 3-puntskalibratie plaats. De referentie-ISE en de stofspecifieke ISE worden achtereenvolgens in elk van de drie stofspecifieke concentraties geplaatst en de spanning wordt gemeten. 
+
+<!-- Kallibratie nog opnieuw doen en aanpassen-->
 
 | Ion  |      | Oplossing | Gemeten spanning |
 | ---- | ---- | --------- | ---------------- |
@@ -126,6 +131,7 @@ Zodra de drie concentraties voor een sensor zijn gemaakt, vindt de 3-puntskalibr
 <!-- Toevoer en afvoer first draft, integreren met bestaand -->
 <!-- Werken Charlotte en ik nu de site af en Kjell en Sander de code? Navragen... -->
 # Intro
+
 Het deel water van de vertical farm omvat twee grote delen:
     - Irregatie en waterafvoer
     - Pompen en stuurlogica
@@ -148,6 +154,9 @@ Momenteel word gewerkt met een systeem waarin tegelijk twee lades gevoed kunnen 
 * [push-in caps](#){:target="_blank"}
 * [Regenpijp](https://www.gamma.be/nl/assortiment/martens-buis-sanitair-glad-grijs-3-m-x-90-mm-x-1-8-mm/p/B463443?base_click=true){:target="_blank"}
 
+* [Eindloopschakelaars](#){:target="_blank"}
+
+
 <!--
     Bakken nakijken met team plantenbak
     Hoeveel details hier (main componenten?)
@@ -165,3 +174,5 @@ Ventiel
     Idem met energie etc... 
 -->
 ## Dashboard?
+
+<!-- hulpstukken al aanwezig of ge 3D print ... -->
