@@ -24,17 +24,17 @@ Er zijn 2 pompen aanwezig om het water en de voedingsstoffen naar het mengreserv
 # Componenten/onderdelen
 
 ### Reservoirs:  
-<img src="../assets/img/Watersysteem/reservoir.JPEG" alt="Reservoir" width="400">  
+<img src="../assets/img/Watersysteem/reservoir.png" alt="Reservoir" width="400">  
 De bloembakken van vorig project worden hergebruikt als reservoirs. Deze zijn ruim genoeg en kunnen makkelijk geïntegreerd worden in het ontwerp.
 
 ## Sensoren en Actuatoren
 
 ### Waterpomp:  
-<img src="../assets/img/Watersysteem/Waterpomp.jpg" alt="Waterpomp" width="400">  
+<img src="../assets/img/Watersysteem/Waterpomp.png" alt="Waterpomp" width="400">  
 De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft een maximale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
 
 ### Mixer:
-<img src="../assets/img/Watersysteem/luchtpomp.jpg" alt="Luchtpomp" width="400">  
+<img src="../assets/img/Watersysteem/luchtpomp.png" alt="Luchtpomp" width="400">  
 Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekozen voor de circulatie van het water. Dit wordt gedaan om de groei van algen te voorkomen.
 
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
