@@ -8,7 +8,7 @@ order: 5
 {: .prompt-tip }
 
 Onze gebruikte bronnen:
-...
+- [GitHub](https://verticalfarmib3.github.io/) IB3 van vorig jaar
 
 <!-- Wat is de bedoeling van deze tab? Is dit enkel een voorbeeld?-->
 <!-- Nee hier komen alle gebruikte bronnen-->
