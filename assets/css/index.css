@@ -1,9 +1,11 @@
 /* General Layout */
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2em;
-  font-family: sans-serif;
+  /* 
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 2em;
+    font-family: sans-serif;
+  */
 }
 
 .box {
