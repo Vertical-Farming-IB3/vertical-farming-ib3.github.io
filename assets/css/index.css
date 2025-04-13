@@ -101,6 +101,7 @@
 
 /* General link styling */
 a {
+  border-bottom: none !important; /* Remove the custom underline */
   text-decoration: none !important; /* Remove the underline */
   font-weight: bold !important; /* Make the text thicker */
   color: inherit !important; /* Use the same color as the surrounding text */
