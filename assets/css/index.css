@@ -1,49 +1,106 @@
+/* General Layout */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2em;
+  font-family: sans-serif;
+}
+
+.box {
+  margin-bottom: 2em;
+}
+
+/* Text Blocks */
 #txt1 p {
-    text-align: justify;
-  }
-  
-  #img1 img {
-    border-radius: 18px;
-  }
-  
-  #teams {
-    margin-top: 2em;
-    padding: 1em;
-    background-color: #f9f9f9;
-    border-radius: 12px;
-    max-width: 700px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    font-family: sans-serif;
-  }
-  
-  #teams h2 {
-    margin-bottom: 1em;
-    font-size: 1.6em;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.3em;
-  }
-  
-  #teams span {
-    display: block;
-    margin-left: 1em;
-  }
-  
-  #teams span.team-label {
-    font-weight: bold;
-    margin-bottom: 0.3em;
-    display: inline-block;
-    transition: color 0.3s;
-  }
-  
-  .team-plant:hover {
-    color: #2e8b57 !important;
-  }
-  .team-water:hover {
-    color: #1e90ff !important;
-  }
-  .team-light:hover {
-    color: orange !important;
-  }
-  .team-power:hover {
-    color: red !important;
-  }
+  text-align: justify;
+}
+
+#img1 img {
+  border-radius: 18px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Team Section */
+#teams {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+#teams h2 {
+  margin-bottom: 1em;
+  font-size: 1.6em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+#teams div {
+  margin-bottom: 1em;
+}
+
+.team-label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  transition: color 0.3s;
+}
+
+/* Team colors + hover effects */
+.team-plant {
+  color: green;
+}
+
+.team-plant:hover {
+  color: #2e8b57;
+}
+
+.team-water {
+  color: DodgerBlue;
+}
+
+.team-water:hover {
+  color: #1e90ff;
+}
+
+.team-licht {
+  color: goldenrod;
+}
+
+.team-licht:hover {
+  color: orange;
+}
+
+.team-power {
+  color: Tomato;
+}
+
+.team-power:hover {
+  color: red;
+}
+
+/* Indented team member names */
+#teams span + span {
+  display: block;
+  margin-left: 1em;
+}
+
+/* Bedankt Section */
+#bedankt ul {
+  padding-left: 1.2em;
+  list-style-type: disc;
+}
+
+/* GitHub link section */
+#github a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+#github a:hover {
+  text-decoration: underline;
+}
