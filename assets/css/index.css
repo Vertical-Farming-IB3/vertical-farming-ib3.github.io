@@ -108,3 +108,16 @@
 #github a:hover {
   text-decoration: underline;
 }
+
+/* General link styling */
+a {
+  text-decoration: none; /* Remove the underline */
+  font-weight: bold; /* Make the text thicker */
+  color: inherit; /* Use the same color as the surrounding text */
+}
+
+/* Optional: Add hover effect */
+a:hover {
+  color: #0366d6; /* Change color on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
