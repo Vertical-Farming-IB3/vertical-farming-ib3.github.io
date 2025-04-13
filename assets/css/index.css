@@ -1,11 +1,5 @@
 /* General Layout */
 .container {
-  /* 
-    max-width: 1000px; 
-    margin: 0 auto;
-    padding: 2em;
-    font-family: sans-serif;
-  */
 }
 
 .box {
@@ -106,21 +100,3 @@ a {
   font-weight: bold !important; /* Make the text thicker */
   color: inherit !important; /* Use the same color as the surrounding text */
 }
-
-/* Optional: Add hover effect */
-a:hover {
-  color: #0366d6 !important; /* Change color on hover */
-  text-decoration: none !important; /* Ensure no underline on hover */
-}
-
-/* GitHub link section */
-/*
-  #github a {
-    color: #0366d6;
-    text-decoration: none;
-  }
-
-  #github a:hover {
-    text-decoration: underline;
-  }
-*/
