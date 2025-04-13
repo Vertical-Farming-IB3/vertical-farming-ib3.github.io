@@ -99,7 +99,9 @@
   list-style-type: disc;
 }
 
-/* GitHub link section */
+/* 
+  GitHub link section 
+  
 #github a {
   color: #0366d6;
   text-decoration: none;
@@ -108,14 +110,17 @@
 #github a:hover {
   text-decoration: underline;
 }
+*/
 
+/* General link styling */
 a {
-  font-weight: bold;
-  color: #444; /* Subtle dark gray */
-  text-decoration: none;
-  transition: color 0.3s ease;
+  text-decoration: none; /* Remove the underline */
+  font-weight: bold; /* Make the text thicker */
+  color: inherit; /* Use the same color as the surrounding text */
 }
 
+/* Optional: Add hover effect */
 a:hover {
-  color: #0366d6; /* GitHub blue */
+  color: #0366d6; /* Change color on hover */
+  text-decoration: none; /* Ensure no underline on hover */
 }
