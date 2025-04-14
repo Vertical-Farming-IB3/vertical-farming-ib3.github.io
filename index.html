@@ -36,55 +36,41 @@ custom_css: /assets/css/index.css
           </p>
       </div>
         
-      <div class="box" id="teams">
+      <div style="margin-top: 2em; padding: 1em; border-radius: 12px; background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(4px); box-shadow: 0 4px 10px rgba(0,0,0,0.05); max-width: 700px; font-family: sans-serif;">
+        <h2 style="margin-bottom: 1em;">Teamleden</h2>
       
-<div id="teams-box" style="margin-top: 2em; padding: 1em; border-radius: 12px; max-width: 700px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); font-family: sans-serif; transition: background-color 0.3s;">
-  <h2 style="margin-bottom: 1em; font-size: 1.6em; border-bottom: 2px solid #ccc; padding-bottom: 0.3em;">Teamleden</h2>
-
-  <div style="margin-bottom: 1em;">
-    <span style="display: inline-block; font-weight: bold; color: green; margin-bottom: 0.3em; transition: color 0.3s;" onmouseover="this.style.color='#2e8b57'" onmouseout="this.style.color='green'">🌿 Team Plantenbak:</span><br>
-    <span style="display: block; margin-left: 1em;">Elias Neels</span>
-    <span style="display: block; margin-left: 1em;">Beau Forrez</span>
-    <span style="display: block; margin-left: 1em;">Wout Batsele</span>
-    <span style="display: block; margin-left: 1em;">Wouter Fouquet</span>
-    <span style="display: block; margin-left: 1em;">Sander De Stercke</span>
-  </div>
-
-  <div style="margin-bottom: 1em;">
-    <span style="display: inline-block; font-weight: bold; color: DodgerBlue; margin-bottom: 0.3em; transition: color 0.3s;" onmouseover="this.style.color='#1e90ff'" onmouseout="this.style.color='DodgerBlue'">💧 Team Water:</span><br>
-    <span style="display: block; margin-left: 1em;">Kjell Naessens</span>
-    <span style="display: block; margin-left: 1em;">Charlotte Bert</span>
-    <span style="display: block; margin-left: 1em;">Niels Verhoeve</span>
-    <span style="display: block; margin-left: 1em;">Sander Haustraete</span>
-  </div>
-
-  <div style="margin-bottom: 1em;">
-    <span style="display: inline-block; font-weight: bold; color: goldenrod; margin-bottom: 0.3em; transition: color 0.3s;" onmouseover="this.style.color='orange'" onmouseout="this.style.color='goldenrod'">💡 Team Licht:</span><br>
-    <span style="display: block; margin-left: 1em;">Andres Bosman</span>
-    <span style="display: block; margin-left: 1em;">Arne Van der Stede</span>
-    <span style="display: block; margin-left: 1em;">Cas Truyers</span>
-    <span style="display: block; margin-left: 1em;">Daan Vercammen</span>
-    <span style="display: block; margin-left: 1em;">Stijn Verhaeghe</span>
-    <span style="display: block; margin-left: 1em;">Syme Vandenbosch</span>
-  </div>
-
-  <div style="margin-bottom: 1em;">
-    <span style="display: inline-block; font-weight: bold; color: Tomato; margin-bottom: 0.3em; transition: color 0.3s;" onmouseover="this.style.color='red'" onmouseout="this.style.color='Tomato'">🔋 Team Power:</span><br>
-    <span style="display: block; margin-left: 1em;">Daan Vercammen</span>
-  </div>
-</div>
-
-<script>
-  (function() {
-    const box = document.getElementById('teams-box');
-    function updateTheme(e) {
-      box.style.backgroundColor = e.matches ? '#1e1e1e' : '#f9f9f9';
-    }
-    const darkMode = window.matchMedia('(prefers-color-scheme: dark)');
-    updateTheme(darkMode);
-    darkMode.addEventListener('change', updateTheme);
-  })();
-</script>
+        <div style="margin-bottom: 1em;">
+          <span style="display: inline-block; font-weight: bold; color: green; margin-bottom: 0.3em;">🌿 Team Plantenbak:</span><br>
+          <span style="display: block; margin-left: 1em;">Elias Neels</span>
+          <span style="display: block; margin-left: 1em;">Beau Forrez</span>
+          <span style="display: block; margin-left: 1em;">Wout Batsele</span>
+          <span style="display: block; margin-left: 1em;">Wouter Fouquet</span>
+          <span style="display: block; margin-left: 1em;">Sander De Stercke</span>
+        </div>
+      
+        <div style="margin-bottom: 1em;">
+          <span style="display: inline-block; font-weight: bold; color: DodgerBlue; margin-bottom: 0.3em;">💧 Team Water:</span><br>
+          <span style="display: block; margin-left: 1em;">Kjell Naessens</span>
+          <span style="display: block; margin-left: 1em;">Charlotte Bert</span>
+          <span style="display: block; margin-left: 1em;">Niels Verhoeve</span>
+          <span style="display: block; margin-left: 1em;">Sander Haustraete</span>
+        </div>
+      
+        <div style="margin-bottom: 1em;">
+          <span style="display: inline-block; font-weight: bold; color: goldenrod; margin-bottom: 0.3em;">💡 Team Licht:</span><br>
+          <span style="display: block; margin-left: 1em;">Andres Bosman</span>
+          <span style="display: block; margin-left: 1em;">Arne Van der Stede</span>
+          <span style="display: block; margin-left: 1em;">Cas Truyers</span>
+          <span style="display: block; margin-left: 1em;">Daan Vercammen</span>
+          <span style="display: block; margin-left: 1em;">Stijn Verhaeghe</span>
+          <span style="display: block; margin-left: 1em;">Syme Vandenbosch</span>
+        </div>
+      
+        <div>
+          <span style="display: inline-block; font-weight: bold; color: Tomato; margin-bottom: 0.3em;">🔋 Team Power:</span><br>
+          <span style="display: block; margin-left: 1em;">Daan Vercammen</span>
+        </div>
+      </div>
 
 
       <div class="box" id="bedankt">
