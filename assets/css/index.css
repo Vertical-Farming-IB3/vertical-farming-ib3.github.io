@@ -79,12 +79,10 @@
   color: red;
 }
 
-/* Indented team member names */
-.team-label + br + span,
-.team-label + br + span ~ span {
+#teams span:not(.team-label) {
   display: block;
   margin-left: 1em;
-  /*color: #666;  Optional: styling team names */
+  margin-bottom: 0.2em; /* optional for spacing */
 }
 
 /* Bedankt Section */
