@@ -1,9 +1,9 @@
 ---
+# the default layout is 'page'
 icon: fas fa-droplet
 order: 2
 ---
 
-<!-- the default layout is 'page' -->
 <!-- Nieuwe indeling -->
 
 
@@ -16,7 +16,7 @@ Het watersysteem bestaat uit twee hoofdonderdelen:
 - Stuurlogica
 
 ### Plan
-<img src="../assets/img/Watersysteem/Plan_Watersysteem.png" alt="Schematische tekening van het watersysteem" width="800"/>
+<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="800" />
 
 ## Toevoer
 ### Reservoirs:  
@@ -25,7 +25,7 @@ Het systeem bevat drie reservoirs:
 - Voedingsstofreservoir
 - Mengreservoir
 
-<img src="../assets/img/Watersysteem/reservoir.png" alt="Reservoir" width="400"> 
+<img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
 Dit zijn de bloembakken van vorig project. Deze waren ruim genoeg en konden eenvoudig geïntegreerd worden binnen ons ontwerp. 
 
 De drie reservoirs zijn uitneembaar, wat het reinigen en bijvullen eenvoudig maakt. Elk reservoir is uitgerust met een ultrasone sensor voor het nauwkeurig meten van het vloeistofniveau. Om algengroei te voorkomen, wordt het water in de reservoirs continu gecirculeerd met behulp van luchtpompen en luchtstenen.
@@ -62,7 +62,7 @@ Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenv
 
 ## Componenten en keuzes
 ### Reservoires
-<img src="../assets/img/Watersysteem/reservoir.png" width="400"> 
+<img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
 
 - **Functie**: Opslag van zuiver water, voedingsstoffen, en restwater
 - **Voordelen:**  Budgetvriendelijk, goede integratie, makkelijk te reinigen 
@@ -72,12 +72,12 @@ Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenv
 ### afsluitingen 
 ### tussen stukken 
 ### Waterpomp
-<img src="../assets/img/Watersysteem/Waterpomp.png" alt="Waterpomp" width="400">  
+<img src="{{ '/assets/img/Watersysteem/Waterpomp.png' | relative_url }}" alt="Afbeelding van de waterpomp" width="400" />
 De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft een maximale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
 
 ### luchtpomp 
 ### Mixer
-<img src="../assets/img/Watersysteem/luchtpomp.png" alt="Luchtpomp" width="400">  
+<img src="{{ '/assets/img/Watersysteem/luchtpomp.png' | relative_url }}" alt="Afbeelding van de luchtpomp" width="400" />
 Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekozen voor de circulatie van het water. Dit wordt gedaan om de groei van algen te voorkomen.
 
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
@@ -187,7 +187,7 @@ Er zijn 2 pompen aanwezig om het water en de voedingsstoffen naar het mengreserv
 # Componenten/onderdelen
 
 ### Reservoirs:  
-<img src="../assets/img/Watersysteem/reservoir.png" alt="Reservoir" width="400">  
+<img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Reservoir" width="400">
 De bloembakken van vorig project worden hergebruikt als reservoirs. Deze zijn ruim genoeg en kunnen makkelijk geïntegreerd worden in het ontwerp.
 
 ## Stuurlogica
