@@ -25,7 +25,6 @@ Het systeem bevat drie reservoirs:
 - Voedingsstofreservoir
 - Mengreservoir
 
-<img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
 Dit zijn de bloembakken van vorig project. Deze waren ruim genoeg en konden eenvoudig geïntegreerd worden binnen ons ontwerp. 
 
 De drie reservoirs zijn uitneembaar, wat het reinigen en bijvullen eenvoudig maakt. Elk reservoir is uitgerust met een ultrasone sensor voor het nauwkeurig meten van het vloeistofniveau. Om algengroei te voorkomen, wordt het water in de reservoirs continu gecirculeerd met behulp van luchtpompen en luchtstenen.
