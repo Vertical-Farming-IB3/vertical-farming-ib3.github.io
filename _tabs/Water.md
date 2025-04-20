@@ -1,9 +1,9 @@
 ---
-# the default layout is 'page'
 icon: fas fa-droplet
 order: 2
 ---
 
+<!-- the default layout is 'page' -->
 <!-- Nieuwe indeling -->
 
 
