@@ -105,7 +105,7 @@ Voor het ontwerp van de LED-PCB is bewust gekozen voor een compact formaat. Door
 
 <img src="{{ '/assets/img/Licht/LEDPCB3D.png' | relative_url }}" alt="PCB-ontwerp van de LED-PCB" width="600" />
 
-Voor het aansturen van de LED’s is een aparte driver-PCB ontworpen. Per teeltlade is één driver-PCB nodig, waarop maximaal zes LED-PCB’s kunnen worden aangesloten. Dit biedt flexibiliteit: er kan eenvoudig wit licht worden toegevoegd of het lichtniveau verhoogd worden door extra LED-PCB’s te installeren.
+Voor het aansturen van de LED’s is een aparte driver-PCB ontworpen. Per lade is één driver-PCB nodig, waarop maximaal zes LED-PCB’s kunnen worden aangesloten. Dit biedt flexibiliteit: er kan eenvoudig wit licht worden toegevoegd of het lichtniveau verhoogd worden door extra LED-PCB’s te installeren.
 
 De driver-PCB bevat drie drivers en een ESP32-microcontroller voor de aansturing. De voedingsspanning bedraagt 24V, waarbij een LDO-regelaar wordt gebruikt om de ESP32 van 3,3V te voorzien.
 
@@ -121,5 +121,7 @@ De verlichting wordt toegepast in lades van 45,7 cm x 38 cm (0.174 m²). Elke la
 - 4 far-red LED’s
   
 Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
+
+
 
 
