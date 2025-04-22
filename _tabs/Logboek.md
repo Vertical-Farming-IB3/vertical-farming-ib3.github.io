@@ -223,7 +223,7 @@ Iedere groep (Team Plantenbak, Team Licht, Team Water) zijn begonnen met onderzo
 ### 📸 Concepttekeningen
 <div style="display: flex; gap: 10px;">
   <!-- Tekeningen en 3D-modellen toevoegen -->
-  <!-- <img src="./figure1.jpg" alt="Concept 1" width="200"/> -->
+  <!-- <img src="/assets/img/Logbook/figure1.jpg" alt="Concept 1" width="200"/> -->
 </div>
 
 ---
@@ -306,9 +306,9 @@ We mikken op het **ontwerpen van een huisvriendelijke vertical farm**, geen indu
 
 ### 📸 Concepttekeningen
 <div style="display: flex; gap: 10px;">
-  <img src="./figure1.jpg" alt="Concept 1" width="200"/>
-  <img src="./figure2.jpg" alt="Concept 2" width="200"/>
-  <img src="./figure3.jpg" alt="Concept 3" width="200"/>
+  <img src="/assets/img/Logbook//figure1.jpg" alt="Concept 1" width="200"/>
+  <img src="/assets/img/Logbook//figure2.jpg" alt="Concept 2" width="200"/>
+  <img src="/assets/img/Logbook//figure3.jpg" alt="Concept 3" width="200"/>
 </div>
 
 
