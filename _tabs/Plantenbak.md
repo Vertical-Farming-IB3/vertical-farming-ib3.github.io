@@ -62,11 +62,15 @@ We kozen deze soorten:
 
 Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker te groeien.
 
-## De bakken
+## De twee lades
+We werken met twee technieken:
+- *Drip hydroponics (drip-systeem):* Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
+- *Flood & Drain (ebb & flow):* De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
+Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
-### Bak 1: in rockwol
+### Bak 1: drip hydroponics in rockwol
 
 
-### Bak 2: rechtstreeks in water
+### Bak 2: flood & drain
 
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
