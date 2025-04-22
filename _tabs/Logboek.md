@@ -41,8 +41,10 @@ order: 5
 - Site verder afwerken
 - Power aansluiten pcb water
 - Buitenkast
-- Automatisatie schrijven
-- Bakken uitkuisen
+- Automatisaties schrijven (circulatie, mengreservoir bijvullen, waarschuwingen laag waterniveau, ventilatie, water pompen naar lades)
+- Reservoirs uitkuisen
+- Hoogtesensoren op nieuwe brackets gemonteerd
+
 ##### Team Plantenbak: 
 - Site verder afwerken
 - Elektronica in de bakken gefit
@@ -60,7 +62,7 @@ order: 5
 -	Waterproofen
 -	Hoogtesensoren aangesloten en gekalibreerd
 -	Houder voor middelste hoogtesensor ontworpen
--	Kabels in hulzen gestoken <!-- Hulzen? -->
+-	Kabels in kabelhulzen gestoken
 -	Kraantjeswater en voedingsstoffen uitgemeten
 -	Reservoirs gevuld, pompjes getest, mixer getest, circulatie getest
 
