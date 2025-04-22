@@ -47,5 +47,33 @@ Verhoudingen:
 - $R:B = \frac{20}{12} \approx 1.67$
 - $R:FR = \frac{20}{16} = 1.25$
 
-Deze zijn gekozen om zowel compacte groei als effici¨ente fotosynthese te bevorderen, zonder te
+Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevorderen, zonder te
 veel far-red dat tot bloei of strekking kan leiden.
+
+## Far-Red overweging
+
+Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
+het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
+fotosynthetische effici¨entie [1]. In dit ontwerp wordt far-red licht daarom in beperkte mate
+toegepast. Aangezien de focus ligt op bladgroei en niet op de reproductieve fase (zoals bloei of
+zaadvorming), is het nodig om overmatige stimulatie van fotosynthese te vermijden. Bij te hoge
+lichtintensiteit kan dit proces van voortijdig schieten bevorderen, wat ongewenst is bij de teelt
+van bladgewassen.
+
+## Photosynthetic Photon Flux Density (PPFD)
+
+PPFD, uitgedrukt in µmol m⁻² s⁻¹, meet het aantal fotosynthetisch actieve lichtfotonen dat een
+plantoppervlak bereikt. Dit is essentieel in vertical farming, waar kunstlicht de enige bron van
+energie is voor fotosynthese.
+
+#### Sla en basilicum
+-  PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
+- 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
+#### Koriander
+- PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
+- Optimale prestaties bij verhoogde worteltemperatuur en CO2.
+
+Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschikt, afhankelijk vanruimtegebruik en teeltstrategie
+
+### PPFD-berekening
+
