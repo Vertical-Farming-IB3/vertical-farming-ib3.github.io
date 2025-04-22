@@ -15,6 +15,9 @@ order: 5
 
 <!-- Lowest md heading is sixt level -->
 
+<!-- Wel of geen emoji's? Zie nog emoji's maar zie ook een aantal verwijderd. -->
+<!-- Blijven werken nieuw downto oud?-->
+
 ---
 
 ## Sem 2: Praktische fase
@@ -116,7 +119,7 @@ order: 5
 
 ---
 
-### 📅 21-03-2025: Een kast om in te werken :fireworks:
+### 📅 21-03-2025: Een kast om in te werken 🎆
 ##### Team Water: 
 -	Kast afgewerkt met team licht
 -	Kast verplaatst naar B225
