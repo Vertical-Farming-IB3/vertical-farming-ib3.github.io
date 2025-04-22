@@ -67,7 +67,8 @@ order: 5
 ##### Team Plantenbak: 
 - Houdersysteem voor plantenpotjes gemaakt
 - Volledige elekronicasysteem verbonden en getest
-- Lang bugfixen ( Schottky-diode ) 
+- Lang bugfixen ( Schottky-diode )
+- Nieuwe batch plantjes gezaaid
 
 ---
 
