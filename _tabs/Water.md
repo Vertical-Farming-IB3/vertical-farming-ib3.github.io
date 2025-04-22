@@ -10,12 +10,31 @@ order: 2
 > Under construction
 {: .prompt-warning }
 
+## Inhoud
+1. [Introductie](#introductie)
+2. [Toevoer](#toevoer)
+   - [Reservoirs](#reservoirs)
+   - [Pompsysteem](#pompsysteem)
+   - [Lades](#lades)
+3. [Afvoer](#afvoer)
+   - [Zwaartekrachtgestuurd](#zwaartekrachtgestuurd)
+   - [Hergebruik van water](#hergebruik-van-water)
+4. [Stuurlogica](#stuurlogica)
+   - [PCB](#pcb)
+   - [Pompaansturing](#pompaansturing)
+   - [UV-C](#uv-c)
+5. [Componenten en keuzes](#componenten-en-keuzes)
+   - [Reservoirs](#reservoirs-1)
+   - [Tubes](#tubes)
+   - [Quick connectors tubes](#quick-connectors-tubes)
+   - [Waterpomp](#waterpomp)
+
 ## Introductie
 Het watersysteem bestaat uit twee hoofdonderdelen:
 - Watertoevoer en afvoer
-- Stuurlogica
+- Stuurlogica (elektronica)
 
-### Plan
+### Schematische voorstelling (vooraanzicht)
 <img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
 
 ## Toevoer
