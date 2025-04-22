@@ -35,10 +35,12 @@ Het mengreservoir mengt het water met de voedingsstoffen. Een aquariumpomp zorgt
 ### Pompsysteem: 
 1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
 2. Vanuit het mengreservoir transporteert een aparte pomp de gemengde vloeistof naar de lades. Omdat we gekozen hebben om met twee lades te werken, gebruiken we twee pompen voor de toevoer. Aan elke pomp kunnen  darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is.
+
 <img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" />
 
 ### Lades
-Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie [de bakken](https://vertical-farming-ib3.github.io/Plantenbak/#De-bakken).  
+Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie '[De twee lades
+](https://vertical-farming-ib3.github.io/Plantenbak/#De-twee-lades)'.  
 
 ## Afvoer
 ### Zwaartekrachtgestuurd
@@ -50,9 +52,12 @@ Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit r
 
 Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
 
-## Stuurlogica <!--Mischien leuk om een dowloadbare file van de pcb hier toe te voegen.-->
+## Stuurlogica 
+### PCB 
+<!--Link naar github.-->
 ### Pompaansturing
 <!-- Ultrasoon, probes, pompen -->
+Onderwaterpomp wordt pas gestuurd als het vloeistofniveau voldoende hoog is, zodat we vermijden dat de pomp lucht pompt. Hoogte gemeten met ultrasoon. 
 ### UV-C
 <!-- Nakijken met bestelling-->
 
@@ -60,6 +65,7 @@ Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenv
 ## Componenten en keuzes
 ### Reservoirs
 <img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
+
 De resevoirs zijn bedoeld als opslag van zuiver water, voedingsstoffen, en restwater.
 
 - **Voordelen:**   
@@ -84,6 +90,7 @@ De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slan
 
 ### quick connectors tubes
 <img src="{{ '/assets/img/Watersysteem/connect.png' | relative_url }}" alt="Afbeelding van de connectors" width="400" />
+
 De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} worden gebruikt om verschillende buizen of componenten snel en stevig met elkaar te verbinden zonder gebruik van klemmen of lijm.
 
 - **Voordelen:**
@@ -98,15 +105,55 @@ De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752
 
 ### Waterpomp
 <img src="{{ '/assets/img/Watersysteem/Waterpomp.png' | relative_url }}" alt="Afbeelding van de waterpomp" width="400" />
-De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft een maximale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
 
-### luchtpomp
+De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft een maximale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 8 mm binnendiameter. 
 
-### Mixer
+- **Voordelen:**
+    - Relatief krachtig voor kleine systemen
+    - Lage spanningsvereiste (veilig in gebruik)
+    - Compact ontwerp, makkelijk te integreren
+    - Eenvoudig aan te sluiten op 8 mm slang
+- **Nadelen:**
+    - Niet geschikt voor continu gebruik (kan oververhitten)
+    - Beperkte compatibiliteit met dikkere slangen
+    - Verbruikt relatief veel stroom bij batterijvoeding
+
+### Luchtpomp en luchtsteen
 <img src="{{ '/assets/img/Watersysteem/luchtpomp.png' | relative_url }}" alt="Afbeelding van de luchtpomp" width="400" />
-Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekozen voor de circulatie van het water. Dit wordt gedaan om de groei van algen te voorkomen.
+<img src="https://ae01.alicdn.com/kf/luchtsteen.png" alt="Afbeelding van de luchtsteen" width="400" />
 
-Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
+Voor het water- en voedingsstofreservoir werd een combinatie van een [luchtpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/luchtpomp-pyp370-12z-12v){:target="_blank"} met een [luchtsteen](https://nl.aliexpress.com/item/1005007443597285.html?spm=a2g0o.productlist.main.3.4a1049a6vx7Vpx&algo_pvid=de01e062-ea6d-400d-88c9-a07874e6f9d2&algo_exp_id=de01e062-ea6d-400d-88c9-a07874e6f9d2-1&pdp_ext_f=%7B%22order%22%3A%22312%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.05%210.97%21%21%2115.22%217.19%21%402103919917398752453552720ea209%2112000040774308148%21sea%21BE%210%21ABX&curPageLogUid=gjOskVCvOZWp&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"}  gekozen om lucht in het water te brengen. Dit verhoogt het zuurstofgehalte en voorkomt de groei van algen.
+
+- **Voordelen:**
+    - Fijne luchtbellen: betere zuurstofverdeling
+    - Voorkomt algenvorming in stilstaand water
+    - Stil en energiezuinig systeem
+    - Geen directe elektrische belasting in het water (veilig)
+
+- **Nadelen:**
+    - Luchtsteen kan verstopt raken
+    - Luchtpomp is niet waterdicht
+    - Beperkt vermogen voor grotere systemen
+    - Luchtsteen is breekbaar
+    - Extra zuurstof kan de algengroei bevorderen
+
+### Onderwaterpomp
+<img src="{{ '/assets/img/Watersysteem/Onderwaterpomp.png' | relative_url }}" alt="Afbeelding van de Onderwaterpomp" width="400" />
+
+Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/onderwaterpomp-horizontaal-3-6v){:target="_blank"} gekozen om een krachtigere, turbulentere menging van het water en voedingstof te verkrijgen. 
+
+- **Voordelen:**
+    - Krachtige pomp voor snelle en efficiënte menging
+    - Betrouwbaar bij constant gebruik in water
+    - Compact en eenvoudig te integreren in een systeem
+    - Geschikt voor zowel horizontale als verticale installaties
+    - Energiezuinig
+
+- **Nadelen:**
+    - Beperkte capaciteit bij grotere watervolumes
+    - Niet geschikt voor continue luchtpomping
+    - Kan oververhit raken als de vloeistof te laag is
+    - Vereist regelmatig onderhoud om verstoppingen te voorkomen
 
 ### UV-C
 
