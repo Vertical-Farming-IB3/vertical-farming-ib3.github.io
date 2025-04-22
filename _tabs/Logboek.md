@@ -53,7 +53,7 @@ order: 5
   
 ---
 
-### 📅 07-04-2025 tot 20-04-2025: Paasvakantie :egg::rabbit2:
+### 📅 07-04-2025 tot 20-04-2025: Paasvakantie 
 ##### Team Water: 
 - Verder gewerkt aan afvoer: montage + boren regenpijp
 -	Gekeken naar buitenkast
