@@ -19,7 +19,7 @@ order: 2
 3. [Afvoer](#afvoer)
    - [Zwaartekrachtgestuurd](#zwaartekrachtgestuurd)
    - [Hergebruik van water](#hergebruik-van-water)
-4. [Stuurlogica](#stuurlogica)
+4. Stuurlogica
    - [PCB](#pcb)
    - [Pompaansturing](#pompaansturing)
    - [UV-C](#uv-c)
@@ -71,8 +71,9 @@ Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit r
 
 Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
 
-## Stuurlogica <!--Kjell en Sander-->
+## Stuurlogica
 ### PCB 
+<img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
 <!--Link naar github.-->
 ### Pompaansturing
 <!-- Ultrasoon, probes, pompen -->
