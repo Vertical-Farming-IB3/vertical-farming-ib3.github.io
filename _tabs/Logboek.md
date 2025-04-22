@@ -38,12 +38,16 @@ order: 5
 
 ### 📅 22-04-2025:
 ##### Team Water: 
-- Site verder afwerken
+- Site verderwerken
 - Power aansluiten pcb water
-- Buitenkast
 - Automatisaties schrijven (circulatie, mengreservoir bijvullen, waarschuwingen laag waterniveau, ventilatie, water pompen naar lades)
 - Reservoirs uitkuisen
 - Hoogtesensoren op nieuwe brackets gemonteerd
+-	Verdergewerkt aan frame
+-	Bekeken PH-sensor
+-	Acryl gesneden (voorkomen stilstaand water).
+-	Samengezeten andere groepen
+-	Besproken verdere aanpak project
 
 ##### Team Plantenbak: 
 - Site verder afwerken
