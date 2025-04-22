@@ -16,7 +16,7 @@ Het watersysteem bestaat uit twee hoofdonderdelen:
 - Stuurlogica
 
 ### Plan
-<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="800" />
+<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
 
 ## Toevoer
 ### Reservoirs:  
@@ -28,24 +28,17 @@ Het systeem bevat drie reservoirs:
 Dit zijn de bloembakken van vorig project. Deze waren ruim genoeg en konden eenvoudig geïntegreerd worden binnen ons ontwerp. 
 
 De drie reservoirs zijn uitneembaar, wat het reinigen en bijvullen eenvoudig maakt. Elk reservoir is uitgerust met een ultrasone sensor voor het nauwkeurig meten van het vloeistofniveau. Om algengroei te voorkomen, wordt het water in de reservoirs continu gecirculeerd met behulp van luchtpompen en luchtstenen.
-Meer informatie over de gebruikte componenten vindt u terug bij stuurlogica. <!-- Nog even nakijken of het dit wel is.-->
+Meer informatie over de gebruikte componenten vindt u terug bij [componenten en keuzes](#componenten-en-keuzes).
 
 Het mengreservoir mengt het water met de voedingsstoffen. Een aquariumpomp zorgt hier voor het mengen en circuleren van de vloeistof. Daarnaast is het mengreservoir voorzien van een UV-C lamp, als extra maatregel tegen micro-organismen en biologische verontreiniging.
 
 ### Pompsysteem: 
 1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
-2. Vanuit het mengreservoir transporteert een aparte pomp de gemengde vloeistof naar de lades. Omdat we gekozen hebben om met twee lades te werken, gebruiken we twee pompen voor de toevoer. Aan elke pomp kunnen  darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is. <!-- foto om te verduidelijken-->
+2. Vanuit het mengreservoir transporteert een aparte pomp de gemengde vloeistof naar de lades. Omdat we gekozen hebben om met twee lades te werken, gebruiken we twee pompen voor de toevoer. Aan elke pomp kunnen  darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is.
+<img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" />
 
 ### Lades
-Het systeem is ontworpen om twee methodes van irrigatie te ondersteunen: 
-<!-- 2 methoden, 3 beschreven?-->
-<!-- Methode 1, lichtelijk verschillend bij ons, werken met substraat-->
-- **Drip hydroponics (drip-systeem):** Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
-- **NFT (Nutrient Film Technique):** In dit systeem stroomt een dunne laag van de voedingsoplossing continu over de wortels van de planten, die zich bevinden in een schuin geplaatste goot. Dit zorgt voor een efficiënte opname van water en voedingsstoffen door de wortels.
-<!-- Methode 2-->
-- **Flood & Drain (ebb & flow):** De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
-
-Dit laat toe om beide technieken te testen en onderling te vergelijken.
+Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie [de bakken](https://vertical-farming-ib3.github.io/Plantenbak/#De-bakken).  
 
 ## Afvoer
 ### Zwaartekrachtgestuurd
@@ -57,24 +50,52 @@ Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit r
 
 Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
 
-## Stuurlogica
+## Stuurlogica <!--Mischien leuk om een dowloadbare file van de pcb hier toe te voegen.-->
 ### Pompaansturing
 <!-- Ultrasoon, probes, pompen -->
 ### UV-C
 <!-- Nakijken met bestelling-->
 
+
 ## Componenten en keuzes
 ### Reservoirs
 <img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
+De resevoirs zijn bedoeld als opslag van zuiver water, voedingsstoffen, en restwater.
 
-- **Functie**: Opslag van zuiver water, voedingsstoffen, en restwater.
-- **Voordelen:**  Budgetvriendelijk, goede integratie, makkelijk te reinigen.
-- **Nadeel:** Niet afsluitbaar.
+- **Voordelen:**   
+    - Budgetvriendelijk
+    - goede integratie
+    - makkelijk te reinigen
+- **Nadeel:**
+    - Niet afsluitbaar
 
 ### Tubes
-8mm
-### Tussenstukken en afsluitingen 
-push to connect
+De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"} hebben een diameter van 8 mm en zijn bedoeld voor de transport van water. 
+ 
+- **Voordelen:**    
+    - Flexibel
+    - Transparant
+    - Compatibel met kleine pompen
+    - Lichtgewicht en makkelijk op maat te knippen.
+- **Nadelen:**     
+    - Niet geschikt voor hoge druk
+    - Kan knikken bij scherpe bochten
+    - Niet UV-bestendig
+
+### quick connectors tubes
+<img src="{{ '/assets/img/Watersysteem/connect.png' | relative_url }}" alt="Afbeelding van de connectors" width="400" />
+De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} worden gebruikt om verschillende buizen of componenten snel en stevig met elkaar te verbinden zonder gebruik van klemmen of lijm.
+
+- **Voordelen:**
+    - Snelle installatie
+    - Hergebruikbaar
+    - Sterke afdichting 
+    - Compact
+- **Nadelen:**
+    - Minder geschikt bij hoge druk 
+    - Kan loskomen bij slechte plug in 
+    - Enkel 8mm → 8mm
+
 ### Waterpomp
 <img src="{{ '/assets/img/Watersysteem/Waterpomp.png' | relative_url }}" alt="Afbeelding van de waterpomp" width="400" />
 De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/waterpomp-12v){:target="_blank"} heeft een maximale spanning van 12VDC en gebruikt ~400mA (=> P=4,8W). De pomp heeft een maximale opvoerhoogte van 3m en aanzuighoogte van 1,5m. Deze is geschikt voor slangen met ongeveer 6mm binnendiameter.
@@ -88,8 +109,6 @@ Voor het water- en voedingsstofreservoir werd een luchtpomp met luchtsteen gekoz
 Voor het mengreservoir werd een aquariumpomp gekozen. Dit zorgt voor een sterkere en turbulentere stroom van vloeistof die het water mengt. Deze pomp sturen we aan op basis van de hoogte in het reservoir (om te voorkomen dat de pomp lucht pompt, wat slecht is voor vloeistofpompen)
 
 ### UV-C
-
-### relais <!-- Stuurlogica? -->
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig, deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). En hiernaast zijn er ook nog vele micronutriënten.
