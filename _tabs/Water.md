@@ -38,7 +38,8 @@ Het mengreservoir mengt het water met de voedingsstoffen. Een aquariumpomp zorgt
 <img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" />
 
 ### Lades
-Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie [de bakken](https://vertical-farming-ib3.github.io/Plantenbak/#De-bakken).  
+Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie '[De twee lades
+](https://vertical-farming-ib3.github.io/Plantenbak/#De-twee-lades)'.  
 
 ## Afvoer
 ### Zwaartekrachtgestuurd
@@ -60,6 +61,7 @@ Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenv
 ## Componenten en keuzes
 ### Reservoirs
 <img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
+
 De resevoirs zijn bedoeld als opslag van zuiver water, voedingsstoffen, en restwater.
 
 - **Voordelen:**   
@@ -84,6 +86,7 @@ De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slan
 
 ### quick connectors tubes
 <img src="{{ '/assets/img/Watersysteem/connect.png' | relative_url }}" alt="Afbeelding van de connectors" width="400" />
+
 De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} worden gebruikt om verschillende buizen of componenten snel en stevig met elkaar te verbinden zonder gebruik van klemmen of lijm.
 
 - **Voordelen:**
