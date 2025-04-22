@@ -30,9 +30,13 @@ order: 2
    - [Waterpomp](#waterpomp)
 
 ## Introductie
+Water wordt samengebracht met voedingsstoffen in een mengreservoir. Na het mengen wordt het water naar de lades gepompt waar het door de plantjes kan opgenomen worden. Hierna keert het restwater terug naar het mixvat om gerecupereert te worden.
+
 Het watersysteem bestaat uit twee hoofdonderdelen:
 - Watertoevoer en afvoer
 - Stuurlogica (elektronica)
+
+We bespreken deze onderdelen verder in detail in volgende secties.
 
 ### Schematische voorstelling (vooraanzicht)
 <img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
@@ -49,11 +53,11 @@ Dit zijn de bloembakken van vorig project. Deze waren ruim genoeg en konden eenv
 De drie reservoirs zijn uitneembaar, wat het reinigen en bijvullen eenvoudig maakt. Elk reservoir is uitgerust met een ultrasone sensor voor het nauwkeurig meten van het vloeistofniveau. Om algengroei te voorkomen, wordt het water in de reservoirs continu gecirculeerd met behulp van luchtpompen en luchtstenen.
 Meer informatie over de gebruikte componenten vindt u terug bij [componenten en keuzes](#componenten-en-keuzes).
 
-Het mengreservoir mengt het water met de voedingsstoffen. Een aquariumpomp zorgt hier voor het mengen en circuleren van de vloeistof. Daarnaast is het mengreservoir voorzien van een UV-C lamp, als extra maatregel tegen micro-organismen en biologische verontreiniging.
+In het mengreservoir komt het water samen met de voedingsstoffen. Een aquariumpomp zorgt hier voor het mengen en circuleren van de vloeistof. Daarnaast is het mengreservoir voorzien van een UV-C lamp, als extra maatregel tegen micro-organismen en biologische verontreiniging. Dit mengreservoir bevat ook de nodige chemische probes om een ideale verhouding van voedingsstoffen te voorzien.
 
 ### Pompsysteem: 
 1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
-2. Vanuit het mengreservoir transporteert een aparte pomp de gemengde vloeistof naar de lades. Omdat we gekozen hebben om met twee lades te werken, gebruiken we twee pompen voor de toevoer. Aan elke pomp kunnen  darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is.
+2. Vanuit het mengreservoir transporteren aparte pompen de gemengde vloeistof naar de lades. Omdat we gekozen hebben om met twee lades te werken, gebruiken we twee pompen voor de toevoer. Aan elke pomp kunnen  darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is.
 
 <img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" />
 
@@ -74,10 +78,43 @@ Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenv
 ## Stuurlogica
 ### PCB 
 <img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
-<!--Link naar github.-->
+
+De PCB van het watersysteem moet een hele reeks inputs en outputs verzorgen (alle outputs zijn digitaal):
+- Inputs
+    - Chemische probes (analoog): 3 probes + 1 referentieprobe d.m.v. externe 16 bits ADC (I2C)
+    - Ultrasone hoogtesensoren (digitaal): 3 sensoren
+    - Eindeloopschakelaars (digitaal): 1 sensor (we voorzagen 3 aansluitingen)
+    - Stroommeting (analoog): 1 onboard ADC input
+- Outputs
+    - Status LEDs: 2 LEDs
+    - Onboard LED voor debuggen: 1 LED
+    - UV lamp: 230V relais
+    - Mixer: 5V relais
+    - Luchtpomp: 12V relais
+    - Waterpompen: 4x 12V relais
+
+We maakten gebruik van een IO expander (MCP23017) die aan te sturen is via I2C. Het uitlezen van de analoge probes vereist een ADC met hoge resolutie. Hiervoor maken we gebruik van een 16-bits ADC (ADS1115). Deze wordt ook uitgelezen via I2C.
+
+Voor het bijhouden van het energieverbruik maken we gebruik van een Hall-effect stroomsensor. Hierover leest u meer onder [Componenten en keuzes](#hallefect-stroomsensor).
+
+Het schema von onze PCB is [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/Schematic.pdf) terug te vinden. De pin-out van de in- en outputs is [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/PCB.md#pinout) terug te vinden.
+
+Het volledige ontwerp van de PCB is terug te vinden op onze [GitHub-pagina](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Water/PCB).
+
+
+### Software
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze PCB staat een code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml).
+
+Dankzij de koppeling met Home Assistant kunnen we nu zeer makkelijk ieder component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. Deze worden uitgevoerd op onze lokale Home-Assistant server die alle systemen zo samenbrengt.  
+Het uitlezen van de data gebeurt ook via deze server. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+
 ### Pompaansturing
-<!-- Ultrasoon, probes, pompen -->
-Onderwaterpomp wordt pas gestuurd als het vloeistofniveau voldoende hoog is, zodat we vermijden dat de pomp lucht pompt. Hoogte gemeten met ultrasoon. 
+De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan.
+
+Het mixreservoir wordt op pijl gehouden wanneer dit te laag komt te staan. Hiervoor wordt gebruik gemaakt van een ultrasone sensor om de hoogte van het reservoir te bepalen. Deze sensoren werden simpelweg gekalibreerd door een meting te doen wanneer het reservoir leeg en vol is.
+
+De lades worden voorzien van water wanneer zij dit nodig hebben. Hiervoor verwijzen we naar de pagina van de [plantenbakken](https://vertical-farming-ib3.github.io/Plantenbak/).
+
 ### UV-C
 <!-- Nakijken met bestelling-->
 
