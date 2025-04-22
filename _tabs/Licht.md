@@ -95,3 +95,27 @@ als reflectieve achtergrond en zo schaduwvorming vermindert.
 
 Een cyclus van 16 uur licht en 8 uur donker (16L/8D) is toegepast, wat bewezen effectief is voor
 bladgroenten.
+
+## Ontwerp
+
+Voor het ontwerp van de LED-PCB is bewust gekozen voor een compact formaat. Door kleinere printplaten te gebruiken, kan de lichtspreiding beter worden beheerst en afgestemd op de omstandigheden. Elke LED-PCB bevat:
+- 3 blauwe LED’s
+- 5 rode LED’s
+- 4 far-red LED’s
+
+Voor het aansturen van de LED’s is een aparte driver-PCB ontworpen. Per teeltlade is één driver-PCB nodig, waarop maximaal zes LED-PCB’s kunnen worden aangesloten. Dit biedt flexibiliteit: er kan eenvoudig wit licht worden toegevoegd of het lichtniveau verhoogd worden door extra LED-PCB’s te installeren.
+
+De driver-PCB bevat drie drivers en een ESP32-microcontroller voor de aansturing. De voedingsspanning bedraagt 24V, waarbij een LDO-regelaar wordt gebruikt om de ESP32 van 3,3V te voorzien.
+
+Voor de verbinding tussen de LED-PCB’s en de driver-PCB’s wordt gebruikgemaakt van terminal blocks, wat zorgt voor een eenvoudige en robuuste aansluiting.
+
+## Uitvoering
+
+De verlichting wordt toegepast in lades van 45,7 cm x 38 cm (0.174 m²). Elke lade bevat uiteindelijk 4 PCB’s met:
+- 3 blauwe LED’s
+- 5 rode LED’s
+- 4 far-red LED’s
+  
+Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
+
+
