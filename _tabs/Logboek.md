@@ -42,7 +42,13 @@ order: 5
 - Power aansluiten pcb water
 - Buitenkast
 - Automatisatie schrijven
-- Bakken uitkuisen 
+- Bakken uitkuisen
+##### Team Plantenbak: 
+- Site verder afwerken
+- Elektronica in de bakken gefit
+- Dubbele bodem in de bakken gekit 
+- Automatisatie schrijven
+  
 ---
 
 ### 📅 07-04-2025 tot 20-04-2025: Paasvakantie :egg::rabbit2:
@@ -57,6 +63,11 @@ order: 5
 -	Kabels in hulzen gestoken <!-- Hulzen? -->
 -	Kraantjeswater en voedingsstoffen uitgemeten
 -	Reservoirs gevuld, pompjes getest, mixer getest, circulatie getest
+
+##### Team Plantenbak: 
+- Houdersysteem voor plantenpotjes gemaakt
+- Volledige elekronicasysteem verbonden en getest
+- Lang bugfixen ( Schottky-diode ) 
 
 ---
 
