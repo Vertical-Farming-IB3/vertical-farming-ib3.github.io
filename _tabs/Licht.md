@@ -42,8 +42,10 @@ Per lade wordt gebruikgemaakt van:
 - 12 blauwe LED’s
 - 20 rode LED’s
 - 16 far-red LED’s
+
 Verhoudingen:
 - $R:B = \frac{20}{12} \approx 1.67$
 - $R:FR = \frac{20}{16} = 1.25$
+
 Deze zijn gekozen om zowel compacte groei als effici¨ente fotosynthese te bevorderen, zonder te
 veel far-red dat tot bloei of strekking kan leiden.
