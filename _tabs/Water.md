@@ -52,7 +52,7 @@ Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit r
 
 Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
 
-## Stuurlogica 
+## Stuurlogica <!--Kjell en Sander-->
 ### PCB 
 <!--Link naar github.-->
 ### Pompaansturing
@@ -155,7 +155,40 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
     - Kan oververhit raken als de vloeistof te laag is
     - Vereist regelmatig onderhoud om verstoppingen te voorkomen
 
+### Ultrasoon sensor
+<img src="{{ '/assets/img/Watersysteem/Ultrasoon.png' | relative_url }}" alt="Afbeelding van de onderwaterpomp" width="400" />
+
+De [ultrasoon sensor](https://www.tinytronics.nl/nl/sensoren/afstand/ultrasonische-afstandssensor-rcwl-1604){:target="_blank"} wordt gebruikt om de hoogte van de vloeistof in het reservoir te meten door middel van geluidsgolven. 
+
+- **Voordelen:** 
+    - Nauwkeurige meting van vloeistofniveaus
+    - Geen direct contact met het water (minder slijtage) 
+    - Eenvoudig te integreren in een systeem
+    - Geschikt voor gebruik in diverse omgevingen (kan in verschillende vloeistoffen worden gebruikt)
+    - Weinig onderhoud nodig
+
+- **Nadelen:**
+    - Kan gevoelig zijn voor interferentie van obstakels in de omgeving
+    - Vereist een geschikte verwerking van het signaal voor juiste interpretatie
+    - Beperkte nauwkeurigheid bij hoge luchttemperaturen of luchtstromingen
+
 ### UV-C
+<img src="{{ '/assets/img/Watersysteem/UV_C.png' | relative_url }}" alt="Afbeelding van de UV_C" width="400" />
+
+De [UVC-sterilisator](https://nl.aliexpress.com/item/1005006110975582.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.56.1dc5lUxFlUxFQM&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=dc0bb433-8fde-4045-9085-4eecaa485c2d&_t=gps-id%3ApcDetailBottomMoreOtherSeller%2Cscm-url%3A1007.40050.354490.0%2Cpvid%3Adc0bb433-8fde-4045-9085-4eecaa485c2d%2Ctpp_buckets%3A668%232846%238108%231977&pdp_ext_f=%7B%22order%22%3A%2218%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%7D&pdp_npi=4%40dis!EUR!33.06!15.88!!!260.96!125.35!%40211b813b17443072665026527eba8d!12000038728939852!rec!BE!!ABX&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A){:target="_blank"} wordt gebruikt om het water te desinfecteren met behulp van ultraviolet licht. Het UV-C licht breekt DNA-structuren van micro-organismen zoals algen, bacteriën en schimmels af. Hierdoor kunnen ze niet meer vermenigvuldigen. 
+
+- **Voordelen:**
+    - Effectieve en chemievrije watersterilisatie
+    - Verlaagt de kans op algen- en biofilmvorming
+    - Compact ontwerp, makkelijk te integreren
+    - Continu gebruik mogelijk zonder extra onderhoudsproducten
+- **Nadelen:**
+    - Werkt enkel in helder water (verminderd effect bij troebelheid)
+    - Beperkte levensduur van de UV-lamp (~8000 uur)
+    - Kan gevaarlijk zijn bij directe blootstelling aan mens of dier (goede afscherming vereist)
+
+### Hallefect stroomsensor 
+<!--Kjell-->
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig, deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). En hiernaast zijn er ook nog vele micronutriënten.
