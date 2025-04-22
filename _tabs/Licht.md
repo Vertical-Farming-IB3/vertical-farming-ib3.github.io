@@ -123,7 +123,7 @@ De verlichting wordt toegepast in lades van 45,7 cm x 38 cm (0.174 m²). Elke la
 Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
 
 <div style="display: flex; justify-content: center; gap: 1px; align-items: center; text-align: center;">
-    <img src="{{ site.baseurl }}/assets/img/Licht/LEDPCB.png" alt="LED-PCB Realisatie" style="width: 100%; transform: rotate(90deg);">
+    <img src="{{ site.baseurl }}/assets/img/Licht/LEDPCB.png" alt="LED-PCB Realisatie" style="width: 90%; transform: rotate(90deg);">
     <img src="{{ site.baseurl }}/assets/img/Licht/DriverPCB.png" alt="Driver-PCB Realisatie" style="width: 100%; transform: rotate(90deg);">
 </div>
 
