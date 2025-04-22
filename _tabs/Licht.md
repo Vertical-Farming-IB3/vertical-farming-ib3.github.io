@@ -69,6 +69,7 @@ energie is voor fotosynthese.
 #### Sla en basilicum
 -  PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
 - 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
+  
 #### Koriander
 - PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
 - Optimale prestaties bij verhoogde worteltemperatuur en CO2.
@@ -77,3 +78,20 @@ Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschik
 
 ### PPFD-berekening
 
+Voor een en lade van 0.173 m² met 12 blauwe, 20 rode en 16 far-red LED's geldt:
+
+PPFD<sub>totaal</sub> = (12 × 1.01) + (20 × 0.72) + (16 × 0.72)  
+= 12.12 + 14.4 + 11.52 = 38.04 µmol/s  
+
+PPFD = 38.04 / 0.173 = 219.05 µmol/m²/s
+
+## Afstand en uniformiteit
+
+De LED’s worden op 25–30 cm boven het gewas geplaatst. Dankzij de brede uitstralingshoek
+(121–124°) ontstaat een egale belichting. De kast is voorzien van een witte coating die fungeert
+als reflectieve achtergrond en zo schaduwvorming vermindert.
+
+## Fotoperiode
+
+Een cyclus van 16 uur licht en 8 uur donker (16L/8D) is toegepast, wat bewezen effectief is voor
+bladgroenten.
