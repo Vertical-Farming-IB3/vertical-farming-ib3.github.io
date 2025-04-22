@@ -119,8 +119,8 @@ De [waterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pom
     - Verbruikt relatief veel stroom bij batterijvoeding
 
 ### Luchtpomp en luchtsteen
-<img src="{{ '/assets/img/Watersysteem/luchtpomp.png' | relative_url }}" alt="Afbeelding van de luchtpomp" width="400" />
-<img src="{{ '/assets/img/Watersysteem/Luchtsteen.png' | relative_url }}" alt="Afbeelding van luchtsteen" width="400" />
+<img src="{{ '/assets/img/Watersysteem/Luchtpomp+luchtsteen.png' | relative_url }}" alt="Afbeelding van de luchtpomp en luchtsteen" width="400" />
+
 
 Voor het water- en voedingsstofreservoir werd een combinatie van een [luchtpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/luchtpomp-pyp370-12z-12v){:target="_blank"} met een [luchtsteen](https://nl.aliexpress.com/item/1005007443597285.html?spm=a2g0o.productlist.main.3.4a1049a6vx7Vpx&algo_pvid=de01e062-ea6d-400d-88c9-a07874e6f9d2&algo_exp_id=de01e062-ea6d-400d-88c9-a07874e6f9d2-1&pdp_ext_f=%7B%22order%22%3A%22312%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.05%210.97%21%21%2115.22%217.19%21%402103919917398752453552720ea209%2112000040774308148%21sea%21BE%210%21ABX&curPageLogUid=gjOskVCvOZWp&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"}  gekozen om lucht in het water te brengen. Dit verhoogt het zuurstofgehalte en voorkomt de groei van algen.
 
