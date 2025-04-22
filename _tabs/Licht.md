@@ -109,7 +109,7 @@ Voor het aansturen van de LED’s is een aparte driver-PCB ontworpen. Per teeltl
 
 De driver-PCB bevat drie drivers en een ESP32-microcontroller voor de aansturing. De voedingsspanning bedraagt 24V, waarbij een LDO-regelaar wordt gebruikt om de ESP32 van 3,3V te voorzien.
 
-<img src="{{ '/assets/img/Licht/DriverPCBFRONT.png' | relative_url }}" alt="PCB-ontwerp van de Driver-PCB" width="600" />
+<img src="{{ '/assets/img/Licht/DriverPCBSide.png' | relative_url }}" alt="PCB-ontwerp van de Driver-PCB" width="600" />
 
 Voor de verbinding tussen de LED-PCB’s en de driver-PCB’s wordt gebruikgemaakt van terminal blocks, wat zorgt voor een eenvoudige en robuuste aansluiting.
 
