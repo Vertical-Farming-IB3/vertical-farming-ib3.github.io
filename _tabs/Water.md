@@ -73,7 +73,7 @@ Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenv
 
 ## Stuurlogica
 ### PCB 
-<img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
+<img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
 <!--Link naar github.-->
 ### Pompaansturing
 <!-- Ultrasoon, probes, pompen -->
