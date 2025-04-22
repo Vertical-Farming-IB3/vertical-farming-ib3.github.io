@@ -42,6 +42,7 @@ Per lade wordt gebruikgemaakt van:
 - 12 blauwe LED’s
 - 20 rode LED’s
 - 16 far-red LED’s
+  
 Verhoudingen:
 - \( \text{R:B} = \frac{20}{12} \approx 1.67 \)
 - \( \text{R:FR} = \frac{20}{16} = 1.25 \)
