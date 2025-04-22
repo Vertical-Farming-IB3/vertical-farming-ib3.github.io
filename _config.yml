@@ -27,7 +27,8 @@ description: >- # used by seo meta and the atom feed
 url: "https://vertical-farming-ib3.github.io"
 
 github:
-  username: Vertical-Farming-IB3/Plan-T # change to your GitHub username
+  #vusername: Vertical-Farming-IB3/Plan-T # change to your GitHub username
+  username: Vertical-Farming-IB3/vertical-farming-ib3.github.io # change to your GitHub username
 
 footer:
   custom: true
