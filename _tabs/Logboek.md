@@ -39,6 +39,16 @@ order: 5
 
 ---
 
+
+### 📅 23-04-2025:
+##### Team Plantenbak:  
+- kabels gelabeld
+- bugfixing: waarom werkt onze schakeling niet meer in de kast?
+  - esp1 heeft plots kortsluiting?
+  - esp2 kan geen verbinding meer maken met esphome
+
+---
+
 ### 📅 22-04-2025:
 ##### Team Water: 
 - Site verderwerken
