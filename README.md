@@ -7,3 +7,4 @@ De website is ontworpen en bijgehouden door de studenten BA3ecfs en S2ecfs, en i
 
 [Project website](https://vertical-farming-ib3.github.io/)
 
+[Link](https://github.com/Vertical-Farming-IB3/Plan-T) naar main repo.
