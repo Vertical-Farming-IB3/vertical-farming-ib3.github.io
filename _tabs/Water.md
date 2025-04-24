@@ -11,6 +11,9 @@ order: 2
 {: .prompt-warning }
 
 ## Inhoud
+<!-- Dit zorgt wel dat het volledige eerste scherm inhoud is -->
+<!-- Is idd wel handig voor langere pagina's -->
+<!-- Mss met opmaak, beste van beide (wel voor later, esthetica) -->
 1. [Introductie](#introductie)
 2. [Toevoer](#toevoer)
    - [Reservoirs](#reservoirs)
@@ -19,7 +22,7 @@ order: 2
 3. [Afvoer](#afvoer)
    - [Zwaartekrachtgestuurd](#zwaartekrachtgestuurd)
    - [Hergebruik van water](#hergebruik-van-water)
-4. Stuurlogica
+4. [Stuurlogica](#Stuurlogica)
    - [PCB](#pcb)
    - [Pompaansturing](#pompaansturing)
    - [UV-C](#uv-c)
