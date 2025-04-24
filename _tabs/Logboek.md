@@ -24,23 +24,29 @@ order: 5
 
 ---
 
-### 📅 12-05-2025:
+### 📅 Maandag 12-05-2025:
 ##### Team Water: 
+
+##### Team Plantenbak: 
 
 ---
 
-### 📅 06-05-2025: 
+### 📅 Dinsdag 06-05-2025: 
 ##### Team Water: 
+
+##### Team Plantenbak: 
 
 ---
 
-### 📅 29-04-2025:
+### 📅 Dinsdag 29-04-2025:
 ##### Team Water: 
+
+##### Team Plantenbak: 
 
 ---
 
 
-### 📅 23-04-2025:
+### 📅 Woensdag 23-04-2025:
 ##### Team Plantenbak:  
 - kabels gelabeld
 - bugfixing: waarom werkt onze schakeling niet meer in de kast?
@@ -49,7 +55,7 @@ order: 5
 
 ---
 
-### 📅 22-04-2025:
+### 📅 Dinsdag 22-04-2025:
 ##### Team Water: 
 - Site verderwerken
 - Power aansluiten pcb water
@@ -70,7 +76,7 @@ order: 5
   
 ---
 
-### 📅 07-04-2025 tot 20-04-2025: Paasvakantie 
+### 📅 Paasvakantie: 07-04-2025 tot en met 20-04-2025
 ##### Team Water: 
 - Verder gewerkt aan afvoer: montage + boren regenpijp
 -	Gekeken naar buitenkast
@@ -91,13 +97,13 @@ order: 5
 
 ---
 
-### 📅 04-04-2025:
+### 📅 Vrijdag 04-04-2025:
 ##### Team Water: 
 -	Nagekeken realisatie buitenkast
 
 ---
 
-### 📅 01-04-2025:
+### 📅 Dinsdag 01-04-2025:
 ##### Team Water: 
 -	Chemische probes gekalibreerd
 -	Stroomsensor gekalibreerd
@@ -115,14 +121,14 @@ order: 5
 
 ---
 
-### 📅 26-03-2025: 
+### 📅 Woensdag 26-03-2025: 
 ##### Team Water: 
 -	Ultrasone sensorhouders ontworpen en geprint
 -	PCB programmeren en verbinden met HomeAssistant
 
 ---
 
-### 📅 25-03-2025:
+### 📅 Dinsdag 25-03-2025:
 ##### Team Water: 
 -	Verder gewerkt aan kast (indeling uitgewerkt, laden gerepareerd, …)
 -	Materiaal gekocht in de Gamma
@@ -134,20 +140,20 @@ order: 5
 
 ---
 
-### 📅 21-03-2025: Een kast om in te werken 🎆
+### 📅 Vrijdag 21-03-2025: Een kast om in te werken 🎆
 ##### Team Water: 
 -	Kast afgewerkt met team licht
 -	Kast verplaatst naar B225
 
 ---
 
-### 📅 20-03-2025:
+### 📅 Donderdag 20-03-2025:
 ##### Team Water: 
 -	Chemie: kalibratievloeistoffen gemaakt
 
 ---
 
-### 📅 18-03-2025: De echte constructie komt dichterbij! :hammer:
+### 📅 Dinsdag 18-03-2025: De echte constructie komt dichterbij! :hammer:
 ##### Team Plantenbak: 
 Naar de Action om verf, borstels en andere benodigdheden. 
 ##### Team Water: 
@@ -160,25 +166,26 @@ Naar de Action om verf, borstels en andere benodigdheden.
 
 ---
 
-### 📅 15-03-2025: Wachten op bestellingen & voorbereiden opendeurdag :school:
-Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken wij aan:
-- Het testen van sensoren, ESP's en YAML-code.
-- Het zoeken naar bijkomende materialen: witte verf, verfborstels, kokosvezels, etc.
-
+### 📅 Zaterdag 15-03-2025: Wachten op bestellingen & voorbereiden opendeurdag 
 ##### Team Water: 
 -	UV-C Lamp testen 
 -	Bekijken wat nodig voor chemie
 -	Verder werken aan YAML-code
 
+##### Team Plantenbak: 
+Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken wij aan:
+- Het testen van sensoren, ESP's en YAML-code.
+- Het zoeken naar bijkomende materialen: witte verf, verfborstels, kokosvezels, etc.---
+
 ---
 
-### 📅 13-03-2025:
+### 📅 Donderdag 13-03-2025:
 ##### Team Water: 
 -	Overleg met chemie (meneer De Vreese)
 
 ---
 
-### 📅 11-03-2025: PCB's besteld! 🎉
+### 📅 Dinsdag 11-03-2025: PCB's besteld! 🎉
 De PCB's zijn besteld bij **PCBWay**.
 
 ##### Team Water: 
@@ -190,20 +197,7 @@ De PCB's zijn besteld bij **PCBWay**.
 
 ---
 
-### 📅 06-03-2025: Eerste zaaisel! 🌱  <!-- 06/03 of 04/03? -->
-We zaaiden onze eerste zaadjes als een referentie, of misschien wel om ze binnenkort in onze werkende vertical farm te verpotten! 
-### 🌿 Geplant:
-- Basilicum
-- Koriander
-- Munt
-- Oregano
-- Bladsla
-
-Bijkomend hebben we, **de oude constructie afgebroken**.
-
----
-
-### 📅 04-03-2025:
+### 📅 Dinsdag 04-03-2025: Eerste zaaisel! 🌱 
 ##### Team Water: 
 -	Elektrisch schema afgemaakt
 -	PCB maken gestart
@@ -211,9 +205,19 @@ Bijkomend hebben we, **de oude constructie afgebroken**.
 -	Afbreken en recycleren oud systeem met team plantenbak
 -	Bedrijfsbezoek Citymesh
 
+##### Team Plantenbak: 
+We zaaiden onze eerste zaadjes als een referentie, of misschien wel om ze binnenkort in onze werkende vertical farm te verpotten! 
+### 🌿 Geplant:
+- Basilicum
+- Koriander
+- Munt
+- Oregano
+- Bladsla
+Bijkomend hebben we, **de oude constructie afgebroken**.
+
 ---
 
-### 📅 25-02-2025: Eerste bestelling geplaatst! 🛒
+### 📅 Dinsdag 25-02-2025: Eerste bestelling geplaatst! 🛒
 We bestelden meerdere benodigde componenten voor onze constructie.
 #### 📦 Gebruikte websites:
 - Mouser
@@ -231,7 +235,7 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 
 ---
 
-### 📅 18-02-2025:
+### 📅 Dinsdag 18-02-2025:
 ##### Team Water: 
 -	Afronden bestellijst en opsturen 
 -	Voeding bepaald
@@ -242,7 +246,7 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 
 ---
 
-### 📅 11-02-2025:
+### 📅 Dinsdag 11-02-2025:
 ##### Team Water: 
 -	Teamverdeling schakels (+ herverdeling) + inlichten
 -	Opstellen taakverdeling
