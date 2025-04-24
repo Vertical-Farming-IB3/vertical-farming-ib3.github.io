@@ -86,7 +86,7 @@ order: 5
 ##### Team Plantenbak: 
 - Houdersysteem voor plantenpotjes gemaakt
 - Volledige elekronicasysteem verbonden en getest
-- Lang bugfixen ( Schottky-diode )
+- Lang bugfixen op probleem bij relais ( Schottky-diode )
 - Nieuwe batch plantjes gezaaid
 
 ---
@@ -107,6 +107,11 @@ order: 5
 -	Afvoeren in plantenlades bevestigd
 -	Pompen aangesloten 
 - Buizen leggen voor de toevoer
+
+##### Team Plantenbak: 
+-	Elektronica samen beginnen brengen
+-	Sensoren afhankelijk testen via yaml
+-	3D-print ontwerpen om onze elektronica in te steken en een houder voor NFC-kaarten
 
 ---
 
