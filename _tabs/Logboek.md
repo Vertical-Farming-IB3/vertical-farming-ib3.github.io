@@ -241,7 +241,7 @@ We zaaiden onze eerste zaadjes als een referentie, of misschien wel om ze binnen
 - Bladsla
 
 Bijkomend hebben we, 
-- De oude constructie afgebroken**.
+- De oude constructie afgebroken.
 - PCB ontwerpen
 - Verder NFC systeem ontwikkelen
 - Bedrijfsbezoek Citymesh
