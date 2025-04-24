@@ -240,10 +240,10 @@ We zaaiden onze eerste zaadjes als een referentie, of misschien wel om ze binnen
 - Oregano
 - Bladsla
 
-- Bijkomend hebben we, **de oude constructie afgebroken**.
+Bijkomend hebben we, 
+- De oude constructie afgebroken**.
 - PCB ontwerpen
 - Verder NFC systeem ontwikkelen
-- Afbreken en recycleren van het oud systeem met team water
 - Bedrijfsbezoek Citymesh
 
 
