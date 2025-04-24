@@ -18,6 +18,8 @@ order: 5
 <!-- Wel of geen emoji's? Zie nog emoji's maar zie ook een aantal verwijderd. -->
 <!-- Blijven werken nieuw downto oud?-->
 
+<!-- Natuurlijk tussendoor ook constant overleg, planning en andere kleine werken-->
+
 ---
 
 ## Sem 2: Praktische fase
@@ -42,6 +44,14 @@ order: 5
 ##### Team Water: 
 
 ##### Team Plantenbak: 
+
+
+---
+
+
+### 📅 Donderdag 24-04-2025:
+##### Team Water:
+- herkalibratie probes
 
 ---
 
