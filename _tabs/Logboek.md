@@ -137,6 +137,15 @@ order: 5
 -	Indeling uitgedacht van de la 
 -	PCB's gesoldeerd
 -	Probehouder ontworpen en geprint
+  
+##### Team Plantenbak: 
+- PCB's solderen
+- Kast wit schilderen
+- NFC systeem verder ontwikkelen
+- YAML-code verder schrijven
+- 3D prints voor in platenbak ontwerpen
+- In overleg de indeling van de plantenbak verder uitgedacht
+- Extra aanpassingen aan de algemene structuur van de github pages (website)
 
 ---
 
@@ -155,7 +164,13 @@ order: 5
 
 ### 📅 Dinsdag 18-03-2025: De echte constructie komt dichterbij! :hammer:
 ##### Team Plantenbak: 
-Naar de Action om verf, borstels en andere benodigdheden. 
+- Naar de Action om verf, borstels en andere benodigdheden.
+- Verder werken aan de github pages (website)
+- YAML-code verder schrijven
+- NFC systeem verder ontwikkelen
+- Extra planten gezaaid
+- Overleg met team water voor uitwerking watersysteem in plantenbak
+
 ##### Team Water: 
 - Kalibratie van de ion-sensoren nagekeken.
 - YAML-code afgewerkt
@@ -175,7 +190,10 @@ Naar de Action om verf, borstels en andere benodigdheden.
 ##### Team Plantenbak: 
 Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken wij aan:
 - Het testen van sensoren, ESP's en YAML-code.
+- Verder schrijven aan de algemen YAML-code voor de platnebakken
 - Het zoeken naar bijkomende materialen: witte verf, verfborstels, kokosvezels, etc.---
+- Volledig in orde brengen van de template voor de github pages (website)
+- NFC verder ontwikkelen
 
 ---
 
@@ -194,6 +212,14 @@ De PCB's zijn besteld bij **PCBWay**.
 -	Pinout voor PCB beschreven
 -	YAML voor watersysteem gestart
 -	Gewerkt aan opbouw kast met team plantenbak
+
+##### Team Plantenbak:
+- Verder ontwikkelen van NFC systeem
+- Beschikbare sensoren verder testen
+- Algemene YAML code schrijven voor de plantenbak
+- Gewerkt aan opbouw kast met team water
+- PCB afgewerkt en gecontroleerd
+- Opstarten van de github pages (website)
 
 ---
 
@@ -215,6 +241,12 @@ We zaaiden onze eerste zaadjes als een referentie, of misschien wel om ze binnen
 - Bladsla
 Bijkomend hebben we, **de oude constructie afgebroken**.
 
+- PCB ontwerpen
+- Verder NFC systeem ontwikkelen
+- Afbreken en recycleren van het oud systeem met team water
+- Bedrijfsbezoek Citymesh
+
+
 ---
 
 ### 📅 Dinsdag 25-02-2025: Eerste bestelling geplaatst! 🛒
@@ -233,6 +265,14 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 -	Componenten besteld
 -	Bedrijfsbezoek Colruyt
 
+##### Team Plantenbak:
+- Elektrisch schema verder afwerken
+- Helpen met ontwerpen binnenkast
+- Begin ontwikkeling NFC systeem
+- Start van testen beschikbare sensoren
+- Bestellijst indienen
+- Bedrijfsbezoek Colruyt
+
 ---
 
 ### 📅 Dinsdag 18-02-2025:
@@ -244,6 +284,15 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 -	Afwerken planning + indienen
 -	Uitwerken toevoer/afvoer
 
+##### Team Plantenbak: 
+- Bepalen van sensoren
+- Bestelijst afwerken
+- Onderzoek naar NFC systeem
+- Elektrisch schema voor PCB tekenen
+- Uitdenken van vorm en manier om alle sensoren, ventielen, substraat, ...
+  te verwerken in de plantenbak
+- Vervoldigen planning van team plantenbak
+
 ---
 
 ### 📅 Dinsdag 11-02-2025:
@@ -254,6 +303,12 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 -	Besluiten welk systeem te gebruiken 
 -	Bestellijst aanvullen
 
+##### Team Plantenbak: 
+- Teamverdeling (NFC en Plantenbak/Sensoren)
+- Planning opstelling voor ons team
+- Onderzoek naar sensoren, substraat, verluchting, planten, ...
+- Bestelijst aanvullen
+- Overleg met team water over watersysteem
 ---
 
 ### 📅 Eerste maand van het tweede semester: De voorbereiding begint  <!-- Komt overeen met de 11/02 - 04/03 zou het wel opsplitsen onder meer door de bedrijfsbezoeken -->
