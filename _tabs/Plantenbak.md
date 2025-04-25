@@ -76,18 +76,26 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 ### Bak 1: flood & drain
 #### De opstelling:
+
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0; width: 100%;">
-  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="flex: 1 1 50%; max-width: 50%;">
-  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="flex: 1 1 50%; max-width: 50%;">
+<div style="display: flex; justify-content: center; align-items: stretch; width: 100%; gap: 10px;">
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="height: 300px; width: auto; object-fit: contain;">
+  </div>
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 300px; width: auto; object-fit: contain;">
+  </div>
 </div>
-
 
 ### Bak 2: drip hydroponics in rockwol
 #### De opstelling:
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0; width: 100%;">
-  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="flex: 1 1 50%; max-width: 50%;">
-  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="flex: 1 1 50%; max-width: 50%;">
+<div style="display: flex; justify-content: center; align-items: stretch; width: 100%; gap: 10px;">
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="height: 300px; width: auto; object-fit: contain;">
+  </div>
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 300px; width: auto; object-fit: contain;">
+  </div>
 </div>
