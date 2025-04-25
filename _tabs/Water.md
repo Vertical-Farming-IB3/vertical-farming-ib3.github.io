@@ -22,7 +22,7 @@ order: 2
 3. [Afvoer](#afvoer)
    - [Zwaartekrachtgestuurd](#zwaartekrachtgestuurd)
    - [Hergebruik van water](#hergebruik-van-water)
-4. Stuurlogica
+4. [Stuurlogica](#stuurlogica)
    - [PCB](#pcb)
    - [Pompaansturing](#pompaansturing)
    - [UV-C](#uv-c)
