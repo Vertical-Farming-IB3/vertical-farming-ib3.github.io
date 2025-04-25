@@ -14,8 +14,8 @@ order: 1
    - [Materialen](#materialen)
 3. [Planten](#planten)
 4. [De twee lades](#de-twee-lades)
-   - [Bak 1: drip hydroponics in rockwol](#bak-1-drip-hydroponics-in-rockwol)
-   - [Bak 2: flood & drain](#bak-2-flood--drain)
+   - [Bak 1: flood & drain](#bak-1-flood--drain)
+   - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
 
 
 ## De bedoeling
