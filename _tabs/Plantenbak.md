@@ -7,6 +7,18 @@ order: 1
 > Under construction
 {: .prompt-warning }
 
+## Inhoud
+1. [De bedoeling](#de-bedoeling)
+2. [Benodigdheden](#benodigdheden)
+   - [Elektronische componenten](#elektronische-componenten)
+   - [Materialen](#materialen)
+3. [PCB](#pcb)
+4. [Planten](#planten)
+5. [De twee lades](#de-twee-lades)
+   - [Bak 1: drip hydroponics in rockwol](#bak-1-drip-hydroponics-in-rockwol)
+   - [Bak 2: flood & drain](#bak-2-flood--drain)
+
+
 ## De bedoeling
 Onze bordjes moeten deze functionaliteit hebben:
 
