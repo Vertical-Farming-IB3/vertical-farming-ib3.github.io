@@ -12,9 +12,8 @@ order: 1
 2. [Benodigdheden](#benodigdheden)
    - [Elektronische componenten](#elektronische-componenten)
    - [Materialen](#materialen)
-3. [PCB](#pcb)
-4. [Planten](#planten)
-5. [De twee lades](#de-twee-lades)
+3. [Planten](#planten)
+4. [De twee lades](#de-twee-lades)
    - [Bak 1: drip hydroponics in rockwol](#bak-1-drip-hydroponics-in-rockwol)
    - [Bak 2: flood & drain](#bak-2-flood--drain)
 
@@ -57,12 +56,6 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 - **Hydrokorrels** – Voor wateropslag en beluchting van de wortels
 - **Witte verf** - Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
 
-## PCB
-<div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_front.png" alt="PCB Front" style="width: 40%;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="width: 40%;">
-</div>
-
 ## Planten
 We kozen deze soorten:
 
@@ -77,12 +70,23 @@ Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in d
 ## De twee lades
 We werken met twee technieken:
 - *Drip hydroponics (drip-systeem):* Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
+
 - *Flood & Drain (ebb & flow):* De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
 Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 ### Bak 1: drip hydroponics in rockwol
+<img src="/assets/img/Plantenbak/bak_substraat.png" alt="bak met substraat">
 
+<div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="width: 40%;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="width: 40%;">
+</div>
 
 ### Bak 2: flood & drain
 
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
+
+<div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="width: 40%;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="width: 40%;">
+</div>
