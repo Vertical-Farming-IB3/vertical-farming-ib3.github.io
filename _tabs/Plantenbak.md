@@ -74,18 +74,20 @@ We werken met twee technieken:
 - *Flood & Drain (ebb & flow):* De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
 Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
-### Bak 1: drip hydroponics in rockwol
-
-<div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="width: 40%;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="width: 40%;">
-</div>
-
-### Bak 2: flood & drain
-
+### Bak 1: flood & drain
+#### De opstelling:
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
 
-<div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="width: 40%;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="width: 40%;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0; width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="flex: 1 1 50%; max-width: 50%;">
+  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="flex: 1 1 50%; max-width: 50%;">
+</div>
+
+
+### Bak 2: drip hydroponics in rockwol
+#### De opstelling:
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0; width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="flex: 1 1 50%; max-width: 50%;">
+  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="flex: 1 1 50%; max-width: 50%;">
 </div>
