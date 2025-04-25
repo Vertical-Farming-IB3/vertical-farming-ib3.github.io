@@ -75,7 +75,6 @@ We werken met twee technieken:
 Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 ### Bak 1: drip hydroponics in rockwol
-<img src="/assets/img/Plantenbak/bak_substraat.png" alt="bak met substraat">
 
 <div style="display: flex; justify-content: center; gap: 4px; align-items: center; text-align: center;">
     <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="width: 40%;">
