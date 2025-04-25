@@ -81,10 +81,10 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 <div style="display: flex; justify-content: center; align-items: stretch; width: 100%; gap: 10px;">
   <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="height: 340px; width: auto; object-fit: contain;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb1_front.png" alt="PCB Front" style="height: 300px; width: auto; object-fit: contain;">
   </div>
   <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 300px; width: auto; object-fit: contain;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 260px; width: auto; object-fit: contain;">
   </div>
 </div>
 
@@ -93,9 +93,9 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 <div style="display: flex; justify-content: center; align-items: stretch; width: 100%; gap: 10px;">
   <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="height: 340px; width: auto; object-fit: contain;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="height: 300px; width: auto; object-fit: contain;">
   </div>
   <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 300px; width: auto; object-fit: contain;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 260px; width: auto; object-fit: contain;">
   </div>
 </div>
