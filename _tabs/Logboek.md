@@ -48,20 +48,25 @@ order: 5
 
 ---
 
+### 📅 Vrijdag 25-04-2025:
+##### Team Plantenbak:  
+- Bugfixing: beide bakken terug werkende gekregen 
+
+---
 
 ### 📅 Donderdag 24-04-2025:
 ##### Team Water:
-- herkalibratie probes
+- Herkalibratie probes
 
 ---
 
 
 ### 📅 Woensdag 23-04-2025:
 ##### Team Plantenbak:  
-- kabels gelabeld
-- bugfixing: waarom werkt onze schakeling niet meer in de kast?
-  - esp1 heeft plots kortsluiting?
-  - esp2 kan geen verbinding meer maken met esphome
+- Kabels gelabeld
+- Bugfixing: waarom werkt onze schakeling niet meer in de kast?
+  - ESP1 heeft plots kortsluiting?
+  - ESP2 kan geen verbinding meer maken met esphome
 
 ---
 
