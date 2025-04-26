@@ -62,7 +62,7 @@ In het mengreservoir komt het water samen met de voedingsstoffen. Een aquariumpo
 1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
 2. Vanuit het mengreservoir transporteren aparte pompen de gemengde vloeistof naar de lades. Omdat we gekozen hebben om met twee lades te werken, gebruiken we twee pompen voor de toevoer. Aan elke pomp kunnen  darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is.
 
-<img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" />
+<img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" style="border-radius: 15px;" />
 
 ### Lades
 Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie '[De twee lades
