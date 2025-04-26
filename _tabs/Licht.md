@@ -6,6 +6,20 @@ order: 3
 > Under construction
 {: .prompt-warning }
 
+## Inhoud
+1. [Introductie](#introductie)
+2. [LED-selectie](#led-selectie)
+3. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
+4. [Far-Red overweging](#far-red-overweging)
+5. [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
+   - [Sla en basilicum](#sla-en-basilicum)
+   - [Koriander](#koriander)
+   - [PPFD-berekening](#ppfd-berekening)
+6. [Afstand en uniformiteit](#afstand-en-uniformiteit)
+7. [Fotoperiode](#fotoperiode)
+8. [Ontwerp](#ontwerp)
+9. [Uitvoering](#uitvoering)
+
 ## Introductie
 
 Bij Team Licht werken we aan LED-verlichtingssystemen die speciaal zijn afgestemd voor de vertical farm. Ons huidige project richt zich op de teelt van snijsla en groene kruiden zoals basilicum, koriander en munt. De nadruk ligt op een efficiënte en uniforme lichtverdeling met een optimale
