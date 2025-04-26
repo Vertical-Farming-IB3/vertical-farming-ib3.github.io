@@ -48,6 +48,13 @@ order: 5
 
 ---
 
+### 📅 Weekend 26-04-2025 tot en met 27-04-2025:
+##### Team Plantenbak:  
+- De bakken een dubbele bodem geven, poging twee.
+  - TEC7 ip
+
+---
+
 ### 📅 Vrijdag 25-04-2025:
 ##### Team Plantenbak:  
 - Bugfixing: beide bakken terug werkende gekregen 
