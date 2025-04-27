@@ -68,6 +68,9 @@ order: 5
 
 
 ### 📅 Woensdag 23-04-2025:
+##### Team Water:
+- Dashboards in Home Assistant beginnen maken
+- Connectoren powergedeelte verder geplaatst
 ##### Team Plantenbak:  
 - Kabels gelabeld
 - Bugfixing: waarom werkt onze schakeling niet meer in de kast?
