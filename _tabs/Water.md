@@ -28,7 +28,7 @@ order: 2
 5. [Componenten en keuzes](#componenten-en-keuzes)
    - [Reservoirs](#reservoirs-1)
    - [Tubes](#tubes)
-   - [Quick connectors tubes](#Quick-connectors-tubes)
+   - [Quick connectors tubes](#quick-connectors-tubes)
    - [Waterpomp](#waterpomp)
    Luchtpomp en luchtsteen
    Onderwaterpomp
