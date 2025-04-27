@@ -10,9 +10,9 @@
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
 
-- type: clickup
-  icon: "fas fa-clipboard-list"
-  url: 'https://app.clickup.com/9012517110/v/o/s/90122137616'
+- type: github-alt
+  icon: "fa-brands fa-github-alt"
+  url: 'https://github.com/Vertical-Farming-IB3/vertical-farming-ib3.github.io'
 
 
 - type: email
