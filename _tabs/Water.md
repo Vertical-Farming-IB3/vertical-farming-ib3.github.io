@@ -75,7 +75,8 @@ In de kast is er voldoende ruimte voor twee laden met planten varierend in hoogt
 
 <img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" style="border-radius: 15px;" />
 
-### Lades   <!-- Lijkt mij dan niet zeer nuttig om dit een paragraaf te maken -->
+### Lades
+<!-- Lijkt mij dan niet zeer nuttig om dit een paragraaf te maken -->
 Het systeem ondersteunt twee irrigatiemethoden. Meer details hierover vind je op de Plantenbak-pagina, in de sectie '[De twee lades
 ](https://vertical-farming-ib3.github.io/Plantenbak/#De-twee-lades)'.  
 
