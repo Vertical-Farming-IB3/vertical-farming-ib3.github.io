@@ -38,6 +38,7 @@ order: 2
    Probes
     ...
    
+   <!-- Gewacht met opmaak tot layout meer definitief is -->
 
 
 ## Introductie
@@ -175,7 +176,7 @@ De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752
     - Hergebruikbaar
     - Sterke afdichting 
     - Compact
-- **Nadelen:** <!-- Slijt, heeft een 'complexe' handeling nodig voor loskoppelen--> 
+- **Nadelen:** <!-- Slijt; Heeft een 'complexe' handeling nodig voor loskoppelen; --> 
     - Minder geschikt bij hoge druk 
     - Kan loskomen bij slechte plug in 
     - Enkel 8mm → 8mm
@@ -206,7 +207,7 @@ Voor het water- en voedingsstofreservoir werd een combinatie van een [luchtpomp]
 - **Voordelen:**
     - Fijne luchtbellen: betere zuurstofverdeling
     - Voorkomt algenvorming in stilstaand water
-    - Stil en energiezuinig systeem             <!-- Srry maar ik vind het niet stil, ik zat naast die kast voor de probes en ik werd zot.--> 
+    - Stil en energiezuinig systeem             <!-- Ik vond het niet zeer stil, kan ook aan de acoustic of trillingen id kast liggen--> 
     - Geen directe elektrische belasting in het water (veilig)
 
 - **Nadelen:**
