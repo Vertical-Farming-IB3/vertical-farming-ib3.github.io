@@ -47,6 +47,13 @@ order: 5
 - Elektronica nog een laatste keer testen en in de lades bevestigen
 - 
 
+##### Team Licht: 
+- Driver PCB's debuggen
+- Laatste aanpassingen aan code
+- PCB etsen van power meting
+- Laatste PCB's monteren in lade
+- Presentatie verdediging
+
 ---
 
 ### 📅 Weekend 26-04-2025 tot en met 27-04-2025:
