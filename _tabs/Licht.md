@@ -112,27 +112,14 @@ bladgroenten.
 
 ## Thermische berekeningen
 
-In deze sectie wordt dieper ingegaan op de nodige berekeningen en de aspecten die belangrijk zijn voor de
-thermische vereisten van de leds. Er wordt dieper ingegaan op de bijkomende aspecten bij het ontwerp van een
-led-PCB.
+Uit de berekeningen blijkt dat de totale thermische weerstand zonder koeling vrij hoog is, wat resulteert in
+ een junctietemperatuur van net boven de 70°C. Dit is wel onder de maximaal toegelaten waarde van 125°C
+ die weergegeven wordt in de datasheet, maar om de betrouwbaarheid en levensduur van de LED te verbeteren
+ is extra koeling aangewezen. Door toevoeging van een koelplaat wordt de junctietemperatuur verlaagd tot
+ ongeveer 46°C, wat zorgt voor een veilige marge. Zo zal de led aanzienlijk langer kunnen functioneren zonder
+ door te branden.
 
-#### Berekening van de via’s
-
-/////// foto /////////
-
-De thermische weerstand van ´e´en via bedraagt 90.9 °C/W. Er is zo een goed mogelijke warmteafvoer gewenst.
-Daarom is er gekozen om zoveel mogelijk via’s te plaatsen voor een goed warmteafvoer te kunnen garanderen.
-Echter wordt er bij de verdere thermische berkeningen slechts gerekend met tien via’s aan elke zijde van de led.
-
-Wat resulteert in een totaal van 20 via’s. De reden hiervoor is dat deze 20 via’s dicht genoeg bij de led staan om een aanzienelijk aandeel te hebben bij de warmteafvoer. De extra’s zijn toegevoegd om wat marge te hebben.
-
-De thermische weerstand van 1 via bedraagt:
-
-R_th,via-copper = R_th,total / aantal via's
-                = 90.9 / 20
-                = 4.55 °C/W
-
-
+📄 [Thermische berekeningen (PDF)](assets/img/Licht/thermische_berekeningen-1.pdf)
 
 ## Ontwerp
 
