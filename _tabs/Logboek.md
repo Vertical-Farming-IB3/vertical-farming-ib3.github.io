@@ -336,6 +336,12 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 - Onderzoek naar sensoren, substraat, verluchting, planten, ...
 - Bestelijst aanvullen
 - Overleg met team water over watersysteem
+  
+##### Team Licht: 
+- Teamverdeling (code, led PCB en driver PCB)
+- onderzoek naar drivers, leds, ...
+- Planning opstelling voor ons team
+  
 ---
 
 ### 📅 Eerste maand van het tweede semester: De voorbereiding begint  <!-- Komt overeen met de 11/02 - 04/03 zou het wel opsplitsen onder meer door de bedrijfsbezoeken -->
