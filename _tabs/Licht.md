@@ -152,3 +152,12 @@ Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
     <img src="{{ site.baseurl }}/assets/img/Licht/LEDPCB.png" alt="LED-PCB Realisatie" style="width: 85%; transform: rotate(90deg);">
     <img src="{{ site.baseurl }}/assets/img/Licht/DriverPCB.png" alt="Driver-PCB Realisatie" style="width: 100%; transform: rotate(90deg);">
 </div>
+
+## Afgewerkt product
+In de kast worden er 2 lades voorzien met verlichting in.
+
+
+## Bronnen
+
+📄 [Led keuze motivatie (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/Leds_keuze_motivatie-2.pdf)
+📄 [Documentatie driver (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/Documentatie driver.pdf)
