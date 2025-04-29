@@ -70,7 +70,7 @@ De drie reservoirs zijn uitneembaar, wat het reinigen en bijvullen eenvoudig maa
 
 In het mengreservoir komt het water samen met de voedingsstoffen. Een aquariumpomp zorgt hier voor het mengen en circuleren van de vloeistof. Daarnaast is het mengreservoir voorzien van een UV-C lamp, als extra maatregel tegen micro-organismen en biologische verontreiniging. Dit mengreservoir bevat ook de nodige chemische probes om een ideale verhouding van voedingsstoffen te voorzien.
 
-Meer informatie over de gebruikte componenten vindt u terug bij [componenten en keuzes](#componenten-en-keuzes).
+Meer informatie over de gebruikte componenten vindt u terug bij [componenten](#componenten).
 
 ### Tubes
 De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"} hebben een diameter van 8 mm en zijn bedoeld voor de transport van water. 
