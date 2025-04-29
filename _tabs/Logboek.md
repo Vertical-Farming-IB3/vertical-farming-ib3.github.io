@@ -44,13 +44,16 @@ order: 5
 ##### Team Water: 
 
 ##### Team Plantenbak: 
-
+- Elektronica nog een laatste keer testen en in de lades bevestigen
+- 
 
 ---
 
 ### 📅 Weekend 26-04-2025 tot en met 27-04-2025:
 ##### Team Plantenbak:  
 - De bakken een dubbele bodem geven, poging twee ( vorige waren niet waterdicht )
+- Solenoid valve werd vervangen door een regentonkraantje
+  - De druk van het laagje water was niet groot genoeg om de valve te kunnen sturen
 
 ---
 
