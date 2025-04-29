@@ -119,7 +119,8 @@ Uit de berekeningen blijkt dat de totale thermische weerstand zonder koeling vri
  ongeveer 46°C, wat zorgt voor een veilige marge. Zo zal de led aanzienlijk langer kunnen functioneren zonder
  door te branden.
 
-📄 [Thermische berekeningen (PDF)](assets/img/Licht/thermische_berekeningen-1.pdf)
+📄 [Thermische berekeningen (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/thermische_berekeningen-1.pdf)
+
 
 ## Ontwerp
 
