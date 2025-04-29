@@ -13,8 +13,7 @@ order: 1
    - [Elektronische componenten](#elektronische-componenten)
    - [Materialen](#materialen)
 3. [Planten](#planten)
-4. [PCB's](#pcb)
-5. [De twee lades](#de-twee-lades)
+4. [De twee lades](#de-twee-lades)
    - [Bak 1: flood & drain](#bak-1-flood--drain)
    - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
 
