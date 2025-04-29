@@ -8,6 +8,7 @@ order: 2
 {: .prompt-warning }
 
 ## Inhoud
+<!--x
 1. [Introductie](#introductie)
 2. [Toevoer](#toevoer)
    - [Reservoirs](#reservoirs)
@@ -31,8 +32,8 @@ order: 2
    Hallefect
    Probes
     ...
-   
-   <!-- Gewacht met opmaak tot layout meer definitief is -->
+   --> 
+   <!-- Gewacht met opmaak tot layout meer definitief is, nog aanpassen -->
 
 ## Introductie
 Water wordt samengebracht met voedingsstoffen in een mengreservoir. Na het mengen wordt het water naar de lades gepompt waar het door de plantjes kan opgenomen worden. Hierna keert het restwater terug naar het mixvat om gerecupereert te worden.
