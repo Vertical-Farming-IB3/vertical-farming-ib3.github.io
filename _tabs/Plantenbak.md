@@ -13,7 +13,8 @@ order: 1
    - [Elektronische componenten](#elektronische-componenten)
    - [Materialen](#materialen)
 3. [Planten](#planten)
-4. [De twee lades](#de-twee-lades)
+4. [PCB's](#pcb)
+5. [De twee lades](#de-twee-lades)
    - [Bak 1: flood & drain](#bak-1-flood--drain)
    - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
 
@@ -67,6 +68,23 @@ We kozen deze soorten:
 
 Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker te groeien.
 
+## PCB's 
+<!-- Bovenste afbeelding over volledige breedte -->
+<div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
+  <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="width: 100%; max-width: 1000px; height: auto; object-fit: contain;">
+</div>
+
+<!-- Onderste twee afbeeldingen naast elkaar met gelijke hoogte -->
+<div style="display: flex; justify-content: center; align-items: flex-start; width: 100%; gap: 10px;">
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 250px; width: auto; object-fit: contain;">
+  </div>
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="{{ site.baseurl }}/assets/img/Plantenbak/relais_pinout.png" alt="Relais Pinout" style="height: 250px; width: auto; object-fit: contain;">
+  </div>
+</div>
+
+
 ## De twee lades
 We werken met twee technieken:
 - *Drip hydroponics (drip-systeem):* Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
@@ -79,23 +97,6 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
 
-<div style="display: flex; justify-content: center; align-items: stretch; width: 100%; gap: 10px;">
-  <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="height: 300px; width: auto; object-fit: contain;">
-  </div>
-  <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 250px; width: auto; object-fit: contain;">
-  </div>
-</div>
-
 ### Bak 2: drip hydroponics in rockwol
 #### De opstelling:
 
-<div style="display: flex; justify-content: center; align-items: stretch; width: 100%; gap: 10px;">
-  <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="height: 300px; width: auto; object-fit: contain;">
-  </div>
-  <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb_back.png" alt="PCB Back" style="height: 250px; width: auto; object-fit: contain;">
-  </div>
-</div>
