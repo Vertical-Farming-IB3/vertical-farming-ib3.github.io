@@ -242,7 +242,7 @@ De [UV-C sterilisator](https://nl.aliexpress.com/item/1005006110975582.html?spm=
 De stroommeeting gebeurt aan de hand van een Hall current sensor. Deze onderbreekt de stroom en meet aan de hand van een meetstroom geinduceerd door het hall effect de totale stroom. <!--snel geschreven-->
 
 hall-effect-cs
-<img src="{{ '\assets\img\Watersysteem\hall-effect-cs.jpg' | relative_url }}" alt="Hall effect" width="400" />
+<img src="{{ '/assets/img/Watersysteem/hall-effect-cs.jpg' | relative_url }}" alt="Hall effect" width="400" />
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig, deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). En hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
