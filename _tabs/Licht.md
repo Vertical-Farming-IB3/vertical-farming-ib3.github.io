@@ -58,8 +58,8 @@ Per lade wordt gebruikgemaakt van:
 - 16 far-red LED’s
 
 Verhoudingen:
-- $R:B = \frac{20}{12} \approx 1.67$
-- $R:FR = \frac{20}{16} = 1.25$
+- Ratio R:B = 20 divided by 12 ≈ 1.67
+- Ratio R:FR = 20 divided by 16 = 1.25
 
 Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevorderen, zonder te
 veel far-red dat tot bloei of strekking kan leiden.
@@ -109,6 +109,30 @@ als reflectieve achtergrond en zo schaduwvorming vermindert.
 
 Een cyclus van 16 uur licht en 8 uur donker (16L/8D) is toegepast, wat bewezen effectief is voor
 bladgroenten.
+
+## Thermische berekeningen
+
+In deze sectie wordt dieper ingegaan op de nodige berekeningen en de aspecten die belangrijk zijn voor de
+thermische vereisten van de leds. Er wordt dieper ingegaan op de bijkomende aspecten bij het ontwerp van een
+led-PCB.
+
+#### Berekening van de via’s
+
+/////// foto /////////
+
+De thermische weerstand van ´e´en via bedraagt 90.9 °C/W. Er is zo een goed mogelijke warmteafvoer gewenst.
+Daarom is er gekozen om zoveel mogelijk via’s te plaatsen voor een goed warmteafvoer te kunnen garanderen.
+Echter wordt er bij de verdere thermische berkeningen slechts gerekend met tien via’s aan elke zijde van de led.
+
+Wat resulteert in een totaal van 20 via’s. De reden hiervoor is dat deze 20 via’s dicht genoeg bij de led staan om een aanzienelijk aandeel te hebben bij de warmteafvoer. De extra’s zijn toegevoegd om wat marge te hebben.
+
+De thermische weerstand van 1 via bedraagt:
+
+R_th,via-copper = R_th,total / aantal via's
+                = 90.9 / 20
+                = 4.55 °C/W
+
+
 
 ## Ontwerp
 
