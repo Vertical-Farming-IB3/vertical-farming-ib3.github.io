@@ -100,6 +100,11 @@ order: 5
 - Elektronica in de bakken gefit
 - Dubbele bodem in de bakken gekit 
 - Automatisatie schrijven
+
+##### Team Licht: 
+- Led + driver PCB's monteren in de lades
+- Alle PCB's uittesten en debuggen
+- Kleine aanpassingen code + uittesten
   
 ---
 
@@ -121,6 +126,11 @@ order: 5
 - Volledige elekronicasysteem verbonden en getest
 - Lang bugfixen op probleem bij relais ( Schottky-diode )
 - Nieuwe batch plantjes gezaaid
+
+##### Team Licht: 
+- Led PCB's monteren in de lades
+- Driver + led PCB's te samen testten
+- Code verder schrijven
 
 ---
 
@@ -145,6 +155,11 @@ order: 5
 -	Elektronica samen beginnen brengen
 -	Sensoren afhankelijk testen via yaml
 -	3D-print ontwerpen om onze elektronica in te steken en een houder voor NFC-kaarten
+
+##### Team Licht: 
+- bestukken driver PCB's 
+- uittesten driver PCB's
+- Code verder schrijven
 
 ---
 
@@ -173,6 +188,11 @@ order: 5
 - 3D prints voor in platenbak ontwerpen
 - In overleg de indeling van de plantenbak verder uitgedacht
 - Extra aanpassingen aan de algemene structuur van de github pages (website)
+
+##### Team Licht: 
+- bestukken led PCB's 
+- uittesten led PCB's
+- Code verder schrijven
 
 ---
 
@@ -203,7 +223,12 @@ order: 5
 - YAML-code afgewerkt
 -	Afgewerkt kastframe met team plantenbak
 - Stroomsensoren
+  
 ##### Team Licht: 
+- LDO bestellen
+- Voorbereiding componenten PCB
+- Code verder schrijven
+  
 ##### Team Power: 
 
 ---
@@ -222,6 +247,10 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Volledig in orde brengen van de template voor de github pages (website)
 - NFC verder ontwikkelen
 
+##### Team Licht:
+- CSBE challenge
+- bestellen heatsinks en thermal pads
+  
 ---
 
 ### 📅 Donderdag 13-03-2025:
@@ -248,6 +277,11 @@ De PCB's zijn besteld bij **PCBWay**.
 - PCB afgewerkt en gecontroleerd
 - Opstarten van de github pages (website)
 
+##### Team Licht:
+- PCB afgewerkt en gecontroleerd
+- Code verder schrijven
+- Voorbereiden levering PCB
+  
 ---
 
 ### 📅 Dinsdag 04-03-2025: Eerste zaaisel! 🌱 
@@ -273,7 +307,10 @@ Bijkomend hebben we,
 - Verder NFC systeem ontwikkelen
 - Bedrijfsbezoek Citymesh
 
-
+##### Team Licht:
+- Led en driver PCB design
+- code verder schrijven
+-	Bedrijfsbezoek Citymesh
 ---
 
 ### 📅 Dinsdag 25-02-2025: Eerste bestelling geplaatst! 🛒
@@ -300,6 +337,13 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 - Bestellijst indienen
 - Bedrijfsbezoek Colruyt
 
+##### Team Licht:
+- Led en driver PCB design
+- lezen datascheet driver + start code schrijven
+- thermische berekeningen
+- Bestellijst indienen
+- Bedrijfsbezoek Colruyt
+  
 ---
 
 ### 📅 Dinsdag 18-02-2025:
@@ -320,6 +364,12 @@ We bestelden meerdere benodigde componenten voor onze constructie.
   te verwerken in de plantenbak
 - Vervoldigen planning van team plantenbak
 
+##### Team Licht: 
+- bepalen van leds + overleggen met mensen van licht over aantal leds en kleur
+- bepalen van driver, datasheets lezen
+- onderzoek koeling driver
+- Bestelijst afwerken
+  
 ---
 
 ### 📅 Dinsdag 11-02-2025:
