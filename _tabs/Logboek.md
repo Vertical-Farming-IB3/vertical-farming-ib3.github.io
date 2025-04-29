@@ -42,6 +42,12 @@ order: 5
 
 ### 📅 Dinsdag 29-04-2025:
 ##### Team Water: 
+- pH-probe gekalibreerd en geïntegreerd
+- probleem PCB debuggen en oplossen (Buck converter ground)
+- Dashboard Home Assistant afgewerkt (water)
+- Website verder aanpassen
+- Dimitri helpen met onderkant en linkerzijde kast
+- Andere groepen helpen met debuggen
 
 ##### Team Plantenbak: 
 - Elektronica nog een laatste keer testen en in de lades bevestigen
@@ -81,6 +87,7 @@ order: 5
 ##### Team Water:
 - Dashboards in Home Assistant beginnen maken
 - Connectoren powergedeelte verder geplaatst
+  
 ##### Team Plantenbak:  
 - Kabels gelabeld
 - Bugfixing: waarom werkt onze schakeling niet meer in de kast?
