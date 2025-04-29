@@ -44,8 +44,12 @@ Het watersysteem bestaat uit twee hoofdonderdelen:
 
 We bespreken deze onderdelen verder in detail in volgende secties.
 
-<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
-
+<img 
+  src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" 
+  alt="Schematische tekening van het watersysteem" 
+  width="600" 
+  style="border-radius: 12px;"
+/>
 ## Toevoer
 ### Reservoirs:  
 
