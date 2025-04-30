@@ -64,6 +64,18 @@ Verhoudingen:
 Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevorderen, zonder te
 veel far-red dat tot bloei of strekking kan leiden.
 
+#### Elektrisch dimensioneren
+De volgende tabel toont de elektrische karakteristieken van de individuele LED's
+
+
+Dit zijn de parameters die één LED-Driver moet voorzien, dus voor 2 LED-PCB's in series verbonden.
+| Parameter        | FR    | R     | B      | Group total | Per étage |
+|------------------|-------|-------|--------|-------------|-----------|
+| **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
+| **Current (mA)** | 140   | 140   | 140    | 420         | 1260      |
+| **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 24        |
+
+
 ## Far-Red overweging
 
 Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
@@ -129,6 +141,8 @@ Voor het ontwerp van de LED-PCB is bewust gekozen voor een compact formaat. Door
 - 5 rode LED’s
 - 4 far-red LED’s
 
+De afvoering van de warmte heeft veel aandacht gekregen, vooral omdat dit vorig jaar een groot probleem was. We hebben we de LED's in serie met elkaar verbonden aan de hand van brede copper pours aangezien een groot deel van de warmte door de anode en cathode gedissipeerd wordt. Deze copper pours zijn identiek aan de bottom layer van de PCB geplaatst zonder silk screen, deze zijn dan met Via's verbonden met de top layer. De bottom layer en zijn copper pours wordt zo ontworpen dat er één heatsink over geplaatst zal worden. Bij het testen zien we dat de LED's heel goed gekoeld worden, wat een grote verbetering is met de LED-PCB's van vorig jaar.
+
 <img src="{{ '/assets/img/Licht/LEDPCB3D.png' | relative_url }}" alt="PCB-ontwerp van de LED-PCB" width="600" />
 
 Voor het aansturen van de LED’s is een aparte driver-PCB ontworpen. Per lade is één driver-PCB nodig, waarop maximaal zes LED-PCB’s kunnen worden aangesloten. Dit biedt flexibiliteit: er kan eenvoudig wit licht worden toegevoegd of het lichtniveau verhoogd worden door extra LED-PCB’s te installeren.
@@ -147,6 +161,14 @@ De verlichting wordt toegepast in lades van 45,7 cm x 38 cm (0.174 m²). Elke la
 - 4 far-red LED’s
   
 Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
+
+Dit zijn de parameters die één LED-Driver moet voorzien, dus voor 2 LED-PCB's in series verbonden.
+|         | FR    | R     | B      | Per LED-PCB | Per Lade |
+|------------------|-------|-------|--------|-------------|-----------|
+| **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
+| **Current (mA)** | 140   | 140   | 140    | 420         | 1260      |
+| **Consumption (W)** | 2.5 | 3     | 2.5    | 8          | 24        |
+
 
 <div style="display: flex; justify-content: center; gap: 1px; align-items: center; text-align: center;">
     <img src="{{ site.baseurl }}/assets/img/Licht/LEDPCB.png" alt="LED-PCB Realisatie" style="width: 85%; transform: rotate(90deg);">
