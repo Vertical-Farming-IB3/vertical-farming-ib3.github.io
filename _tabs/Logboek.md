@@ -40,6 +40,13 @@ order: 5
 
 ---
 
+### 📅 Woensdag 30-04-2025: 
+##### Team Water: 
+- Verder aan waterafvoer plantenlades gewerkt
+- Ontbrekende slangklemmen aan pompen bevestigd
+- Afwerkingen Home Assistant (verfijning automatisaties/dashboard/...)
+
+---
 ### 📅 Dinsdag 29-04-2025:
 ##### Team Water: 
 - pH-probe gekalibreerd en geïntegreerd
