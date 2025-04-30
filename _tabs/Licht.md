@@ -170,14 +170,6 @@ De verlichting wordt toegepast in lades van 45,7 cm x 38 cm (0.174 m²). Elke la
   
 Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
 
-Dit zijn de parameters die één LED-Driver moet voorzien, dus voor 2 LED-PCB's in series verbonden.
-|         | FR    | R     | B      | Per LED-PCB | Per Lade |
-|------------------|-------|-------|--------|-------------|-----------|
-| **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
-| **Current (mA)** | 140   | 140   | 140    | 420         | 1260      |
-| **Consumption (W)** | 2.5 | 3     | 2.5    | 8          | 24        |
-
-
 <div style="display: flex; justify-content: center; gap: 1px; align-items: center; text-align: center;">
     <img src="{{ site.baseurl }}/assets/img/Licht/LEDPCB.png" alt="LED-PCB Realisatie" style="width: 85%; transform: rotate(90deg);">
     <img src="{{ site.baseurl }}/assets/img/Licht/DriverPCB.png" alt="Driver-PCB Realisatie" style="width: 100%; transform: rotate(90deg);">
