@@ -67,8 +67,16 @@ veel far-red dat tot bloei of strekking kan leiden.
 #### Elektrisch dimensioneren
 De volgende tabel toont de elektrische karakteristieken van de individuele LED's
 
+| **LED Specifications (CreeLed)** | **Far-Red (FR)** | **Red (R)** | **Blue (B)** |
+|----------------------------------|------------------|-------------|--------------|
+| **Wavelength (nm)**              | 720–740          | 650–670     | 455          |
+| **Current (mA)**                 | 140              | 140         | 140          |
+| **Voltage (V)**                  | 2.2              | 2.15        | 2.96         |
+| **Consumption (W)**              | 0.308            | 0.301       | 0.414        |
 
-Dit zijn de parameters die één LED-Driver moet voorzien, dus voor 2 LED-PCB's in series verbonden.
+Omdat de driver tot 24V kan voorzien kunnen we 2 LED-PCB's in serie plaatsen. De serie verbinding van FR, R en B LED's worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
+
+Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PCB's in series), per licht spectra, PCB en lade.
 | Parameter        | FR    | R     | B      | Group total | Per étage |
 |------------------|-------|-------|--------|-------------|-----------|
 | **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
