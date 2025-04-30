@@ -9,16 +9,17 @@ order: 3
 ## Inhoud
 1. [Introductie](#introductie)
 2. [LED-selectie](#led-selectie)
-3. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
-4. [Far-Red overweging](#far-red-overweging)
-5. [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
+3. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
+4. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
+5. [Far-Red overweging](#far-red-overweging)
+6. [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
    - [Sla en basilicum](#sla-en-basilicum)
    - [Koriander](#koriander)
    - [PPFD-berekening](#ppfd-berekening)
-6. [Afstand en uniformiteit](#afstand-en-uniformiteit)
-7. [Fotoperiode](#fotoperiode)
-8. [Ontwerp](#ontwerp)
-9. [Uitvoering](#uitvoering)
+7. [Afstand en uniformiteit](#afstand-en-uniformiteit)
+8. [Fotoperiode](#fotoperiode)
+9. [Ontwerp](#ontwerp)
+10. [Uitvoering](#uitvoering)
 
 ## Introductie
 
@@ -64,7 +65,7 @@ Verhoudingen:
 Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevorderen, zonder te
 veel far-red dat tot bloei of strekking kan leiden.
 
-#### Elektrisch dimensioneren
+## Elektrisch Dimensioneren
 De volgende tabel toont de elektrische karakteristieken van de individuele LED's
 
 | **LED Specifications (CreeLed)** | **Far-Red (FR)** | **Red (R)** | **Blue (B)** |
