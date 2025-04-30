@@ -66,7 +66,7 @@ Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevord
 veel far-red dat tot bloei of strekking kan leiden.
 
 ## Elektrisch Dimensioneren
-De volgende tabel toont de elektrische karakteristieken van de individuele LED's
+De volgende tabel toont de elektrische karakteristieken van de individuele LED's.
 
 | **LED Specifications (CreeLed)** | **Far-Red (FR)** | **Red (R)** | **Blue (B)** |
 |----------------------------------|------------------|-------------|--------------|
@@ -78,6 +78,7 @@ De volgende tabel toont de elektrische karakteristieken van de individuele LED's
 Omdat de driver tot 24V kan voorzien kunnen we 2 LED-PCB's in serie plaatsen. De serie verbinding van FR, R en B LED's worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
 
 Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PCB's in series), per licht spectra, PCB en lade.
+
 | Parameter        | FR    | R     | B      | Group total | Per étage |
 |------------------|-------|-------|--------|-------------|-----------|
 | **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
