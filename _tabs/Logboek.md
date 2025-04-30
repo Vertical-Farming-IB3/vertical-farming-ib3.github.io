@@ -45,6 +45,7 @@ order: 5
 - Verder aan waterafvoer plantenlades gewerkt
 - Ontbrekende slangklemmen aan pompen bevestigd
 - Afwerkingen Home Assistant (verfijning automatisaties/dashboard/...)
+- Probleem geïdentificeerd met de aquariumpomp (mixer)
 
 ---
 ### 📅 Dinsdag 29-04-2025:
