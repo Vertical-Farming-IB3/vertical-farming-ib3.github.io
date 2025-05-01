@@ -27,8 +27,7 @@ Bij Team Licht werken we aan LED-verlichtingssystemen die speciaal zijn afgestem
 Photosynthetic Photon Flux Density (PPFD), afgestemd op bladgroenten. 
 
 ## LED-selectie
-
-Voor dit project zijn drie types LED’s geselecteerd uit de Cree J Series JE2835 Color-reeks:
+Om de juiste leds te bepalen hebben we ons gebaseerd op het uitgebreid onderzoek van vorig en de expertise van het team van Labo Licht. We hebben voor LED's gekozen met een uniforme lichtverdeling voor optimale groei van de planten in de vertical farm. Zo zijn we uitgekomen bij de volgende Cree LED's: 
 
 | Type       | Kleur       | Golflengte (nm) | PPF (µmol/s⁻¹) | View Angle (°) |
 |------------|-------------|------------------|----------------|----------------|
@@ -81,9 +80,10 @@ Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PC
 
 | Parameter        | FR    | R     | B      | Group total | Per étage |
 |------------------|-------|-------|--------|-------------|-----------|
+| **Aantal LED's** |  8    |  10   |   6    | _           | _         |
 | **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
-| **Current (mA)** | 140   | 140   | 140    | 420         | 1260      |
-| **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 24        |
+| **Current (mA)** | 140   | 140   | 140    | 420         | 840       |
+| **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 16        |
 
 
 ## Far-Red overweging
@@ -132,7 +132,7 @@ als reflectieve achtergrond en zo schaduwvorming vermindert.
 Een cyclus van 16 uur licht en 8 uur donker (16L/8D) is toegepast, wat bewezen effectief is voor
 bladgroenten.
 
-## Thermische berekeningen
+## Thermische berekeningen LED PCB
 
 Uit de berekeningen blijkt dat de totale thermische weerstand zonder koeling vrij hoog is, wat resulteert in
  een junctietemperatuur van net boven de 70°C. Dit is wel onder de maximaal toegelaten waarde van 125°C
