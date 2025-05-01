@@ -142,6 +142,7 @@ Voor het bijhouden van het energieverbruik maken we gebruik van een Hall-effect 
 Meer informatie over de pcb, zoals het schema en de pin-out vind u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/). Het volledige ontwerp van de PCB is terug te vinden op onze [GitHub-pagina](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Water/PCB).
 
 **Software** 
+
 <!--YAML niet zoals de rest in software plaatsen?-->
 We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze PCB staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml).
 
