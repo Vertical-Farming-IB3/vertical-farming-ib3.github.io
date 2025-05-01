@@ -19,15 +19,15 @@ order: 1
    - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
 
 ## De bedoeling
-Onze bordjes moeten deze functionaliteit hebben:
+Onze slimme plantenbak is ontworpen om de groeiomstandigheden van planten optimaal te monitoren en automatisch te regelen. De PCB’s in elke lade hebben de volgende functionaliteiten:
 
-- Vochtigheidsniveau van het substraat uitlezen
-- Lichtsensor om hoeveelheid licht te meten
-- Temperatuur en CO₂-concentratie uitlezen
-- Ventilatoren bestuurbaar met relais
-- Ventiel bestuurbaar met relais
-- NFC-tags per plantensoort
-- Verbruik monitoren
+- Uitlezen van het vochtgehalte van het substraat
+- Meten van lichtintensiteit via een lichtsensor
+- Uitlezen van temperatuur en CO₂-concentratie
+- Aansturen van ventilatoren via relais
+- Aansturen van een water- of nutriëntventiel via relais
+- Gebruik van NFC-tags om plantensoorten te herkennen
+- Energieverbruik monitoren
 
 ## Benodigdheden
 Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende onderdelen en materialen:
@@ -45,7 +45,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 - **MP1584** – DC-DC buck converter: 12V → 5V
 - **Dupont kabels** – Voor verbindingen met sensoren
 - **5V relais** – Om een ventiel te schakelen
-- **Power-monitoring bord** - Om het verbruik te meten
+- **ACS712 current sensor** - Om het verbruik te meten
 
 ### Materialen
 - **Rockwol** – Substraat voor hydrocultuur
@@ -55,17 +55,18 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 - **Bloempotjes** – Voor individuele planten in te zaaien
 - **Hydrokorrels** – Voor wateropslag en beluchting van de wortels
 - **Witte verf** - Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
+- **Consumables** - zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
 
 ## Planten
 We kozen deze soorten:
 
 - Koriander ★★★
-- Basilicum ★
-- Oregano ★★
+- Basilicum ★★
+- Oregano ★
 - Snijsla ★★★
-- Munt
+- Munt ★
 
-Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker te groeien.
+Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker en sneller te groeien.
 
 ## PCB's 
 <!-- Bovenste afbeelding over volledige breedte -->
@@ -89,6 +90,7 @@ We werken met twee technieken:
 - *Drip hydroponics (drip-systeem):* Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
 
 - *Flood & Drain (ebb & flow):* De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
+  
 Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 ### Bak 1: flood & drain
