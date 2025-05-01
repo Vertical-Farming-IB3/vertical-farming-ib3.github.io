@@ -16,4 +16,6 @@ Onze gebruikte bronnen:
 - W.-J. Cho, H.-J. Kim, D.-H. Jung, D.-W. Kim, T. I. Ahn, en J.-E. Son, “On-site ion monitoring system for precision hydroponic nutrient management”, Computers And Electronics in Agriculture, vol. 146, pp. 51–58, feb. 2018, doi: 10.1016/j.compag.2018.01.019.
 - F. Kalantari, O. Mohd Tahir, R. Akbari Joni, E. Fatemi, en Faculty of Design and Architecture, University Putra Malaysia, Kuala Lumpur, Malaysia, “Opportunities and Challenges in Sustainability of Vertical Farming: A Review”, Journal Of Landscape Ecology, jun. 2017, [Online]. Beschikbaar op: https://10.1515/jlecol-2017-0016
 - F. Kalantari, O. Mohd Tahir, R. Akbari Joni, E. Fatemi, en Faculty of Design and Architecture, University Putra Malaysia, Kuala Lumpur, Malaysia, “Opportunities and Challenges in Sustainability of Vertical Farming: A Review”, Journal Of Landscape Ecology, jun. 2017, [Online]. Beschikbaar op: https://10.1515/jlecol-2017-0016
-- 
+
+- [Online] https://www.hcts.tech/nieuws/wat-is-het-nut-van-toevoeging-van-zuurstof-in-water/#:~:text=Voordelen,Verlaagt%20stress%20in%20de%20plant. 
+- [Online] https://www.pokon.nl/tips/welke-voedingstoffen-heeft-een-plant-nodig-/#:~:text=Verschillende%20soorten%20planten%20hebben%20verschillende,de%20tuin%20als%20in%20huis. 
