@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 6       
 ---
@@ -9,8 +8,6 @@ order: 6
 
 Onze gebruikte bronnen:
 - [GitHub](https://verticalfarmib3.github.io/){:target="_blank"} van IB3 vorig jaar
-- [Bestellijst](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Bestellijst.pdf){:target="_blank"}
-<!-- Is bestellijst een bron? Is zelfgeschreven-->
 - K. Al-Kodmany en Department of Urban Planning and Policy, College of Urban Planning and Public Affairs, University of Illinois at Chicago, “The Vertical Farm: A Review of Developments and Implications for the Vertical City”, feb. 2018. doi: 10.3390/buildings8020024.
 - K.-H. Yeo, G.-L. Choi, J.-H. Lee, K.-S. Park, en K.-Y. Choi, “Development of Nutrient Solution Compositions for Paprika Cultivation in a Closed Coir Substrate Hydroponic System in Republic of Korea’s Winter Cropping Season”, Horticulturae, vol. 9, nr. 4, p. 412, mrt. 2023, doi: 10.3390/horticulturae9040412.
 - M. Butturini, L. F. M. Marcelis, en Wageningen University, Horticulture and Product Physiology Group, Wageningen, The Netherlands, “Vertical farming in Europe: Present status and outlook”, in Plant Factory (Second Edition), 2020, pp. 77–78. [Online]. Beschikbaar op: https://doi.org/10.1016/B978-0-12-816691-8.00004-2
@@ -20,6 +17,3 @@ Onze gebruikte bronnen:
 - F. Kalantari, O. Mohd Tahir, R. Akbari Joni, E. Fatemi, en Faculty of Design and Architecture, University Putra Malaysia, Kuala Lumpur, Malaysia, “Opportunities and Challenges in Sustainability of Vertical Farming: A Review”, Journal Of Landscape Ecology, jun. 2017, [Online]. Beschikbaar op: https://10.1515/jlecol-2017-0016
 - F. Kalantari, O. Mohd Tahir, R. Akbari Joni, E. Fatemi, en Faculty of Design and Architecture, University Putra Malaysia, Kuala Lumpur, Malaysia, “Opportunities and Challenges in Sustainability of Vertical Farming: A Review”, Journal Of Landscape Ecology, jun. 2017, [Online]. Beschikbaar op: https://10.1515/jlecol-2017-0016
 - 
-
-<!-- Wat is de bedoeling van deze tab? Is dit enkel een voorbeeld?-->
-<!-- Nee hier komen alle gebruikte bronnen-->
