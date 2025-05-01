@@ -142,6 +142,7 @@ Voor het bijhouden van het energieverbruik maken we gebruik van een Hall-effect 
 Meer informatie over de pcb, zoals het schema en de pin-out vind u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/). Het volledige ontwerp van de PCB is terug te vinden op onze [GitHub-pagina](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Water/PCB).
 
 **Software** 
+
 <!--YAML niet zoals de rest in software plaatsen?-->
 We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze PCB staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml).
 
@@ -258,9 +259,11 @@ Dit maakt dat in totaal 5 probes zijn geïntegreerd. Deze probes worden gecallib
     - Temperatuurafhankelijk
 
 #### Kallibratie
+
 Deze probes moeten gecallibreerd worden voor het correct uitmeten van de voedingsstoffen in het mengreservoir. Om deze kallibratie te kunnen uitvoeren zijn er vloeistoffen nodig met een gekende concentratie van de te meten nutriënten. We maken drie verschillende concentraties van deze stoffen om een driepuntskalibratie uit te voeren, dit geeft een nauwkeurige meting, waarop we ons verder kunnen baseren. Eerst maken we hiervoor enkele stockoplossingen die we vervolgens kunnen verdunnen om de gewenste kallibratievloeistoffen te bekomen. 
 
 **Stockoplossingen**
+
 We maken een aantal stockoplossingen, deze stockoplossingen zijn versterkte concentraties van zoutoplossingen voor het kalibreren van de elektroden, we zullen deze stockoplossingen volgens de juiste verhouding verdunnen. De stockoplossingen bevatten elk een aantal gewenste ionen, deze ionen worden gemeten door de elektroden waardoor we met deze bekende concentraties de elektroden juist kunnen afstemmen voor latere metingen.
 
 _Gewenste stockoplossingen_
@@ -284,6 +287,7 @@ _Eigenlijke stockoplossingen_
 | K<sup>+</sup>    | KOH             | 56,1100 | 200                            | 0,5829                    | 2,9145            | 2,0300                            |
 
 **Kalibratievloeistoffen**
+
 Voor het kalibreren van de elektroden maken we gebruik van een driepuntsmeting, hiervoor maken we drie verschillende concentraties van de stockoplossing; een lage, medium en hoge concentratie. We meten vervolgens voor deze drie concentraties de probes (=elektroden) uit, waarna we een lineaire benadering kunnen trekken door deze drie punten. Op deze rechte kunnen we vervolgens met goede precisie onze probes kalibreren. Dit is nauwkeuriger dan een kallibratie met 1 meetpunt.
 
 |                  | Low    | Medium | High   |
@@ -294,9 +298,11 @@ Voor het kalibreren van de elektroden maken we gebruik van een driepuntsmeting, 
 | K<sup>+</sup>    | 100    | 200    | 400    |
 
 **Referentie vloeistof**
+
 De elektroden hebben ook een referentie nodig, hiervoor wordt een referentie probe gevuld met een bekende vloeistof. Dit is 3M KCl gesatureerd met AgCl. Deze oplossing kunnen we aankopen en hoeven we niet zelf te maken.
 
 **Voedingsstoffen** 
+
 We hebben ervoor gekozen om geen eigen voedingsstoffen samen te stellen voor het voeden van de planten, in de plaats daarvan kozen we voor een commerciële oplossing. We hebben hiervoor plantenvoeding gekocht. Deze plantenvoeding heef een NK waarde van  2.5-4. Deze waarde verwijst naar de verhouding van stikstof en kalium in de voedingsstof. In ons geval bevat de voeding 2.5% Stikstof, dit bevordert de bladgroei en algemene groei van de plant en 4% Kalium, dit versterkt de weerstand van de plant, bevordert de wortelontwikkeling en de bloei/vruchtvorming. Er staat geen fosfor vermeld, dit wil zeggen dat de gekozen plantenvoeding weinig tot geen fosfor bevat. Voor een betere opbrengst van de kast is het dus een goeie optie in een later stadium te kijken voor hogere kwaliteit voedingsstoffen. In de gebruikershandleiding staan ook aanbevolen verhoudingen voor verschillende soorten planten namelijk: kruiden ¼ dop per 2l, groenten 1 dop per 5l. Dit is een interessante verhouding om mee te nemen voor de  tuning van de vertical farm en de mogelijke verschillende gewassen.
 
 **Kallibratie**
