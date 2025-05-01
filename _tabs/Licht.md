@@ -78,7 +78,7 @@ Omdat de driver tot 24V kan voorzien kunnen we 2 LED-PCB's in serie plaatsen. De
 
 Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PCB's in series), per licht spectra, PCB en lade.
 
-| Parameter        | FR    | R     | B      | Group total | Per étage |
+|         | FR    | R     | B      | Per PCB | Per Lade |
 |------------------|-------|-------|--------|-------------|-----------|
 | **Aantal LED's** |  8    |  10   |   6    | _           | _         |
 | **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
