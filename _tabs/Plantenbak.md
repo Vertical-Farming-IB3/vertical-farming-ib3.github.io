@@ -33,29 +33,32 @@ Onze slimme plantenbak is ontworpen om de groeiomstandigheden van planten optima
 Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende onderdelen en materialen:
 
 ### Elektronische componenten
-- **ESP-WROOM-32** – Microcontroller met Wi-Fi- en Bluetooth-functionaliteit
-- **Capacitive soil moisture sensor** – Meet het vochtgehalte van het substraat
-- **GY-SCD40 module** – Meet CO₂-concentratie
-- **NFC-reader PN532** – Voor interactie met NFC-tags
-- **NFC-tags** – Voor identificatie en automatisering per plantensoort
-- **PCB's** – Per bak één PCB
-- **BH1750 lichtsensor** – Meet de lichtintensiteit
-- **Ventilatoren (12V)** – Voor luchtcirculatie en koeling
-- **Relais SR5** – Om ventilatoren te schakelen
-- **MP1584** – DC-DC buck converter: 12V → 5V
-- **Dupont kabels** – Voor verbindingen met sensoren
-- **5V relais** – Om een ventiel te schakelen
-- **ACS712 current sensor** - Om het verbruik te meten
+- **ESP-WROOM-32**:
+Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van elke plantenbak. Alle metingen van de verbonden sensoren worden hier op verwerkt, terwijl andere componenten worden aangestuurd. Deze wordt via ESPHome geprogrammeerd
+- **NFC-tags**: Voor identificatie en automatisering per plantensoort
+- **PCB's**: Per bak één PCB
+- **5V relais**: Om ventilatoren te schakelen
+- **MP1584**: DC-DC buck converter: 12V → 5V
+- **Dupont kabels**: Voor verbindingen tussen componenten
 
-### Materialen
-- **Rockwol** – Substraat voor hydrocultuur
-- **Potjes** – Voor het kweken van planten
-- **Kokosvezel** – Alternatief groeimedium
-- **Plantenvoeding** – Essentiële voedingsstoffen voor gezonde plantengroei
-- **Bloempotjes** – Voor individuele planten in te zaaien
-- **Hydrokorrels** – Voor wateropslag en beluchting van de wortels
-- **Witte verf** - Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
-- **Consumables** - zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
+
+#### Sensoren en actuatoren
+- **Capacitive soil moisture sensor**: Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP
+- **GY-SCD40 module**: Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur van de omgeving. Dit zijn interessante parameters om te controleren of de plant zich nog in een correct milieu bevindt om te overleven en te groeien
+- **NFC-reader PN532**: Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit
+- **BH1750 lichtsensor**: Meet de lichtintensiteit in de kast, om te detecteren of er te veel of te weinig licht is voor de plantengroei
+- **Ventilatoren (12V)**: Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken
+- **ACS712 current sensor**: Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt
+
+#### Materialen
+- **Rockwol**: Substraat voor hydrocultuur
+- **Potjes**: Voor het kweken van planten
+- **Kokosvezel**: Alternatief groeimedium
+- **Plantenvoeding**: Essentiële voedingsstoffen voor gezonde plantengroei
+- **Bloempotjes**: Voor individuele planten in te zaaien
+- **Hydrokorrels**: Voor wateropslag en beluchting van de wortels
+- **Witte verf**: Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
+- **Consumables**: Zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
 
 ## Planten
 We kozen deze soorten:
@@ -67,6 +70,7 @@ We kozen deze soorten:
 - Munt ★
 
 Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker en sneller te groeien.
+We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje
 
 ## PCB's 
 <!-- Bovenste afbeelding over volledige breedte -->
