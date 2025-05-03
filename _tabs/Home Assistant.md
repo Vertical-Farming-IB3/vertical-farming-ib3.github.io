@@ -1,5 +1,5 @@
 ---
-icon: fas fa-plug
+icon: fas fa-house-signal
 order: 5
 ---
 
