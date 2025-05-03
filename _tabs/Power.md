@@ -25,6 +25,11 @@ Zo kunnen we veilig en nauwkeurig meten hoeveel het watersysteem verbruikt — z
 
 De UV-C zit op een afzonderlijke kring, deze word niet rechtstreeks gemeten (hoge spanning!). Er wordt hiervoor een theoretisch verbruik bij de meting opgeteld.
 
+- **Voordelen:**
+    - Output eenvoudig in te lezen op een microcontroller
+- **Nadelen:**
+    - Kan beinvloed worden door temperatuur en andere EM-uitstraling
+
 ### ACS712 module (team plantenbak)
 Voor de plantenbakken werd een al gemaakte module gebruikt. Een teamlid had deze thuis nog op overschot en dit bespaarde ons  tijd omdat we zelf geen module moesten maken. Het werkingsprincipe is idem als bij team water: het is een hall-effect stroomsensor.
 
