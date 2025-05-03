@@ -17,7 +17,7 @@ custom_css: /assets/css/index.css
       <div class="box" id="txt1">
         <p>
         Welkom bij de realisatie van IB3 academiejaar '24-'25.
-        De opdracht van dit jaar draaide rond het ontwerpen en realiseren van een vertical farm voor thuisgebruik.
+        De opdracht van dit jaar draait rond het ontwerpen en realiseren van een vertical farm voor thuisgebruik.
         Het eindresultaat van dit project vindt u hier terug. Verschillende belangrijke aspecten hebben bijgedragen aan het succesvol tot stand komen van dit concept.      
         Het design van de kast werd ontwikkeld in samenwerking met studenten architectuur, met als doel een esthetisch en functioneel geheel te creëren. Het idee is om de vertical farm te integreren in een keukenkast, zodat verse kruiden en groenten direct beschikbaar zijn in de keuken.
         In de eerste fase is gekozen voor het kweken van kruiden, aangezien dit relatief eenvoudig is. Toch is het systeem flexibel en geschikt voor alle zelfbestuivende planten.
@@ -37,6 +37,8 @@ custom_css: /assets/css/index.css
           <li>Zet de schakelaar <strong>aan de achterkant van de kast</strong> om om de spanning in te schakelen.<br>
             <em>Let op: de exacte positie van de schakelaar moet nog bevestigd worden.</em>
           </li>
+          <li>Zorg ervoor dat de (raspberry pi) server van stroom voorzien wordt en het WiFi-netwerk beschikbaar is.</li>
+          <li>Als dit succesvol is zal het statuslampje vooraan de kast oplichten.</li>
         </ul>
         
         <h3>2. Bediening via Home Assistant</h3>
@@ -46,7 +48,7 @@ custom_css: /assets/css/index.css
         
         <h3>3. Waterpeil controleren en aanvullen</h3>
         <ul>
-          <li>Controleer regelmatig het <strong>waterpeil</strong> van de planten.</li>
+          <li>Controleer regelmatig het <strong>waterpeil</strong> van de planten. Het statuslampje vooraan de kast zal rood oplichten wanneer het waterniveau te laag komt te staan.</li>
           <li>Open de <strong>kastdeur</strong> om de reservoirs onderaan bij te vullen tot het aangeduid niveau.</li>
           <li>Voeg meststof toe volgens de <strong>doseringsrichtlijnen</strong> (hoeveelheid meststof per liter water).<br>
             <em>Controleer nog even de juiste dosering.</em>
@@ -58,6 +60,7 @@ custom_css: /assets/css/index.css
         
         <h4>Plantenlade verplaatsen</h4>
         <ol>
+          <li>Schakel de <strong>veiligheidsschakelaar</strong> van de lade uit in het Home Assistant dashboard.</li>
           <li>Druk het <strong>blauwe contact</strong> aan de zijkant van de lade in.</li>
           <li><strong>Koppel de waterafvoer</strong> los.</li>
           <li><strong>Plaats een stop</strong> op de waterleiding om vervuiling te voorkomen.</li>
@@ -70,6 +73,7 @@ custom_css: /assets/css/index.css
           <li>Controleer onderaan de kast of het juiste <strong>waterniveau</strong> is aangesloten op de aanvoerpomp.<br>
             De niveaus zijn <strong>genummerd</strong> voor extra duidelijkheid.
           </li>
+          <li>Schakel de <strong>veiligheidsschakelaar</strong> van de lade weer in via het Home Assistant dashboard.</li>
         </ol>
         
         <h4>Lichtlade verplaatsen</h4>
