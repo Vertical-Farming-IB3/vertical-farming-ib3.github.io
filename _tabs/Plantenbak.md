@@ -40,7 +40,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van elke plantenbak. Alle metingen van de verbonden sensoren worden hier op verwerkt, terwijl andere componenten worden aangestuurd. Deze wordt via ESPHome geprogrammeerd.
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/esp.png" alt="ESP-WROOM-32" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/esp.png" alt="ESP-WROOM-32" style="max-width: 60%;">
   </div>
 </div>
 
@@ -60,7 +60,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Om ventilatoren te schakelen
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/5vrelais.png" alt="5V relais" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/5vrelais.png" alt="5V relais" style="max-width: 60%;">
   </div>
 </div>
 
@@ -70,7 +70,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     DC-DC buck converter: 12V → 5V
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/mp1584.png" alt="MP1584" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/mp1584.png" alt="MP1584" style="max-width: 60%;">
   </div>
 </div>
 
@@ -80,7 +80,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Voor verbindingen tussen componenten
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/dupont.png" alt="Dupont kabels" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/dupont.png" alt="Dupont kabels" style="max-width: 60%;">
   </div>
 </div>
 
@@ -94,7 +94,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/csms.png" alt="CSMS" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/csms.png" alt="CSMS" style="max-width: 60%;">
   </div>
 </div>
 
@@ -104,7 +104,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur van de omgeving.
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/gyscd40.png" alt="GY-SCD40" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/gyscd40.png" alt="GY-SCD40" style="max-width: 60%;">
   </div>
 </div>
 
@@ -114,7 +114,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/pn532.png" alt="PN532" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/pn532.png" alt="PN532" style="max-width: 60%;">
   </div>
 </div>
 
@@ -124,7 +124,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Meet de lichtintensiteit in de kast, om te detecteren of er te veel of te weinig licht is voor de plantengroei
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/bh1750.png" alt="BH1750" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/bh1750.png" alt="BH1750" style="max-width: 60%;">
   </div>
 </div>
 
@@ -134,7 +134,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/fans.png" alt="Ventilatoren" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/fans.png" alt="Ventilatoren" style="max-width: 60%;">
   </div>
 </div>
 
@@ -144,7 +144,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/acs712.png" alt="ACS712" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/acs712.png" alt="ACS712" style="max-width: 60%;">
   </div>
 </div>
 
@@ -158,7 +158,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Substraat voor hydrocultuur
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/rockwol.png" alt="Rockwol" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/rockwol.png" alt="Rockwol" style="max-width: 60%;">
   </div>
 </div>
 
@@ -168,7 +168,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Voor het kweken van planten
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/cups.png" alt="Potjes" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/cups.png" alt="Potjes" style="max-width: 60%;">
   </div>
 </div>
 
@@ -183,13 +183,13 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Essentiële voedingsstoffen voor gezonde plantengroei
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/voedingsstof.png" alt="Plantenvoeding" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/voedingsstof.png" alt="Plantenvoeding" style="max-width: 60%;">
   </div>
 </div>
 
 <div style="margin-bottom: 2rem;">
   <strong>Bloempotjes</strong><br>
-  Om individuele planten in te zaaien
+  Voor individuele planten in te zaaien
 </div>
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
@@ -198,7 +198,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
     Om de plantjes in te zetten in de potjes
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/hydrokorrel.png" alt="Hydrokorrels" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/hydrokorrel.png" alt="Hydrokorrels" style="max-width: 60%;">
   </div>
 </div>
 
