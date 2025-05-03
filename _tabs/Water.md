@@ -18,7 +18,7 @@ order: 2
 5. [Toevoer](#toevoer)
     - [Reservoirs](#reservoirs)
     - [Tubes](#tubes)
-    - [Quick connectors](#quick-connectors)
+    - [Quick connectors](#quick-connectors-tubes)
     - [pompaansturing](#pompaansturing)
         - [Waterpomp](#waterpomp)
         - [Onderwaterpomp](#onderwaterpomp)
