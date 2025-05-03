@@ -34,9 +34,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 ## Elektronische componenten
 
-<div style="display: flex; flex-direction: column; gap: 2rem;">
-
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>ESP-WROOM-32</strong><br>
     Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van elke plantenbak. Alle metingen van de verbonden sensoren worden hier op verwerkt, terwijl andere componenten worden aangestuurd. Deze wordt via ESPHome geprogrammeerd.
@@ -46,27 +44,17 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
-  <div style="flex: 1;">
-    <strong>NFC-tags</strong><br>
-    Voor identificatie en automatisering per plantensoort
-  </div>
-  <div style="flex: 1;">
-    <!-- geen afbeelding -->
-  </div>
+<div style="margin-bottom: 2rem;">
+  <strong>NFC-tags</strong><br>
+  Voor identificatie en automatisering per plantensoort
 </div>
 
-<div style="display: flex; gap: 2rem;">
-  <div style="flex: 1;">
-    <strong>PCB's</strong><br>
-    Per bak één PCB
-  </div>
-  <div style="flex: 1;">
-    <!-- geen afbeelding -->
-  </div>
+<div style="margin-bottom: 2rem;">
+  <strong>PCB's</strong><br>
+  Per bak één PCB
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>5V relais</strong><br>
     Om ventilatoren te schakelen
@@ -76,7 +64,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>MP1584</strong><br>
     DC-DC buck converter: 12V → 5V
@@ -86,7 +74,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Dupont kabels</strong><br>
     Voor verbindingen tussen componenten
@@ -96,15 +84,11 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-</div>
-
 ---
 
 ## Sensoren en actuatoren
 
-<div style="display: flex; flex-direction: column; gap: 2rem;">
-
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Capacitive soil moisture sensor</strong><br>
     Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP
@@ -114,65 +98,61 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>GY-SCD40 module</strong><br>
-    Meet CO₂, luchtvochtigheid en temperatuur
+    Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur van de omgeving.
   </div>
   <div style="flex: 1;">
     <img src="/assets/img/Plantenbak/gyscd40.png" alt="GY-SCD40" style="max-width: 100%;">
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>NFC-reader PN532</strong><br>
-    Voor interactie met NFC-tags per bak
+    Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit
   </div>
   <div style="flex: 1;">
     <img src="/assets/img/Plantenbak/pn532.png" alt="PN532" style="max-width: 100%;">
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>BH1750 lichtsensor</strong><br>
-    Meet lichtintensiteit voor optimale groei
+    Meet de lichtintensiteit in de kast, om te detecteren of er te veel of te weinig licht is voor de plantengroei
   </div>
   <div style="flex: 1;">
     <img src="/assets/img/Plantenbak/bh1750.png" alt="BH1750" style="max-width: 100%;">
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Ventilatoren (12V)</strong><br>
-    Voor luchtcirculatie en stevigere stengels
+    Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/fans.png" alt="Fans" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/fans.png" alt="Ventilatoren" style="max-width: 100%;">
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>ACS712 current sensor</strong><br>
-    Meet stroomverbruik van het systeem
+    Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt
   </div>
   <div style="flex: 1;">
     <img src="/assets/img/Plantenbak/acs712.png" alt="ACS712" style="max-width: 100%;">
   </div>
 </div>
 
-</div>
-
 ---
 
 ## Materialen
 
-<div style="display: flex; flex-direction: column; gap: 2rem;">
-
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Rockwol</strong><br>
     Substraat voor hydrocultuur
@@ -182,7 +162,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Potjes</strong><br>
     Voor het kweken van planten
@@ -192,37 +172,27 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
-  <div style="flex: 1;">
-    <strong>Kokosvezel</strong><br>
-    Alternatief groeimedium
-  </div>
-  <div style="flex: 1;">
-    <!-- geen afbeelding -->
-  </div>
+<div style="margin-bottom: 2rem;">
+  <strong>Kokosvezel</strong><br>
+  Alternatief groeimedium
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Plantenvoeding</strong><br>
     Essentiële voedingsstoffen voor gezonde plantengroei
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/voedingsstof.png" alt="Voeding" style="max-width: 100%;">
+    <img src="/assets/img/Plantenbak/voedingsstof.png" alt="Plantenvoeding" style="max-width: 100%;">
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
-  <div style="flex: 1;">
-    <strong>Bloempotjes</strong><br>
-    Voor individuele planten in te zaaien
-  </div>
-  <div style="flex: 1;">
-    <!-- geen afbeelding -->
-  </div>
+<div style="margin-bottom: 2rem;">
+  <strong>Bloempotjes</strong><br>
+  Voor individuele planten in te zaaien
 </div>
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
     <strong>Hydrokorrels en watjes</strong><br>
     Om de plantjes in te zetten in de potjes
@@ -232,27 +202,16 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem;">
-  <div style="flex: 1;">
-    <strong>Witte verf</strong><br>
-    Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
-  </div>
-  <div style="flex: 1;">
-    <!-- geen afbeelding -->
-  </div>
+<div style="margin-bottom: 2rem;">
+  <strong>Witte verf</strong><br>
+  Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
 </div>
 
-<div style="display: flex; gap: 2rem;">
-  <div style="flex: 1;">
-    <strong>Consumables</strong><br>
-    Zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
-  </div>
-  <div style="flex: 1;">
-    <!-- geen afbeelding -->
-  </div>
+<div style="margin-bottom: 2rem;">
+  <strong>Consumables</strong><br>
+  Zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
 </div>
 
-</div>
 
 
 
