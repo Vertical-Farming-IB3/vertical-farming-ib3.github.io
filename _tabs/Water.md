@@ -9,6 +9,7 @@ order: 2
 ## Inhoud
 <!--
 1. [Introductie](#introductie)
+2. [Componenten lijst](#componenten-lijst)
 3. [PCB](#pcb)
 2. [Toevoer](#toevoer)
     - [Reservoirs](#reservoirs)
@@ -77,6 +78,16 @@ Voor de PCB bestukking:
 - Connectoren:
     - 6× TerminalBlock Phoenix 1x02 (horizontaal)
     - 4× BNC_Amphenol_B6252HB (horizontaal)
+Controle: 
+- 1x probe pH
+- 1x probe NO3-
+- 1x probe Ca2+
+- 1x probe K+
+- 1x referentie probe
+- 3x ultrasonesensor 
+- 1x UVC
+- 1x eindeloopschakelaar
+- 2x ADC-module
 Toevoer: 
 - 3x reservoir
 - 4x waterpomp 
@@ -91,16 +102,6 @@ Afvoer:
 - 1x pvc buis van Ø90 2m30 
 - 1x pvc buis van Øx x m 
 - 1x koppelstuk 45° Ø90
-Controle: 
-- 1x probe pH
-- 1x probe NO3-
-- 1x probe Ca2+
-- 1x probe K+
-- 1x referentie probe
-- 3x ultrasonesensor 
-- 1x UVC
-- 1x eindeloopschakelaar
-- 2x ADC-module
 
 ## PCB 
 <img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
@@ -134,142 +135,21 @@ Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere componen
 
 <!--Nog uitleg nodig voor gebruik van Dashboard?-->
 
-## Toevoer
-<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
-
-De watertoevoer is zo opgebouwd dat we twee voorraadtanks hebben: één met zuiver water en één met water vermengd met voedingsstoffen. We hebben bewust gekozen om de voedingsstoffen vooraf te mengen met water in het voorraadreservoir, omdat ze in geconcentreerde vorm zeer gevoelig zijn voor bacterievorming <!-- algenvorming-->. De fabrikant raadt aan om slechts één dopje per 10 liter te gebruiken, wat aantoont hoe krachtig het concentraat is.
-
-Beide voorraadtanks zijn uitgerust met een luchtpomp, om de waterkwaliteit stabiel te houden en ongewenste biologische groei te voorkomen.<!--Samonella en algengroei--> Elk reservoir heeft ook zijn eigen pomp om het water of de voedingsoplossing naar het mengreservoir te transporteren. In dit mengreservoir worden de vloeistoffen samengebracht en gemixt. Hier zal ook de waterkwaliteit worden opgevolgd.
-
-Vanuit dit centrale punt wordt het water via twee pompen verdeeld naar de plantlades. Aangezien er twee pompen aanwezig zijn, kunnen op dit moment twee lades tegelijk van water worden voorzien.
-
-### Reservoirs 
-<img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
-
-Het watersysteem maakt gebruik van drie reservoirs: één voor zuiver water, één voor water met voedingsstoffen, en een mengreservoir waar de twee worden samengebracht. Elk reservoir heeft zijn eigen functie en zorgt ervoor dat de planten altijd het juiste water en voedingstoffen krijgen.
-
-- Waterreservoir: Dit is het reservoir dat zuiver water bevat, zonder voedingsstoffen.
-- Voedingsstofreservoir: Hierin zitten de voedingsstoffen in combinatie met water. De combinatie is er gekomen wegens een te hoge concentratie van de voedingsstoffen.
-- Mengreservoir: Dit is het centrale reservoir waar het water en de voedingsstoffen samenkomen. Hier wordt alles gemengd en gecontroleerd op de juiste samenstelling, zodat de planten precies krijgen wat ze nodig hebben.
-
-Elk voorraadreservoir is uitgerust met een luchtpomp die zorgt voor een goede circulatie van het water. Dit voorkomt dat er bacteriën of algen groeien, wat schadelijk kan zijn voor het systeem. Het mengreservoir heeft een aquarium pomp als mixer omdat deze krachtiger is. Daarnaast heeft elk reservoir een ultrasone sensor die het waterniveau meet, zodat je altijd weet hoeveel water er nog beschikbaar is.
-
-De verwerking van de reservoirs binnen ons project is zo ontworpen dat het eenvoudig in en uit kunen geschoven worden. Dit om reiniging en bijvullen zo eenvoudig mogelijk te houden.
-
-Hier zijn nog even kort de voordelen en nadelen: 
-
-- **Voordelen:**   
-    - Budgetvriendelijk
-    - Eenvoudige integratie
-    - Makkelijk uitneembaar
-    - Goed te reinigen materiaal
-    - Groot volume
-- **Nadeel:**
-    - Niet afsluitbaar, wat kan zorgen voor vuil in de reservoires.
-
-### Tubes
-De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"} hebben een diameter van 8 mm en zijn bedoeld voor het transport tussen de verschillende resrevoirs en naar de plantenbak.
-
-Dankzij hun flexibiliteit zijn ze eenvoudig te installeren, zelfs op moeilijk bereikbare plaatsen.
-Elke slang is gekoppeld met klemringen en quick connectors, zodat ze snel kunnen worden aangesloten en losgemaakt voor onderhoud of aanpassingen.
-De verwerking van de tubes binnen ons project is ontworpen met het oog op modulariteit. Slangen kunnen eenvoudig vervangen of aangepast worden zonder dat het hele systeem moet worden opengebroken.
-
-Hier zijn nog even kort de voordelen en nadelen:
-- **Voordelen:**     
-    - Flexibel
-    - Transparant, wat controle van waterflow mogelijk maakt  
-    - Compatibel met kleine pompen
-    - eenvoudig op maat te knippen
-    - Lichtgewicht 
-    - budgetvriendelijk
-- **Nadelen:**     
-    - Niet geschikt voor hoge druk, geen probleem in ons geval
-    - Kan knikken bij scherpe bochten
-    - Niet UV-bestendig
-
-### Quick connectors tubes
-<img src="{{ '/assets/img/Watersysteem/connect.png' | relative_url }}" alt="Afbeelding van de connectors" width="400" />
-
-De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} worden gebruikt om verschillende buizen of componenten snel en stevig met elkaar te verbinden zonder gebruik van klemmen of lijm.
-
-- **Voordelen:** 
-    - Snelle installatie
-    - Hergebruikbaar
-    - Sterke afdichting 
-    - Compact
-    - Makkelijke modulariteit
-- **Nadelen:** 
-    - Slijt van de sluiting kan zorgen voor lekken over tijd
-    - Kan loskomen bij slechte plug in 
-    - Heeft een relatief complexe handeling nodig, voor het verplaatsen van lades
-
-### Pompaansturing
-De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Algengroei ontstaat door stilstaand voedingstofrijk water, andere invloeden zijn de hoeveelheid water en de aanwezigheid van schaduw of licht. Het waterpijl van de reservoirs word gemonitord en aangevuld wanneer dit te laag komt te staan. Hiervoor wordt gebruik gemaakt van een ultrasone sensor. Deze sensoren werden simpelweg gekalibreerd door een meting te doen wanneer het reservoir leeg en vol is.
-De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de HomeAssistant. 
-
-### Waterpomp: 
-1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
-2. Vanuit het mengreservoir transporteren aparte pompen de gemengde vloeistof naar de lades. In de kast is er voldoende ruimte voor twee laden met planten varierend in hoogte, om deze reden maken we gebruik van twee pompen voor de toevoer. Aan elke pomp kunnen darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is. De watertoevoer kan met quick-connectors aan de lades van plantenbak verbonden worden.
-
-<img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" style="border-radius: 15px;" />
-
-<img src="{{ '/assets/img/Watersysteem/Waterpomp.png' | relative_url }}" alt="Afbeelding van de waterpomp" width="400" />
-
-De stroommeeting gebeurt aan de hand van een Hall current sensor. Deze onderbreekt de stroom en meet aan de hand van een meetstroom geinduceerd door het hall effect de totale stroom. <!--snel geschreven-->
-
-- **Voordelen:**
-    - Output eenvoudig in te lezen op een microcontroller
-- **Nadelen:**
-    - Kan beinvloed worden door temperatuur en andere em-uitstraling
-
-### Luchtpomp en luchtsteen
-<img src="{{ '/assets/img/Watersysteem/Luchtpomp+luchtsteen.png' | relative_url }}" alt="Afbeelding van de luchtpomp en luchtsteen" width="400" />
-
-Voor het water- en voedingsstofreservoir vind een combinatie van een [luchtpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/luchtpomp-pyp370-12z-12v){:target="_blank"} met een [luchtsteen](https://nl.aliexpress.com/item/1005007443597285.html?spm=a2g0o.productlist.main.3.4a1049a6vx7Vpx&algo_pvid=de01e062-ea6d-400d-88c9-a07874e6f9d2&algo_exp_id=de01e062-ea6d-400d-88c9-a07874e6f9d2-1&pdp_ext_f=%7B%22order%22%3A%22312%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.05%210.97%21%21%2115.22%217.19%21%402103919917398752453552720ea209%2112000040774308148%21sea%21BE%210%21ABX&curPageLogUid=gjOskVCvOZWp&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} plaats om lucht in het water te brengen. Dit verhoogt het zuurstofgehalte en voorkomt de groei van algen.
-Toevoegen van zuurstof aan het water verhoogt de opname van nutriënten, verbetert de wortelontwikkeling en verlaagt stress in de plant. Meer zuurstof bevorderd echter algengroei, maar de beweging van het water veroorzaakt door de luchtpomp voorkomt ook algengroei.
-
-- **Voordelen:**
-    - Fijne luchtbellen: betere zuurstofverdeling
-    - Voorkomt algenvorming in stilstaand water
-    - Energiezuinig systeem    <!-- Stil?--> 
-    - Geen directe elektrische belasting in het water (veilig)
-
-- **Nadelen:**
-    - Luchtsteen kan verstopt raken
-    - Luchtpomp is niet waterdicht
-    - Luchtsteen is breekbaar
-    - Extra zuurstof kan de algengroei bevorderen
-
-De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Algengroei ontstaat door stilstaand voedingstofrijk water, andere invloeden zijn de hoeveelheid water en de aanwezigheid van schaduw of licht. Het waterpijl van de reservoirs word gemonitord en aangevuld wanneer dit te laag komt te staan. Hiervoor wordt gebruik gemaakt van een ultrasone sensor. Deze sensoren werden simpelweg gekalibreerd door een meting te doen wanneer het reservoir leeg en vol is.
-De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de HomeAssistant. 
-
-### Onderwaterpomp
-<img src="{{ '/assets/img/Watersysteem/Onderwaterpomp.png' | relative_url }}" alt="Afbeelding van de onderwaterpomp" width="400" />
-
-Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/onderwaterpomp-horizontaal-3-6v){:target="_blank"} gekozen om een krachtigere, turbulentere menging van het water en voedingstof te verkrijgen. 
-
-- **Voordelen:**
-    - Krachtige pomp voor snelle en efficiënte menging
-    - Betrouwbaar bij constant gebruik in water
-    - Compact en eenvoudig te integreren in een systeem, geschikt voor zowel horizontale als verticale installatie
-    - Energiezuinig
-
-- **Nadelen:**
-    - Beperkte capaciteit bij grotere watervolumes (scalability)
-    - Niet geschikt voor continue luchtpomping
-    - Kan oververhit raken als de vloeistof te laag is
-    - Vereist regelmatig onderhoud om verstoppingen te voorkomen
-
-## Afvoer
-De afvoer van water gebeurt op basis van zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. Op deze manier behouden we een hoge mate van modulariteit in het systeem.
-
-Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit restwater gefilterd en gesteriliseerd (door een UV-C lamp en een fijnmazig gaasfilter). Nadien kan dit water opnieuw gebruikt worden, eventueel met bijmenging van vers water of extra voedingsstoffen. Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
-
 ## controle
 ### Ultrasoon sensor
 <img src="{{ '/assets/img/Watersysteem/Ultrasoon.png' | relative_url }}" alt="Afbeelding van de onderwaterpomp" width="400" />
 
-De [ultrasoon sensor](https://www.tinytronics.nl/nl/sensoren/afstand/ultrasonische-afstandssensor-rcwl-1604){:target="_blank"} wordt gebruikt om de hoogte van de vloeistof in het reservoir te meten door middel van geluidsgolven. 
+De [ultrasoon sensor](https://www.tinytronics.nl/nl/sensoren/afstand/ultrasonische-afstandssensor-rcwl-1604){:target="_blank"} wordt gebruikt om de hoogte van het water in het reservoir te meten. Dit doet hij met behulp van geluidsgolven: de sensor zendt een geluidspuls uit en meet hoe lang het duurt voordat het signaal na weerkaatsing door het wateroppervlak terug terug wordt opgevangen. Op die manier wordt de afstand tot het water berekend — zonder dat er fysiek contact nodig is.
+
+We hebben voor deze sensor gekozen na verschillende overwegingen:
+- Contactloos meten: dit voorkomt slijtage en problemen bij het meten van bijtende vloeistoffen.
+- Analoog signaal: dit maakt het mogelijk om de hoogte van het waterniveau te meten en niet alleen 'vol' of 'leeg'.
+- Geschikt voor water en voedingsstoffen: hij werkt ook betrouwbaar als er voedingsstoffen in het water zitten.
+- Voedingsspanning van 3.3vdc tot 5Vdc: dit past binnen het bereik van ons systeem.
+- Meetbereik van 2 tot 400 cm met een nauwkeurigheid van ongeveer 3 mm.
+- Goede prijs-kwaliteitverhouding: de sensor is nauwkeurig en betaalbaar.
+
+Dankzij deze eigenschappen bleek de ultrasone sensor de meest geschikte keuze voor onze toepassing.
 
 - **Voordelen:** 
     - Nauwkeurige meting van vloeistofniveaus
@@ -285,13 +165,16 @@ De [ultrasoon sensor](https://www.tinytronics.nl/nl/sensoren/afstand/ultrasonisc
     - Beperkte nauwkeurigheid bij hoge luchttemperaturen of luchtstromingen <!--Minder van toepassing voor ons, denk ik-->
 
 
-<!-- Moesten we voor Mevr. Van der Perre ook geen alternatieve opties bekijken?--> 
-Alternatieve opties zijn: Zie doc Charlotte
-
 ### UV-C
 <img src="{{ '/assets/img/Watersysteem/UV_C.png' | relative_url }}" alt="Afbeelding van de UV_C" width="400" />
 
-De [UV-C sterilisator](https://nl.aliexpress.com/item/1005006110975582.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.56.1dc5lUxFlUxFQM&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=dc0bb433-8fde-4045-9085-4eecaa485c2d&_t=gps-id%3ApcDetailBottomMoreOtherSeller%2Cscm-url%3A1007.40050.354490.0%2Cpvid%3Adc0bb433-8fde-4045-9085-4eecaa485c2d%2Ctpp_buckets%3A668%232846%238108%231977&pdp_ext_f=%7B%22order%22%3A%2218%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%7D&pdp_npi=4%40dis!EUR!33.06!15.88!!!260.96!125.35!%40211b813b17443072665026527eba8d!12000038728939852!rec!BE!!ABX&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A){:target="_blank"} wordt gebruikt om het water te desinfecteren met behulp van ultraviolet licht. Het UV-C licht breekt DNA-structuren van micro-organismen zoals algen, bacteriën en schimmels af. Hierdoor kunnen ze niet meer vermenigvuldigen. 
+De [UV-C sterilisator](https://nl.aliexpress.com/item/1005006110975582.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.56.1dc5lUxFlUxFQM&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=dc0bb433-8fde-4045-9085-4eecaa485c2d&_t=gps-id%3ApcDetailBottomMoreOtherSeller%2Cscm-url%3A1007.40050.354490.0%2Cpvid%3Adc0bb433-8fde-4045-9085-4eecaa485c2d%2Ctpp_buckets%3A668%232846%238108%231977&pdp_ext_f=%7B%22order%22%3A%2218%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%7D&pdp_npi=4%40dis!EUR!33.06!15.88!!!260.96!125.35!%40211b813b17443072665026527eba8d!12000038728939852!rec!BE!!ABX&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A){:target="_blank"} bevindt zich in het mengreservoir. In dit reservoir wordt het terugstromende water uit het systeem ontsmet, voordat het opnieuw naar de planten wordt gepompt. Op die manier blijft het water schoon en vrij van schadelijke micro-organismen.
+
+De UV-C sterilisator werkt met ultraviolet licht van het type C (UV-C). Dit licht heeft een zeer korte golflengte en is krachtig genoeg om het DNA van micro-organismen zoals bacteriën, schimmels en algen te beschadigen. Door deze schade kunnen ze zich niet meer vermenigvuldigen, waardoor ze onschadelijk worden.
+
+In een gesloten systeem zoals bij een vertical farm is dit erg belangrijk. Zonder UV-C zouden bacteriën of algen zich via het hergebruikte water gemakkelijk kunnen verspreiden, wat schadelijk kan zijn voor de planten.
+
+Let wel op: UV-C verwijdert geen vuildeeltjes of zichtbare vervuiling uit het water. Het maakt het water wel microbiologisch schoon.
 
 - **Voordelen:**
     - Effectieve en chemievrije watersterilisatie
@@ -302,6 +185,8 @@ De [UV-C sterilisator](https://nl.aliexpress.com/item/1005006110975582.html?spm=
     - Werkt enkel in helder water (verminderd effect bij troebelheid)
     - Beperkte levensduur van de UV-lamp (~8000 uur)
     - Kan gevaarlijk zijn bij directe blootstelling aan mens of dier (goede afscherming vereist)
+
+We hadden ook een alternatief systeem in gedachten, waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was.
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig, deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). En hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
@@ -392,9 +277,133 @@ Zodra de drie concentraties voor een sensor zijn gemaakt, vindt de 3-puntskalibr
 | K⁺   | Med          | 203.0     | 106.0            |
 | K⁺   | High         | 406.0     | 118.0            |
 
-Voor andere pagina!!!!!
-### Hallefect stroomsensor 
+## Toevoer
+<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
+
+De watertoevoer is zo opgebouwd dat we twee voorraadtanks hebben: één met zuiver water en één met water vermengd met voedingsstoffen. We hebben bewust gekozen om de voedingsstoffen vooraf te mengen met water in het voorraadreservoir, omdat ze in geconcentreerde vorm zeer gevoelig zijn voor bacterievorming <!-- algenvorming-->. De fabrikant raadt aan om slechts één dopje per 10 liter te gebruiken, wat aantoont hoe krachtig het concentraat is.
+
+Beide voorraadtanks zijn uitgerust met een luchtpomp, om de waterkwaliteit stabiel te houden en ongewenste biologische groei te voorkomen.<!--Samonella en algengroei--> Elk reservoir heeft ook zijn eigen pomp om het water of de voedingsoplossing naar het mengreservoir te transporteren. In dit mengreservoir worden de vloeistoffen samengebracht en gemixt. Hier zal ook de waterkwaliteit worden opgevolgd.
+
+Vanuit dit centrale punt wordt het water via twee pompen verdeeld naar de plantlades. Aangezien er twee pompen aanwezig zijn, kunnen op dit moment twee lades tegelijk van water worden voorzien.
+
+### Reservoirs 
+<img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
+
+Het watersysteem maakt gebruik van drie reservoirs: één voor zuiver water, één voor water met voedingsstoffen, en een mengreservoir waar de twee worden samengebracht. Elk reservoir heeft zijn eigen functie en zorgt ervoor dat de planten altijd het juiste water en voedingstoffen krijgen.
+
+- Waterreservoir: Dit is het reservoir dat zuiver water bevat, zonder voedingsstoffen.
+- Voedingsstofreservoir: Hierin zitten de voedingsstoffen in combinatie met water. De combinatie is er gekomen wegens een te hoge concentratie van de voedingsstoffen.
+- Mengreservoir: Dit is het centrale reservoir waar het water en de voedingsstoffen samenkomen. Hier wordt alles gemengd en gecontroleerd op de juiste samenstelling, zodat de planten precies krijgen wat ze nodig hebben.
+
+Elk voorraadreservoir is uitgerust met een luchtpomp die zorgt voor een goede circulatie van het water. Dit voorkomt dat er bacteriën of algen groeien, wat schadelijk kan zijn voor het systeem. Het mengreservoir heeft een aquarium pomp als mixer omdat deze krachtiger is. Daarnaast heeft elk reservoir een ultrasone sensor die het waterniveau meet, zodat je altijd weet hoeveel water er nog beschikbaar is.
+
+De verwerking van de reservoirs binnen ons project is zo ontworpen dat het eenvoudig in en uit kunen geschoven worden. Dit om reiniging en bijvullen zo eenvoudig mogelijk te houden.
+
+Hier zijn nog even kort de voordelen en nadelen: 
+
+- **Voordelen:**   
+    - Budgetvriendelijk
+    - Eenvoudige integratie
+    - Makkelijk uitneembaar
+    - Goed te reinigen materiaal
+    - Groot volume
+- **Nadeel:**
+    - Niet afsluitbaar, wat kan zorgen voor vuil in de reservoires.
+
+### Tubes
+De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"} hebben een diameter van 8 mm en zijn bedoeld voor het transport tussen de verschillende resrevoirs en naar de plantenbak.
+
+Dankzij hun flexibiliteit zijn ze eenvoudig te installeren, zelfs op moeilijk bereikbare plaatsen.
+Elke slang is gekoppeld met klemringen en quick connectors, zodat ze snel kunnen worden aangesloten en losgemaakt voor onderhoud of aanpassingen.
+De verwerking van de tubes binnen ons project is ontworpen met het oog op modulariteit. Slangen kunnen eenvoudig vervangen of aangepast worden zonder dat het hele systeem moet worden opengebroken.
+
+Hier zijn nog even kort de voordelen en nadelen:
+- **Voordelen:**     
+    - Flexibel
+    - Transparant, wat controle van waterflow mogelijk maakt  
+    - Compatibel met kleine pompen
+    - eenvoudig op maat te knippen
+    - Lichtgewicht 
+    - budgetvriendelijk
+- **Nadelen:**     
+    - Niet geschikt voor hoge druk, geen probleem in ons geval
+    - Kan knikken bij scherpe bochten
+    - Niet UV-bestendig
+
+### Quick connectors tubes
+<img src="{{ '/assets/img/Watersysteem/connect.png' | relative_url }}" alt="Afbeelding van de connectors" width="400" />
+
+De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752.html?spm=a2g0o.productlist.main.7.3edaJcT6JcT6q5&algo_pvid=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3&algo_exp_id=3a7059ff-e7ee-43a2-b5fc-a499e4ff6cb3-3&pdp_ext_f=%7B%22order%22%3A%22400%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.75%210.97%21%21%212.81%210.99%21%402103864c17398869650571235ecd39%2112000034430185033%21sea%21BE%210%21ABX&curPageLogUid=4qEj3wATijZm&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} worden gebruikt om verschillende buizen of componenten snel en stevig met elkaar te verbinden zonder gebruik van klemmen of lijm.
+
+- **Voordelen:** 
+    - Snelle installatie
+    - Hergebruikbaar
+    - Sterke afdichting 
+    - Compact
+    - Makkelijke modulariteit
+- **Nadelen:** 
+    - Slijt van de sluiting kan zorgen voor lekken over tijd
+    - Kan loskomen bij slechte plug in 
+    - Heeft een relatief complexe handeling nodig, voor het verplaatsen van lades
+
+### Pompaansturing
+De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Algengroei ontstaat door verschillende factoren zoals: te weinig stroming, hoge hoeveelheid voedingsstoffen in het water, hoge temperatuur en hoge hoeveelheid licht. Om de pompen te beschermen, zodat deze niet droog zouden gaan draaien, wordt het waterpijl van de reservoirs gemonitord en aangevuld wanneer dit te laag komt te staan. Hiervoor wordt gebruik gemaakt van een ultrasone sensor. De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de HomeAssistant. 
+
+#### Waterpomp: 
+1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
+2. Vanuit het mengreservoir transporteren aparte pompen de gemengde vloeistof naar de lades. In de kast is er voldoende ruimte voor twee laden met planten varierend in hoogte, om deze reden maken we gebruik van twee pompen voor de toevoer. Aan elke pomp kunnen darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is. De watertoevoer kan met quick-connectors aan de lades van plantenbak verbonden worden.
+
+<img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" style="border-radius: 15px;" />
+
+<img src="{{ '/assets/img/Watersysteem/Waterpomp.png' | relative_url }}" alt="Afbeelding van de waterpomp" width="400" />
+
 De stroommeeting gebeurt aan de hand van een Hall current sensor. Deze onderbreekt de stroom en meet aan de hand van een meetstroom geinduceerd door het hall effect de totale stroom. <!--snel geschreven-->
 
-hall-effect-cs
-<img src="{{ '/assets/img/Watersysteem/hall-effect-cs.jpg' | relative_url }}" alt="Hall effect" width="400" />
+- **Voordelen:**
+    - Output eenvoudig in te lezen op een microcontroller
+- **Nadelen:**
+    - Kan beinvloed worden door temperatuur en andere em-uitstraling
+
+#### Luchtpomp en luchtsteen
+<img src="{{ '/assets/img/Watersysteem/Luchtpomp+luchtsteen.png' | relative_url }}" alt="Afbeelding van de luchtpomp en luchtsteen" width="400" />
+
+Voor het water- en voedingsstofreservoir vind een combinatie van een [luchtpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/luchtpomp-pyp370-12z-12v){:target="_blank"} met een [luchtsteen](https://nl.aliexpress.com/item/1005007443597285.html?spm=a2g0o.productlist.main.3.4a1049a6vx7Vpx&algo_pvid=de01e062-ea6d-400d-88c9-a07874e6f9d2&algo_exp_id=de01e062-ea6d-400d-88c9-a07874e6f9d2-1&pdp_ext_f=%7B%22order%22%3A%22312%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%212.05%210.97%21%21%2115.22%217.19%21%402103919917398752453552720ea209%2112000040774308148%21sea%21BE%210%21ABX&curPageLogUid=gjOskVCvOZWp&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} plaats om lucht in het water te brengen. Dit verhoogt het zuurstofgehalte en voorkomt de groei van algen.
+Toevoegen van zuurstof aan het water verhoogt de opname van nutriënten, verbetert de wortelontwikkeling en verlaagt stress in de plant. Meer zuurstof bevorderd echter algengroei, maar de beweging van het water veroorzaakt door de luchtpomp voorkomt ook algengroei.
+
+- **Voordelen:**
+    - Fijne luchtbellen: betere zuurstofverdeling
+    - Voorkomt algenvorming in stilstaand water
+    - Energiezuinig systeem    <!-- Stil?--> 
+    - Geen directe elektrische belasting in het water (veilig)
+
+- **Nadelen:**
+    - Luchtsteen kan verstopt raken
+    - Luchtpomp is niet waterdicht
+    - Luchtsteen is breekbaar
+    - Extra zuurstof kan de algengroei bevorderen
+
+De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Algengroei ontstaat door stilstaand voedingstofrijk water, andere invloeden zijn de hoeveelheid water en de aanwezigheid van schaduw of licht. Het waterpijl van de reservoirs word gemonitord en aangevuld wanneer dit te laag komt te staan. Hiervoor wordt gebruik gemaakt van een ultrasone sensor. Deze sensoren werden simpelweg gekalibreerd door een meting te doen wanneer het reservoir leeg en vol is.
+De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de HomeAssistant. 
+
+#### Onderwaterpomp
+<img src="{{ '/assets/img/Watersysteem/Onderwaterpomp.png' | relative_url }}" alt="Afbeelding van de onderwaterpomp" width="400" />
+
+Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/onderwaterpomp-horizontaal-3-6v){:target="_blank"} gekozen om een krachtigere, turbulentere menging van het water en voedingstof te verkrijgen. 
+
+- **Voordelen:**
+    - Krachtige pomp voor snelle en efficiënte menging
+    - Betrouwbaar bij constant gebruik in water
+    - Compact en eenvoudig te integreren in een systeem, geschikt voor zowel horizontale als verticale installatie
+    - Energiezuinig
+
+- **Nadelen:**
+    - Beperkte capaciteit bij grotere watervolumes (scalability)
+    - Niet geschikt voor continue luchtpomping
+    - Kan oververhit raken als de vloeistof te laag is
+    - Vereist regelmatig onderhoud om verstoppingen te voorkomen
+
+## Afvoer
+De afvoer van water gebeurt op basis van zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. Op deze manier behouden we een hoge mate van modulariteit in het systeem.
+
+Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit restwater gefilterd en gesteriliseerd (door een UV-C lamp en een fijnmazig gaasfilter). Nadien kan dit water opnieuw gebruikt worden, eventueel met bijmenging van vers water of extra voedingsstoffen. Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
+
