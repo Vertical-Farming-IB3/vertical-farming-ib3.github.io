@@ -7,8 +7,9 @@ order: 2
 {: .prompt-warning }
 
 ## Inhoud
-
+<!--
 1. [Introductie](#introductie)
+3. [PCB](#pcb)
 2. [Toevoer](#toevoer)
     - [Reservoirs](#reservoirs)
     - [Tubes](#tubes)
@@ -16,14 +17,13 @@ order: 2
     - [Waterpompen](#waterpompen)
 3. [Afvoer](#afvoer)
 4. [Water managment Systems](#water-managment-systems)
-    - [PCB](#pcb)
     - [Hallefect stroomsensor](#hallefect-stroomsensor)
     - [Ultrasoon sensor](#ultrasoon-sensor)
     - [Luchtpomp en luchtsteen](#luchtpomp-en-luchtsteen)
     - [Onderwaterpomp](#onderwaterpomp)
     - [UV-C](#uv-c)
     - [Probes](#probes)
-
+-->
 ## Introductie
 Om plantjes te laten groeien zijn water en voedingsstoffen onmisbaar. In ons project staan wij in voor het aanvoeren en afvoeren van deze voedingsoplossing met de juiste kwaliteit. Dit gebeurt via een slim watersysteem dat instaat voor het mengen, verdelen en recupereren van het water.
 
@@ -142,6 +142,7 @@ De watertoevoer is zo opgebouwd dat we twee voorraadtanks hebben: één met zuiv
 Beide voorraadtanks zijn uitgerust met een luchtpomp, om de waterkwaliteit stabiel te houden en ongewenste biologische groei te voorkomen.<!--Samonella en algengroei--> Elk reservoir heeft ook zijn eigen pomp om het water of de voedingsoplossing naar het mengreservoir te transporteren. In dit mengreservoir worden de vloeistoffen samengebracht en gemixt. Hier zal ook de waterkwaliteit worden opgevolgd.
 
 Vanuit dit centrale punt wordt het water via twee pompen verdeeld naar de plantlades. Aangezien er twee pompen aanwezig zijn, kunnen op dit moment twee lades tegelijk van water worden voorzien.
+
 ### Reservoirs 
 <img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
 
