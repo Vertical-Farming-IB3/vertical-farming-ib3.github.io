@@ -49,6 +49,7 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 <!--Aantallen kloppen niet, maar deze werd mss vervangen, dus indien niet nog nakijken-->
 Hier vind u de benodigde componenten voor het deel water.
 Voor de PCB bestukking: 
+<!-- 
 - Weerstanden:
     - 3× R_0805 (1.20×1.40 mm)
 - Condensatoren:
@@ -80,6 +81,10 @@ Voor de PCB bestukking:
 - Connectoren:
     - 6× TerminalBlock Phoenix 1x02 (horizontaal)
     - 4× BNC_Amphenol_B6252HB (horizontaal)
+    -->
+
+<iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
+
 Controle: 
 - 1x probe pH
 - 1x probe NO3-
@@ -127,8 +132,6 @@ We maakten gebruik van een IO-expander (MCP23017) die aan te sturen is via I^2C.
 Voor het bijhouden van het energieverbruik maken we gebruik van een Hall-effect stroomsensor, verder besproken in Power.
 
 Meer informatie over de pcb, zoals het schema en de pin-out vind u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/). Het volledige ontwerp van de PCB is terug te vinden op onze [GitHub-pagina](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Water/PCB).
-
-<iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
 
 **Software** 
 <!--YAML niet zoals de rest in software plaatsen?-->
@@ -281,8 +284,6 @@ Zodra de drie concentraties voor een sensor zijn gemaakt, vindt de 3-puntskalibr
 | K⁺   | High         | 406.0     | 118.0            |
 
 ## Toevoer
-<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
-
 ### Reservoirs 
 <img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
 
@@ -396,4 +397,3 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
 De afvoer van water gebeurt op basis van de zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. Op deze manier behouden we een hoge mate van modulariteit in het systeem.
 
 Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit restwater gefilterd en gesteriliseerd (door een UV-C lamp en een fijnmazig gaasfilter). Nadien kan dit water opnieuw gebruikt worden, eventueel met bijmenging van vers water of extra voedingsstoffen. Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling. <!--Herhaling-->
-
