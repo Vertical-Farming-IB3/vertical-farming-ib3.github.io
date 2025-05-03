@@ -222,9 +222,6 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   Zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
 </div>
 
-
-
-
 ## Planten
 We kozen deze soorten:
 
@@ -238,6 +235,7 @@ Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in d
 We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje
 
 ## PCB's 
+Alle bestanden omtrent de PCB voor de plantenbakken bevinden zich in deze ZET HIER EEN LINK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GitHub. 
 <!-- Bovenste afbeelding over volledige breedte -->
 <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
   <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="width: 100%; max-width: 1000px; height: auto; object-fit: contain;">
@@ -252,6 +250,7 @@ We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze 
     <img src="{{ site.baseurl }}/assets/img/Plantenbak/relais_pinout.png" alt="Relais Pinout" style="height: 250px; width: auto; object-fit: contain;">
   </div>
 </div>
+
 
 
 ## De twee lades
@@ -269,4 +268,10 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 ### Bak 2: drip hydroponics in rockwol
 #### De opstelling:
+
+## Code
+De code werd gemaakt via een yaml-bestand  ZET HIER EEN LINK !!!!!!!!!!!!!!!!!!!!!!!!!! a.d.h.v. ESPHome.
+
+
+
 
