@@ -76,9 +76,9 @@ De volgende tabel toont de elektrische karakteristieken van de individuele LED's
 
 Omdat de driver tot 24V kan voorzien kunnen we 2 LED-PCB's in serie plaatsen. De serie verbinding van FR, R en B LED's worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
 
-Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PCB's in series), per licht spectra, PCB en lade.
+De specificaties die één LED-Driver moet voorzien, per licht spectra en per serie van 2 PCB's. Alsook de specificatie van één lade (van 2 series van elk 2 PCB's, dus 4 PCB's)
 
-|         | FR    | R     | B      | Per serie | Per Lade (4 PCB's) |
+|         | FR    | R     | B      | Per serie| Per Lade|
 |------------------|-------|-------|--------|-------------|-----------|
 | **Aantal LED's** |  8    |  10   |   6    | _           | _         |
 | **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
