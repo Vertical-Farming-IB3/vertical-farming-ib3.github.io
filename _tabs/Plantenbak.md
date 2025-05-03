@@ -154,6 +154,16 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
   <div style="flex: 1;">
+    <strong>Regentonkraan</strong><br>
+    Dit kraantje wordt gebruikt om de afloop van de ebb-and-flow bak te regelen. 
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/kraan.png" alt="Regentonkraan" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
     <strong>Rockwol</strong><br>
     Substraat voor hydrocultuur
   </div>
