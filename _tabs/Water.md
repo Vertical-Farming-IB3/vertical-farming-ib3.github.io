@@ -49,6 +49,7 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 <!--Aantallen kloppen niet, maar deze werd mss vervangen, dus indien niet nog nakijken-->
 Hier vind u de benodigde componenten voor het deel water.
 Voor de PCB bestukking: 
+
 <!-- 
 - Weerstanden:
     - 3× R_0805 (1.20×1.40 mm)
@@ -81,7 +82,7 @@ Voor de PCB bestukking:
 - Connectoren:
     - 6× TerminalBlock Phoenix 1x02 (horizontaal)
     - 4× BNC_Amphenol_B6252HB (horizontaal)
-    -->
+-->
 
 <iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
 
