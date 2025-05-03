@@ -25,4 +25,5 @@ Zo kunnen we veilig en nauwkeurig meten hoeveel het watersysteem verbruikt — z
 
 ### ACS712 module (team plantenbak)
 Voor de plantenbakken werd een al gemaakte module gebruikt. Een teamlid had deze thuis nog op overschot en dit bespaarde ons  tijd omdat we zelf geen module moesten maken. Het werkingsprincipe is idem als bij team water: het is een hall-effect stroomsensor.
+
 <img src="{{ '/assets/img/Plantenbak/acs712.png' | relative_url }}" alt="Hall effect" width="400" />
