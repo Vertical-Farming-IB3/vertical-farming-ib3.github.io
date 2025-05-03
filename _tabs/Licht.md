@@ -11,8 +11,8 @@ order: 3
 2. [LED-selectie](#led-selectie)
 3. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
 4. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
-5. [Far-Red overweging](#far-red-overweging)
-6. [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
+   - [Far-Red overweging](#far-red-overweging)
+   - [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
    - [Sla en basilicum](#sla-en-basilicum)
    - [Koriander](#koriander)
    - [PPFD-berekening](#ppfd-berekening)
@@ -51,6 +51,41 @@ Stimuleert fotosynthese en draagt sterk bij aan biomassavorming. Rood licht is b
 Hoewel buiten het PAR-bereik, versterkt far-red in combinatie met rood licht de fotosynthese via
 het Emerson-effect. Het wordt beperkt ingezet om ongewenst schieten en bloei te vermijden.
 
+#### Far-Red overweging
+
+Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
+het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
+fotosynthetische effici¨entie [1]. In dit ontwerp wordt far-red licht daarom in beperkte mate
+toegepast. Aangezien de focus ligt op bladgroei en niet op de reproductieve fase (zoals bloei of
+zaadvorming), is het nodig om overmatige stimulatie van fotosynthese te vermijden. Bij te hoge
+lichtintensiteit kan dit proces van voortijdig schieten bevorderen, wat ongewenst is bij de teelt
+van bladgewassen.
+
+#### Photosynthetic Photon Flux Density (PPFD)
+
+PPFD, uitgedrukt in µmol m⁻² s⁻¹, meet het aantal fotosynthetisch actieve lichtfotonen dat een
+plantoppervlak bereikt. Dit is essentieel in vertical farming, waar kunstlicht de enige bron van
+energie is voor fotosynthese.
+
+#### Sla en basilicum
+-  PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
+- 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
+  
+#### Koriander
+- PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
+- Optimale prestaties bij verhoogde worteltemperatuur en CO2.
+
+Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschikt, afhankelijk vanruimtegebruik en teeltstrategie
+
+#### PPFD-berekening
+
+Voor een en lade van 0.173 m² met 12 blauwe, 20 rode en 16 far-red LED's geldt:
+
+PPFD<sub>totaal</sub> = (12 × 1.01) + (20 × 0.72) + (16 × 0.72)  
+= 12.12 + 14.4 + 11.52 = 38.04 µmol/s  
+
+PPFD = 38.04 / 0.173 = 219.05 µmol/m²/s
+
 #### Verhouding en doel
 Per lade wordt gebruikgemaakt van:
 - 12 blauwe LED’s
@@ -76,50 +111,17 @@ De volgende tabel toont de elektrische karakteristieken van de individuele LED's
 
 Omdat de driver tot 24V kan voorzien kunnen we 2 LED-PCB's in serie plaatsen. De serie verbinding van FR, R en B LED's worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
 
-Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PCB's in series), per licht spectra, PCB en lade.
+De specificaties die één LED-Driver moet voorzien, per licht spectra en per serie van 2 PCB's. Alsook de specificatie van één lade (van 2 series van elk 2 PCB's, dus 4 PCB's)
 
-|         | FR    | R     | B      | Per PCB | Per Lade (4 PCB's) |
+|         | FR    | R     | B      | Per serie| Per Lade|
 |------------------|-------|-------|--------|-------------|-----------|
 | **Aantal LED's** |  8    |  10   |   6    | _           | _         |
 | **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
 | **Current (mA)** | 140   | 140   | 140    | 420         | 840       |
-| **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 32        |
+| **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 16        |
 
 
-## Far-Red overweging
 
-Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
-het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
-fotosynthetische effici¨entie [1]. In dit ontwerp wordt far-red licht daarom in beperkte mate
-toegepast. Aangezien de focus ligt op bladgroei en niet op de reproductieve fase (zoals bloei of
-zaadvorming), is het nodig om overmatige stimulatie van fotosynthese te vermijden. Bij te hoge
-lichtintensiteit kan dit proces van voortijdig schieten bevorderen, wat ongewenst is bij de teelt
-van bladgewassen.
-
-## Photosynthetic Photon Flux Density (PPFD)
-
-PPFD, uitgedrukt in µmol m⁻² s⁻¹, meet het aantal fotosynthetisch actieve lichtfotonen dat een
-plantoppervlak bereikt. Dit is essentieel in vertical farming, waar kunstlicht de enige bron van
-energie is voor fotosynthese.
-
-#### Sla en basilicum
--  PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
-- 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
-  
-#### Koriander
-- PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
-- Optimale prestaties bij verhoogde worteltemperatuur en CO2.
-
-Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschikt, afhankelijk vanruimtegebruik en teeltstrategie
-
-### PPFD-berekening
-
-Voor een en lade van 0.173 m² met 12 blauwe, 20 rode en 16 far-red LED's geldt:
-
-PPFD<sub>totaal</sub> = (12 × 1.01) + (20 × 0.72) + (16 × 0.72)  
-= 12.12 + 14.4 + 11.52 = 38.04 µmol/s  
-
-PPFD = 38.04 / 0.173 = 219.05 µmol/m²/s
 
 ## Afstand en uniformiteit
 

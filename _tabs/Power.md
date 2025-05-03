@@ -13,8 +13,8 @@ order: 4
 Het systeem verbruikt natuurlijk elektriciteit. Om dit goed in de gaten te houden, wordt het energieverbruik per onderdeel apart gemeten en weergegeven via het home assitant. Zo kunnen we makkelijk zien waar veel of weinig vermogen wordt gebruikt.
 Het doel is om zo weinig mogelijk energie te verbruiken, terwijl alles toch goed blijft werken.
 
-### Hallefect stroomsensor (team water)
-<img src="{{ '/assets/img/Watersysteem/hall-effect-cs.jpg' | relative_url }}" alt="Hall effect" width="400" />
+### Hall-efect stroomsensor (team water)
+<img src="{{ '/assets/img/Watersysteem/hall-effect-cs.png' | relative_url }}" alt="Hall effect" width="400" />
 
 Voor Team Water gebeurt dit met een systeem dat we hergebruiken van vorig jaar. Daarbij meten we de hoeveelheid vloeiende stroom gebruikmakend van een Hall-effect sensor.
 
@@ -23,3 +23,7 @@ De spanning is geweten waardoor we door een simple formule het verbruikt vermoge
 
 Zo kunnen we veilig en nauwkeurig meten hoeveel het watersysteem verbruikt — zonder het systeem zelf te storen.
 
+### ACS712 module (team plantenbak)
+Voor de plantenbakken werd een al gemaakte module gebruikt. Een teamlid had deze thuis nog op overschot en dit bespaarde ons  tijd omdat we zelf geen module moesten maken. Het werkingsprincipe is idem als bij team water: het is een hall-effect stroomsensor.
+
+<img src="{{ '/assets/img/Plantenbak/acs712.png' | relative_url }}" alt="Hall effect" width="400" />
