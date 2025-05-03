@@ -56,7 +56,7 @@ Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van el
 - **Kokosvezel**: Alternatief groeimedium
 - **Plantenvoeding**: Essentiële voedingsstoffen voor gezonde plantengroei
 - **Bloempotjes**: Voor individuele planten in te zaaien
-- **Hydrokorrels**: Voor wateropslag en beluchting van de wortels
+- **Hydrokorrels en watjes**: Om de plantjes in te zette nin de potjes
 - **Witte verf**: Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
 - **Consumables**: Zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
 
