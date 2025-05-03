@@ -10,14 +10,13 @@ custom_css: /assets/css/index.css
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <!-- <link rel="stylesheet" href="/assets/css/index.css"> -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
 </head>
 <body>
   <div class="container">
       <div class="box" id="txt1">
         <p>
-        Welkom bij de realisatie van IB3 2025.
+        Welkom bij de realisatie van IB3 academiejaar '24-'25.
         De opdracht van dit jaar draaide rond het ontwerpen en realiseren van een vertical farm voor thuisgebruik.
         Het eindresultaat van dit project vindt u hier terug. Verschillende belangrijke aspecten hebben bijgedragen aan het succesvol tot stand komen van dit concept.      
         Het design van de kast werd ontwikkeld in samenwerking met studenten architectuur, met als doel een esthetisch en functioneel geheel te creëren. Het idee is om de vertical farm te integreren in een keukenkast, zodat verse kruiden en groenten direct beschikbaar zijn in de keuken.
@@ -28,31 +27,57 @@ custom_css: /assets/css/index.css
         <!--Size of images is the same as uploaded pictures-->
         <img src="/assets/img/Home/prototype.jpg" alt="Vertical farm realisatie">
       </div>
-      <div class="box" id="txt2">
-        <h2>Handleiding</h2>
-          <p>
-            <!--zet hier nog links naar esphome etc-->
-            Het bedienen van de vertical farm is simpel:
-            Schakel eerst de spanning in, dit kan door de schakelaar aan de achterkant van de kast om te zetten. 
-            <!--Nog niet zeker dat dit aan de achterkant is-->
-            Via de homeassistant kunnen de verschillende functionaliteiten van de vertical farm bediend en gecontroleerd worden.
-            Hierbij is het extra belangrijk om het waterpeil voor de planten in de gaten te houden, aangezien dit regelmatig aangevuld moet worden.
-            Dit kan door de kastdeur te openen en de reservoirs onderaan aan te vullen tot het aangeduide niveau. Volg hierbij de doseringsrichtlijnen.
-            (hoeveelheid meststof per liter water). <!--Nakijken-->
-            
-            De kast is modulair opgebouwd, wat betekent dat de verschillende onderdelen eenvoudig vervangen en verplaatst kunnen worden.
-            Dit zorgt ervoord dat de kast opgebouwd kan worden voor verschillende noden.
-            om een plantenla te verplaatsen kan het blauwe contact aan de zijkant van de kast ingedrukt worden en de waterafvoer losgekoppeld worden.
-            Het is aangeraden om hierna een stop op de waterleiding te zetten om het vermijden van vervuiling te voorkomen.
-            Vervolgens kan de lade verplaatst worden naar een andere plaats in de kast waar de watertoevoer op dezelfde manier aangesloten kan worden.
-            Verplaats de waterafvoer onder de la naar de locatie van de nieuwe la, het is mogelijk dat hiervoor achter in de kast aan de regenpijp een afscherming verplaatst moet worden, deze klikt gewoon in plaats.
-            Als laatste stap moet onderaan de kast gecontroleerd worden dat het juiste waterniveau aangesloten is op de aanvoerende pomp, de niveaus zijn genummerd om dit duidelijk te maken.
-            
-            Ook de lichtlades kunnen verplaatst worden. Maak hiervoor de stekker los, verplaats de la en sluit de stekker terug aan.
-            Bij problemen niet beschreven in de handleiding, gelieve ons te contacteren via de contactpagina.
-
-            <!--...-->
-          </p>
+    
+      <h2>Handleiding</h2>
+      <div class="handleiding-inhoud">
+        <p>Het bedienen van de vertical farm is eenvoudig. Volg onderstaande stappen om alles correct en veilig te gebruiken:</p>
+        
+        <h3>1. Vertical farm inschakelen</h3>
+        <ul>
+          <li>Zet de schakelaar <strong>aan de achterkant van de kast</strong> om om de spanning in te schakelen.<br>
+            <em>Let op: de exacte positie van de schakelaar moet nog bevestigd worden.</em>
+          </li>
+        </ul>
+        
+        <h3>2. Bediening via Home Assistant</h3>
+        <ul>
+          <li>Gebruik <strong>Home Assistant</strong> om de verschillende functies van de vertical farm te bedienen en te monitoren.</li>
+        </ul>
+        
+        <h3>3. Waterpeil controleren en aanvullen</h3>
+        <ul>
+          <li>Controleer regelmatig het <strong>waterpeil</strong> van de planten.</li>
+          <li>Open de <strong>kastdeur</strong> om de reservoirs onderaan bij te vullen tot het aangeduid niveau.</li>
+          <li>Voeg meststof toe volgens de <strong>doseringsrichtlijnen</strong> (hoeveelheid meststof per liter water).<br>
+            <em>Controleer nog even de juiste dosering.</em>
+          </li>
+        </ul>
+        
+        <h3>4. Modulair systeem</h3>
+        <p>De kast is <strong>modulair opgebouwd</strong>, wat betekent dat onderdelen eenvoudig te verplaatsen of vervangen zijn.</p>
+        
+        <h4>Plantenlade verplaatsen</h4>
+        <ol>
+          <li>Druk het <strong>blauwe contact</strong> aan de zijkant van de lade in.</li>
+          <li><strong>Koppel de waterafvoer</strong> los.</li>
+          <li><strong>Plaats een stop</strong> op de waterleiding om vervuiling te voorkomen.</li>
+          <li><strong>Koppel de voedingsstekker</strong> los.</li>
+          <li>Verplaats de lade naar een nieuwe positie in de kast.</li>
+          <li>Sluit daar de watertoevoer en de voedingsstekker opnieuw aan.</li>
+          <li><strong>Verplaats de waterafvoer</strong> naar de nieuwe locatie van de lade.<br>
+            Mogelijk moet je achterin de kast bij de <strong>regenpijp</strong> een afscherming verplaatsen; deze is eenvoudig los te klikken.
+          </li>
+          <li>Controleer onderaan de kast of het juiste <strong>waterniveau</strong> is aangesloten op de aanvoerpomp.<br>
+            De niveaus zijn <strong>genummerd</strong> voor extra duidelijkheid.
+          </li>
+        </ol>
+        
+        <h4>Lichtlade verplaatsen</h4>
+        <ol>
+          <li>Koppel de <strong>stekker</strong> van de lichtlade los.</li>
+          <li>Verplaats de lade naar de gewenste positie.</li>
+          <li>Sluit de stekker opnieuw aan.</li>
+        </ol>
       </div>
         
       <div class="box" id="teams">
@@ -75,25 +100,7 @@ custom_css: /assets/css/index.css
            <span>Niels Verhoeve</span>
            <span>Sander Haustraete</span>
          </div>
-       
-         <!--
-         <div>
-           <span class="team-label team-licht">💡 Team Licht:</span><br>
-           <span>Andres Bosman</span>
-           <span>Arne Van der Stede</span>
-           <span>Cas Truyers</span>
-           <span>Daan Vercammen</span>
-           <span>Stijn Verhaeghe</span>
-           <span>Syme Vandenbosch</span>
-         </div>
-       
-         <div>
-           <span class="team-label team-power">🔋 Team Power:</span><br>
-           <span>Daan Vercammen</span>
-         </div>
-         -->
 
-         <!--Besproken dinsdag, layout proberen behouden, alst nie ok is moe je ma sturen/aanpassen-->
          <div>
           💡🔋<span class="team-label team-licht">Team Licht</span> en
           <span class="team-label team-power"> Team Power</span>:<br>
@@ -123,7 +130,6 @@ custom_css: /assets/css/index.css
 
       <div class="box" id="github">
           <p>
-            <!--Voor de volledige realisatie en technische documentatie, zie onze <a href="https://github.com/Vertical-Farming-IB3/Plan-T" target="_blank">GitHub repository</a>.-->
             Voor de volledige realisatie en technische documentatie, zie onze <a href="https://github.com/Vertical-Farming-IB3/Plan-T" target="_blank">GitHub repository</a>.          </p>
       </div>
   </div>

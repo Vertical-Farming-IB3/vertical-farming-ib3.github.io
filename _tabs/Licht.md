@@ -9,16 +9,17 @@ order: 3
 ## Inhoud
 1. [Introductie](#introductie)
 2. [LED-selectie](#led-selectie)
-3. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
-4. [Far-Red overweging](#far-red-overweging)
-5. [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
+3. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
+4. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
+5. [Far-Red overweging](#far-red-overweging)
+6. [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
    - [Sla en basilicum](#sla-en-basilicum)
    - [Koriander](#koriander)
    - [PPFD-berekening](#ppfd-berekening)
-6. [Afstand en uniformiteit](#afstand-en-uniformiteit)
-7. [Fotoperiode](#fotoperiode)
-8. [Ontwerp](#ontwerp)
-9. [Uitvoering](#uitvoering)
+7. [Afstand en uniformiteit](#afstand-en-uniformiteit)
+8. [Fotoperiode](#fotoperiode)
+9. [Ontwerp](#ontwerp)
+10. [Uitvoering](#uitvoering)
 
 ## Introductie
 
@@ -26,8 +27,7 @@ Bij Team Licht werken we aan LED-verlichtingssystemen die speciaal zijn afgestem
 Photosynthetic Photon Flux Density (PPFD), afgestemd op bladgroenten. 
 
 ## LED-selectie
-
-Voor dit project zijn drie types LED’s geselecteerd uit de Cree J Series JE2835 Color-reeks:
+Om de juiste leds te bepalen hebben we ons gebaseerd op het uitgebreid onderzoek van vorig en de expertise van het team van Labo Licht. We hebben voor LED's gekozen met een uniforme lichtverdeling voor optimale groei van de planten in de vertical farm. Zo zijn we uitgekomen bij de volgende Cree LED's: 
 
 | Type       | Kleur       | Golflengte (nm) | PPF (µmol/s⁻¹) | View Angle (°) |
 |------------|-------------|------------------|----------------|----------------|
@@ -63,6 +63,28 @@ Verhoudingen:
 
 Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevorderen, zonder te
 veel far-red dat tot bloei of strekking kan leiden.
+
+## Elektrisch Dimensioneren
+De volgende tabel toont de elektrische karakteristieken van de individuele LED's.
+
+| **LED Specifications (CreeLed)** | **Far-Red (FR)** | **Red (R)** | **Blue (B)** |
+|----------------------------------|------------------|-------------|--------------|
+| **Wavelength (nm)**              | 720–740          | 650–670     | 455          |
+| **Current (mA)**                 | 140              | 140         | 140          |
+| **Voltage (V)**                  | 2.2              | 2.15        | 2.96         |
+| **Consumption (W)**              | 0.308            | 0.301       | 0.414        |
+
+Omdat de driver tot 24V kan voorzien kunnen we 2 LED-PCB's in serie plaatsen. De serie verbinding van FR, R en B LED's worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
+
+Dit zijn dan de parameters die één LED-Driver moet voorzien (voor die 2 LED-PCB's in series), per licht spectra, PCB en lade.
+
+|         | FR    | R     | B      | Per PCB | Per Lade (4 PCB's) |
+|------------------|-------|-------|--------|-------------|-----------|
+| **Aantal LED's** |  8    |  10   |   6    | _           | _         |
+| **Voltage (V)**  | 17.6  | 21.5  | 17.76  | —           | —         |
+| **Current (mA)** | 140   | 140   | 140    | 420         | 840       |
+| **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 32        |
+
 
 ## Far-Red overweging
 
@@ -110,28 +132,16 @@ als reflectieve achtergrond en zo schaduwvorming vermindert.
 Een cyclus van 16 uur licht en 8 uur donker (16L/8D) is toegepast, wat bewezen effectief is voor
 bladgroenten.
 
-## Thermische berekeningen
+## Thermische berekeningen LED PCB
 
-In deze sectie wordt dieper ingegaan op de nodige berekeningen en de aspecten die belangrijk zijn voor de
-thermische vereisten van de leds. Er wordt dieper ingegaan op de bijkomende aspecten bij het ontwerp van een
-led-PCB.
+Uit de berekeningen blijkt dat de totale thermische weerstand zonder koeling vrij hoog is, wat resulteert in
+ een junctietemperatuur van net boven de 70°C. Dit is wel onder de maximaal toegelaten waarde van 125°C
+ die weergegeven wordt in de datasheet, maar om de betrouwbaarheid en levensduur van de LED te verbeteren
+ is extra koeling aangewezen. Door toevoeging van een koelplaat wordt de junctietemperatuur verlaagd tot
+ ongeveer 46°C, wat zorgt voor een veilige marge. Zo zal de led aanzienlijk langer kunnen functioneren zonder
+ door te branden.
 
-#### Berekening van de via’s
-
-/////// foto /////////
-
-De thermische weerstand van ´e´en via bedraagt 90.9 °C/W. Er is zo een goed mogelijke warmteafvoer gewenst.
-Daarom is er gekozen om zoveel mogelijk via’s te plaatsen voor een goed warmteafvoer te kunnen garanderen.
-Echter wordt er bij de verdere thermische berkeningen slechts gerekend met tien via’s aan elke zijde van de led.
-
-Wat resulteert in een totaal van 20 via’s. De reden hiervoor is dat deze 20 via’s dicht genoeg bij de led staan om een aanzienelijk aandeel te hebben bij de warmteafvoer. De extra’s zijn toegevoegd om wat marge te hebben.
-
-De thermische weerstand van 1 via bedraagt:
-
-R_th,via-copper = R_th,total / aantal via's
-                = 90.9 / 20
-                = 4.55 °C/W
-
+📄 [Thermische berekeningen (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/thermische_berekeningen-1.pdf)
 
 
 ## Ontwerp
@@ -140,6 +150,8 @@ Voor het ontwerp van de LED-PCB is bewust gekozen voor een compact formaat. Door
 - 3 blauwe LED’s
 - 5 rode LED’s
 - 4 far-red LED’s
+
+De afvoering van de warmte heeft veel aandacht gekregen, vooral omdat dit vorig jaar een groot probleem was. We hebben we de LED's in serie met elkaar verbonden aan de hand van brede copper pours aangezien een groot deel van de warmte door de anode en cathode gedissipeerd wordt. Deze copper pours zijn identiek aan de bottom layer van de PCB geplaatst zonder silk screen, deze zijn dan met Via's verbonden met de top layer. De bottom layer en zijn copper pours wordt zo ontworpen dat er één heatsink over geplaatst zal worden. Bij het testen zien we dat de LED's heel goed gekoeld worden, wat een grote verbetering is met de LED-PCB's van vorig jaar.
 
 <img src="{{ '/assets/img/Licht/LEDPCB3D.png' | relative_url }}" alt="PCB-ontwerp van de LED-PCB" width="600" />
 
@@ -164,3 +176,12 @@ Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
     <img src="{{ site.baseurl }}/assets/img/Licht/LEDPCB.png" alt="LED-PCB Realisatie" style="width: 85%; transform: rotate(90deg);">
     <img src="{{ site.baseurl }}/assets/img/Licht/DriverPCB.png" alt="Driver-PCB Realisatie" style="width: 100%; transform: rotate(90deg);">
 </div>
+
+## Afgewerkt product
+In de kast worden er 2 lades voorzien met verlichting in.
+
+
+## Bronnen
+
+📄 [Led keuze motivatie (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/Leds_keuze_motivatie-2.pdf)
+📄 [Documentatie driver (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/Documentatie driver.pdf)

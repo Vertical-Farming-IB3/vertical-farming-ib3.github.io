@@ -19,53 +19,213 @@ order: 1
    - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
 
 ## De bedoeling
-Onze bordjes moeten deze functionaliteit hebben:
+Onze slimme plantenbak is ontworpen om de groeiomstandigheden van planten optimaal te monitoren en automatisch te regelen. De PCB’s in elke lade hebben de volgende functionaliteiten:
 
-- Vochtigheidsniveau van het substraat uitlezen
-- Lichtsensor om hoeveelheid licht te meten
-- Temperatuur en CO₂-concentratie uitlezen
-- Ventilatoren bestuurbaar met relais
-- Ventiel bestuurbaar met relais
-- NFC-tags per plantensoort
-- Verbruik monitoren
+- Uitlezen van het vochtgehalte van het substraat
+- Meten van lichtintensiteit via een lichtsensor
+- Uitlezen van temperatuur en CO₂-concentratie
+- Aansturen van ventilatoren via relais
+- Aansturen van een water- of nutriëntventiel via relais
+- Gebruik van NFC-tags om plantensoorten te herkennen
+- Energieverbruik monitoren
 
 ## Benodigdheden
 Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende onderdelen en materialen:
 
-### Elektronische componenten
-- **ESP-WROOM-32** – Microcontroller met Wi-Fi- en Bluetooth-functionaliteit
-- **Capacitive soil moisture sensor** – Meet het vochtgehalte van het substraat
-- **GY-SCD40 module** – Meet CO₂-concentratie
-- **NFC-reader PN532** – Voor interactie met NFC-tags
-- **NFC-tags** – Voor identificatie en automatisering per plantensoort
-- **PCB's** – Per bak één PCB
-- **BH1750 lichtsensor** – Meet de lichtintensiteit
-- **Ventilatoren (12V)** – Voor luchtcirculatie en koeling
-- **Relais SR5** – Om ventilatoren te schakelen
-- **MP1584** – DC-DC buck converter: 12V → 5V
-- **Dupont kabels** – Voor verbindingen met sensoren
-- **5V relais** – Om een ventiel te schakelen
-- **Power-monitoring bord** - Om het verbruik te meten
+## Elektronische componenten
 
-### Materialen
-- **Rockwol** – Substraat voor hydrocultuur
-- **Potjes** – Voor het kweken van planten
-- **Kokosvezel** – Alternatief groeimedium
-- **Plantenvoeding** – Essentiële voedingsstoffen voor gezonde plantengroei
-- **Bloempotjes** – Voor individuele planten in te zaaien
-- **Hydrokorrels** – Voor wateropslag en beluchting van de wortels
-- **Witte verf** - Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>ESP-WROOM-32</strong><br>
+    Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van elke plantenbak. Alle metingen van de verbonden sensoren worden hier op verwerkt, terwijl andere componenten worden aangestuurd. Deze wordt via ESPHome geprogrammeerd.
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/esp.png" alt="ESP-WROOM-32" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <strong>NFC-tags</strong><br>
+  Voor identificatie en automatisering per plantensoort
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <strong>PCB's</strong><br>
+  Per bak één PCB
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>5V relais</strong><br>
+    Om ventilatoren te schakelen
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/5vrelais.png" alt="5V relais" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>MP1584</strong><br>
+    DC-DC buck converter: 12V → 5V
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/mp1584.png" alt="MP1584" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Dupont kabels</strong><br>
+    Voor verbindingen tussen componenten
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/dupont.png" alt="Dupont kabels" style="max-width: 60%;">
+  </div>
+</div>
+
+---
+
+## Sensoren en actuatoren
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Capacitive soil moisture sensor</strong><br>
+    Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/csms.png" alt="CSMS" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>GY-SCD40 module</strong><br>
+    Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur van de omgeving.
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/gyscd40.png" alt="GY-SCD40" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>NFC-reader PN532</strong><br>
+    Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/pn532.png" alt="PN532" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>BH1750 lichtsensor</strong><br>
+    Meet de lichtintensiteit in de kast, om te detecteren of er te veel of te weinig licht is voor de plantengroei
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/bh1750.png" alt="BH1750" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Ventilatoren (12V)</strong><br>
+    Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/fans.png" alt="Ventilatoren" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>ACS712 current sensor</strong><br>
+    Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/acs712.png" alt="ACS712" style="max-width: 60%;">
+  </div>
+</div>
+
+---
+
+## Materialen
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Rockwol</strong><br>
+    Substraat voor hydrocultuur
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/rockwol.png" alt="Rockwol" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Potjes</strong><br>
+    Voor het kweken van planten
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/cups.png" alt="Potjes" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <strong>Kokosvezel</strong><br>
+  Alternatief groeimedium
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Plantenvoeding</strong><br>
+    Essentiële voedingsstoffen voor gezonde plantengroei
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/voedingsstof.png" alt="Plantenvoeding" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <strong>Bloempotjes</strong><br>
+  Voor individuele planten in te zaaien
+</div>
+
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <strong>Hydrokorrels en watjes</strong><br>
+    Om de plantjes in te zetten in de potjes
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/img/Plantenbak/hydrokorrel.png" alt="Hydrokorrels" style="max-width: 60%;">
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <strong>Witte verf</strong><br>
+  Witte binnenkast zorgt voor optimale reflectie en lichtverdeling
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <strong>Consumables</strong><br>
+  Zoals schroeven, kabels, soldeermateriaal, 3D-prints, ...
+</div>
+
+
+
 
 ## Planten
 We kozen deze soorten:
 
 - Koriander ★★★
-- Basilicum ★
-- Oregano ★★
+- Basilicum ★★
+- Oregano ★
 - Snijsla ★★★
-- Munt
+- Munt ★
 
-Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker te groeien.
+Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker en sneller te groeien.
+We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje
 
 ## PCB's 
 <!-- Bovenste afbeelding over volledige breedte -->
@@ -89,6 +249,7 @@ We werken met twee technieken:
 - *Drip hydroponics (drip-systeem):* Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
 
 - *Flood & Drain (ebb & flow):* De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
+  
 Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 ### Bak 1: flood & drain
