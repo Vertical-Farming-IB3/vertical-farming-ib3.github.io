@@ -7,24 +7,24 @@ order: 2
 {: .prompt-warning }
 
 ## Inhoud
-<!--
+
 1. [Introductie](#introductie)
 2. [Componenten lijst](#componenten-lijst)
 3. [PCB](#pcb)
-2. [Toevoer](#toevoer)
+4. [Controle](#controle)
+    - [Ultrasoon sensor](#ultrasoon-sensor)
+    - [UV-C](#uv-c)
+    - [probes](#probes)
+5. [Toevoer](#toevoer)
     - [Reservoirs](#reservoirs)
     - [Tubes](#tubes)
     - [Quick connectors](#quick-connectors)
-    - [Waterpompen](#waterpompen)
-3. [Afvoer](#afvoer)
-4. [Water managment Systems](#water-managment-systems)
-    - [Hallefect stroomsensor](#hallefect-stroomsensor)
-    - [Ultrasoon sensor](#ultrasoon-sensor)
-    - [Luchtpomp en luchtsteen](#luchtpomp-en-luchtsteen)
-    - [Onderwaterpomp](#onderwaterpomp)
-    - [UV-C](#uv-c)
-    - [Probes](#probes)
--->
+    - [pompaansturing](#pompaansturing)
+        - [Waterpomp](#waterpomp)
+        - [Onderwaterpomp](#onderwaterpomp)
+        - [Luchtpomp en luchtsteen](#luchtpomp-en-luchtsteen)
+6. [Afvoer](#afvoer)
+
 ## Introductie
 Om plantjes te laten groeien zijn water en voedingsstoffen onmisbaar. In ons project staan wij in voor het aanvoeren en afvoeren van deze voedingsoplossing met de juiste kwaliteit. Dit gebeurt via een slim watersysteem dat instaat voor het mengen, verdelen en recupereren van het water.
 
