@@ -189,7 +189,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 <div style="margin-bottom: 2rem;">
   <strong>Bloempotjes</strong><br>
-  Voor individuele planten in te zaaien
+  Om individuele planten in te zaaien
 </div>
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
