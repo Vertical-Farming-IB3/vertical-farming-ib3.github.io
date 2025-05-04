@@ -19,7 +19,7 @@ Het doel is om zo weinig mogelijk energie te verbruiken, bij het behouden van ee
 Voor Team Water gebeurt dit aan de hand van een gerecupereerd systeem. Daarbij meten we de hoeveelheid verbruikte stroom gebruikmakend van een Hall-effect sensor.
 
 Deze sensor werkt op een slimme manier: hij hoeft de stroomdraad niet door te knippen of te onderbreken, maar meet de stroom gewoon parallel. Hoe dat kan? Als er stroom door een draad gaat, ontstaat er een klein magnetisch veld rondom die draad. De sensor meet dat veld en zet het om in een signaal dat we kunnen uitlezen.
-De spanning is bekend waardoor we door een simple formule het verbruikt vermogen kunnen berekenen: vermogen = spanning x stroom.
+De spanning is bekend waardoor we door een simpele formule het verbruikt vermogen kunnen berekenen: vermogen = spanning x stroom.
 
 Zo kunnen we veilig en nauwkeurig meten hoeveel het watersysteem verbruikt — zonder het systeem zelf te storen.
 

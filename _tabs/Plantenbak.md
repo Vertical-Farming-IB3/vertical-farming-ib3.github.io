@@ -231,11 +231,14 @@ We kozen deze soorten:
 - Snijsla ★★★
 - Munt ★
 
-Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker en sneller te groeien.
-We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje
+Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren, hoe makkelijker en sneller ze groeien.
+We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje te beginnen, dan met een zaadje.
 
 ## PCB's 
-Alle bestanden omtrent de PCB voor de plantenbakken bevinden zich in deze ZET HIER EEN LINK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GitHub. 
+Alle bestanden omtrent de PCB voor de plantenbakken bevinden zich in deze [GitHub](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/PCB){:target="_blank"}. 
+
+<iframe src="{{ '/assets/html/ibom_plantenbak.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
+
 <!-- Bovenste afbeelding over volledige breedte -->
 <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
   <img src="{{ site.baseurl }}/assets/img/Plantenbak/pb2_front.png" alt="PCB Front" style="width: 100%; max-width: 1000px; height: auto; object-fit: contain;">
@@ -264,13 +267,17 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 ### Bak 1: flood & drain
 #### De opstelling:
 
+Deze bak wordt dus volledig gevuld met water, zodat de wortels van de planten volledig zijn ondergedompeld. Ter beveiliging is er een overloop gemaakt, zodat de bak nooit kan overlopen. De afloop van het water wordt geregeld met een regentonkraan. 
+
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
 
 ### Bak 2: drip hydroponics in rockwol
 #### De opstelling:
 
+Door deze buis loopt er een flexibel buisje waar gaatjes in werden geprikt en die op het einde een stop heeft. Het buisje loopt door de rockwol en maakt deze dus vochtig wanneer er water door gepompt worden. 
+
 ## Code
-De code werd gemaakt via een yaml-bestand  ZET HIER EEN LINK !!!!!!!!!!!!!!!!!!!!!!!!!! a.d.h.v. ESPHome.
+De code werd gemaakt via een [yaml](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}.  a.d.h.v. ESPHome.
 
 
 

@@ -92,10 +92,6 @@ p {
 }
 
 /* General link styling */
-a {
-  border-bottom: none !important; /* Remove the custom underline */
-  text-decoration: none !important; /* Remove the underline */
-  font-weight: bold !important; /* Make the text thicker */
-  color: inherit !important; /* Use the same color as the surrounding text */
-}
+
 /* De rest van de linkopmaak op de md tabs is nu wel nogal out of place, deze opmaak vind ik persoonlijk wel beter. */
+/* alle links zijn overal blauw dus het lijkt me beter om hier ook gwn blauw te laten. */
