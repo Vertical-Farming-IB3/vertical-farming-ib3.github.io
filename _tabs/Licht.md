@@ -16,10 +16,13 @@ order: 3
    - [Sla en basilicum](#sla-en-basilicum)
    - [Koriander](#koriander)
    - [PPFD-berekening](#ppfd-berekening)
-7. [Afstand en uniformiteit](#afstand-en-uniformiteit)
-8. [Fotoperiode](#fotoperiode)
+5. [Elektrisch Dimensioneren ](#Elektrisch-Dimensioneren)
+6. [Afstand en uniformiteit](#afstand-en-uniformiteit)
+7. [Fotoperiode](#fotoperiode)
+8. [Thermische berekeningen LED PCB](#Thermische-berekeningen-LED-PCB)
 9. [Ontwerp](#ontwerp)
 10. [Uitvoering](#uitvoering)
+11. [Afgewerkt product](#Afgewerkt-product)
 
 ## Introductie
 
