@@ -220,7 +220,7 @@ De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752
     - Complexe handeling nodig bij het verplaatsen van lades
 
 ### Pompaansturing
-De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Om de pompen te beschermen, wordt het waterpijl van de reservoirs gemonitord en aangevuld wanneer dit te laag komt te staan. Zo zit er ook een veiligheid ingebouwd die voorkomt dat de pompen activeren wanneer het waterniveau te laag is. De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de [Home Assistant](./Home%20Assistant.md). 
+De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Om de pompen te beschermen, wordt het waterpijl van de reservoirs gemonitord en aangevuld wanneer dit te laag komt te staan. Zo zit er ook een veiligheid ingebouwd die voorkomt dat de pompen activeren wanneer het waterniveau te laag is. De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de [Home Assistant](https://vertical-farming-ib3.github.io/Home-Assistant/). 
 
 #### Waterpomp: 
 1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
