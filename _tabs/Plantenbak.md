@@ -202,6 +202,8 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   Zoals schroeven, kabels, soldeermateriaal, 3D-prints, silicone, enzovoort. Dit zijn materialen die we nodig hebben om de plantenbak in elkaar te zetten en te monteren.
 </div>
 
+---
+
 ## Planten {#planten}
 We kozen deze soorten:
 
