@@ -390,8 +390,7 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
 
 - **Nadelen:**
     - Beperkte capaciteit bij grotere watervolumes (scalability)
-    - Niet geschikt voor continue luchtpomping
-    - Kan oververhit raken als de vloeistof te laag is
+    - Mag niet lucht pompen, dus er moet een minimumniveau ingesteld worden dat hoger is dan normaal
     - Vereist regelmatig onderhoud om verstoppingen te voorkomen
 
 ## Afvoer
