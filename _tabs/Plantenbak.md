@@ -14,7 +14,7 @@ order: 1
    2. [Materialen](#materialen)
 3. [Planten](#planten)
 4. [PCB's](#pcbs)
-5. [De twee lades](#de-twee-lades)
+5. [De lades](#de-lades)
    1. [Bak 1: flood & drain](#bak-1-flood--drain)
    2. [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
 
@@ -214,7 +214,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
   Zoals schroeven, kabels, soldeermateriaal, 3D-prints, silicone, enzovoort. Dit zijn materialen die we nodig hebben om de plantenbak in elkaar te zetten en te monteren.
 </div>
 
-## Planten
+## Planten {#planten}
 We kozen deze soorten:
 
 - Koriander ★★★
@@ -226,7 +226,7 @@ We kozen deze soorten:
 Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren (★), hoe makkelijker en sneller ze groeien.
 We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje te beginnen, dan met een zaadje.
 
-## PCB's 
+## PCB's {#pcbs}
 Alle bestanden omtrent de PCB voor de plantenbakken bevinden zich in deze [GitHub](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/PCB){:target="_blank"}. 
 
 <iframe src="{{ '/assets/html/ibom_plantenbak.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
@@ -248,7 +248,7 @@ Alle bestanden omtrent de PCB voor de plantenbakken bevinden zich in deze [GitHu
 
 
 
-## De lades
+## De lades {#de-lades}
 
 Een plantenbak bestaat uit twee grote onderdelen: een houten lade en een plastic eurobak. De houten lade schuif in de kast, om voor modulariteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze staat schuin in de houten lade, zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken.
 
@@ -259,14 +259,14 @@ We werken met twee technieken:
   
 Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
-### Bak 1: flood & drain
+### Bak 1: flood & drain {#bak-1-flood--drain}
 #### De opstelling:
 
 Deze bak wordt dus volledig gevuld met water, zodat de wortels van de planten volledig zijn ondergedompeld. Ter beveiliging is er een overloop gemaakt, zodat de bak nooit kan overlopen. De afloop van het water wordt geregeld met een regentonkraan. De potjes met plantjes in rusten op een rooster, gemaakt uit restjes hout. Zo kunnen de plantjes makkelijk in één beweging uit de bak gehaald worden.
 
 <img src="/assets/img/Plantenbak/bak_water.png" alt="bak met water">
 
-### Bak 2: drip hydroponics in rockwol
+### Bak 2: drip hydroponics in rockwol {#bak-2-drip-hydroponics-in-rockwol}
 #### De opstelling:
 
 Door deze buis loopt er een flexibel buisje waar gaatjes in werden geprikt en die op het einde een stop heeft. Het buisje loopt door de rockwol en maakt deze dus vochtig wanneer er water door gepompt worden. 
