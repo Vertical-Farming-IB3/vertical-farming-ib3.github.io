@@ -44,74 +44,9 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 
 ## Componentenlijst
 
-Hier vind u de benodigde componenten voor het deel water.
-
-<!-- 
-Voor de PCB bestukking: 
-
-- Weerstanden:
-    - 3× R_0805 (1.20×1.40 mm)
-- Condensatoren:
-    - 2× C_0805 (1.18×1.45 mm)
-    - 1× CP_Elec_6.3×3.9 mm
-    - 1× CP_EIA-3528-12_Kemet
-- Diodes & LED’s:
-    - 1× DIOM5226
-    - 2× LED_0805 (1.15×1.40 mm)
-- IC’s en modules:
-    - 1× ESP32-WROOM-32D (microcontroller)
-    - 1× MP1584 (step-down converter)
-    - 1× AHQSS105DM2FA0G
-    - 1× TSSOP-10
-    - 1× SOT-223
-    - 1× SOIC-28W
-    - 1× SOT-23
-- Mechanische onderdelen: 
-    - 1× MountingHole 3.2 mm
-    - 1× SolderJumper
-    - 1× TestPoint
-- Knoppen en schakelaars:
-    - 2× Wurth Tactile Switch SPST-NO
-- Headerpinnen:
-    - 5× PinHeader 1x04
-    - 3× PinHeader 1x03
-    - 4× PinHeader 1x02
-    - 1× PinHeader 1x06
-- Connectoren:
-    - 6× TerminalBlock Phoenix 1x02 (horizontaal)
-    - 4× BNC_Amphenol_B6252HB (horizontaal)
-
-<iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
-
-Controle: 
-- 1x probe pH
-- 1x probe NO3-
-- 1x probe Ca2+
-- 1x probe K+
-- 1x referentieprobe
-- 3x ultrasoonsensor 
-- 1x UV-C
-- 1x eindeloopschakelaar
-- 2x ADC-module
-Toevoer: 
-- 3x reservoir
-- 4x waterpomp 
-- 1x luchtpomp
-- 2x luchtsteen + t-stuk
-- 1x aquariumpomp
-- 7m waterslang Ø8mm
-- xm waterslang Ø3.5mm 
-- 8x klemringen
-- 4x quick connectors (ppf) 2-zijdig 
-- 5x quick connectors (ppf) dicht
-Afvoer: 
-- 1x pvc-buis van Ø90 2m30 
-- 1x pvc-buis van Øx x m 
-- 1x koppelstuk 45° Ø90
--->
-<!--Aantallen nakijken-->
-
---Link naar excel wnr volledig--
+Hier vind u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij Team Water.
+📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
+<!--Relative path?-->
 
 ## PCB 
 <img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
@@ -155,11 +90,11 @@ We hebben voor deze sensor gekozen na verschillende overwegingen:
 - Meetbereik van 2 tot 400 cm met een nauwkeurigheid van ongeveer 3 mm.
 - Goede prijs-kwaliteitverhouding: de sensor is nauwkeurig en betaalbaar.
 
-<!--Link naar doc-->
+📄 [Research Ultrasoon + UV-C (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Opzoekingswerk_water.docx)
 
 Dankzij deze eigenschappen bleek de ultrasone sensor een geschikte keuze voor onze toepassing.
 
-<!--Dubbel -->
+In het kort lijsten we nog even de voor- en nadelen op:
 - **Voordelen:** 
     - Nauwkeurige meting van vloeistofniveaus
     - Geen direct contact met het water (minder slijtage en onderhoud) 
@@ -195,7 +130,7 @@ Let wel op: UV-C verwijdert geen vuildeeltjes of zichtbare vervuiling uit het wa
 Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was. <!--hadden het op deze manier ook wel door het reservoir kunnen circuleren, hangt af van de implementatie-->
 De huidige UV-C lamp is gekozen om zijn voldoende vermogen om het nutrientrijke water te ontsmetten, en omdat ze compact genoeg is om in het waterreservoir te plaatsen. Op deze manier kan het water in de mengbak zonder veel extra componenten blootgesteld worden aan het UV-C licht.
 
-<!--Ook doc met motivatie?-->
+📄 [Research Ultrasoon + UV-C (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Opzoekingswerk_water.docx)
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig (in verschillende hoeveelheden), deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). Hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
@@ -225,73 +160,7 @@ Dit maakt dat in totaal 5 probes zijn geïntegreerd. De PH-sensor is geïntegree
     - Duurder (in vergelijking met manuele testen)
     - Temperatuurafhankelijk
 
-<!-- Verplaatsen naar externe doc-->
-
-#### Kallibratie
-
-Om de kallibratie te kunnen uitvoeren zijn er vloeistoffen nodig met een gekende concentratie van de te meten nutriënten. We maken drie verschillende concentraties van deze stoffen om een driepuntskalibratie uit te voeren, dit geeft een nauwkeurige meting, waarop we ons verder kunnen baseren. Eerst maken we hiervoor enkele stockoplossingen die we vervolgens kunnen verdunnen om de gewenste kallibratievloeistoffen te bekomen. 
-
-**Stockoplossingen**
-
-De stockoplossingen zijn versterkte concentraties van zoutoplossingen, we zullen deze stockoplossingen volgens de juiste verhouding verdunnen. De stockoplossingen bevatten elk een aantal gewenste ionen, deze ionen worden gemeten door de elektroden waardoor we met deze bekende concentraties de elektroden juist kunnen afstemmen voor latere metingen.
-
-_Gewenste stockoplossingen_
-
-| Ion              | Kalibratie zout | Gewenste zout concentratie | Gewenste Ionen concentratie stockoplossing | Totaal volume van de oplossing | Absolute hoeveelheid zout |
-| ---------------- | --------------- | -------------------------- | ------------------------------------------ | ------------------------------ | ------------------------- |
-|                  |                 | [g/l]                      | [g/l]                                      | [ml]                           | [g]                       |
-| NO3<sup>\-</sup> | NaNO3           | 21,9300                    | 16                                         | 100                            | 2,1930                    |
-| Ca<sup>2+</sup>  | Ca(NO3)24H2O    | 11,7845                    | 2                                          | 100                            | 1,1785                    |
-| K<sup>+</sup>    | KOH             | 2,8699                     | 2                                          | 200                            | 0,5740                    |
-
-Omdat deze hoeveelheden in de praktijk te nauwkeurig zijn om exact af te meten, berekenen we de werkelijke ionenconcentratie na bereiding. De keuze van de stockoplossingen is gebeurd op basis van de beschikbaarheid van de aanwezige zouten en praktische overwegingen ten opzichte van de bereiding van de stockoplossingen. We maakten van elke stockoplossing 100 – 200 ml. Dit is een goede hoeveelheid voor een voldoende nauwkeurigheid en geeft ons voldoende stockoplossing voor alle kallibratievloeistoffen.
-
-_Eigenlijke stockoplossingen_
-
-| Ion              | Kalibratie zout | MM      | Totaal volume van de oplossing | Absolute hoeveelheid zout | Zout concentratie | Ionen concentratie stockoplossing |
-| ---------------- | --------------- | ------- | ------------------------------ | ------------------------- | ----------------- | --------------------------------- |
-|                  |                 | [g/mol] | [ml]                           | [g]                       | [g/l]             | [g/l]                             |
-| NO3<sup>\-</sup> | NaNO3           | 84,9947 | 100                            | 2,1900                    | 21,900            | 15,9800                           |
-| Ca<sup>2+</sup>  | Ca(NO3)24H2O    | 40,0780 | 100                            | 1,1786                    | 11,786            | 2,0000                            |
-| K<sup>+</sup>    | KOH             | 56,1100 | 200                            | 0,5829                    | 2,9145            | 2,0300                            |
-
-**Kalibratievloeistoffen**
-
-Voor de driepuntsmeting maken we drie verschillende concentraties van de stockoplossing; een lage, medium en hoge concentratie. We meten vervolgens voor deze drie concentraties de probes (=elektroden) uit, waarna we een lineaire benadering kunnen trekken door deze drie punten. Op deze rechte kunnen we vervolgens met goede precisie onze probes kalibreren. Dit is nauwkeuriger dan een kallibratie met 2 meetpunten.
-
-|                  | Low    | Medium | High   |
-| ---------------- | ------ | ------ | ------ |
-|                  | [mg/l] | [mg/l] | [mg/l] |
-| NO3<sup>\-</sup> | 800    | 1200   | 1600   |
-| Ca<sup>2+</sup>  | 100    | 200    | 400    |
-| K<sup>+</sup>    | 100    | 200    | 400    |
-
-**Referentie vloeistof**
-
-De elektroden hebben ook een referentie nodig, hiervoor wordt een referentie probe gevuld met een bekende vloeistof. Dit is 3M KCl gesatureerd met AgCl. Deze oplossing kunnen we aankopen en hoeven we niet zelf te maken.
-
-**Voedingsstoffen** 
-
-We hebben ervoor gekozen om geen eigen voedingsstoffen samen te stellen voor het voeden van de planten, in de plaats daarvan kozen we voor een commerciële oplossing. We hebben hiervoor plantenvoeding gekocht. Deze plantenvoeding heef een NK waarde van 2,5-4,0. Deze waarde verwijst naar de verhouding van stikstof en kalium in de voedingsstof. In ons geval bevat de voeding 2,5% stikstof, dit bevordert de bladgroei en algemene groei van de plant en 4,0% kalium, dit versterkt de weerstand van de plant, bevordert de wortelontwikkeling en de bloei/vruchtvorming. Er staat geen fosfor vermeld, dit wil zeggen dat de gekozen plantenvoeding weinig tot geen fosfor bevat. Voor een betere opbrengst van de kast is het dus een goeie optie in een later stadium te kijken voor hogere kwaliteit voedingsstoffen. In de gebruikershandleiding staan ook aanbevolen verhoudingen voor verschillende soorten planten namelijk: kruiden ¼ dop per 2l, groenten 1 dop per 5l. Dit is een interessante verhouding om mee te nemen voor de tuning van de vertical farm en de mogelijke verschillende gewassen. De grote verdunning toont aan hoe krachtig het concentraat is.
-
-**Kallibratie**
-
-Zodra de drie concentraties voor een sensor zijn gemaakt, vindt de 3-puntskalibratie plaats. De referentie-ISE (IonSelectieve Elektrode) en de stofspecifieke ISE worden achtereenvolgens in elk van de drie bijhorende concentraties geplaatst en de spanning wordt gemeten. 
-
-| Ion  | Concentratie | Oplossing | Gemeten spanning |
-| ---- | ------------ | --------- | ---------------- |
-|      |              | [mg/l]    | [mV]             |
-| NO₃⁻ | Low          | 799.0     | 18.0             |
-| NO₃⁻ | Med          | 958.8     | 32.5             |
-| NO₃⁻ | High         | 1598.0    | 46.5             |
-| Ca²⁺ | Low          | 100.0     | 23.0             |
-| Ca²⁺ | Med          | 200.0     | 28.0             |
-| Ca²⁺ | High         | 400.0     | 33.0             |
-| K⁺   | Low          | 101.5     | 91.0             |
-| K⁺   | Med          | 203.0     | 106.0            |
-| K⁺   | High         | 406.0     | 118.0            |
-
-<!--einde externe doc-->
+📄 [Kallibratie Probes (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Kallibratie.docx)
 
 ## Toevoer
 ### Reservoirs 
@@ -382,8 +251,6 @@ Voor het water- en voedingsstofreservoir vind een combinatie van een [luchtpomp]
 <img src="{{ '/assets/img/Watersysteem/Onderwaterpomp.png' | relative_url }}" alt="Afbeelding van de onderwaterpomp" width="400" />
 
 Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/pompen/onderwaterpomp-horizontaal-3-6v){:target="_blank"} gekozen om een krachtigere, turbulentere menging van het water en voedingstoffen te verkrijgen. 
-
-<!--aangepast door Sander?-->
 
 - **Voordelen:**
     - Krachtige pomp voor snelle en efficiënte menging
