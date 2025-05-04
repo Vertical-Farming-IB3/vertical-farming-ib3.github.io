@@ -10,13 +10,14 @@ order: 1
 ## Inhoud
 1. [De bedoeling](#de-bedoeling)
 2. [Benodigdheden](#benodigdheden)
-   - [Elektronische componenten](#elektronische-componenten)
-   - [Materialen](#materialen)
+   1. [Elektronische componenten](#elektronische-componenten)
+   2. [Materialen](#materialen)
 3. [Planten](#planten)
 4. [PCB's](#pcbs)
 5. [De twee lades](#de-twee-lades)
-   - [Bak 1: flood & drain](#bak-1-flood--drain)
-   - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
+   1. [Bak 1: flood & drain](#bak-1-flood--drain)
+   2. [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
+
 
 ## De bedoeling
 Onze slimme plantenbak is ontworpen om de groeiomstandigheden van planten optimaal te monitoren en automatisch te regelen. De PCB’s in elke lade hebben de volgende functionaliteiten:
