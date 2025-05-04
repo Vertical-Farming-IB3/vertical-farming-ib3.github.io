@@ -7,6 +7,20 @@ order: 1
 > Under construction
 {: .prompt-warning }
 
+## Inhoud 
+
+1. [De bedoeling](#de-bedoeling)
+2. [Benodigdheden](#benodigdheden)
+   - [Elektronische componenten](#elektronische-componenten)
+   - [Sensoren en actuatoren](#sensoren-en-actuatoren)
+   - [Materialen](#materialen)
+3. [Planten](#planten)
+4. [PCB's](#pcbs)
+5. [De lades](#de-lades)
+   - [Bak 1: flood & drain](#bak-1-flood--drain)
+   - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
+6. [Code](#code)
+
 ## De bedoeling
 Onze slimme plantenbak is ontworpen om de groeiomstandigheden van planten optimaal te monitoren en automatisch te regelen. De PCB’s in elke lade hebben de volgende functionaliteiten:
 
@@ -22,185 +36,136 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 ## Elektronische componenten
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>ESP-WROOM-32</strong><br>
-    Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van elke plantenbak. Alle metingen van de verbonden sensoren worden hier op verwerkt, terwijl andere componenten worden aangestuurd. Deze wordt via ESPHome geprogrammeerd.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/esp.png" alt="ESP-WROOM-32" style="max-width: 60%;">
-  </div>
-</div>
+### ESP-WROOM-32
+Deze microcontroller met Wi-Fi- en Bluetooth-functionaliteit is het brein van elke plantenbak. Alle metingen van de verbonden sensoren worden hier op verwerkt, terwijl andere componenten worden aangestuurd. Deze wordt via ESPHome geprogrammeerd.
 
-<div style="margin-bottom: 2rem;">
-  <strong>NFC-tags</strong><br>
-  Voor identificatie en automatisering per plantensoort. NFC werd verkozen boven RFID, vooral omdat deze over en kortere afstand communiceert. Onze kaarthouder zit namelijk dicht bij de NFC-reader. Het is ook handig dat de NFC-tags geprogrammeerd én gelezen kunnen worden met een smartphone. 
-</div>
+![ESP-WROOM-32](assets/img/Plantenbak/esp.png)
 
-<div style="margin-bottom: 2rem;">
-  <strong>PCB's</strong><br>
-  Per bak zit één PCB die alle componenten aanstuurt. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, dus uitbreidingen zijn nog mogelijk. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
-</div>
+---
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>5V relais</strong><br>
-    Deze relais wordt gebruikt om de ventilatoren te schakelen. Deze relais werd gekozen omdat ze een lage inschakelspanning hebben en dus makkelijk aan te sturen zijn met de ESP-WROOM-32. De relais zijn ook voorzien van een LED-indicator, zodat je kan zien of ze aan of uit zijn. 
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/5vrelais.png" alt="5V relais" style="max-width: 60%;">
-  </div>
-</div>
+### NFC-tags
+Voor identificatie en automatisering per plantensoort. NFC werd verkozen boven RFID, vooral omdat deze over en kortere afstand communiceert. Onze kaarthouder zit namelijk dicht bij de NFC-reader. Het is ook handig dat de NFC-tags geprogrammeerd én gelezen kunnen worden met een smartphone.
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>MP1584</strong><br>
-    DC-DC buck converter: 12V → 5V. Dit component werd gekozen om een tussenstap te maken: nu is er op elke PCB 12V, 5V en 3.3V beschikbaar. Dit is handig voor de ESP-WROOM-32, die werkt op 3.3V, maar ook voor de relais en andere componenten die werken op 5V of 12V. De MP1584 is een buck converter die een hoge efficiëntie heeft en weinig warmte genereert. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de temperatuur kan oplopen.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/mp1584.png" alt="MP1584" style="max-width: 60%;">
-  </div>
-</div>
+---
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Dupont kabels</strong><br>
-    Voor verbindingen tussen componenten en PCB's. Deze kabels zijn handig omdat ze makkelijk te gebruiken zijn en geen soldeerwerk vereisen. Ze zijn ook flexibel en kunnen makkelijk worden aangepast aan de situatie. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de ruimte beperkt is. De kabels dragen ook bij aan de modulaire opbouw van de plantenbak, waardoor het makkelijker is om componenten te vervangen, aan te passen of toe te voegen.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/dupont.png" alt="Dupont kabels" style="max-width: 60%;">
-  </div>
-</div>
+### PCB's
+Per bak zit één PCB die alle componenten aanstuurt. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, dus uitbreidingen zijn nog mogelijk. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
+
+---
+
+### 5V relais
+Deze relais wordt gebruikt om de ventilatoren te schakelen. Deze relais werd gekozen omdat ze een lage inschakelspanning hebben en dus makkelijk aan te sturen zijn met de ESP-WROOM-32. De relais zijn ook voorzien van een LED-indicator, zodat je kan zien of ze aan of uit zijn.
+
+![5V relais](assets/img/Plantenbak/5vrelais.png)
+
+---
+
+### MP1584
+DC-DC buck converter: 12V → 5V. Dit component werd gekozen om een tussenstap te maken: nu is er op elke PCB 12V, 5V en 3.3V beschikbaar. Dit is handig voor de ESP-WROOM-32, die werkt op 3.3V, maar ook voor de relais en andere componenten die werken op 5V of 12V. De MP1584 is een buck converter die een hoge efficiëntie heeft en weinig warmte genereert. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de temperatuur kan oplopen.
+
+![MP1584](assets/img/Plantenbak/mp1584.png)
+
+---
+
+### Dupont kabels
+Voor verbindingen tussen componenten en PCB's. Deze kabels zijn handig omdat ze makkelijk te gebruiken zijn en geen soldeerwerk vereisen. Ze zijn ook flexibel en kunnen makkelijk worden aangepast aan de situatie. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de ruimte beperkt is. De kabels dragen ook bij aan de modulaire opbouw van de plantenbak, waardoor het makkelijker is om componenten te vervangen, aan te passen of toe te voegen.
+
+![Dupont kabels](assets/img/Plantenbak/dupont.png)
 
 ---
 
 ## Sensoren en actuatoren
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Capacitive soil moisture sensor</strong><br>
-    Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de rockwol te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/csms.png" alt="CSMS" style="max-width: 60%;">
-  </div>
-</div>
+### Capacitive soil moisture sensor
+Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de rockwol te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>GY-SCD40 module</strong><br>
-    Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur van de omgeving. Het is een digitale sensor die werkt via I²C. Dit betekent dat hij makkelijk kan worden aangesloten op de ESP-WROOM-32. De sensor heeft een hoge nauwkeurigheid en een snelle responstijd dankzij de photoacoustic-sensing technologie, wat belangrijk is voor de plantenbak. De sensor is ook voorzien van een ingebouwde verwarmingselement, wat helpt om condensatie te voorkomen en de nauwkeurigheid van de metingen te verbeteren. Een klein nadeel van de sensor is dat deze een korte stabilisatietijd heeft van enkele seconden. Ook deze sensors waren al beschikbaar door IB3 van vorig jaar, dus we hebben ze hergebruikt ♻️. 
-    <img src="/assets/img/Plantenbak/gyscd40.png" alt="GY-SCD40" style="max-width: 60%;">
-  </div>
-</div>
-
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>NFC-reader PN532</strong><br>
-    Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit. Dit is om de kast zo automatisch mogelijk te maken. Als een NFC-tag gelezen wordt, weet de kast welke plant er in de bak zit en kan de routine specifiek voor die plant ingesteld worden. Dit is handig omdat verschillende planten verschillende behoeften hebben qua licht, water en voeding. We kozen voor de PN532, omdat deze al beschikbaar was, want ons weer een nieuwe bestelling bespaarde ♻️.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/pn532.png" alt="PN532" style="max-width: 60%;">
-  </div>
-</div>
-
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>BH1750 lichtsensor</strong><br>
-    Meet de lichtintensiteit in de kast, om te detecteren of er te veel of te weinig licht is voor de plantengroei. We kozen voor deze sensor wegens de hoge nauwkeurigheid en vooral ook het grote meetbereik. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de lichtintensiteit kan variëren van donker naar héél fel. Deze sensor wordt gebruikt om te controleren of de planten correct en voldoende (of te veel) belicht worden.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/bh1750.png" alt="BH1750" style="max-width: 60%;">
-  </div>
-</div>
-
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Ventilatoren (12V)</strong><br>
-    Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken. Ook deze ventilatoren waren al beschikbaar van vorig jaar ♻️.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/fans.png" alt="Ventilatoren" style="max-width: 60%;">
-  </div>
-</div>
-
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>ACS712 current sensor</strong><br>
-    Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt. Dit is een hall-effect sensor die werkt op basis van de verandering in magnetisch veld wanneer er stroom door de draad gaat. Dit is een goede keuze omdat deze sensor al beschikbaar was, wat ons weer een nieuwe bestelling bespaarde ♻️. De sensor heeft een hoge nauwkeurigheid en een snelle responstijd, wat belangrijk is voor het meten van het energieverbruik van de plantenbak.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/acs712.png" alt="ACS712" style="max-width: 60%;">
-  </div>
-</div>
+![CSMS](assets/img/Plantenbak/csms.png)
 
 ---
 
+### GY-SCD40 module
+Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur van de omgeving. Het is een digitale sensor die werkt via I²C. Dit betekent dat hij makkelijk kan worden aangesloten op de ESP-WROOM-32. De sensor heeft een hoge nauwkeurigheid en een snelle responstijd dankzij de photoacoustic-sensing technologie, wat belangrijk is voor de plantenbak. De sensor is ook voorzien van een ingebouwde verwarmingselement, wat helpt om condensatie te voorkomen en de nauwkeurigheid van de metingen te verbeteren. Een klein nadeel van de sensor is dat deze een korte stabilisatietijd heeft van enkele seconden. Ook deze sensors waren al beschikbaar door IB3 van vorig jaar, dus we hebben ze hergebruikt ♻️.
+
+![GY-SCD40](assets/img/Plantenbak/gyscd40.png)
+
+---
+
+### NFC-reader PN532
+Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit. Dit is om de kast zo automatisch mogelijk te maken. Als een NFC-tag gelezen wordt, weet de kast welke plant er in de bak zit en kan de routine specifiek voor die plant ingesteld worden. Dit is handig omdat verschillende planten verschillende behoeften hebben qua licht, water en voeding. We kozen voor de PN532, omdat deze al beschikbaar was, want ons weer een nieuwe bestelling bespaarde ♻️.
+
+![PN532](assets/img/Plantenbak/pn532.png)
+
+---
+
+### BH1750 lichtsensor
+Meet de lichtintensiteit in de kast, om te detecteren of er te veel of te weinig licht is voor de plantengroei. We kozen voor deze sensor wegens de hoge nauwkeurigheid en vooral ook het grote meetbereik. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de lichtintensiteit kan variëren van donker naar héél fel. Deze sensor wordt gebruikt om te controleren of de planten correct en voldoende (of te veel) belicht worden.
+
+![BH1750](assets/img/Plantenbak/bh1750.png)
+
+---
+
+### Ventilatoren (12V)
+Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken. Ook deze ventilatoren waren al beschikbaar van vorig jaar ♻️.
+
+![Ventilatoren](assets/img/Plantenbak/fans.png)
+
+---
+
+### ACS712 current sensor
+Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt. Dit is een hall-effect sensor die werkt op basis van de verandering in magnetisch veld wanneer er stroom door de draad gaat. Dit is een goede keuze omdat deze sensor al beschikbaar was, wat ons weer een nieuwe bestelling bespaarde ♻️. De sensor heeft een hoge nauwkeurigheid en een snelle responstijd, wat belangrijk is voor het meten van het energieverbruik van de plantenbak.
+
+![ACS712](assets/img/Plantenbak/acs712.png)
+
+
 ## Materialen
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Regentonkraan</strong><br>
-    Dit kraantje wordt gebruikt om de afloop van de ebb-and-flow bak te regelen. Deze oplossing werd gekozen omdat de solenoid valve van IB3 van vorig jaar niet werkte. Dit kraantje is een goedkope oplossing omdat het makkelijk te installeren is en goed genoeg werkt.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/kraan.png" alt="Regentonkraan" style="max-width: 60%;">
-  </div>
-</div>
+### Regentonkraan
+Dit kraantje wordt gebruikt om de afloop van de ebb-and-flow bak te regelen. Deze oplossing werd gekozen omdat de solenoid valve van IB3 van vorig jaar niet werkte. Dit kraantje is een goedkope oplossing omdat het makkelijk te installeren is en goed genoeg werkt.
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Rockwol</strong><br>
-    Wordt gebruikt als substraat voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Rockwol is ook een duurzaam materiaal omdat het gemaakt is van basaltsteen, wat een overvloedig natuurlijk materiaal is. Een nadeel is dat het niet biologisch afbreekbaar is en dat het kan irriteren bij aanraking. Voor ons prototype nu is dit geen probleem, maar in de toekomst zou hier een gebruiksvriendelijker alternatief voor moeten gevonden worden, zoals kokosvezel of iets zoals steekschuim.
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/rockwol.png" alt="Rockwol" style="max-width: 60%;">
-  </div>
-</div>
+![Regentonkraan](assets/img/Plantenbak/kraan.png)
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Potjes</strong><br>
-    De plantjes kunnen hier in gehangen worden om ze te laten groeien. De open potjes zorgen ervoor dat het water langs de wortels kan lopen.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/cups.png" alt="Potjes" style="max-width: 60%;">
-  </div>
-</div>
+---
 
-<div style="margin-bottom: 2rem;">
-  <strong>Kokosvezel</strong><br>
-  Alternatief groeimedium voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Kokosvezel is ook een duurzaam materiaal omdat het gemaakt is van kokosnootschalen, wat een overvloedig natuurlijk materiaal is. Het is ook biologisch afbreekbaar en kan worden gebruikt als meststof voor andere planten. Dit zou een goed alternatief zijn voor rockwol, maar het is moeilijker om de plantjes in de potjes te zetten, omdat het materiaal veel losser is dan rockwol. Dit is dus een goed alternatief voor de toekomst, maar voor ons prototype nu is rockwol een betere keuze. We hebben dit materiaal wel gebruikt om zaadjes in te zaaien om deze dan in de kast te verplanten.
-</div>
+### Rockwol
+Wordt gebruikt als substraat voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Rockwol is ook een duurzaam materiaal omdat het gemaakt is van basaltsteen, wat een overvloedig natuurlijk materiaal is. Een nadeel is dat het niet biologisch afbreekbaar is en dat het kan irriteren bij aanraking. Voor ons prototype nu is dit geen probleem, maar in de toekomst zou hier een gebruiksvriendelijker alternatief voor moeten gevonden worden, zoals kokosvezel of iets zoals steekschuim.
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Plantenvoeding</strong><br>
-    Essentiële voedingsstoffen voor gezonde plantengroei. Deze kunnen aangekocht worden in zowat elke tuin/huis/doe-het-zelf winkel. We kozen voor een vloeibare voeding omdat deze makkelijker te doseren is. Dit is volgens ons de goedkoopste en makkelijkste manier om de planten op een goede manier te voeden. Een andere optie was om zelf de chemische stoffen te kopen en deze zelf te mengen, maar dit is veel moeilijker, minder gebruiksvriendelijker en uiteindelijk ook duurder. 
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/voedingsstof.png" alt="Plantenvoeding" style="max-width: 60%;">
-  </div>
-</div>
+![Rockwol](assets/img/Plantenbak/rockwol.png)
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <strong>Hydrokorrels en watjes</strong><br>
-    Omdat de plantjes niet zomaar los in het water kunnen hangen, werden er hydrokorrels en watjes gebruikt. Deze houden de plantjes vast in de potjes.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/img/Plantenbak/hydrokorrel.png" alt="Hydrokorrels" style="max-width: 60%;">
-  </div>
-</div>
+---
 
-<div style="margin-bottom: 2rem;">
-  <strong>Witte verf</strong><br>
-  Een witte binnenkast zorgt voor optimale reflectie en lichtverdeling in de kast. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de lichtintensiteit kan variëren. De witte verf zorgt ervoor dat het licht beter wordt verdeeld en dat de planten beter belicht worden. Dit is belangrijk voor de groei van de planten.
-</div>
+### Potjes
+De plantjes kunnen hier in gehangen worden om ze te laten groeien. De open potjes zorgen ervoor dat het water langs de wortels kan lopen.
 
-<div style="margin-bottom: 2rem;">
-  <strong>Consumables</strong><br>
-  Zoals schroeven, kabels, soldeermateriaal, 3D-prints, silicone, enzovoort. Dit zijn materialen die we nodig hebben om de plantenbak in elkaar te zetten en te monteren.
-</div>
+![Potjes](assets/img/Plantenbak/cups.png)
+
+---
+
+### Kokosvezel
+Alternatief groeimedium voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Kokosvezel is ook een duurzaam materiaal omdat het gemaakt is van kokosnootschalen, wat een overvloedig natuurlijk materiaal is. Het is ook biologisch afbreekbaar en kan worden gebruikt als meststof voor andere planten. Dit zou een goed alternatief zijn voor rockwol, maar het is moeilijker om de plantjes in de potjes te zetten, omdat het materiaal veel losser is dan rockwol. Dit is dus een goed alternatief voor de toekomst, maar voor ons prototype nu is rockwol een betere keuze. We hebben dit materiaal wel gebruikt om zaadjes in te zaaien om deze dan in de kast te verplanten.
+
+---
+
+### Plantenvoeding
+Essentiële voedingsstoffen voor gezonde plantengroei. Deze kunnen aangekocht worden in zowat elke tuin/huis/doe-het-zelf winkel. We kozen voor een vloeibare voeding omdat deze makkelijker te doseren is. Dit is volgens ons de goedkoopste en makkelijkste manier om de planten op een goede manier te voeden. Een andere optie was om zelf de chemische stoffen te kopen en deze zelf te mengen, maar dit is veel moeilijker, minder gebruiksvriendelijker en uiteindelijk ook duurder.
+
+![Plantenvoeding](assets/img/Plantenbak/voedingsstof.png)
+
+---
+
+### Hydrokorrels en Watjes
+Omdat de plantjes niet zomaar los in het water kunnen hangen, werden er hydrokorrels en watjes gebruikt. Deze houden de plantjes vast in de potjes.
+
+![Hydrokorrels](assets/img/Plantenbak/hydrokorrel.png)
+
+---
+
+### Witte verf
+Een witte binnenkast zorgt voor optimale reflectie en lichtverdeling in de kast. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de lichtintensiteit kan variëren. De witte verf zorgt ervoor dat het licht beter wordt verdeeld en dat de planten beter belicht worden. Dit is belangrijk voor de groei van de planten.
+
+---
+
+### Consumables
+Zoals schroeven, kabels, soldeermateriaal, 3D-prints, silicone, enzovoort. Dit zijn materialen die we nodig hebben om de plantenbak in elkaar te zetten en te monteren.
 
 ---
 
