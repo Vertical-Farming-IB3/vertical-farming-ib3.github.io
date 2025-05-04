@@ -45,6 +45,7 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 ## Componentenlijst
 
 Hier vind u de benodigde componenten voor het deel water.
+
 <!-- 
 Voor de PCB bestukking: 
 
