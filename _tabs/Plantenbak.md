@@ -7,18 +7,6 @@ order: 1
 > Under construction
 {: .prompt-warning }
 
-## Inhoud
-1. [De bedoeling](#de-bedoeling)
-2. [Benodigdheden](#benodigdheden)
-   1. [Elektronische componenten](#elektronische-componenten)
-   2. [Materialen](#materialen)
-3. [Planten](#planten)
-4. [PCB's](#pcbs)
-5. [De lades](#de-lades)
-   1. [Bak 1: flood & drain](#bak-1-flood--drain)
-   2. [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
-
-
 ## De bedoeling
 Onze slimme plantenbak is ontworpen om de groeiomstandigheden van planten optimaal te monitoren en automatisch te regelen. De PCB’s in elke lade hebben de volgende functionaliteiten:
 
@@ -51,7 +39,7 @@ Om onze slimme plantenbak te bouwen en te verbeteren, gebruiken we de volgende o
 
 <div style="margin-bottom: 2rem;">
   <strong>PCB's</strong><br>
-  Per bak zit één PCB die alle componenten aanstuurt. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, dus uitbreidingen zijn nog mogelijk. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie [PCB's](#pcbs).
+  Per bak zit één PCB die alle componenten aanstuurt. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, dus uitbreidingen zijn nog mogelijk. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
 </div>
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
