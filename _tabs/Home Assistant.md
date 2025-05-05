@@ -1,4 +1,5 @@
 ---
+title: "Home Assistant"
 icon: fas fa-house-signal
 order: 5
 ---
