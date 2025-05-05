@@ -48,7 +48,7 @@ Voor identificatie en automatisering per plantensoort. NFC werd verkozen boven R
 
 ---
 
-### PCB's
+### PCB
 Per bak zit één PCB die alle componenten aanstuurt. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, dus uitbreidingen zijn nog mogelijk. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
 
 ---
