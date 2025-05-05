@@ -45,6 +45,7 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 ## Componentenlijst
 
 Hier vind u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij Team Water.
+
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
 <!--Relative path?-->
 
@@ -53,7 +54,7 @@ Hier vind u de benodigde componenten voor het Project, voor dit onderdeel kan u 
 
 Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs en digitale outputs verzorgen:
 - Inputs
-    - (Analoog)  Chemische probes: 3 probes + 1 referentieprobe d.m.v. externe 16 bits ADC (I^2C)
+    - (Analoog)  Chemische probes: 3 probes + 1 referentieprobe d.m.v. externe 16 bits ADC (I<sup>2</sup>C)
     - (Digitaal) PH-probe (met BNC-Controller)
     - (Digitaal) Ultrasone hoogtesensoren: 3 sensoren
     - (Digitaal) Eindeloopschakelaars: 1 sensor (we voorzagen 3 aansluitingen)
@@ -66,7 +67,7 @@ Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs 
     - Luchtpomp: 12V relais
     - Waterpompen: 4 x 12V relais
 
-We maakten gebruik van een IO-expander (MCP23017) die aan te sturen is via I^2C. Het uitlezen van de analoge probes vereist een ADC met hoge resolutie. Hiervoor maken we gebruik van een 16-bits ADC (ADS1115), ook uitgelezen via I^2C. Het bijhouden van het energieverbruik gebeurt met een Hall-effect stroomsensor, verder besproken in Power.
+We maakten gebruik van een IO-expander (MCP23017) die aan te sturen is via I<sup>2</sup>C. Het uitlezen van de analoge probes vereist een ADC met hoge resolutie. Hiervoor maken we gebruik van een 16-bits ADC (ADS1115), ook uitgelezen via I<sup>2</sup>C. Het bijhouden van het energieverbruik gebeurt met een Hall-effect stroomsensor, verder besproken in Power.
 
 <!--laten staan-->
 <iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
@@ -75,9 +76,7 @@ Meer informatie over de PCB, zoals het schema en de pin-out vind u [hier](https:
 
 **Software** 
 
-We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml). <!--YAML niet zoals de rest in een mapje software plaatsen?-->
-
-Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml). <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ## Controle
 ### Ultrasoonsensor
@@ -134,6 +133,7 @@ Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waar
 De huidige UV-C lamp is gekozen om zijn voldoende vermogen om het nutrientrijke water te ontsmetten, en omdat ze compact genoeg is om in het waterreservoir te plaatsen. Op deze manier kan het water in de mengbak zonder veel extra componenten blootgesteld worden aan het UV-C licht.
 
 📄 [Research Ultrasoon + UV-C (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Opzoekingswerk_water.docx)
+<!--Mss opslitsen in 2 files-->
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig (in verschillende hoeveelheden), deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). Hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
