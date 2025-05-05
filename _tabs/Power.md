@@ -39,4 +39,4 @@ Voor de plantenbakken werd een al gemaakte module gebruikt. Een teamlid had deze
 
 Voor team Licht gebeurt de powermeting via een stroommonitor: de ZXCT1107, een high-side stroommonitor van Diodes Incorporated. Alles wordt duidelijk uitgelegd in de bijgevoegde pdf.
 
- [Powermeting (PDF)](https://vertical-farming-ib3.github.io/assets/assets/img/Licht/powermeting.pdf)
+ [Powermeting (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/powermeting.pdf)
