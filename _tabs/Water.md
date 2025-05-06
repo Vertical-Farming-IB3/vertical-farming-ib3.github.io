@@ -28,23 +28,11 @@ order: 2
 ## Introductie
 Om plantjes te laten groeien zijn water en voedingsstoffen onmisbaar. Met Team water staan wij in voor het aanvoeren en afvoeren van deze voedingsoplossing met de juiste kwaliteit. Dit gebeurt via een slim watersysteem dat instaat voor het mengen, verdelen en recupereren van het water.
 
-Water wordt samengebracht met voedingsstoffen in een mengreservoir. Na het mengen wordt het water naar de lades gepompt waar het door de plantjes kan opgenomen worden. Hierna keert het restwater terug naar het mixvat om gerecupereerd te worden.
-
-Het watersysteem bestaat uit twee hoofdonderdelen:
-- Watertoe- en afvoer
-- Stuurlogica (elektronica)
-
 In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail.
-<img 
-  src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" 
-  alt="Schematische tekening van het watersysteem" 
-  width="600" 
-  style="border-radius: 12px;"
-/>
 
 ## Componentenlijst
 
-Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij Team Water.
+Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij sectie Team Water binnen de bestellijst.
 
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
 <!--Relative path?-->
@@ -69,7 +57,7 @@ Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs 
 
 We maakten gebruik van een IO-expander (MCP23017) die aan te sturen is via I<sup>2</sup>C. Het uitlezen van de analoge probes vereist een ADC met hoge resolutie. Hiervoor maken we gebruik van een 16-bit ADC (ADS1115), ook uitgelezen via I<sup>2</sup>C. Het bijhouden van het energieverbruik gebeurt met een Hall-effect stroomsensor, verder besproken in Power.
 
-<!--laten staan-->
+
 <iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
 
 Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/).
@@ -92,7 +80,7 @@ We hebben voor deze sensor gekozen na verschillende overwegingen:
 - Meetbereik van 2 tot 400 cm met een nauwkeurigheid van ongeveer 3 mm.
 - Goede prijs-kwaliteitverhouding: de sensor is nauwkeurig en betaalbaar.
 
-📄 [Research Ultrasoon + UV-C (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Opzoekingswerk_water.docx)
+📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Watersysteem.md#waterniveau-sensor)
 
 Dankzij deze eigenschappen bleek de ultrasone sensor een geschikte keuze voor onze toepassing.
 
@@ -132,8 +120,7 @@ Let wel op: UV-C verwijdert geen vuildeeltjes of zichtbare vervuiling uit het wa
 Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was. <!--hadden het op deze manier ook wel door het reservoir kunnen circuleren, hangt af van de implementatie-->
 De huidige UV-C lamp is gekozen om zijn voldoende vermogen om het nutrientrijke water te ontsmetten, en omdat ze compact genoeg is om in het waterreservoir te plaatsen. Op deze manier kan het water in de mengbak zonder veel extra componenten blootgesteld worden aan het UV-C licht.
 
-📄 [Research Ultrasoon + UV-C (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Opzoekingswerk_water.docx)
-<!--Mss opslitsen in 2 files-->
+📄 [Research)](https://github.com/Vertical-Farming-IB3/Plan-T/edit/main/Water/Watersysteem.md#ontsmetten-van-mixreservoir)
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig (in verschillende hoeveelheden), deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). Hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
@@ -163,13 +150,21 @@ Dit maakt dat in totaal 5 probes zijn geïntegreerd. De PH-sensor is geïntegree
     - Duurder (in vergelijking met manuele testen)
     - Temperatuursafhankelijk
 
-📄 [Kallibratie Probes (Word)](https://vertical-farming-ib3.github.io/assets/files/Water/Kallibratie.docx)
+📄 [Kallibratie Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Chemische_probes.md)
 
 ## Toevoer
+<img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
+
+De watertoevoer is zo opgebouwd dat we twee voorraadtanks hebben: één met zuiver water en één met water vermengd met voedingsstoffen. We hebben bewust gekozen om de voedingsstoffen vooraf te mengen met water in het voorraadreservoir, omdat ze in geconcentreerde vorm zeer gevoelig zijn voor bacterievorming <!-- algenvorming-->. De fabrikant raadt aan om slechts één dopje per 8 liter te gebruiken, wat aantoont hoe krachtig het concentraat is.
+
+Beide voorraadtanks zijn uitgerust met een luchtpomp, om de waterkwaliteit stabiel te houden en ongewenste biologische groei te voorkomen.<!--Samonella en algengroei--> Elk reservoir heeft ook zijn eigen pomp om het water of de voedingsoplossing naar het mengreservoir te transporteren. In dit mengreservoir worden de vloeistoffen samengebracht en gemixt. Hier zal ook de waterkwaliteit worden opgevolgd.
+
+Vanuit dit centrale punt wordt het water via twee pompen verdeeld naar de plantlades. Aangezien er twee pompen aanwezig zijn, kunnen op dit moment twee lades tegelijk van water worden voorzien
+
 ### Reservoirs 
 <img src="{{ '/assets/img/Watersysteem/reservoir.png' | relative_url }}" alt="Afbeelding van reservoir" width="400" />
 
-Het watersysteem maakt gebruik van drie reservoirs. Elk reservoir heeft zijn eigen functie en zorgt ervoor dat de planten altijd de juiste voeding krijgen:
+Het watersysteem maakt gebruik van drie reservoirs van 8l. Elk reservoir heeft zijn eigen functie en zorgt ervoor dat de planten altijd de juiste voeding krijgen:
 
 - Waterreservoir: Dit is het reservoir dat zuiver water bevat zonder voedingsstoffen.
 - Voedingsstofreservoir: Hierin zitten de voedingsstoffen verdund in water. De voedingsstoffen worden al op voorhand verdund omdat deze anders een te hoge concentratie bevatten.
@@ -265,6 +260,8 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
     - Beperkte capaciteit bij grotere watervolumes (schaalbaarheid)
     - Mag geen lucht aanzuigen, er moet dus een minimumniveau ingesteld worden dat hoger is dan normaal
     - Vereist regelmatig onderhoud om verstoppingen te voorkomen
+
+ [Research)](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#mixer)
 
 ## Afvoer
 De afvoer van water gebeurt op basis van de zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. Op deze manier behouden we een hoge mate van modulariteit in het systeem.
