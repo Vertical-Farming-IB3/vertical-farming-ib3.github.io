@@ -191,7 +191,7 @@ Hier bespreken we nog even kort de voor- en nadelen:
     - Niet afsluitbaar, wat kan zorgen voor vuil en andere verontreinigingen in de reservoires
 
 ### Tubes
-De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"} hebben een diameter van 8 mm en zijn bedoeld voor het transport tussen reservoirs en van het mengreservoir naar de plantenbakken. Dankzij hun flexibiliteit zijn ze eenvoudig te installeren, zelfs op moeilijk bereikbare plaatsen. Elke tube is gekoppeld met klemringen en/of quick connectors, zodat ze snel kunnen worden aangesloten en losgemaakt voor onderhoud of aanpassingen. De verwerking van de tubes binnen ons project is ontworpen met oog op modulariteit. Ze kunnen eenvoudig vervangen of aangepast worden zonder dat het hele systeem moet worden herzien.
+De [tubes](https://www.tinytronics.nl/nl/mechanica-en-actuatoren/onderdelen/slangen/waterslang-voor-onderwaterpomp-verticaal-horizontaal-3-6v-transparant-1-meter){:target="_blank"} hebben een buitendiameter van 8 mm en een binnendiameter van 6mm. Ze worden gebruikt voor het transport van vloeistoffen tussen de reservoirs en van het mengreservoir naar de plantenbakken. Dankzij hun flexibiliteit zijn ze eenvoudig te installeren, zelfs op moeilijk bereikbare plaatsen. Elke tube is gekoppeld met klemringen en/of quick connectors, zodat ze snel kunnen worden aangesloten en losgemaakt voor onderhoud of aanpassingen. De verwerking van de tubes binnen ons project is ontworpen met oog op modulariteit. Ze kunnen eenvoudig vervangen of aangepast worden zonder dat het hele systeem moet worden herzien.
 
 Hier nog even kort de voor- en nadelen:
 - **Voordelen:**     
