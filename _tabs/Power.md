@@ -21,17 +21,17 @@ order: 4
 Als team Power willen we alle groepen op een zo veilig en eenvoudig mogelijke manier van stroom voorzien. Daarnaast moet het voor team Licht en team Plantenbak mogelijk zijn om op verschillende niveaus in de kast stroom af te halen.
 ### Fuse
 Om de kast, de gebruikers en de plaatselijke infrastructuur te beschermen: voorzien we een fuse van 1 ampère aan de ingang. Deze beperkt het maximaal verbruik tot 230 watt en biedt bescherming bij technische defecten.
-![Fuse](assets/img/Licht/20mm-glass-fuse-f_6.png)
+<img src="{{ 'assets/img/Licht/20mm-glass-fuse-f_6.png' | relative_url }}" alt="Afbeelding van een fuse" width="400" />
 ### Ingang en hoofdschakelaar
 De fuse is verwerkt in een connector met ingebouwde schakelaar en een C14 ingang. Dit zorgt ervoor dat het aan en uit schakelen van de kast eenvoudig blijft.
-![Main Connector](assets/img/Licht/main-connector.png)
+<img src="{{ 'assets/img/Licht/20mm-glass-fuse-f_6.png' | relative_url }}" alt="Afbeelding van de ingang" width="400" />
 ### Spanningen
 Om de juiste spanningen te voorzien hebben we eerst samen gezeten met alle teams. Daar ondervonden we dat team licht minstens 24v nodig zal hebben voor de leds, water minstens 12v voor de pompen en team plantenbak minstens 12v voor de ventilatoren. Om het zo eenvoudig mogelijk te houden kozen we om te werken met twee voedingen, de omzettingen naar 3.3v voor de ESP wordt op de PCB zelf gedaan.
-![Voeding](assets/img/Licht/power.png)
+<img src="{{ 'assets/img/Licht/power.png' | relative_url }}" alt="Afbeelding van de voeding op de binnenkast" width="400" />
 ### Connectoren
 We gebruiken GX12-4 connectoren, die bevatten 4 pinnen. Hierop worden zowel de 24 V als de 12 V aangesloten. De connectoren kunnen slechts op één manier worden aangesloten, wat garandeert dat team Plantenbak altijd 12 V ontvangt en team Licht 24 V.
 Doordat beide spanningen op dezelfde connector beschikbaar zijn, is het systeem eenvoudig te gebruiken. In totaal zijn er vijf connectoren geplaatst op verschillende hoogtes in de kast.
-![Connectoren](assets/img/Licht/main-connector.png)
+<img src="{{ 'assets/img/Licht/connector.png' | relative_url }}" alt="Afbeelding van de connector" width="400" />
 ### Kabels
 Voor de verbinding tussen de connector en de voedingen gebruiken we een kabel van 0,75 mm². Deze kunnen tot 1300 watt aan, dat is ruim voldoende aangezien de zekering het vermogen begrenst tot 230 watt.
 Tussen de connectoren en de voedingen worden diverse kabeltypes gebruikt, maar met een minimale diameter van 1 mm². Aangezien de voedingen maximaal 100,8 watt leveren, zijn alle gebruikte kabels ruim voldoende gedimensioneerd.
