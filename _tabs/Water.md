@@ -39,6 +39,7 @@ Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u
 
 ## Stuurlogica
 <!--Moet deze erin als je al de foto eronder hebt en de IBOM?-->
+<!--Of kleiner naast elkaar?-->
 <img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
 
 <img src="{{ '/assets/img/Watersysteem/Connecties_PCB_Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB met connecties" width="1000" />
