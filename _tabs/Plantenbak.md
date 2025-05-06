@@ -40,7 +40,7 @@ Als deel van de vertical farm is de plantenbak ontworpen om de groeiomstandighed
 
 ---
 
-## Componentenlijst {#commponentenlijst}
+## Componentenlijst {#componentenlijst}
 Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij Team Plantenbak.
 
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
@@ -59,7 +59,7 @@ Hier volgt een opsomming van alle in- en outputs van de PCB:
     - (Analoog) [Energieverbruik monitoren](#acs712-current-sensor)
 - Outputs
     - Onboard led voor debuggen
-    - [Ventilatie](#ventilattie): 5V relais
+    - [Ventilatie](#ventilatie): 5V relais
 
 Per bak zit één PCB die alle componenten aanstuurt, het brein hiervan is een ESP32. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, zodat uitbreidingen mogelijk zijn. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
 
