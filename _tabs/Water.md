@@ -60,7 +60,7 @@ Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs 
     - (Digitaal) Eindeloopschakelaars: 1 sensor (we voorzagen 3 aansluitingen)
     - (Analoog)  Stroommeting: 1 onboard ADC-input
 - Outputs
-    - Status leds: 2 leds
+    - Status leds: 2 leds (1 package)
     - Onboard led voor debuggen: 1 led
     - UV-C lamp: 230V relais
     - Mixer: 5V relais
