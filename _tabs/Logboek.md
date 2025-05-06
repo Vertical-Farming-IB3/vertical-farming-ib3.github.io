@@ -507,6 +507,12 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Voorbereiding einpresentatie
 
 ##### Team Water: 
+- Afwerken Frame buitenkast + start afwerking buitenkast
+- Afwerkingen binnenkast
+- Site + git
+- Testen + verbeteringen
+- Werken aan presentatie
+- Afwerken power aansluitingw
 
 ##### Team Plantenbak: 
 - Laatste plantjes in de bakken zetten
@@ -533,4 +539,3 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ---
 
 <!-- Komt er nog ergens een verklarende woordenlijst?-->
-
