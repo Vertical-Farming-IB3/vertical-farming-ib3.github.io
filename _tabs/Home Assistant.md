@@ -13,7 +13,7 @@ order: 5
 
 # Dashboard
 
-Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:8123) of de Home Assistant app opent vindt u verschillende dashboards terug. Hieronder bespreken we de verschillende dashboards.
+Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:8123) of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. Hieronder bespreken we de verschillende dashboards.
 
 ## Home
 
@@ -35,7 +35,7 @@ Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:81
 
 ## Watersysteem
 
-<!-- Afbeelding watersysteem dashboard-->
+<img src="{{ '/assets/img/HomeAssistant/HomeAssistantWater.png' | relative_url }}" alt="Watersysteem dashboard" />
 
 <!-- Uitleg watersysteem dashboard-->
 
@@ -46,3 +46,11 @@ In bovenstaande dashboards wordt telkens de meest recente data weergegeven. Het 
 # Automatisaties
 
 <!-- Uitleg over de automatisaties -->
+
+# Wachtwoorden
+
+| Toepassing           | Gebruikersnaam | Wachtwoord           |
+|----------------------|----------------|----------------------|
+| WiFi (IB3)           | /              | ingenieursbeleving3  |
+| Raspberry Pi ssh     | ib3            | ingenieursbeleving3  |
+| Home Assistant admin | ib3            | ingenieursbeleving3  |
