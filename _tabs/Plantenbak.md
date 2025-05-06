@@ -38,6 +38,8 @@ order: 1
 ## Introductie {#introductie}
 Als deel van de vertical farm is de plantenbak ontworpen om de groeiomstandigheden van planten optimaal te monitoren. Met deze info kunnen de andere regelsystemen, licht en water, zich aanpassen aan de noden van de planten. Om dit te realiseren zijn volgende sensoren en funkties aanwezig.
 
+In de volgende secties bespreken we alle onderdelen van dit systeem in meer detail.
+
 ---
 
 ## Componentenlijst {#componentenlijst}
@@ -89,14 +91,16 @@ We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcont
 ---
 
 ## Lades {#lades}
-Een plantenbak bestaat uit twee grote onderdelen: een houten lade en een plastic eurobak. De houten lade schuif in de kast, om voor modulariteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze staat schuin in de houten lade, zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken.
+Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken.
 
-We werken met twee technieken:
-- *Drip hydroponics (drip-systeem):* Bij deze techniek wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen, zonder dat het wortelgedeelte constant in water staat.
+Om de planten te kweken werken we met twee technieken:
 
-- *Flood & Drain (ebb & flow):* De groeibak wordt periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de "flood"-fase worden de wortels volledig ondergedompeld, en tijdens de "drain"-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
-  
-Dit laat toe om beide technieken te testen en onderling te vergelijken.
+•	Drip hydroponics (drip-systeem): Hierbij wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen zonder dat er verspilling is.
+
+•	Flood & Drain (ebb & flow): Hierbij wordt de groeibak periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de “flood”-fase worden de wortels volledig ondergedompeld, en tijdens de “drain”-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
+
+Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en onderling vergelijken.
+
 
 ---
 
@@ -104,7 +108,7 @@ Dit laat toe om beide technieken te testen en onderling te vergelijken.
 
 #### De opstelling:
 
-Deze bak wordt dus volledig gevuld met water, zodat de wortels van de planten volledig zijn ondergedompeld. Ter beveiliging is er een overloop gemaakt, zodat de bak nooit kan overlopen. De afloop van het water wordt geregeld met een regentonkraan. De potjes met plantjes in rusten op een rooster, gemaakt uit restjes hout. Zo kunnen de plantjes makkelijk in één beweging uit de bak gehaald worden.
+Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd.
 
 <img src="/assets/img/Plantenbak/bak_eb_flow.png" alt="bak eb flow">
 
@@ -114,7 +118,7 @@ Deze bak wordt dus volledig gevuld met water, zodat de wortels van de planten vo
 
 #### De opstelling:
 
-Door deze buis loopt er een flexibel buisje waar gaatjes in werden geprikt en die op het einde een stop heeft. Het buisje loopt door de rockwol en maakt deze dus vochtig wanneer er water door gepompt worden.
+Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt.
 
 <img src="/assets/img/Plantenbak/drip_bak.png" alt="drip bak">
 
