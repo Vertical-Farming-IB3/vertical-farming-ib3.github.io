@@ -25,12 +25,12 @@ order: 1
 7. [Materialen](#materialen)
     - [Eurobak](#eurobak)
     - [Regentonkraan](#regentonkraan)
-    - [Tec7](#tec7)
     - [Witte verf](#witte-verf)
     - [Kokosvezel](#kokosvezel)
     - [Plantenvoeding](#plantenvoeding)
     - [Rockwol](#rockwol)
     - [Potjes met hydrokorrels en watjes](#potjes-met-hydrokorrels-en-watjes)
+    - [Consumables](#consumables)
 6. [Planten](#planten)
 
 ---
@@ -178,11 +178,6 @@ Dit kraantje wordt gebruikt om de afloop van de ebb-and-flow bak te regelen. Dez
 
 ---
 
-### Tec7 {#tec7}
-blablabla
-
----
-
 ### Witte verf {#witte-verf}
 Een witte binnenkast zorgt voor optimale reflectie en lichtverdeling in de kast. Dit is belangrijk omdat de plantenbak in een afgesloten kast staat, waar de lichtintensiteit kan variëren. De witte verf zorgt ervoor dat het licht beter wordt verdeeld en dat de planten beter belicht worden. Dit is belangrijk voor de groei van de planten.
 
@@ -215,6 +210,11 @@ De plantjes kunnen hier in gehangen worden om ze te laten groeien. De open potje
 Omdat de plantjes niet zomaar los in het water kunnen hangen, werden er hydrokorrels en watjes gebruikt. Deze houden de plantjes vast in de potjes.
 
 ![Hydrokorrels](assets/img/Plantenbak/hydrokorrel.png)
+
+---
+
+### Consumables {#consumables}
+Zoals schroeven, kabels, soldeermateriaal, 3D-prints, silicone, enzovoort. Dit zijn materialen die we nodig hebben om de plantenbak in elkaar te zetten en te monteren.
 
 ---
 
