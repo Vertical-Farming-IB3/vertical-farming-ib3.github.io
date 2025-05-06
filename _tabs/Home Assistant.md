@@ -13,13 +13,13 @@ order: 5
 
 # Dashboard
 
-Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:8123) of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. Hieronder bespreken we de verschillende dashboards.
+Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:8123) of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. U klikt links op 'Home' voor de toegang tot de hieronder besproken dashboards.
 
 ## Home
 
 <!-- Afbeelding Home dashboard-->
 
-<!-- Uitleg Home dashboard-->
+Het 'Home' dashboard toont enkel de meest belangrijke zaken. Hier kunt u in een oogopslag zien of alle subsystemen van de vertical farm online zijn, wat de hoogtes van de reservoirs zijn en wat het energieverbruik is. Ook enkele belangrijke parameters van de plantenlades worden hier meegegeven.
 
 ## Lades
 
@@ -31,13 +31,15 @@ Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:81
 
 <!-- Afbeelding energieverbruik dashboard-->
 
-<!-- Uitleg energieverbruik dashboard-->
+Op dit dashboard vindt u het vermogenverbruik van het volledige systeem en alle subsystemen terug. Ook het energieverbruik wordt hier weergegeven. U kunt terugkeren in de tijd en het verbruik per lade analyseren.
 
 ## Watersysteem
 
 <img src="{{ '/assets/img/HomeAssistant/HomeAssistantWater.png' | relative_url }}" alt="Watersysteem dashboard" />
 
-<!-- Uitleg watersysteem dashboard-->
+Dit dashboard bevat enkele veiligheidschakelaars. Wanneer deze schakelaars zijn ingeschakeld krijgt het systeem 'controle' over de waterpompjes en wordt het waterpeil op hoogte gehouden. Deze schakelaars komen van pas bij het uitkuisen van de reservoirs of bij het verplaatsen van een lade. De schakelaar 'Pompen mixer' geeft aan of er water uit het water- en voedingsstoffenreservoir mogen gepompt worden naar het mixreservoir. De 'Pomp lade' geeft telkens aan of er water naar bijhorende lade mag gepompt worden.
+
+Verder vindt u hier ook de hoogte van de reservoirs terug en de chemische waarden van het water in het mixreservoir. Ook het vermogenverbruik en energieverbruik worden weergegeven.
 
 # Data aggregatie
 
