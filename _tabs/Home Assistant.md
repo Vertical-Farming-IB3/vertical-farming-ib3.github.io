@@ -53,4 +53,5 @@ In bovenstaande dashboards wordt telkens de meest recente data weergegeven. Het 
 |----------------------|----------------|----------------------|
 | WiFi (IB3)           | /              | ingenieursbeleving3  |
 | Raspberry Pi ssh     | ib3            | ingenieursbeleving3  |
+| Home Assistant       | Gast           | ib3gast              |
 | Home Assistant admin | ib3            | ingenieursbeleving3  |
