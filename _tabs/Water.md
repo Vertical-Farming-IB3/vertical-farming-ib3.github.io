@@ -80,7 +80,7 @@ We hebben voor deze sensor gekozen na verschillende overwegingen:
 - Meetbereik van 2 tot 400 cm met een nauwkeurigheid van ongeveer 3 mm.
 - Goede prijs-kwaliteitverhouding: de sensor is nauwkeurig en betaalbaar.
 
-📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Watersysteem.md#waterniveau-sensor)
+📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#waterniveau-sensor)
 
 Dankzij deze eigenschappen bleek de ultrasone sensor een geschikte keuze voor onze toepassing.
 
@@ -120,7 +120,7 @@ Let wel op: UV-C verwijdert geen vuildeeltjes of zichtbare vervuiling uit het wa
 Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was. <!--hadden het op deze manier ook wel door het reservoir kunnen circuleren, hangt af van de implementatie-->
 De huidige UV-C lamp is gekozen om zijn voldoende vermogen om het nutrientrijke water te ontsmetten, en omdat ze compact genoeg is om in het waterreservoir te plaatsen. Op deze manier kan het water in de mengbak zonder veel extra componenten blootgesteld worden aan het UV-C licht.
 
-📄 [Research)](https://github.com/Vertical-Farming-IB3/Plan-T/edit/main/Water/Watersysteem.md#ontsmetten-van-mixreservoir)
+📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#ontsmetten-van-mixreservoir)
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig (in verschillende hoeveelheden), deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). Hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
