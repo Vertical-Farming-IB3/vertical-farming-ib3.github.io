@@ -512,7 +512,7 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Site + git
 - Testen + verbeteringen
 - Werken aan presentatie
-- Afwerken power aansluitingw
+- Afwerken power aansluiting
 
 ##### Team Plantenbak: 
 - Laatste plantjes in de bakken zetten
