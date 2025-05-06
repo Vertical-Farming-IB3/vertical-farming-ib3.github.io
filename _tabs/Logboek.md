@@ -189,6 +189,11 @@ We bestelden meerdere benodigde componenten voor onze constructie.
 - thermische berekeningen
 - Bestellijst indienen
 - Bedrijfsbezoek Colruyt
+
+##### Team Power:
+- Overleg met alle teams
+- conectoren en voedingen kiezen
+- bestellijst indienen
   
 ---
 
@@ -421,6 +426,11 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Led + driver PCB's monteren in de lades
 - Alle PCB's uittesten en debuggen
 - Kleine aanpassingen code + uittesten
+
+##### Team Power:
+- Voedingen aan binnnenkast bevestigen
+- Fuse en schakelaar aansluiten
+- Eerste conectoren solderen
   
 ---
 
@@ -499,6 +509,10 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ##### Team Plantenbak: 
 
+##### Team Power:
+- Laatste conectoren solderen
+- Krimpkousen over alle connecties plaatsen
+  
 ---
 
 ### 📅 Maandag 12-05-2025:
