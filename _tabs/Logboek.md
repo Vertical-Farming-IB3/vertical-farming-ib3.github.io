@@ -508,6 +508,12 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ##### Team Plantenbak: 
 
+##### Team Licht:
+- Lade afwerken en uittesten
+- Laatste aanpassingen aan code
+- PCB etsen van power meting
+- presentatie afwerken
+
 ##### Team Power:
 - Laatste conectoren solderen
 - Krimpkousen over alle connecties plaatsen
