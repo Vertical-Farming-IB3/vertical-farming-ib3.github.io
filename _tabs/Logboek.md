@@ -297,8 +297,7 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - LDO bestellen
 - Voorbereiding componenten PCB
 - Code verder schrijven
-  
-##### Team Power: 
+
 
 ---
 
