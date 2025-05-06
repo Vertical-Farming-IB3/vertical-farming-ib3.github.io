@@ -55,7 +55,7 @@ Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u
 Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs en digitale outputs verzorgen:
 - Inputs
     - (Analoog)  Chemische probes: 3 probes + 1 referentieprobe d.m.v. externe 16 bits ADC (I<sup>2</sup>C)
-    - (Digitaal) PH-probe (met BNC-Controller)
+    - (Analoog) PH-probe (met BNC-Controller)
     - (Digitaal) Ultrasone hoogtesensoren: 3 sensoren
     - (Digitaal) Eindeloopschakelaars: 1 sensor (we voorzagen 3 aansluitingen)
     - (Analoog)  Stroommeting: 1 onboard ADC-input
