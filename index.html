@@ -6,22 +6,26 @@ custom_css: /assets/css/index.css
 ---
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
-</head>
-<body>
-  <div class="container">
-      <div class="box" id="txt1">
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="intro">
         <p>
-        Welkom bij de realisatie van IB3 academiejaar '24-'25.
-        De opdracht van dit jaar draait rond het ontwerpen en realiseren van een vertical farm voor thuisgebruik.
-        Het eindresultaat van dit project vindt u hier terug. Verschillende belangrijke aspecten hebben bijgedragen aan het succesvol tot stand komen van dit concept.      
-        Het design van de kast werd ontwikkeld in samenwerking met studenten architectuur, met als doel een esthetisch en functioneel geheel te creëren. 
-        Het idee is om de vertical farm te integreren in een keukenkast, zodat verse kruiden en groenten direct beschikbaar zijn in de keuken.
-        In de eerste fase is gekozen voor het kweken van kruiden, aangezien dit relatief eenvoudig is. Toch is het systeem flexibel en geschikt voor alle zelfbestuivende planten.
+          Welkom bij de realisatie van IB3 academiejaar '24-'25.
+          De opdracht van dit jaar draait rond het ontwerpen en realiseren van een vertical farm voor thuisgebruik.
+          Het eindresultaat van dit project vindt u hier terug. 
+          Verschillende belangrijke aspecten hebben bijgedragen aan het succesvol tot stand komen van dit concept.      
+          Het design van de kast werd ontwikkeld in samenwerking met studenten architectuur, 
+          met als doel een esthetisch en functioneel geheel te creëren. 
+          Het idee is om de vertical farm te integreren in een keukenkast, 
+          zodat verse kruiden en groenten direct beschikbaar zijn in de keuken.
+          In de eerste fase is gekozen voor het kweken van kruiden, aangezien dit relatief eenvoudig is. 
+          Toch is het systeem flexibel en geschikt voor alle zelfbestuivende planten.
         </p>
       </div>
       <div class="box" id="img1">
@@ -29,114 +33,118 @@ custom_css: /assets/css/index.css
         <img src="/assets/img/Home/prototype.jpg" alt="Vertical farm realisatie">
       </div>
 
-<!--Inspringen nodig? Zet ze anders wel in de css-->      
-<h2>Handleiding</h2>
-        <div class="handleiding-inhoud">
-          <p>Het bedienen van de vertical farm is eenvoudig. Volg onderstaande stappen om alles correct en veilig te gebruiken:</p>
-          
-          <div class="handleiding-sectie">
-            <h3>1. Vertical farm inschakelen</h3>
-            <ul>
-              <li>Zet de schakelaar <strong>aan de achterkant van de kast</strong> aan om de spanning in te schakelen.
+      <div class="handleiding">
+        <h2>Handleiding</h2>
+        <p>Het bedienen van de vertical farm is eenvoudig. Volg onderstaande stappen om alles correct en veilig te gebruiken:</p>
+
+        <div class="handleiding-sectie">
+          <h3>1. Vertical farm inschakelen</h3>
+          <ul>
+            <li>Zet de schakelaar <strong>aan de achterkant van de kast</strong> aan om de spanning in te schakelen.
+              <div class="opmerking">
+                <em>Let op: de exacte positie van de schakelaar moet nog bevestigd worden.</em>
+              </div>
+            </li>
+            <li>Zorg ervoor dat de server (Raspberry Pi) van stroom voorzien wordt en dat het WiFi-netwerk (met de naam 'IB3' en wachtwoord 'ingenieursbeleving3') beschikbaar is.</li>
+            <li>Als dit succesvol is zal het statuslampje vooraan de kast oplichten.</li>
+          </ul>
+        </div>
+
+        <div class="handleiding-sectie">
+          <h3>2. Bediening via het dashboard</h3>
+          <ul>
+            <li>
+              Surf naar http://homeassistant.local:8123 om het <strong>dashboard</strong> te bekijken. 
+              Dit kan ook via de <a href="https://play.google.com/store/apps/details?id=io.homeassistant.companion.android&hl=en">Home Assistant-app</a> op uw smartphone. 
+              Hier kan u de verschillende functies van de vertical farm bedienen en monitoren.
+            </li>
+            <div class="opmerking">
+              <em>Let op: u dient te verbinden met het IB3-netwerk om het dashboard te bekijken.</em>
+            </div>
+            <li>
+              Indien dit zonder problemen verloopt ziet u een dashboard met alle systemen van de Vertical Farm. 
+              Klik bovenaan op de verschillende tabbladen voor gedetailleerde informatie per systeem. Hier vindt u alle informatie in een net overzicht.
+            </li>
+            <li>Meer info over het Home Assistant-dashboard vindt u op <a href="https://vertical-farming-ib3.github.io/Home-Assistant/">deze pagina</a>.</li>
+          </ul>
+        </div>
+
+        <div class="handleiding-sectie">
+          <h3>3. Waterpeil controleren en aanvullen</h3>
+          <ul>
+            <li>Controleer regelmatig het <strong>waterpeil</strong> van de planten. Het statuslampje vooraan de kast zal rood oplichten wanneer het waterniveau te laag komt te staan.</li>
+            <li>Open de <strong>kastdeur</strong> om de reservoirs onderaan bij te vullen tot het aangeduid niveau.</li>
+            <li>
+              Voeg meststof toe volgens de <strong>doseringsrichtlijnen</strong> (hoeveelheid meststof per liter water). 
+              De gebruikte meststof is een gewone commerciële meststof voor groenten en kruiden. 
+              De dosering kan dus afhangen van de door u gekochte meststof. 
+              Een goede richtlijn voor kruiden is 1/4 dop voor twee liter water en 1 dop voor 5 liter water voor groenteplanten. 
+              De exacte dosering wordt geregeld door het systeem. 
+              Indien er te weinig voedingsstoffen aanwezig zijn, wordt dit weergegeven op het dashboard.
+            </li>
+          </ul>
+        </div>
+
+        <div class="handleiding-sectie">
+          <h3>4. Modulair systeem</h3>
+          <p>
+            De kast is <strong>modulair opgebouwd</strong>, wat betekent dat onderdelen eenvoudig te verplaatsen of vervangen zijn. 
+            Dit wil ook zeggen dat de kast ingericht kan worden in verschillende niveaus voor planten verschillend in grootte.
+          </p>
+          <div class="subsectie">
+            <h4>Plantenlade verplaatsen</h4>
+            <ol>
+              <li>Schakel de <strong>veiligheidsschakelaar</strong> van de lade uit in het Home Assistant dashboard.</li>
+              <!--Is dit nodig? Ik dacht dat we alles gingen uitschakelen met de eindloop bij het openen van de kast-->
+              <li>Druk het <strong>blauwe contact</strong> aan de zijkant van de lade in.</li>
+              <li><strong>Koppel de waterafvoer</strong> los.</li>
+              <li><strong>Plaats een stop</strong> op de waterleiding om vervuiling (en het druppen van de leiding) te voorkomen.</li>
+              <li><strong>Koppel de voedingsstekker</strong> los.</li>
+              <li>Verplaats de lade naar een nieuwe positie in de kast.</li>
+              <li>Sluit daar de watertoevoer (gewoon vastklikken) en de voedingsstekker opnieuw aan.</li>
+              <li><strong>Verplaats de waterafvoer</strong> naar de nieuwe locatie van de lade.
                 <div class="opmerking">
-                  <em>Let op: de exacte positie van de schakelaar moet nog bevestigd worden.</em>
+                  Mogelijk moet je achterin de kast bij de <strong>regenpijp</strong> een afscherming verplaatsen; deze is eenvoudig los te klikken.
                 </div>
               </li>
-              <li>Zorg ervoor dat de server (Raspberry Pi) van stroom voorzien wordt en het WiFi-netwerk (met de naam 'IB3' en wachtwoord 'ingenieursbeleving3') beschikbaar is.</li>
-              <li>Als dit succesvol is zal het statuslampje vooraan de kast oplichten.</li>
-            </ul>
-          </div>
-          
-          <div class="handleiding-sectie">
-            <h3>2. Bediening via het dashboard</h3>
-            <ul>
-              <li>Surf naar http://homeassistant.local:8123 om het <strong>dashboard</strong> te bekijken. Dit kan ook via de <a href="https://play.google.com/store/apps/details?id=io.homeassistant.companion.android&hl=en">Home Assistant-app</a> op je smartphone.
-                Hier kan u de verschillende functies van de vertical farm bedienen en monitoren.</li>
+              <li>Controleer onderaan de kast, door de zijdeur, of de juiste <strong>waterpomp</strong> is aangesloten voor het geselecteerde niveau.
                 <div class="opmerking">
-                    <em>Let op: u dient te verbinden met het IB3-netwerk om het dashboard te bekijken.</em>
-                  </div>
-              <li>Indien dit zonder problemen verloopt ziet u een dashboard met alle systemen van de Vertical Farm. 
-                Klik bovenaan op de verschillende tabbladen voor gedetailleerde informatie per systeem. Hier vindt u alle informatie in een net overzicht.</li>
-              <li>Meer info over het Home Assistant dashboard vindt u op <a href="https://vertical-farming-ib3.github.io/Home-Assistant/">deze pagina</a>.</li>
-            </ul> 
-          </div>
-          
-          <div class="handleiding-sectie">
-            <h3>3. Waterpeil controleren en aanvullen</h3>
-            <ul>
-              <li>Controleer regelmatig het <strong>waterpeil</strong> van de planten. 
-                Het statuslampje vooraan de kast zal rood oplichten wanneer het waterniveau te laag komt te staan.</li>
-              <li>Open de <strong>kastdeur</strong> om de reservoirs onderaan bij te vullen tot het aangeduid niveau.</li>
-              <li>Voeg meststof toe volgens de <strong>doseringsrichtlijnen</strong> (hoeveelheid meststof per liter water). 
-                De gebruikte meststof is een gewone commerciële meststof voor groenten en kruiden, de dosering kan dus afhangen van de door u gekochte meststof. 
-                Een goede richtlijn voor kruiden is 1/4 dop voor twee liter water en 1 dop voor 5 liter water voor groenteplanten. 
-                De exacte dosering word geregeld door het systeem, indien er te weinig voedingsstoffen aanwezig zijn wordt dit weergegeven op het dashboard.
+                  De niveaus zijn <strong>genummerd</strong> voor extra duidelijkheid.
+                </div>
               </li>
-            </ul>
+              <li>Schakel de <strong>veiligheidsschakelaar</strong> van de lade weer in via het Home Assistant dashboard.</li>
+            </ol>
           </div>
-          
-          <div class="handleiding-sectie">
-            <h3>4. Modulair systeem</h3>
-            <p>
-              De kast is <strong>modulair opgebouwd</strong>, wat betekent dat onderdelen eenvoudig te verplaatsen of vervangen zijn.
-              Dit wil ook zeggen dat de kast ingericht kan worden in verschillende niveaus voor planten verschillend in grootte.
-            </p>
-            
-            <div class="subsectie">
-              <h4>Plantenlade verplaatsen</h4>
-              <ol>
-                <li>Schakel de <strong>veiligheidsschakelaar</strong> van de lade uit in het Home Assistant dashboard.</li> 
-                <!--Is dit nodig? Ik dacht dat we alles gingen uitschakelen met de eindloop bij het openen van de kast-->
-                <!--Nog uitleg nodig voor gebruik van Dashboard?-->
-                <li>Druk het <strong>blauwe contact</strong> aan de zijkant van de lade in.</li>
-                <li><strong>Koppel de waterafvoer</strong> los.</li>
-                <li><strong>Plaats een stop</strong> op de waterleiding om vervuiling (en het druppen van de leiding) te voorkomen.</li>
-                <li><strong>Koppel de voedingsstekker</strong> los.</li>
-                <li>Verplaats de lade naar een nieuwe positie in de kast.</li>
-                <li>Sluit daar de watertoevoer (gewoon vastklikken) en de voedingsstekker opnieuw aan.</li>
-                <li><strong>Verplaats de waterafvoer</strong> naar de nieuwe locatie van de lade.
-                  <div class="opmerking">
-                    Mogelijk moet je achterin de kast bij de <strong>regenpijp</strong> een afscherming verplaatsen; deze is eenvoudig los te klikken.
-                  </div>
-                </li>
-                <li>Controleer onderaan de kast, door de zijdeur, of de juiste <strong>waterpomp</strong> is aangesloten voor het geselecteerde niveau.
-                  <div class="opmerking">
-                    De niveaus zijn <strong>genummerd</strong> voor extra duidelijkheid.
-                  </div>
-                </li>
-                <li>Schakel de <strong>veiligheidsschakelaar</strong> van de lade weer in via het Home Assistant dashboard.</li>
-              </ol>
-            </div>
-            
-            <div class="subsectie">
-              <h4>Lichtlade verplaatsen</h4>
-              <ol>
-                <li>Koppel de <strong>stekker</strong> van de lichtlade los.</li>
-                <li>Verplaats de lade naar de gewenste positie.</li>
-                <li>Sluit de stekker opnieuw aan.</li>
-              </ol>
-            </div>
+
+          <div class="subsectie">
+            <h4>Lichtlade verplaatsen</h4>
+            <ol>
+              <li>Koppel de <strong>stekker</strong> van de lichtlade los.</li>
+              <li>Verplaats de lade naar de gewenste positie.</li>
+              <li>Sluit de stekker opnieuw aan.</li>
+            </ol>
           </div>
         </div>
+      </div>
         
       <div class="box" id="teams">
-         <h2>Teamleden</h2>
-         <div>
-           <span class="team-label team-plant">🌿 Team Plantenbak:</span><br>
-           <span>Elias Neels</span>
-           <span>Beau Forrez</span>
-           <span>Wout Batsele</span>
-           <span>Wouter Fouquet</span>
-           <span>Sander De Stercke</span>
-         </div>
-         <div>
-           <span class="team-label team-water">💧 Team Water:</span><br>
-           <span>Kjell Naessens</span>
-           <span>Charlotte Bert</span>
-           <span>Niels Verhoeve</span>
-           <span>Sander Haustraete</span>
-         </div>
-         <div>
+        <h2>Teamleden</h2>
+        <div>
+          <span class="team-label team-plant">🌿 Team Plantenbak:</span><br>
+          <span>Elias Neels</span>
+          <span>Beau Forrez</span>
+          <span>Wout Batsele</span>
+          <span>Wouter Fouquet</span>
+          <span>Sander De Stercke</span>
+        </div>
+        <div>
+          <span class="team-label team-water">💧 Team Water:</span><br>
+          <span>Kjell Naessens</span>
+          <span>Charlotte Bert</span>
+          <span>Niels Verhoeve</span>
+          <span>Sander Haustraete</span>
+        </div>
+        <div>
           💡🔋<span class="team-label team-licht">Team Licht</span> en
           <span class="team-label team-power"> Team Power</span>:<br>
           <span>Andres Bosman</span>
@@ -149,23 +157,22 @@ custom_css: /assets/css/index.css
       </div>
     
       <div class="box" id="bedankt">
-          <h2>Bedankt aan</h2>
-          <p>We willen graag volgende personen bedanken voor hun hulp bij het project:</p>
-          <ul>
-              <li>D. Coppens</li>
-              <li>B. Cox</li>
-              <li>J. Van Mulders</li>
-              <li>L. Van der Perre</li>
-              <li>P. De Vreese</li>
-              <li>Het team van Labo Licht</li>
-              <!---Creative makers?-->
-          </ul>
+        <h2>Bedankt aan</h2>
+        <p>We willen graag volgende personen bedanken voor hun hulp bij het project:</p>
+        <ul>
+          <li>D. Coppens</li>
+          <li>B. Cox</li>
+          <li>J. Van Mulders</li>
+          <li>L. Van der Perre</li>
+          <li>P. De Vreese</li>
+          <li>Het team van Labo Licht</li>
+          <li>De studenten van creative makers</li>
+        </ul>
       </div>
 
       <div class="box" id="github">
-          <p>Voor de volledige realisatie en technische documentatie, zie onze <a href="https://github.com/Vertical-Farming-IB3/Plan-T" target="_blank">GitHub repository</a>.</p>
+        <p>Voor de volledige realisatie en technische documentatie, zie onze <a href="https://github.com/Vertical-Farming-IB3/Plan-T" target="_blank">GitHub repository</a>.</p>
       </div>
-  </div>
-
-</body>
+    </div>
+  </body>
 </html>
