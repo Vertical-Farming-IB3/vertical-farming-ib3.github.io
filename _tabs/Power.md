@@ -25,7 +25,7 @@ Om de kast, de gebruikers en de plaatselijke infrastructuur te beschermen: voorz
 <img src="{{ 'assets/img/Licht/20mm-glass-fuse-f_6.png' | relative_url }}" alt="Afbeelding van een fuse" width="400" />
 ### Ingang en hoofdschakelaar
 De fuse is verwerkt in een connector met ingebouwde schakelaar en een C14 ingang. Dit zorgt ervoor dat het aan en uit schakelen van de kast eenvoudig blijft.
-<img src="{{ 'assets/img/Licht/main connector' | relative_url }}" alt="Afbeelding van de ingang" width="400" />
+<img src="{{ 'assets/img/Licht/main connector.png' | relative_url }}" alt="Afbeelding van de ingang" width="400" />
 ### Spanningen
 Om de juiste spanningen te voorzien hebben we eerst samen gezeten met alle teams. Daar ondervonden we dat team licht minstens 24v nodig zal hebben voor de leds, water minstens 12v voor de pompen en team plantenbak minstens 12v voor de ventilatoren. Om het zo eenvoudig mogelijk te houden kozen we om te werken met twee voedingen, de omzettingen naar 3.3v voor de ESP wordt op de PCB zelf gedaan.
 <img src="{{ 'assets/img/Licht/power.png' | relative_url }}" alt="Afbeelding van de voeding op de binnenkast" width="400" />
