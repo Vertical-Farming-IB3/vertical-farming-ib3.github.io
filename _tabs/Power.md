@@ -34,7 +34,7 @@ We gebruiken GX12-4 connectoren, die bevatten 4 pinnen. Hierop worden zowel de 2
 Doordat beide spanningen op dezelfde connector beschikbaar zijn, is het systeem eenvoudig te gebruiken. In totaal zijn er vijf connectoren geplaatst op verschillende hoogtes in de kast.
 <img src="{{ 'assets/img/Licht/connector.png' | relative_url }}" alt="Afbeelding van de connector" width="400" />
 ### Kabels
-Voor de verbinding tussen de connector en de voedingen gebruiken we een kabel van 0,75 mm². Deze kunnen tot 1300 watt aan, dat is ruim voldoende aangezien de zekering het vermogen begrenst tot 230 watt.
+Voor de verbinding tussen de connector en de voedingen gebruiken we een kabel van 0,75 mm². Deze kunnen tot 1300 watt aan, dat is ruim voldoende aangezien de fuse het vermogen begrenst tot 230 watt.
 Tussen de connectoren en de voedingen worden diverse kabeltypes gebruikt, maar met een minimale diameter van 1 mm². Aangezien de voedingen maximaal 100,8 watt leveren, zijn alle gebruikte kabels ruim voldoende gedimensioneerd.
 
 ## Energieverbruik en vermogen
