@@ -479,7 +479,9 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ##### Team Plantenbak: 
 - Elektronica nog een laatste keer testen en in de lades bevestigen
-- 
+- Verder werken aan de site
+- Beginnen aan PowerPoint
+- Plantjes in de bakken zetten
 
 ##### Team Licht: 
 - Driver PCB's debuggen
@@ -507,6 +509,10 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ##### Team Water: 
 
 ##### Team Plantenbak: 
+- Laatste plantjes in de bakken zetten
+- Verder werken aan PowerPoint
+- Verder werken aan site
+- Sensoren kalibreren
 
 ##### Team Licht:
 - Lade afwerken en uittesten
