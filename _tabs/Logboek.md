@@ -503,8 +503,8 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ### 📅 Dinsdag 06-05-2025: 
 
-- Geintegreerde test
-- Voorbereiding einpresentatie
+- Geïntegreerde test
+- Voorbereiding eindpresentatie
 
 ##### Team Water: 
 - Afwerken Frame buitenkast + start afwerking buitenkast
@@ -513,6 +513,8 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Testen + verbeteringen
 - Werken aan presentatie
 - Afwerken power aansluiting
+- Afwerken Home Assistant dashboard
+- Verderzoeken naar probleem pH en mixer
 
 ##### Team Plantenbak: 
 - Laatste plantjes in de bakken zetten
