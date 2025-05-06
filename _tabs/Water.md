@@ -54,7 +54,7 @@ Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u
 
 Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs en digitale outputs verzorgen:
 - Inputs
-    - (Analoog)  Chemische probes: 3 probes + 1 referentieprobe d.m.v. externe 16 bits ADC (I<sup>2</sup>C)
+    - (Analoog)  Chemische probes: 3 probes + 1 referentieprobe d.m.v. externe 16 bit ADC (I<sup>2</sup>C)
     - (Analoog) PH-probe (met BNC-Controller)
     - (Digitaal) Ultrasone hoogtesensoren: 3 sensoren
     - (Digitaal) Eindeloopschakelaars: 1 sensor (we voorzagen 3 aansluitingen)
@@ -67,7 +67,7 @@ Het Printed Circuit Board (PCB) van het watersysteem moet een hele reeks inputs 
     - Luchtpomp: 12V relais
     - Waterpompen: 4 x 12V relais
 
-We maakten gebruik van een IO-expander (MCP23017) die aan te sturen is via I<sup>2</sup>C. Het uitlezen van de analoge probes vereist een ADC met hoge resolutie. Hiervoor maken we gebruik van een 16-bits ADC (ADS1115), ook uitgelezen via I<sup>2</sup>C. Het bijhouden van het energieverbruik gebeurt met een Hall-effect stroomsensor, verder besproken in Power.
+We maakten gebruik van een IO-expander (MCP23017) die aan te sturen is via I<sup>2</sup>C. Het uitlezen van de analoge probes vereist een ADC met hoge resolutie. Hiervoor maken we gebruik van een 16-bit ADC (ADS1115), ook uitgelezen via I<sup>2</sup>C. Het bijhouden van het energieverbruik gebeurt met een Hall-effect stroomsensor, verder besproken in Power.
 
 <!--laten staan-->
 <iframe src="{{ '/assets/html/ibom_watersysteem.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
