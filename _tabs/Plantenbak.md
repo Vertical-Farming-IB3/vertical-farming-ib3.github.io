@@ -126,6 +126,10 @@ Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde
 
 ## Sensoren en actuatoren {#sensoren-en-actuatoren}
 
+Voor het kiezen van de sensoren onderzochten we enkele alternatieven. Ons opzoekwerk kan u hier terugvinden: 📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Plantenbak/research.md){:target="_blank"}
+
+
+
 ### Soil moisture sensor {#capacitive-soil-moisture-sensor}
 Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de rockwol te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
 

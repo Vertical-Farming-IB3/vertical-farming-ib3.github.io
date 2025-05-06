@@ -152,7 +152,7 @@ Dit maakt dat in totaal 5 probes zijn geïntegreerd. De PH-sensor is geïntegree
     - Duurder (in vergelijking met manuele testen)
     - Temperatuursafhankelijk
 
-📄 [Kallibratie Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Chemische_probes.md){:target="_blank"}
+📄 [Kalibratie Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Chemische_probes.md){:target="_blank"}
 
 ## Toevoer
 <img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
