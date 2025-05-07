@@ -91,7 +91,11 @@ We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcont
 ---
 
 ## Lades {#lades}
-Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken.
+Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken. In elke lade werd ook een 3D-print bevestigd, om de PCB en componenten af te sluiten van de eurobakken. 
+
+### Bekijk hier het 3D-model:
+<iframe src="/assets/html/stlviewer_plantenbak.html" width="100%" height="600" style="border: 1px solid #ccc; border-radius: 20px;"></iframe>
+
 
 Om de planten te kweken werken we met twee technieken:
 
