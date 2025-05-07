@@ -82,7 +82,7 @@ Per bak zit één PCB die alle componenten aanstuurt, het brein hiervan is een E
   </div>
 </div>
 
-Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/PCB).
+Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/PCB){:target="_blank"}.
 
 **Software** 
 
