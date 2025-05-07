@@ -45,7 +45,7 @@ In de volgende secties bespreken we alle onderdelen van dit systeem in meer deta
 ## Componentenlijst {#componentenlijst}
 Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij Team Plantenbak.
 
-📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
+📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx){:target="_blank"}
 <!--Relative path?-->
 
 ---
@@ -86,12 +86,12 @@ Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https
 
 **Software** 
 
-We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml). <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}. <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ---
 
 ## Lades {#lades}
-Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken. In elke lade werd ook een 3D-print bevestigd, om de PCB en componenten af te sluiten van de eurobakken. 
+Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken. In elke lade werd ook een 3D-print bevestigd, om de PCB en componenten af te sluiten van de eurobakken. Deze kan [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/3D-modellen){:target="_blank"} gevonden worden.
 
 ### Bekijk hier het 3D-model:
 <iframe src="/assets/html/stlviewer_plantenbak.html" width="100%" height="600" style="border: 1px solid #ccc; border-radius: 20px;"></iframe>
@@ -112,7 +112,7 @@ Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en ond
 
 #### De opstelling:
 
-Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd.
+Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de bak nog 2 gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
 
 <img src="/assets/img/Plantenbak/bak_eb_flow.png" alt="bak eb flow">
 
@@ -122,7 +122,7 @@ Deze bak wordt volledig met water gevuld, zodat de wortels van de planten contin
 
 #### De opstelling:
 
-Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt.
+Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt. Deze bak heeft ook boven een quick connector die bevestigd werd met een snelbinder. Hier moet maar één gat geboord worden voor de afloop. Daarin werd dan een pvc-buisje in bevestigd met een wartelmoer, en ook hier werd het terug verstevigd en waterdicht gemaakt met lijm-/bevestigingskit.
 
 <img src="/assets/img/Plantenbak/drip_bak.png" alt="drip bak">
 
