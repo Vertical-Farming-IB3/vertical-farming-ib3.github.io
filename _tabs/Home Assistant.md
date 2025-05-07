@@ -2,6 +2,7 @@
 title: "Home Assistant"
 icon: fas fa-house-signal
 order: 5
+layout: default
 ---
 
 > Under construction
@@ -10,12 +11,10 @@ order: 5
 
 
 <!-- Algemene info over HomeAssistant dashboard en data agregatie-->
-<div class="responsive-iframe-container">
-  <iframe src="http://192.168.0.112:8123/dashboard-home/home" width="100%" height="800" style="border: 1px solid #eee; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" allow="fullscreen"></iframe>
-</div>
-<div class="alert alert-info" role="alert">
-  <i class="fas fa-info-circle"></i> Als het dashboard hierboven niet laadt, controleer dan of u verbonden bent met het juiste netwerk of ga rechtstreeks naar <a href="http://192.168.0.112:8123" target="_blank">http://192.168.0.112:8123</a>
-</div>
+
+> Under construction {: .prompt-warning }
+
+<iframe src="http://192.168.0.112:8123/dashboard-home/home" width="100%" height="800" style="border: none;"></iframe>
 
 # Dashboard
 
