@@ -51,7 +51,11 @@ Het systeem verbruikt natuurlijk wel wat elektriciteit. Om ons verbruik goed in 
 Het doel is om zo weinig mogelijk energie te verbruiken, bij het behouden van een optimale werking.
 
 ### ACS712 Hall-effect stroomsensor (team water)
-<img src="{{ '/assets/img/Watersysteem/hall-effect-cs.png' | relative_url }}" alt="Hall effect" width="400" />
+<figure>
+  <img src="{{ '/assets/img/Watersysteem/hall-effect-cs.png' | relative_url }}" alt="Hall effect" width="400" />
+  <figcaption>Bron: Hall-effect current sensor, SparkFun, www.sparkfun.com, 29/04/25​</figcaption>
+</figure>
+
 
 Voor Team Water gebeurt de vermogensmeting met een hergebruikte sensor van vorig jaar: de ACS712 Hall-effect stroomsensor. Daarbij meten we de stroom die door de voedingskabel van de PCB loopt.
 
