@@ -10,6 +10,12 @@ order: 5
 
 <!-- Algemene info over HomeAssistant dashboard en data agregatie-->
 
+<iframe 
+  src="http://192.168.0.112:8123/dashboard-home/home" 
+  width="100%" 
+  height="800" 
+  style="border: none;">
+</iframe>
 
 # Dashboard
 
