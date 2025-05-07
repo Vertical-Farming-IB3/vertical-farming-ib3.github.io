@@ -37,6 +37,17 @@ Onze gebruikte bronnen:
 - “Ultrasonic Sensor - HC-SR04”, TinyTronics. https://www.tinytronics.nl/en/sensors/distance/ultrasonic-sensor-hc-sr04
 - Waterpompshop, “Wat is een dompelpomp en waar wordt deze pomp voor gebruikt?”, Waterpompshop. https://www.waterpompshop.nl/blog/wat-is-een-dompelpomp-en-waar-wordt-deze-pomp-voor-gebruikt
 - Koifarm, Luchtsteen voor luchtpomp zuurstof in de vijver. [Online]. Beschikbaar op: https://koifarm.shop/categorie/luchtpompen-voor-vijver/luchtstenen/#:~:text=De%20luchtsteen%20breekt%20de%20aangevoerde,watervolume%20in%20beweging%20wordt%20gebracht.
--  “Ademruimte voor je vijver: Alles over luchtpompen”, Tips & Adviezen - Toppy, 7 november 2024. https://www.toppy.nl/advies/189/zo-installeer-je-een-luchtpomp-bij-jouw-vijver.html
--  “Pomp & beluchting”. https://www.petsplace.be/nl/vis/pomp-beluchting
--  
+- “Ademruimte voor je vijver: Alles over luchtpompen”, Tips & Adviezen - Toppy, 7 november 2024. https://www.toppy.nl/advies/189/zo-installeer-je-een-luchtpomp-bij-jouw-vijver.html
+- “Pomp & beluchting”. https://www.petsplace.be/nl/vis/pomp-beluchting
+- “GY-SCD40 Module - CO2, luchtvochtigheid en temperatuursensor (I2C)”, TinyTronics. https://www.tinytronics.nl/nl/sensoren/lucht/vochtigheid/gy-scd40-module-co2-luchtvochtigheid-en-temperatuursensor-i2c
+- “Winsen MH-Z19B CO2 Sensor met kabel”, TinyTronics. https://www.tinytronics.nl/nl/winsen-mh-z19b-co2-sensor-met-kabel
+- “Adafruit CCS811 Air Quality Sensor Breakout - VOC and eCO2”, Adafruit. https://www.adafruit.com/product/3566
+- “RFID / NFC kit PN532 with S50 card and S50 key tag”, TinyTronics. https://www.tinytronics.nl/en/communication-and-signals/wireless/rfid/rfid-nfc-kit-pn532-with-s50-card-and-s50-key-tag
+- “RFID kit MFRC522 + S50 Mifare met kaart en key tag”, TinyTronics. https://www.tinytronics.nl/nl/communicatie-en-signalen/draadloos/rfid/rfid-kit-mfrc522-s50-mifare-met-kaart-en-key-tag
+- “NXP MFRC630 Series NFC/RFID Tags & Transponders”, Mouser Electronics. https://gr.mouser.com/c/semiconductors/wireless-rf-integrated-circuits/nfc-rfid-tags-transponders/?m=NXP&series=MFRC630
+- “ACS712 Stroomsensor Module - 20A”, TinyTronics. https://www.tinytronics.nl/nl/sensoren/stroom-spanning/acs712-stroomsensor-module-20a
+- “INA219 I2C DC Current and Voltage meter 3.2A module”, TinyTronics. https://www.tinytronics.nl/en/sensors/current-voltage/ina219-i2c-dc-current-and-voltage-meter-3.2a-module
+- “AC Stroom Sensor - SCT013-030 (30A)”, TinyTronics. https://www.tinytronics.nl/nl/sensoren/stroom-spanning/ac-stroom-sensor-sct013-030-30a
+- “Capacitive Soil Moisture Sensor module (with cable)”, TinyTronics. https://www.tinytronics.nl/en/sensors/liquid/capacitive-soil-moisture-sensor-module-with-cable
+- “YL-69 Nieuwe Smart Elektronische Bodem Probe Vocht Hygrometer Detectie Vochtigheid Sensor Module Voor Arduino Board Diy Robot Slimme1 Auto”, AliExpress. https://nl.aliexpress.com/item/1005004305871722.html   
+- “Soil Temperature-Moisture Sensor SHT10”, Gotron. https://www.gotron.be/soil-temperature-moisture-sensor.html
