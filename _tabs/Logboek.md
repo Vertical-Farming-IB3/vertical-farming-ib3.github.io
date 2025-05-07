@@ -534,6 +534,15 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
   
 ---
 
+### 📅 Woensdag 07-05-2025: 
+##### Team Water en Plantenbak: 
+- Ophalen en bevestigen afwerking buitenkast (grotendeels afgewerkt)
+
+##### Team Licht:
+- Fixen lade 2
+
+---
+
 ### 📅 Maandag 12-05-2025:
 
 - Eindpresentatie
