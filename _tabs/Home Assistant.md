@@ -10,13 +10,27 @@ order: 5
 
 
 <!-- Algemene info over HomeAssistant dashboard en data agregatie-->
-
-<iframe 
-  src="http://192.168.0.112:8123/dashboard-home/home" 
-  width="100%" 
-  height="800" 
-  style="border: none;">
-</iframe>
+<div class="home-assistant-container">
+  <iframe 
+    src="http://192.168.0.112:8123/dashboard-home/home" 
+    width="100%" 
+    height="800" 
+    style="border: none;" 
+    id="ha-iframe"
+    allow="fullscreen">
+    Your browser does not support iframes.
+  </iframe>
+</div>
+<style>
+  .home-assistant-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+</style>
 
 # Dashboard
 
