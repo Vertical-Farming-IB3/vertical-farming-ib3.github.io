@@ -93,10 +93,6 @@ We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcont
 ## Lades {#lades}
 Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken. In elke lade werd ook een 3D-print bevestigd, om de PCB en componenten af te sluiten van de eurobakken. Deze kan [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/3D-modellen){:target="_blank"} gevonden worden.
 
-### Bekijk hier het 3D-model:
-<iframe src="/assets/html/stlviewer_plantenbak.html" width="100%" height="600" style="border: 1px solid #ccc; border-radius: 20px;"></iframe>
-
-
 Om de planten te kweken werken we met twee technieken:
 
 •	Drip hydroponics (drip-systeem): Hierbij wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen zonder dat er verspilling is.
@@ -112,7 +108,7 @@ Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en ond
 
 #### De opstelling:
 
-Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de bak nog 2 gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
+Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de bak nog twee gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
 
 <img src="/assets/img/Plantenbak/bak_eb_flow.png" alt="bak eb flow">
 
