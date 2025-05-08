@@ -543,7 +543,13 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ---
 
-### 📅 Maandag 12-05-2025:
+### 📅 Donderdag 08-05-2025: 
+##### Team Water en Plantenbak: 
+- Kast proper maken en volledig installer voor opendeurdag op zaterdag 
+
+---
+
+### 📅 Dinsdag 13-05-2025:
 
 - Eindpresentatie
 
