@@ -175,7 +175,7 @@ Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stenge
 ## Materialen {#materialen}
 
 ### Eurobak {#eurobak}
-blablabla
+Deze bakken zijn goedkoop, waterdicht en makkelijk te bewerken. Het principe van een bak-in-een-bak (een eurobak in een lade) draagt bij tot de modulariteit.
 
 ---
 
