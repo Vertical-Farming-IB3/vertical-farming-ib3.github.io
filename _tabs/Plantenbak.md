@@ -36,14 +36,14 @@ order: 1
 ---
 
 ## Introductie {#introductie}
-Als deel van de vertical farm is de plantenbak ontworpen om de groeiomstandigheden van planten optimaal te monitoren. Met deze info kunnen de andere regelsystemen, licht en water, zich aanpassen aan de noden van de planten. Om dit te realiseren zijn volgende sensoren en funkties aanwezig.
+Als deel van de vertical farm is de plantenbak ontworpen om de groeiomstandigheden van planten optimaal te monitoren. Met deze info kunnen de andere regelsystemen, licht en water, zich aanpassen aan de noden van de planten. Om dit te realiseren zijn volgende sensoren en functies aanwezig.
 
 In de volgende secties bespreken we alle onderdelen van dit systeem in meer detail.
 
 ---
 
 ## Componentenlijst {#componentenlijst}
-Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij Team Plantenbak.
+Hier vindt u de benodigde componenten voor het Project: voor dit onderdeel kan u kijken bij Team Plantenbak.
 
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx){:target="_blank"}
 <!--Relative path?-->
@@ -63,7 +63,7 @@ Hier volgt een opsomming van alle in- en outputs van de PCB:
     - Onboard led voor debuggen
     - [Ventilatie](#ventilatie): 5V relais
 
-Per bak zit één PCB die alle componenten aanstuurt, het brein hiervan is een ESP32. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, zodat uitbreidingen mogelijk zijn. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
+Per bak zit één PCB die alle componenten aanstuurt, met als 'brein' een ESP32. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, zodat uitbreidingen mogelijk zijn. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
 
 <iframe src="{{ '/assets/html/ibom_plantenbak.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
 
@@ -86,7 +86,7 @@ Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https
 
 **Software** 
 
-We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereert wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}. <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}. <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ---
 
