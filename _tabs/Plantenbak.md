@@ -28,7 +28,6 @@ order: 1
     - [Witte verf](#witte-verf)
     - [Kokosvezel](#kokosvezel)
     - [Plantenvoeding](#plantenvoeding)
-    - [Rockwol](#rockwol)
     - [Potjes met hydrokorrels en watjes](#potjes-met-hydrokorrels-en-watjes)
     - [Consumables](#consumables)
 6. [Planten](#planten)
@@ -192,7 +191,9 @@ Een witte binnenkast zorgt voor optimale reflectie en lichtverdeling in de kast.
 ---
 
 ### Kokosvezel {#kokosvezel}
-Alternatief groeimedium voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Kokosvezel is ook een duurzaam materiaal omdat het gemaakt is van kokosnootschalen, wat een overvloedig natuurlijk materiaal is. Het is ook biologisch afbreekbaar en kan worden gebruikt als meststof voor andere planten. Dit zou een goed alternatief zijn voor rockwol, maar het is moeilijker om de plantjes in de potjes te zetten, omdat het materiaal veel losser is dan rockwol. Dit is dus een goed alternatief voor de toekomst, maar voor ons prototype nu is rockwol een betere keuze. We hebben dit materiaal wel gebruikt om zaadjes in te zaaien om deze dan in de kast te verplanten.
+Een goed biologisch groeimedium voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Kokosvezel is ook een duurzaam materiaal omdat het gemaakt is van kokosnootschalen, wat een overvloedig natuurlijk materiaal is. Het is ook biologisch afbreekbaar en kan worden gebruikt als meststof voor andere planten. Dit is een goed alternatief voor rockwol, omdat we daar last hadden van irritatie, te veel waterabsorptie en te vast voor de wortels om zich te nestelen. Kokosvezel was daarom een goede middenweg tussen aarde en rockwol.
+
+![Kokosvezel](assets/img/Plantenbak/kokosvezel.png)
 
 ---
 
@@ -200,13 +201,6 @@ Alternatief groeimedium voor de planten in de drip-bak. Dit is een goed alternat
 Essentiële voedingsstoffen voor gezonde plantengroei. Deze kunnen aangekocht worden in zowat elke tuin/huis/doe-het-zelf winkel. We kozen voor een vloeibare voeding omdat deze makkelijker te doseren is. Dit is volgens ons de goedkoopste en makkelijkste manier om de planten op een goede manier te voeden. Een andere optie was om zelf de chemische stoffen te kopen en deze zelf te mengen, maar dit is veel moeilijker, minder gebruiksvriendelijker en uiteindelijk ook duurder.
 
 ![Plantenvoeding](assets/img/Plantenbak/voedingsstof.png)
-
----
-
-### Rockwol {#rockwol}
-Wordt gebruikt als substraat voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Rockwol is ook een duurzaam materiaal omdat het gemaakt is van basaltsteen, wat een overvloedig natuurlijk materiaal is. Een nadeel is dat het niet biologisch afbreekbaar is en dat het kan irriteren bij aanraking. Voor ons prototype nu is dit geen probleem, maar in de toekomst zou hier een gebruiksvriendelijker alternatief voor moeten gevonden worden, zoals kokosvezel of iets zoals steekschuim.
-
-![Rockwol](assets/img/Plantenbak/rockwol.png)
 
 ---
 
@@ -229,11 +223,59 @@ Zoals schroeven, kabels, soldeermateriaal, 3D-prints, silicone, enzovoort. Dit z
 ## Planten {#planten}
 We kozen deze soorten:
 
-- Koriander ★★★
-- Basilicum ★★
-- Oregano ★
-- Snijsla ★★★
-- Munt ★
+- Koriander 
+- Basilicum 
+- Oregano 
+- Snijsla 
+- Munt
+- Bieslook
+- Peterselie
 
-Volgens ons zijn dit handige, veelzijdige gewassen om beschikbaar te hebben in de keuken. Ze zijn ook relatief makkelijk te groeien. Hoe meer sterren (★), hoe makkelijker en sneller ze groeien.
-We zaaiden deze in aarde, om de kleine plantjes dan later te verplanten in onze vertical farm. Het is beter om in de kast met een klein plantje te beginnen, dan met een zaadje.
+<table>
+  <thead>
+    <tr>
+      <th>Plant</th>
+      <th>Voordelen</th>
+      <th>Nadelen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Koriander</td>
+      <td>Snelle groei</td>
+      <td>Wordt dun en lang: onstabiel<br>Gevoelig aan verplanten</td>
+    </tr>
+    <tr>
+      <td>Basilicum</td>
+      <td>Groeit makkelijk<br>Stabiele plant</td>
+      <td>Kan snel verwelken</td>
+    </tr>
+    <tr>
+      <td>Oregano</td>
+      <td>Stabiele plant<br>Goed verplantbaar</td>
+      <td>Langzame groei</td>
+    </tr>
+    <tr>
+      <td>Snijsla</td>
+      <td>Erg snelle groei<br>Veel oogst per plant</td>
+      <td>Gevoelig voor rot<br>Erg gevoelig aan verplanten</td>
+    </tr>
+    <tr>
+      <td>Munt</td>
+      <td>Groeit goed eens ontkiemd<br>Sterke plant</td>
+      <td>Woekert makkelijk<br>Ontkiemen duurt relatief lang</td>
+    </tr>
+    <tr>
+      <td>Bieslook</td>
+      <td>Makkelijk te verplanten</td>
+      <td>Langzame kieming</td>
+    </tr>
+    <tr>
+      <td>Peterselie</td>
+      <td>Kan lang blijven groeien</td>
+      <td>Traag kiemproces<br>Wordt lang en dun</td>
+    </tr>
+  </tbody>
+</table>
+
+
