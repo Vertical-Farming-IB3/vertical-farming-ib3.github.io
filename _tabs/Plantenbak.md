@@ -14,7 +14,7 @@ order: 1
 3. [Stuurlogica](#stuurlogica)
 4. [Lades](#lades)
    - [Bak 1: flood & drain](#bak-1-flood--drain)
-   - [Bak 2: drip hydroponics in rockwol](#bak-2-drip-hydroponics-in-rockwol)
+   - [Bak 2: drip hydroponics in kokosvezel](#bak-2-drip-hydroponics-in-kokosvezel)
 5. [Sensoren en actuatoren](#sensoren-en-actuatoren)
     - [Soil moisture sensor](#capacitive-soil-moisture-sensor) 
     - [Lichtsensor](#bh1750-lichtsensor)
@@ -113,7 +113,7 @@ Deze bak wordt volledig met water gevuld, zodat de wortels van de planten contin
 
 ---
 
-### Bak 2: drip hydroponics in rockwol {#bak-2-drip-hydroponics-in-rockwol}
+### Bak 2: drip hydroponics in kokosvezel {#bak-2-drip-hydroponics-in-kokosvezel}
 
 #### De opstelling:
 
@@ -130,7 +130,7 @@ Voor het kiezen van de sensoren onderzochten we enkele alternatieven. Ons opzoek
 
 
 ### Soil moisture sensor {#capacitive-soil-moisture-sensor}
-Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de rockwol te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
+Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de kokosvezel te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
 
 ![CSMS](assets/img/Plantenbak/csms.png)
 
