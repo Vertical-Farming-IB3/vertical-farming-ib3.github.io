@@ -536,7 +536,7 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ### 📅 Woensdag 07-05-2025: 
 ##### Team Water en Plantenbak: 
-- Ophalen en bevestigen afwerking buitenkast (grotendeels afgewerkt)
+- Ophalen en bevestigen afwerking buitenkast 
 
 ##### Team Licht:
 - Fixen lade 2
@@ -545,7 +545,23 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ### 📅 Donderdag 08-05-2025: 
 ##### Team Water en Plantenbak: 
-- Kast proper maken en volledig installer voor opendeurdag op zaterdag 
+- Kast proper maken en volledig installeren voor opendeurdag op zaterdag 
+
+---
+
+### 📅 Vrijdag 09-05-2025: 
+##### Team Water, Plantenbak en Licht: 
+- De kast getest
+- De finale plantjes geplant in de bak
+- De rockwolbak werd volledig vervangen door kokosvezel
+- De setup klaargezet voor op de opendeurdag (tv etc.)
+- Last-minute probleempjes opgelost
+
+---
+
+### 📅 Zater 10-05-2025: 
+##### Team Water, Plantenbak en Licht: 
+- De kast ligt nu officiaal aan. 
 
 ---
 
