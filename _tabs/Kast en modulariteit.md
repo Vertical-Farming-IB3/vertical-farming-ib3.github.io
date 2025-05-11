@@ -1,5 +1,5 @@
 ---
-icon: fas screwdriver-wrench
+icon: fas fa-screwdriver-wrench
 order: 6       
 ---
 
