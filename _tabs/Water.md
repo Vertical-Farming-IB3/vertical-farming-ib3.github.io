@@ -35,7 +35,7 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 
 Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij sectie Team Water binnen de bestellijst.
 
-📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
+📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/BOM.xlsx)
 
 ## Stuurlogica
 

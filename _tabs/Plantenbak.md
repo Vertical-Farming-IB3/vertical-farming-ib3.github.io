@@ -44,7 +44,7 @@ In de volgende secties bespreken we alle onderdelen van dit systeem in meer deta
 ## Componentenlijst {#componentenlijst}
 Hier vindt u de benodigde componenten voor het Project: voor dit onderdeel kan u kijken bij Team Plantenbak.
 
-📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx){:target="_blank"}
+📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/BOM.xlsx){:target="_blank"}
 <!--Relative path?-->
 
 ---
