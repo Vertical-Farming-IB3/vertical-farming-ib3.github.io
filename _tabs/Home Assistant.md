@@ -5,11 +5,6 @@ order: 5
 layout: default
 ---
 
-> Under construction
-{: .prompt-warning }
-> 
-
-
 
 # Dashboard
 
@@ -53,7 +48,17 @@ De automatisaties worden slim aangestuurd vanuit de Home Assistant server. Op de
 
 # Wachtwoorden
 
+Met onderstaande wachtwoorden kan u met het lokaal WiFi-netwerk verbinden om daarna in te loggen op het Home Assistant-dashboard. 
+
 | Toepassing           | Gebruikersnaam | Wachtwoord           |
 |----------------------|----------------|----------------------|
 | WiFi (IB3)           | /              | ingenieursbeleving3  |
 | Home Assistant       | Gast           | ib3gast              |
+
+
+Onderstaande login-gegevens dienen enkel gebruikt te worden code of instellingen te wijzigen.
+
+| Toepassing           | Gebruikersnaam | Wachtwoord           |
+|----------------------|----------------|----------------------|
+| Raspberry Pi ssh     | ib3            | ingenieursbeleving3  |
+| Home Assistant admin | ib3            | ingenieursbeleving3  |
