@@ -38,8 +38,7 @@ Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
 
 ## Stuurlogica
-<!--Moet deze erin als je al de foto eronder hebt en de IBOM?-->
-<!--Of kleiner naast elkaar?-->
+
 <img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
 
 <img src="{{ '/assets/img/Watersysteem/Connecties_PCB_Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB met connecties" width="1000" />
@@ -67,7 +66,7 @@ Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https
 
 **Software** 
 
-We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [YAML-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml). <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [YAML-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml). Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ## Controle
 ### Ultrasoonsensor
@@ -99,7 +98,7 @@ In het kort lijsten we nog even de voor- en nadelen op:
     - Kan interfereren met oneven wateroppervlak
     - Kan gevoelig zijn voor interferentie van obstakels in de omgeving
     - Vereist een geschikte verwerking van het signaal voor juiste interpretatie
-    - Beperkte nauwkeurigheid bij hoge luchttemperaturen of luchtstromingen <!--Minder van toepassing voor ons, denk ik-->
+    - Beperkte nauwkeurigheid bij hoge luchttemperaturen of luchtstromingen
 
 ### UV-C
 <img src="{{ '/assets/img/Watersysteem/UV_C.png' | relative_url }}" alt="Afbeelding van de UV_C" width="400" />
@@ -120,7 +119,8 @@ Let wel op: UV-C verwijdert geen vuildeeltjes of zichtbare vervuiling uit het wa
     - Beperkte levensduur van de UV-lamp (~8000 uur)
     - Kan gevaarlijk zijn bij directe blootstelling aan mens of dier (goede afscherming vereist)
 
-Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was. <!--hadden het op deze manier ook wel door het reservoir kunnen circuleren, hangt af van de implementatie-->
+Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was. 
+
 De huidige UV-C lamp is gekozen om zijn voldoende vermogen om het nutrientrijke water te ontsmetten, en omdat ze compact genoeg is om in het waterreservoir te plaatsen. Op deze manier kan het water in de mengbak zonder veel extra componenten blootgesteld worden aan het UV-C licht.
 
 📄 [Research ontsmetting](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#ontsmetten-van-mixreservoir){:target="_blank"}

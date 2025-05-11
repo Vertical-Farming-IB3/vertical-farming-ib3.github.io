@@ -559,9 +559,9 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 
 ---
 
-### 📅 Zater 10-05-2025: 
+### 📅 Zaterdag 10-05-2025: 
 ##### Team Water, Plantenbak en Licht: 
-- De kast ligt nu officiaal aan. 
+- De kast ligt nu officieel aan. 
 
 ---
 
