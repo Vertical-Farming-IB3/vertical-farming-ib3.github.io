@@ -34,7 +34,6 @@ In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail
 
 Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij sectie Team Water binnen de bestellijst.
 
-<!--📄 [Bestellijst (Excel)](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Algemeen/Bestellijst.xlsx){:target="_blank"}-->
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/Water/BOM.xlsx)
 
 ## Stuurlogica
@@ -67,7 +66,7 @@ Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https
 
 **Software** 
 
-We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml). <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [YAML-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/PCB/watersysteem.yaml). <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ## Controle
 ### Ultrasoonsensor
@@ -83,7 +82,7 @@ We hebben voor deze sensor gekozen na verschillende overwegingen:
 - Meetbereik van 2 tot 400 cm met een nauwkeurigheid van ongeveer 3 mm.
 - Goede prijs-kwaliteitverhouding: de sensor is nauwkeurig en betaalbaar.
 
-📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#waterniveau-sensor){:target="_blank"}
+📄 [Research waterniveau](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#waterniveau-sensor){:target="_blank"}
 
 Dankzij deze eigenschappen bleek de ultrasone sensor een geschikte keuze voor onze toepassing.
 
@@ -123,7 +122,12 @@ Let wel op: UV-C verwijdert geen vuildeeltjes of zichtbare vervuiling uit het wa
 Ook voor dit systeem zijn meerdere opties bekeken, 1 daarvan is een systeem waarbij het water pas werd ontsmet vlak voordat het naar de plantjes stroomde. Dit zou echter de groei van algen in het reservoir zelf niet voorkomen, omdat het water daar dan nog niet behandeld was. <!--hadden het op deze manier ook wel door het reservoir kunnen circuleren, hangt af van de implementatie-->
 De huidige UV-C lamp is gekozen om zijn voldoende vermogen om het nutrientrijke water te ontsmetten, en omdat ze compact genoeg is om in het waterreservoir te plaatsen. Op deze manier kan het water in de mengbak zonder veel extra componenten blootgesteld worden aan het UV-C licht.
 
-📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#ontsmetten-van-mixreservoir){:target="_blank"}
+📄 [Research ontsmetting](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#ontsmetten-van-mixreservoir){:target="_blank"}
+
+### Eindloopschakelaar
+<img src="{{ '/assets/img/Watersysteem/Eindloop.png' | relative_url }}" alt="Eindloop" width="400" />
+
+Er is een [eindloopschakelaar](https://www.hobbyelectronica.nl/product/3d-printer-endstop-mechanisch-ramps-1-4/){:target="_blank"} geïmplementeerd om te detecteren of de deur van de Vertical farm open of dicht is. Op deze manier kan de UV-C en sterk licht bijvoorbeeld uitgeschakeld worden bij het openen van de deur, dit voorkomt mogelijk ongemak. Een andere applicatie is het uitschakelen van de pompen, als een la wordt uitgetrokkendat er geen water recht in de kast wordt gepompt.
 
 ### Probes
 Elke plant heeft dezelfde voedingsstoffen nodig (in verschillende hoeveelheden), deze voedingsstoffen zijn opgedeeld in verschillende klassen en zijn gekoppeld aan verschillende concentraties. De primaire voedingsstoffen zijn: Stikstof (N), Fosfor (P) en Kalium (K). Secundaire voedingsstoffen zijn Calcium (Ca), Magnesium (Mg) en Zwavel (S). Hiernaast zijn er ook nog vele micronutriënten. Om de waterkwaliteit in de gaten te houden maken we gebruik van probes (elektroden). We kunnen echter niet voor elk van deze voedingsstoffen een elektrode voorzien, daarom beperken we ons tot een deelset. We kozen voor het gebruik van:
@@ -220,6 +224,8 @@ De [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005005808872752
     - Kan loskomen bij slechte connectie 
     - Complexe handeling nodig bij het verplaatsen van lades
 
+Naast de dubbele connectoren zijn er ook [Push-to-Connect koppelingen](https://nl.aliexpress.com/item/1005008183056175.html?spm=a2g0o.productlist.main.29.571d5MkA5MkAHS&algo_pvid=d2139a20-3428-4ac8-897a-c42b41f50638&algo_exp_id=d2139a20-3428-4ac8-897a-c42b41f50638-14&pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%210.12%210.10%21%21%210.91%210.77%21%40211b813f17416814965187952ec789%2112000044143372525%21sea%21BE%210%21ABX&curPageLogUid=UcEPGSpsQuQL&utparam-url=scene%3Asearch%7Cquery_from%3A){:target="_blank"} om de buizen af te sluiten, deze worden gebruikt om waterdruk op te bouwen bij de drip irregation, en om leidingen af te sluiten wanneer niet in gebruik. Dit voorkomt lekken en het belanden van vuil in open leidingen. Dezelfde voor- en nadelen zijn geldig als bij de dubbele connector.
+
 ### Pompaansturing
 De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Om de pompen te beschermen, wordt het waterpeil van de reservoirs gemonitord en aangevuld wanneer dit te laag komt te staan. Zo zit er ook een veiligheid ingebouwd die voorkomt dat de pompen activeren wanneer het waterniveau te laag is. De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de [Home Assistant](https://vertical-farming-ib3.github.io/Home-Assistant/){:target="_blank"}. 
 
@@ -230,6 +236,8 @@ De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengro
 <img src="{{ '/assets/img/Watersysteem/Pompen_Aansluiting.jpg' | relative_url }}" alt="Afbeelding van aansluiting pomp" width="400" style="border-radius: 15px;" />
 
 <img src="{{ '/assets/img/Watersysteem/Waterpomp.png' | relative_url }}" alt="Afbeelding van de waterpomp" width="400" />
+
+Er is gekozen voor deze specifieke pompen omdat ze de beste optie leken voor deze toepassing. Ze zijn sterk en snel genoeg voor onze applicatie met 3m opvoerhoogte; 1,5m aanzuighoogte en  een debiet van 1,8l/min. Ook werken ze op 12V en trekken ze een vermogen in overeenstemming met de specs, de keuze van de voedingsspanning wordt verder besproken in Power. De pompjes zijn relatief goedkoop in vergelijking met alternatieven en andere sites. Bijkomend zijn ze compact en compatibel met andere design keuzes.
 
 #### Luchtpomp en luchtsteen
 <img src="{{ '/assets/img/Watersysteem/Luchtpomp+luchtsteen.png' | relative_url }}" alt="Afbeelding van de luchtpomp en luchtsteen" width="400" />
@@ -264,7 +272,7 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
     - Mag geen lucht aanzuigen, er moet dus een minimumniveau ingesteld worden dat hoger is dan normaal
     - Vereist regelmatig onderhoud om verstoppingen te voorkomen
 
-📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#mixer){:target="_blank"}
+📄 [Research mixen](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#mixer){:target="_blank"}
 
 ## Afvoer
 De afvoer van water gebeurt op basis van de zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. Op deze manier behouden we een hoge mate van modulariteit in het systeem.
