@@ -14,15 +14,16 @@ order: 2
 4. [Controle](#controle)
     - [Ultrasoonsensor](#ultrasoonsensor)
     - [UV-C](#uv-c)
+    - [Eindloopschakelaar](#eindloopschakelaar)
     - [Probes](#probes)
 5. [Toevoer](#toevoer)
     - [Reservoirs](#reservoirs)
     - [Tubes](#tubes)
-    - [Quick connectors](#quick-connectors-tubes)
+    - [Quick connectors tubes](#quick-connectors-tubes)
     - [Pompaansturing](#pompaansturing)
         - [Waterpomp](#waterpomp)
-        - [Onderwaterpomp](#onderwaterpomp)
         - [Luchtpomp en luchtsteen](#luchtpomp-en-luchtsteen)
+        - [Onderwaterpomp](#onderwaterpomp)
 6. [Afvoer](#afvoer)
 
 ## Introductie
