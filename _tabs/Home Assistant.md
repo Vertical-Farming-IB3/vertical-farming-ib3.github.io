@@ -5,11 +5,6 @@ order: 5
 layout: default
 ---
 
-> Under construction
-{: .prompt-warning }
-> 
-
-
 
 # Dashboard
 
