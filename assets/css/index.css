@@ -1,7 +1,4 @@
 /* General Layout */
-.container {
-}
-
 .box {
   margin-bottom: 2em;
 }
@@ -90,8 +87,3 @@ p {
   padding-left: 1.2em;
   list-style-type: disc;
 }
-
-/* General link styling */
-
-/* De rest van de linkopmaak op de md tabs is nu wel nogal out of place, deze opmaak vind ik persoonlijk wel beter. */
-/* alle links zijn overal blauw dus het lijkt me beter om hier ook gwn blauw te laten. */
