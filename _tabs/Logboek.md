@@ -16,9 +16,9 @@ order: 6
 
 ### 📸 Concepttekeningen
 <div style="display: flex; gap: 10px;">
-  <img src="/assets/img/Logbook//figure1.jpg" alt="Concept 1" width="200"/>
-  <img src="/assets/img/Logbook//figure2.jpg" alt="Concept 2" width="200"/>
-  <img src="/assets/img/Logbook//figure3.jpg" alt="Concept 3" width="200"/>
+  <img src="/assets/img/Logboek//figure1.jpg" alt="Concept 1" width="200"/>
+  <img src="/assets/img/Logboek//figure2.jpg" alt="Concept 2" width="200"/>
+  <img src="/assets/img/Logboek//figure3.jpg" alt="Concept 3" width="200"/>
 </div>
 
 ---
@@ -102,7 +102,7 @@ We stelden onze vooruitgang voor en vergaarden feedback in onze **ClickUp notiti
 ### 📸 Concepttekeningen
 <div style="display: flex; gap: 10px;">
   <!-- Tekeningen en 3D-modellen toevoegen -->
-  <!-- <img src="/assets/img/Logbook/figure1.jpg" alt="Concept 1" width="200"/> -->
+  <!-- <img src="/assets/img/Logboek/figure1.jpg" alt="Concept 1" width="200"/> -->
 </div>
 
 ---
@@ -297,7 +297,6 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - LDO bestellen
 - Voorbereiding componenten PCB
 - Code verder schrijven
-
 
 ---
 
@@ -566,7 +565,6 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ---
 
 ### 📅 Dinsdag 13-05-2025:
-
 - Eindpresentatie
 
 ---

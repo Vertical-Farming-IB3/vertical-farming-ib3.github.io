@@ -276,8 +276,11 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
 📄 [Research mixen](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#mixer){:target="_blank"}
 
 ## Afvoer
+
+<img src="{{ '/assets/img/Watersysteem/Afvoer.png' | relative_url }}" alt="Afvoer" width="400"  style="border-radius: 15px;" />
+
 De afvoer van water gebeurt op basis van de zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. In deze opening kunnen de plantenbakken dan via een buisje gecontroleerd leeglopen. Als de lade uitgetrokken word willen we niet dat dit water door de kast loopt, om dit probleem op te lossen hebben we ook een module ontworpen met een gootje die onder de lade geschoven kan worden. Bij het uitrekken van de lade zal het water dan via dit gootje in de PVC-pijp belanden. Op deze manier behouden we een hoge mate van modulariteit in het systeem.
 
-<img src="{{ '/assets/img/Watersysteem/Afvoer.png' | relative_url }}" alt="Afvoer" width="400" />
+<img src="{{ '/assets/img/Watersysteem/Afvoergootje.png' | relative_url }}" alt="Afvoer" width="400"  style="border-radius: 15px;" />
 
 Het afgevoerde water wordt niet zomaar geloosd. In het mengreservoir wordt dit restwater gefilterd en gesteriliseerd (door een UV-C lamp en een fijnmazig filter). Nadien kan dit water opnieuw gebruikt worden, eventueel met bijmenging van vers water of extra voedingsstoffen. Dit maakt het systeem duurzaam en circulair, met minimale water- en nutriëntenverspilling.
