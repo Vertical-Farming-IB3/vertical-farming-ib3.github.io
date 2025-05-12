@@ -103,6 +103,16 @@ We stelden onze vooruitgang voor en vergaarden feedback in onze **ClickUp notiti
 <div style="display: flex; gap: 10px;">
   <!-- Tekeningen en 3D-modellen toevoegen -->
   <!-- <img src="/assets/img/Logboek/figure1.jpg" alt="Concept 1" width="200"/> -->
+  <img src="/assets/img/Logboek/Sem2/figure1.jpg" alt="Concept 1" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure2.jpg" alt="Concept 2" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure3.jpg" alt="Concept 3" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure4.jpg" alt="Concept 4" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure5.jpg" alt="Concept 5" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure6.jpg" alt="Concept 6" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure7.jpg" alt="Concept 7" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure8.jpg" alt="Concept 8" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure9.jpg" alt="Concept 9" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem2/figure10.jpg" alt="Concept 10" width="200" style="border-radius: 15px;"/>
 </div>
 
 ---
