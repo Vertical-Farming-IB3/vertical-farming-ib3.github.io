@@ -5,12 +5,11 @@ order: 5
 layout: default
 ---
 
-
 # Dashboard
 
 Bij onze slimme vertical farm hoort natuurlijk ook een interactief dashboard waar ook alle data wordt verzameld. 
 
-Wanneer u surft naar het Home Assistant dashboard (http://homeassistant.local:8123) of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. U klikt links op 'Home' voor de toegang tot de hieronder besproken dashboards.
+Wanneer u surft naar het Home Assistant dashboard ([http://homeassistant.local:8123](http://homeassistant.local:8123)) of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. U klikt links op 'Home' voor de toegang tot de hieronder besproken dashboards.
 
 ## Home
 
