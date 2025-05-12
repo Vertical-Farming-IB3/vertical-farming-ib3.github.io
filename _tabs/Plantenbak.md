@@ -8,7 +8,6 @@ order: 1
 {: .prompt-warning }
 
 ## Inhoud 
-
 1. [Introductie](#introductie)
 2. [Componentenlijst](#componentenlijst)
 3. [Stuurlogica](#stuurlogica)
@@ -45,12 +44,10 @@ In de volgende secties bespreken we alle onderdelen van dit systeem in meer deta
 Hier vindt u de benodigde componenten voor het Project: voor dit onderdeel kan u kijken bij Team Plantenbak.
 
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/BOM.xlsx){:target="_blank"}
-<!--Relative path?-->
 
 ---
 
 ## Stuurlogica {#stuurlogica}
-
 Hier volgt een opsomming van alle in- en outputs van de PCB:
 - Inputs
     - (Analoog) [Soil moisture sensor](#capacitive-soil-moisture-sensor) 
@@ -84,8 +81,7 @@ Per bak zit één PCB die alle componenten aanstuurt, met als 'brein' een ESP32.
 Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/PCB){:target="_blank"}.
 
 **Software** 
-
-We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}. <!--YAML niet zoals de rest in een mapje software plaatsen?-->Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
+We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}. Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ---
 
@@ -100,13 +96,10 @@ Om de planten te kweken werken we met twee technieken:
 
 Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en onderling vergelijken.
 
-
 ---
 
 ### Bak 1: flood & drain {#bak-1-flood--drain}
-
 #### De opstelling:
-
 Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de bak nog twee gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
 
 <img src="/assets/img/Plantenbak/bak_eb_flow.png" alt="bak eb flow">
@@ -114,9 +107,7 @@ Deze bak wordt volledig met water gevuld, zodat de wortels van de planten contin
 ---
 
 ### Bak 2: drip hydroponics in kokosvezel {#bak-2-drip-hydroponics-in-kokosvezel}
-
 #### De opstelling:
-
 Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt. Deze bak heeft ook boven een quick connector die bevestigd werd met een snelbinder. Hier moet maar één gat geboord worden voor de afloop. Daarin werd dan een pvc-buisje in bevestigd met een wartelmoer, en ook hier werd het terug verstevigd en waterdicht gemaakt met lijm-/bevestigingskit.
 
 <img src="/assets/img/Plantenbak/drip_bak.png" alt="drip bak">
@@ -124,10 +115,7 @@ Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde
 ---
 
 ## Sensoren en actuatoren {#sensoren-en-actuatoren}
-
 Voor het kiezen van de sensoren onderzochten we enkele alternatieven. Ons opzoekwerk kan u hier terugvinden: 📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Plantenbak/research.md){:target="_blank"}
-
-
 
 ### Soil moisture sensor {#capacitive-soil-moisture-sensor}
 Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de kokosvezel te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
@@ -172,7 +160,6 @@ Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stenge
 ---
 
 ## Materialen {#materialen}
-
 ### Eurobak {#eurobak}
 Deze bakken zijn goedkoop, waterdicht en makkelijk te bewerken. Het principe van een bak-in-een-bak (een eurobak in een lade) draagt bij tot de modulariteit.
 
@@ -277,5 +264,3 @@ We kozen deze soorten:
     </tr>
   </tbody>
 </table>
-
-
