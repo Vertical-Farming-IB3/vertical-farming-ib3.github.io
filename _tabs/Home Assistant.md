@@ -9,7 +9,7 @@ layout: default
 
 Bij onze slimme vertical farm hoort natuurlijk ook een interactief dashboard waar ook alle data wordt verzameld. 
 
-Wanneer u surft naar het Home Assistant dashboard (<em>http://homeassistant.local:8123</em>) of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. U klikt links op 'Home' voor de toegang tot de hieronder besproken dashboards.
+Wanneer u surft naar het Home Assistant dashboard <em>(http://homeassistant.local:8123)</em> of de Home Assistant app opent vindt u verschillende dashboards terug. Eventueel heeft u een wachtwoord nodig om in te loggen, deze wachtwoorden staan [hier](#wachtwoorden) opgesomd. U klikt links op 'Home' voor de toegang tot de hieronder besproken dashboards.
 
 ## Home
 
@@ -43,7 +43,7 @@ In bovenstaande dashboards wordt telkens de meest recente data weergegeven. Het 
 
 # Automatisaties
 
-De automatisaties worden slim aangestuurd vanuit de Home Assistant server. Op deze manier is er een centraal besturingssysteem dat toegang heeft tot alle in- en outputs van alle subsystemen. Indien u deze automatisaties (op eigen risico) wenst te wijzigen, dan doet u dat door naar de instellingen van de server te gaan en door te klikken naar 'services & automatisations'. Daar vindt u een overzicht van de automatisaties. Uiteraard dient u hiervoor in te loggen via het admin account (zie [wachtwoorden](#wachtwoorden)).
+De automatisaties worden slim aangestuurd vanuit de Home Assistant server. Op deze manier is er een centraal besturingssysteem dat toegang heeft tot alle in- en outputs van alle subsystemen. Indien u deze automatisaties (op eigen risico) wenst te wijzigen, dan doet u dat door naar de instellingen van de server te gaan en door te klikken naar 'services & automatisations'. Daar vindt u een overzicht van de automatisaties. Uiteraard dient u hiervoor in te loggen via het admin account.
 
 # Wachtwoorden
 
