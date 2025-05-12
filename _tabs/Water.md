@@ -3,8 +3,6 @@ icon: fas fa-droplet
 order: 2
 ---
 
-> Under construction
-{: .prompt-warning }
 
 ## Inhoud
 
