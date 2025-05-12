@@ -90,9 +90,9 @@ Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een 
 
 Om de planten te kweken werken we met twee technieken:
 
-•	Drip hydroponics (drip-systeem): Hierbij wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen zonder dat er verspilling is.
-
 •	Flood & Drain (ebb & flow): Hierbij wordt de groeibak periodiek tijdelijk overstroomd met de voedingsoplossing, waarna deze weer terugloopt naar het reservoir. Tijdens de “flood”-fase worden de wortels volledig ondergedompeld, en tijdens de “drain”-fase krijgen ze zuurstof. Dit afwisselend patroon stimuleert wortelgezondheid en efficiënte opname van nutriënten.
+
+•	Drip hydroponics (drip-systeem): Hierbij wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen zonder dat er verspilling is.
 
 Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en onderling vergelijken.
 
@@ -100,7 +100,7 @@ Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en ond
 
 ### Bak 1: flood & drain {#bak-1-flood--drain}
 #### De opstelling:
-Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, vervaardigd uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de bak nog twee gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
+Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, gemaakt uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de eurobak twee gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis of een 3D-print gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
 
 <img src="/assets/img/Plantenbak/bak_eb_flow.png" alt="bak eb flow">
 
@@ -108,7 +108,7 @@ Deze bak wordt volledig met water gevuld, zodat de wortels van de planten contin
 
 ### Bak 2: drip hydroponics in kokosvezel {#bak-2-drip-hydroponics-in-kokosvezel}
 #### De opstelling:
-Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt. Deze bak heeft ook boven een quick connector die bevestigd werd met een snelbinder. Hier moet maar één gat geboord worden voor de afloop. Daarin werd dan een pvc-buisje in bevestigd met een wartelmoer, en ook hier werd het terug verstevigd en waterdicht gemaakt met lijm-/bevestigingskit.
+Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt. Deze bak heeft ook boven een quick connector die bevestigd werd met een snelbinder. Hier moet maar één gat geboord worden voor de afloop. Daarin werd dan een pvc-buisje in bevestigd met een wartelmoer, en ook hier werd het terug verstevigd en waterdicht gemaakt met lijm-/bevestigingskit. Ook werd bij de uitloop een netje en een metalen raster geplaatst, om zo enkel water door te laten naar de afvoergoot.
 
 <img src="/assets/img/Plantenbak/drip_bak.png" alt="drip bak">
 
@@ -178,7 +178,7 @@ Een witte binnenkast zorgt voor optimale reflectie en lichtverdeling in de kast.
 ---
 
 ### Kokosvezel {#kokosvezel}
-Een goed biologisch groeimedium voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Kokosvezel is ook een duurzaam materiaal omdat het gemaakt is van kokosnootschalen, wat een overvloedig natuurlijk materiaal is. Het is ook biologisch afbreekbaar en kan worden gebruikt als meststof voor andere planten. Dit is een goed alternatief voor rockwol, omdat we daar last hadden van irritatie, te veel waterabsorptie en te vast voor de wortels om zich te nestelen. Kokosvezel was daarom een goede middenweg tussen aarde en rockwol.
+Een goed biologisch groeimedium voor de planten in de drip-bak. Dit is een goed alternatief voor aarde omdat het een goede waterretentie heeft en de wortels van de planten goed kan ondersteunen. Kokosvezel is ook een duurzaam materiaal omdat het gemaakt is van kokosnootschalen, wat een overvloedig natuurlijk materiaal is. Het is ook biologisch afbreekbaar en kan worden gebruikt als meststof voor andere planten. Dit is een goed alternatief voor rockwol, omdat we daar last hadden van irritatie, te veel waterabsorptie en het was te vast voor de wortels om zich te kunnen nestelen. Kokosvezel was daarom een goede middenweg tussen aarde en rockwol.
 
 ![Kokosvezel](assets/img/Plantenbak/kokosvezel.png)
 
