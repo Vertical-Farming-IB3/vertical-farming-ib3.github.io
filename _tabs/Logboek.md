@@ -16,9 +16,9 @@ order: 6
 
 ### 📸 Concepttekeningen
 <div style="display: flex; gap: 10px;">
-  <img src="/assets/img/Logboek//figure1.jpg" alt="Concept 1" width="200"/>
-  <img src="/assets/img/Logboek//figure2.jpg" alt="Concept 2" width="200"/>
-  <img src="/assets/img/Logboek//figure3.jpg" alt="Concept 3" width="200"/>
+  <img src="/assets/img/Logboek/Sem1/figure1.jpg" alt="Concept 1" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem1/figure2.jpg" alt="Concept 2" width="200" style="border-radius: 15px;"/>
+  <img src="/assets/img/Logboek/Sem1/figure3.jpg" alt="Concept 3" width="200" style="border-radius: 15px;"/>
 </div>
 
 ---
