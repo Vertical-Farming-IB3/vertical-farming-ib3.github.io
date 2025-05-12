@@ -112,7 +112,7 @@ De volgende tabel toont de elektrische karakteristieken van de individuele leds.
 | **Voltage (V)**                  | 2.2              | 2.15        | 2.96         |
 | **Consumption (W)**              | 0.308            | 0.301       | 0.414        |
 
-Omdat de driver tot 24V kan voorzien kunnen we 2 led-PCB's in serie plaatsen. De serie verbinding van FR, R en B leds worden dus doorverbonden en het aantal leds en spanning wordt hierdoor verdubbeld.
+Omdat de driver tot 24V kan voorzien kunnen we 2 led-PCB's in serie plaatsen. De serie verbinding van FR, R en B leds worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
 
 De specificaties die één led-Driver moet voorzien, per licht spectra en per serie van 2 PCB's. Alsook de specificatie van één lade (van 2 series van elk 2 PCB's, dus 4 PCB's)
 
