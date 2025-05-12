@@ -59,7 +59,7 @@ Hier volgt een opsomming van alle in- en outputs van de PCB:
     - Onboard led voor debuggen
     - [Ventilatie](#ventilatie): 5V relais
 
-Per bak zit één PCB die alle componenten aanstuurt, met als 'brein' een ESP32. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, zodat uitbreidingen mogelijk zijn. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hier over bij de sectie PCB's.
+Per bak zit één PCB die alle componenten aanstuurt, met als 'brein' een ESP32. Op elke PCB zijn alle GPIO-pinnen naar buiten gebracht, zodat uitbreidingen mogelijk zijn. Deze PCB's zijn ontworpen met KiCAD en geprint door PCBWay. Meer hierover bij de sectie PCB's.
 
 <iframe src="{{ '/assets/html/ibom_plantenbak.html' | relative_url }}" width="100%" height="600px" sytle="border:none;"></iframe>
 
@@ -81,12 +81,13 @@ Per bak zit één PCB die alle componenten aanstuurt, met als 'brein' een ESP32.
 Meer informatie over de PCB, zoals het schema en de pin-out vindt u [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/PCB){:target="_blank"}.
 
 **Software** 
+
 We maken gebruik van Home Assistant in combinatie met ESPHome. Op onze microcontroller staat code die gegenereerd wordt via ESPHome. We beschrijven deze code in een [yaml-bestand](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/Software/Plantenbak.yaml){:target="_blank"}. Dankzij de koppeling met Home Assistant kunnen we zeer makkelijk iedere component uitlezen en aansturen. Het aansturen van de componenten gebeurt aan de hand van 'automatisaties'. De automatisaties en het uitlezen van de data gebeurt via een lokale server die alle systemen samenbrengt. Deze data wordt dan samengebracht op een dashboard die de gebruiker kan raadplegen.
 
 ---
 
 ## Lades {#lades}
-Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulatiteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigt zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop zijn en makkelijk te bewerken. In elke lade werd ook een 3D-print bevestigd, om de PCB en componenten af te sluiten van de eurobakken. Deze kan [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/3D-modellen){:target="_blank"} gevonden worden.
+Een plantenbak bestaat voornamelijk uit twee onderdelen: een houten lade en een plastic eurobak. De houten lade schuift in de kast, om voor modulariteit te zorgen. De eurobak is de bak waar de planten in groeien. Deze is met een helling in de houten lade bevestigd zodat het water afloopt in de regenpijp achteraan de kast. Er werd voor eurobakken gekozen omdat deze goedkoop en makkelijk te bewerken zijn. In elke lade werd ook een 3D-print bevestigd om de PCB en componenten af te sluiten van de eurobakken. Deze kan [hier](https://github.com/Vertical-Farming-IB3/Plan-T/tree/main/Plantenbak/3D-modellen){:target="_blank"} gevonden worden.
 
 Om de planten te kweken werken we met twee technieken:
 
@@ -94,13 +95,13 @@ Om de planten te kweken werken we met twee technieken:
 
 •	Drip hydroponics (drip-systeem): Hierbij wordt een voedingsoplossing langzaam en gecontroleerd druppelsgewijs over de wortels van de planten gedruppeld. Dit zorgt ervoor dat de planten altijd toegang hebben tot voldoende water en voedingsstoffen zonder dat er verspilling is.
 
-Doordat we meerder plantenbakken hebben kunnen we beide technieken testen en onderling vergelijken.
+Doordat we meerdere plantenbakken hebben kunnen we beide technieken testen en onderling vergelijken.
 
 ---
 
 ### Bak 1: flood & drain {#bak-1-flood--drain}
 #### De opstelling:
-Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dat verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, gemaakt uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de eurobak twee gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis of een 3D-print gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
+Deze bak wordt volledig met water gevuld, zodat de wortels van de planten continu ondergedompeld blijven. Ter beveiliging is een overloopsysteem geïntegreerd, dit verhindert dat het waterniveau de rand overschrijdt. De waterafvoer wordt geregeld via een kraan, die een gecontroleerde afloop mogelijk maakt. De plantpotjes worden ondersteund door een rooster, gemaakt uit resthout, waardoor ze eenvoudig in één beweging uit de bak kunnen worden verwijderd. Deze bak heeft bovenaan een quick connector voor watertoevoer, die bevestigd werd met een snelbinder. Er moeten in de eurobak twee gaten gemaakt worden: een voor de overloop en een voor de afloop naar het kraantje. Voor de overloop kan een kort stukje pvc-buis of een 3D-print gebruikt worden. De overloop en de regentonkraan werden vastgemaakt en waterdicht gemaakt met lijm-/afdichtingskit. Er werd over beide gaten een netje gelijmd, zodat er enkel water weg kan.
 
 <img src="/assets/img/Plantenbak/bak_eb_flow.png" alt="bak eb flow">
 
@@ -108,7 +109,7 @@ Deze bak wordt volledig met water gevuld, zodat de wortels van de planten contin
 
 ### Bak 2: drip hydroponics in kokosvezel {#bak-2-drip-hydroponics-in-kokosvezel}
 #### De opstelling:
-Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand is voorzien van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt. Deze bak heeft ook boven een quick connector die bevestigd werd met een snelbinder. Hier moet maar één gat geboord worden voor de afloop. Daarin werd dan een pvc-buisje in bevestigd met een wartelmoer, en ook hier werd het terug verstevigd en waterdicht gemaakt met lijm-/bevestigingskit. Ook werd bij de uitloop een netje en een metalen raster geplaatst, om zo enkel water door te laten naar de afvoergoot.
+Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde is afgesloten en op regelmatige afstand voorzien is van gaatjes. Dit buisje loopt door het substraat en zorgt voor een gelijkmatige bevochtiging wanneer er water doorheen gepompt wordt. Deze bak heeft ook boven een quick connector die bevestigd werd met een snelbinder. Hier moet maar één gat geboord worden voor de afloop. Daarin werd dan een pvc-buisje in bevestigd met een wartelmoer, en ook hier werd het terug verstevigd en waterdicht gemaakt met lijm-/bevestigingskit. Ook werd bij de uitloop een netje en een metalen raster geplaatst, om zo enkel water door te laten naar de afvoergoot.
 
 <img src="/assets/img/Plantenbak/drip_bak.png" alt="drip bak">
 
@@ -118,7 +119,7 @@ Doorheen deze plantenbak is een flexibel buisje aangebracht dat aan het uiteinde
 Voor het kiezen van de sensoren onderzochten we enkele alternatieven. Ons opzoekwerk kan u hier terugvinden: 📄 [Research](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Plantenbak/research.md){:target="_blank"}
 
 ### Soil moisture sensor {#capacitive-soil-moisture-sensor}
-Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitive sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de kokosvezel te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
+Deze sensor meet het vochtgehalte van het substraat via een analoge pin van de ESP. Dit is een capacitieve sensor, wat betekent dat hij werkt op basis van de verandering in capaciteit van de sensor wanneer deze in contact komt met water. Dit is beter dan een resistieve sensor, omdat deze minder gevoelig is voor corrosie en dus langer meegaat. De PCB van sensor heeft een handige, puntige vorm die het mogelijk maakt om de sensor in de kokosvezel te steken. Een bijkomend voordeel is dat deze sensor al beschikbaar was door IB3 van vorig jaar, dus we hebben ze hergebruikt. Dit hergebruik van componenten draagt bij aan de duurzaamheid van ons project ♻️.
 
 ![CSMS](assets/img/Plantenbak/csms.png)
 
@@ -139,21 +140,21 @@ Dit component meet de CO₂-concentratie, de luchtvochtigheid en de temperatuur 
 ---
 
 ### Plantensoort herkenning {#nfc-reader-pn532}
-Voor interactie met NFC-tags, om per bak te weten welke plant er in de kast zit. Dit is om de kast zo automatisch mogelijk te maken. Als een NFC-tag gelezen wordt, weet de kast welke plant er in de bak zit en kan de routine specifiek voor die plant ingesteld worden. Dit is handig omdat verschillende planten verschillende behoeften hebben qua licht, water en voeding. We kozen voor de PN532, omdat deze al beschikbaar was, want ons weer een nieuwe bestelling bespaarde ♻️.
+Dit gebeurt door interactie met NFC-tags, om per bak te weten welke plant er in de kast zit. Dit is om de kast zo automatisch mogelijk te maken. Als een NFC-tag gelezen wordt, weet de kast welke plant er in de bak zit en kan de routine specifiek voor die plant ingesteld worden. Dit is handig omdat verschillende planten verschillende behoeften hebben qua licht, water en voeding. We kozen voor de PN532, omdat deze al beschikbaar was, want ons weer een nieuwe bestelling bespaarde ♻️.
 
 ![PN532](assets/img/Plantenbak/pn532.png)
 
 ---
 
 ### Energieverbruik monitoren {#acs712-current-sensor}
-Om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt. Dit is een hall-effect sensor die werkt op basis van de verandering in magnetisch veld wanneer er stroom door de draad gaat. Dit is een goede keuze omdat deze sensor al beschikbaar was, wat ons weer een nieuwe bestelling bespaarde ♻️. De sensor heeft een hoge nauwkeurigheid en een snelle responstijd, wat belangrijk is voor het meten van het energieverbruik van de plantenbak.
+Deze sensor is nodig om het verbruik te berekenen aan de hand van de gemeten stroom die het bordje binnenkomt. Dit is een hall-effect sensor die werkt op basis van de verandering in magnetisch veld wanneer er stroom door de draad gaat. Dit is een goede keuze omdat deze sensor al beschikbaar was, wat ons weer een nieuwe bestelling bespaarde ♻️. De sensor heeft een hoge nauwkeurigheid en een snelle responstijd, wat belangrijk is voor het meten van het energieverbruik van de plantenbak.
 
 ![ACS712](assets/img/Plantenbak/acs712.png)
 
 ---
 
 ### Ventilatie {#ventilatie}
-Voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken. Ook deze ventilatoren waren al beschikbaar van vorig jaar ♻️.
+Ventilatie is nodig voor luchtcirculatie, maar ook vooral om plantjes met sterkere en dikkere stengels te kweken. Ook deze ventilatoren waren al beschikbaar van vorig jaar ♻️.
 
 ![Ventilatoren](assets/img/Plantenbak/fans.png)
 
