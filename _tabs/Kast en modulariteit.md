@@ -8,7 +8,7 @@ De kast bestaat uit twee grote delen, een binnenkast en een buitenkast. Ze is on
 De plannen voor de buitenkast kan u hier bekijken: <!--Of verwijzing naar git.-->
 📄 [Technische tekeningen](https://vertical-farming-ib3.github.io/assets/files/Kast/vertical_farming_250425.pdf)
 
-<img src="{{ '/assets/img/Kast/Buitenkast_concept.png' | relative_url }}" alt="Buitenkast concept" width="400" style="border-radius: 15px;" />
+<img src="{{ '/assets/img/Kast/Buitenkast_concept.png' | relative_url }}" alt="Buitenkast concept" target="_blank" width="400" style="border-radius: 15px;" />
 
 Een belangrijk aspect waarmee we rekening hebben gehouden tijdens het ontwerpen van de vertical farm is de modulariteit. Dit slaat zowel op de mogelijkheid de kast te personaliseren aan verschillende noden als op de mogelijkheid om de kast (makkelijk) te verplaatsen en te onderhouden. Bij de opdracht van een vertical farm voor een huishoudelijke setting dachten we aan een kast. De vertical farm is dan ook gebaseerd op een (koel)kastontwerp. Er is hierbij een vast deel elektronica en schappen (lades) in de kast die naar persoonlijke voorkeur ingericht kunnen worden.
 
