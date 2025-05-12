@@ -3,8 +3,6 @@ icon: fas fa-calendar-check
 order: 6
 ---
 
-> Under construction
-{: .prompt-warning }
 
 # 🌱 Vertical Farm Project "Plan-T" Logboek
 
