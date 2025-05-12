@@ -298,7 +298,6 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Voorbereiding componenten PCB
 - Code verder schrijven
 
-
 ---
 
 ### 📅 Donderdag 20-03-2025:
@@ -566,7 +565,6 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ---
 
 ### 📅 Dinsdag 13-05-2025:
-
 - Eindpresentatie
 
 ---

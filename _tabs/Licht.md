@@ -58,7 +58,7 @@ het Emerson-effect. Het wordt beperkt ingezet om ongewenst schieten en bloei te 
 
 Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
 het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
-fotosynthetische effici¨entie [1]. In dit ontwerp wordt far-red licht daarom in beperkte mate
+fotosynthetische efficiëntie [1]. In dit ontwerp wordt far-red licht daarom in beperkte mate
 toegepast. Aangezien de focus ligt op bladgroei en niet op de reproductieve fase (zoals bloei of
 zaadvorming), is het nodig om overmatige stimulatie van fotosynthese te vermijden. Bij te hoge
 lichtintensiteit kan dit proces van voortijdig schieten bevorderen, wat ongewenst is bij de teelt
@@ -71,7 +71,7 @@ plantoppervlak bereikt. Dit is essentieel in vertical farming, waar kunstlicht d
 energie is voor fotosynthese.
 
 #### Sla en basilicum
--  PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
+- PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
 - 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
   
 #### Koriander
@@ -123,9 +123,6 @@ De specificaties die één LED-Driver moet voorzien, per licht spectra en per se
 | **Current (mA)** | 140   | 140   | 140    | 420         | 840       |
 | **Consumption (W)** | 2.5 | 3     | 2.5    | 8           | 16        |
 
-
-
-
 ## Afstand en uniformiteit
 
 De LED’s worden op 25–30 cm boven het gewas geplaatst. Dankzij de brede uitstralingshoek
@@ -146,7 +143,7 @@ Uit de berekeningen blijkt dat de totale thermische weerstand zonder koeling vri
  ongeveer 46°C, wat zorgt voor een veilige marge. Zo zal de led aanzienlijk langer kunnen functioneren zonder
  door te branden.
 
-📄 [Thermische berekeningen (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/thermische_berekeningen-1.pdf)
+📄 [Thermische berekeningen (PDF)](https://vertical-farming-ib3.github.io/assets/files/Licht/thermische_berekeningen-1.pdf)
 
 
 ## Ontwerp
@@ -188,5 +185,5 @@ In de kast worden er 2 lades voorzien met verlichting in.
 
 ## Bronnen
 
-📄 [Led keuze motivatie (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/Leds_keuze_motivatie-2.pdf)
-📄 [Documentatie driver (PDF)](https://vertical-farming-ib3.github.io/assets/img/Licht/Documentatie driver.pdf)
+📄 [Led keuze motivatie (PDF)](https://vertical-farming-ib3.github.io/assets/files/Licht/Leds_keuze_motivatie-2.pdf)
+📄 [Documentatie driver (PDF)](https://vertical-farming-ib3.github.io/assets/files/Licht/Documentatie_driver.pdf)
