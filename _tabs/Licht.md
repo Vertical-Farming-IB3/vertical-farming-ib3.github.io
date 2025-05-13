@@ -44,7 +44,7 @@ morfologie. Dit project gebruikt drie spectraalkleuren:
 #### Blauw licht (450–460 nm)
 
 Bevordert bladontwikkeling, fotomorfogenese, pigmentvorming en compactheid van de plant.
-Het helpt overmatige strekking voorkomen.
+Het helpt overmatige strekking voorkomen door de plant laag te houden en de stengels stevig te maken.
 
 #### Rood licht (650–670 nm)
 
@@ -52,20 +52,15 @@ Stimuleert fotosynthese en draagt sterk bij aan biomassavorming. Rood licht is b
 
 #### Far-Red licht (720–740 nm)
 
-Hoewel buiten het PAR-bereik, versterkt far-red in combinatie met rood licht de fotosynthese via
-het Emerson-effect. Het wordt beperkt ingezet om ongewenst schieten en bloei te vermijden.
-
-#### Far-Red overweging
-
 Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
 het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
 fotosynthetische efficiëntie [1]. In dit ontwerp wordt far-red licht daarom in beperkte mate
 toegepast. Aangezien de focus ligt op bladgroei en niet op de reproductieve fase (zoals bloei of
-zaadvorming), is het nodig om overmatige stimulatie van fotosynthese te vermijden. Bij te hoge
-lichtintensiteit kan dit proces van voortijdig schieten bevorderen, wat ongewenst is bij de teelt
-van bladgewassen.
+zaadvorming), is het nodig om te veel Far-Red licht te vermijden. Een te hoog percentage van Far-Red 
+licht zal het process van voortijdig schieten bevorderen, wat ongewenst is bij de teelt
+van bladgewassen. De planten kunnen er ook zwak van worden om ze te snel in de hoogte zullen groeien en de stengels hierdoor te smal worden.
 
-#### Photosynthetic Photon Flux Density (PPFD)
+### Photosynthetic Photon Flux Density (PPFD)
 
 PPFD, uitgedrukt in µmol m⁻² s⁻¹, meet het aantal fotosynthetisch actieve lichtfotonen dat een
 plantoppervlak bereikt. Dit is essentieel in vertical farming, waar kunstlicht de enige bron van
@@ -75,36 +70,24 @@ energie is voor fotosynthese.
 
 - PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
 - 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
+- PPFD spectra verdeling: R:60% FR:20% BL:20%
   
 #### Koriander
 
 - PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
 - Optimale prestaties bij verhoogde worteltemperatuur en CO2.
+- PPFD spectra verdeling: R:60% FR:20% BL:20%
 
-Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschikt, afhankelijk vanruimtegebruik en teeltstrategie
+Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschikt, afhankelijk vanruimtegebruik en teeltstrategie. Voor de verdeling van deze PPFD raden we volgend startpunt aan R:60% FR:20% BL:20% (dit komt **NIET** overeen met de procentuele waardes van de sliders op het Home Assistant dashboard! Zie "Aangeraden Instelling" voor meer info)
 
 #### PPFD-berekening
 
-Voor een en lade van 0.173 m² met 12 blauwe, 20 rode en 16 far-red leds geldt:
+Voor een en lade van 0.1 m² met 12 blauwe, 20 rode en 16 far-red leds geldt:
 
-PPFD<sub>totaal</sub> = (12 × 1.01) + (20 × 0.72) + (16 × 0.72)  
-= 12.12 + 14.4 + 11.52 = 38.04 µmol/s  
+PPFD<sub>totaal</sub> = (12 × 1.01) + (20 × 0.72) + (16 × 0.76)  
+= 12.12 + 14.4 + 12.16 = 38.68 µmol/s  
 
-PPFD = 38.04 / 0.173 = 219.05 µmol/m²/s
-
-#### Verhouding en doel
-
-Per lade wordt gebruikgemaakt van:
-- 12 blauwe leds
-- 20 rode leds
-- 16 far-red leds
-
-Verhoudingen:
-- Ratio R:B = 20 divided by 12 ≈ 1.67
-- Ratio R:FR = 20 divided by 16 = 1.25
-
-Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevorderen, zonder te
-veel far-red dat tot bloei of strekking kan leiden.
+PPFD = 38.68 / 0.1 = 386.8 µmol/m²/s
 
 ## Elektrisch Dimensioneren
 
@@ -117,9 +100,11 @@ De volgende tabel toont de elektrische karakteristieken van de individuele leds.
 | **Voltage (V)**                  | 2.2              | 2.15        | 2.96         |
 | **Consumption (W)**              | 0.308            | 0.301       | 0.414        |
 
-Omdat de driver tot 24V kan voorzien kunnen we 2 led-PCB's in serie plaatsen. De serie verbinding van FR, R en B leds worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld.
+Omdat de driver tot 24V kan voorzien kunnen we 2 led-PCB's in serie plaatsen. De serie verbinding van FR, R en B leds worden dus doorverbonden en het aantal LEDs en spanning wordt hierdoor verdubbeld. Om aan voldoende PPFD output te voldoen, hebben we gekozen om 2 van deze serie connecties per lade te plaatsen. Hieronder zie je een illustratie van de opstelling.
 
-De specificaties die één led-Driver moet voorzien, per licht spectra en per PCB's. Alsook de specificatie van één lade (van 2 series van elk 2 PCB's, dus 4 PCB's in totaal)
+<img src="{{ '/assets/img/Licht/dimensionering.png' | relative_url }}" alt="dimensionering led-pcb's" width="400" />
+
+**De specificaties die één led-Driver moet voorzien (dus twee LED-PCB's in serie)** zijn hieronder gegeven, per licht spectra. Alsook de specificatie van één lade (van 2 series van elk 2 PCB's, dus 4 PCB's in totaal)
 
 |         | FR    | R     | B      | Per serie| Per Lade|
 |------------------|-------|-------|--------|-------------|-----------|
@@ -128,12 +113,32 @@ De specificaties die één led-Driver moet voorzien, per licht spectra en per PC
 | **Current (mA)** | 140   | 140   | 140    | 420         | 840       |
 | **Consumption (W)** | 2.5 | 3     |  2.5   | 8           | 16        |
 
-In de volgende tabel staan de PPF/PPFD outputs van elk lichtspectra voor één lade.
+- Ratio R:B = 20 divided by 12 ≈ 1.67
+- Ratio R:FR = 20 divided by 16 = 1.25
+
+In de volgende tabel staan de PPF/PPFD outputs van elk lichtspectra **voor één lade**.
 
 |         | FR    | R     | B      | Totaal|
 |------------------|-------|-------|--------|-------------|
 | **PPF (umol s⁻¹)** | 13.4 | 15.2     | 12.2   | 40.8        |
 | **PPFD, 0.1m², 80% (µmol m⁻² s⁻¹)** | 120 |   136   |  110  |  366   |
+
+De waarde in bovenstaande tabel zijn berekend uitgaande van bepaalde voorwaarden die moeilijk vast te stellen zijn, de resultaten zullen dus niet helemaal de werkelijkheid zijn, ze dienen om een idee te geven over de output.
+
+## Aangeraden Instelling
+Via de Home Assistant Dashboard kan je per lade het lichtspectra instellen aan de hand van sliders.
+
+Voor goede plantgroei raden we volgende waardes aan om in te stellen:
+- Rood: 100%
+- Diep Rood: 40%
+- Blauw: 40%
+
+Dit zorgt voor (ongeveer, educated guess) volgende PPF outputs per spectra:
+- Rood: 136 µmol m⁻² s⁻¹
+- Diep Rood: 47 µmol m⁻² s⁻¹
+- Blauw: 44 µmol m⁻² s⁻¹
+
+Dit is een goed startpunt, hieruit kan de beslist worden om meer of minder diep-rood of blauw toe te voegen afhankelijk van hoe de plantegroei vordert. Als de planten te veel in de hoogte toenemen en slappe stengels hebben, verhoog dan het blauwe licht of/en verlaag het diep-rode licht. Het rode licht kan best altijd op 100% staan voor maximale fotosynthese. Voor meer info over de lichtspectra lees dan verder deze pagina.
 
 ## Afstand en uniformiteit
 
