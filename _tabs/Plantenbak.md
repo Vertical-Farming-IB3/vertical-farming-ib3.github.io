@@ -226,37 +226,37 @@ We kozen deze soorten:
   </thead>
   <tbody>
     <tr>
-      <td>Koriander</td>
+      <td>Koriander <img src="/assets/img/Plantenbak/koriander.png" alt="Koriander" style="float:right; width:40px;"></td>
       <td>Snelle groei</td>
       <td>Wordt dun en lang: onstabiel<br>Gevoelig aan verplanten</td>
     </tr>
     <tr>
-      <td>Basilicum</td>
+      <td>Basilicum <img src="/assets/img/Plantenbak/basil.png" alt="Basilicum" style="float:right; width:40px;"></td>
       <td>Groeit makkelijk<br>Stabiele plant</td>
       <td>Kan snel verwelken</td>
     </tr>
     <tr>
-      <td>Oregano</td>
+      <td>Oregano <img src="/assets/img/Plantenbak/oregano.png" alt="Oregano" style="float:right; width:40px;"></td>
       <td>Stabiele plant<br>Goed verplantbaar</td>
       <td>Langzame groei</td>
     </tr>
     <tr>
-      <td>Snijsla</td>
+      <td>Snijsla <img src="/assets/img/Plantenbak/snijsla.png" alt="Snijsla" style="float:right; width:40px;"></td>
       <td>Erg snelle groei<br>Veel oogst per plant</td>
       <td>Gevoelig voor rot<br>Erg gevoelig aan verplanten</td>
     </tr>
     <tr>
-      <td>Munt</td>
+      <td>Munt <img src="/assets/img/Plantenbak/munt.png" alt="Munt" style="float:right; width:40px;"></td>
       <td>Groeit goed eens ontkiemd<br>Sterke plant</td>
       <td>Woekert makkelijk<br>Ontkiemen duurt relatief lang</td>
     </tr>
     <tr>
-      <td>Bieslook</td>
+      <td>Bieslook <img src="/assets/img/Plantenbak/bieslook.png" alt="Bieslook" style="float:right; width:40px;"></td>
       <td>Makkelijk te verplanten</td>
       <td>Langzame kieming</td>
     </tr>
     <tr>
-      <td>Peterselie</td>
+      <td>Peterselie <img src="/assets/img/Plantenbak/peterselie.png" alt="Peterselie" style="float:right; width:40px;"></td>
       <td>Kan lang blijven groeien</td>
       <td>Traag kiemproces<br>Wordt lang en dun</td>
     </tr>
