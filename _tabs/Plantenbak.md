@@ -24,7 +24,7 @@ order: 1
     - [Witte verf](#witte-verf)
     - [Kokosvezel](#kokosvezel)
     - [Plantenvoeding](#plantenvoeding)
-    - [Potjes met hydrokorrels en watjes](#potjes-met-hydrokorrels-en-watjes)
+    - [Potjes met hydrokorrels en sponsjes](#potjes-met-hydrokorrels-en-sponsjes)
     - [Consumables](#consumables)
 6. [Planten](#planten)
 
@@ -189,12 +189,12 @@ Essentiële voedingsstoffen voor gezonde plantengroei. Deze kunnen aangekocht wo
 
 ---
 
-### Potjes met hydrokorrels en watjes {#potjes-met-hydrokorrels-en-watjes}
+### Potjes met hydrokorrels en sponsjes {#potjes-met-hydrokorrels-en-sponsjes}
 De plantjes kunnen hier in gehangen worden om ze te laten groeien. De open potjes zorgen ervoor dat het water langs de wortels kan lopen.
 
 ![Potjes](assets/img/Plantenbak/cups.png)
 
-Omdat de plantjes niet zomaar los in het water kunnen hangen, werden er hydrokorrels en watjes gebruikt. Deze houden de plantjes vast in de potjes.
+Omdat de plantjes niet zomaar los in het water kunnen hangen, werden er hydrokorrels en sponsjes gebruikt. Deze houden de plantjes vast in de potjes.
 
 ![Hydrokorrels](assets/img/Plantenbak/hydrokorrel.png)
 
