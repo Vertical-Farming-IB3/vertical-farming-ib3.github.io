@@ -8,23 +8,22 @@ order: 3
 2. [led-selectie](#led-selectie)
 3. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
 4. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
-   - [Far-Red overweging](#far-red-overweging)
    - [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
    - [Sla en basilicum](#sla-en-basilicum)
    - [Koriander](#koriander)
    - [PPFD-berekening](#ppfd-berekening)
-5. [Elektrisch Dimensioneren ](#elektrisch-dimensioneren)
-6. [Afstand en uniformiteit](#afstand-en-uniformiteit)
-7. [Fotoperiode](#fotoperiode)
-8. [Thermische berekeningen led PCB](#thermische-berekeningen-led-pcb)
-9. [Ontwerp](#ontwerp)
-10. [Uitvoering](#uitvoering)
-11. [Afgewerkt product](#afgewerkt-product)
+5. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
+6. [Aangeraden Instelling](#aangeraden-instelling) 
+7. [Afstand en uniformiteit](#afstand-en-uniformiteit)
+8. [Fotoperiode](#fotoperiode)
+9. [Thermische berekeningen led PCB](#thermische-berekeningen-led-pcb)
+10. [Ontwerp](#ontwerp)
+11. [Uitvoering](#uitvoering)
+12. [Afgewerkt product](#afgewerkt-product)
 
 ## Introductie
 
-Bij Team Licht werken we aan led-verlichtingssystemen die speciaal zijn afgestemd voor de vertical farm. Ons huidige project richt zich op de teelt van snijsla en groene kruiden zoals basilicum, koriander en munt. De nadruk ligt op een efficiënte en uniforme lichtverdeling met een optimale
-Photosynthetic Photon Flux Density (PPFD), afgestemd op bladgroenten. 
+Bij Team Licht werken we aan led-verlichtingssystemen die speciaal zijn afgestemd voor de vertical farm. Ons huidige project richt zich op de teelt van snijsla en groene kruiden zoals basilicum, koriander en munt. De nadruk ligt op een efficiënte systeem met voldoende Photosynthetic Photon Flux Density (PPFD), afgestemd op bladgroenten. 
 
 ## led-selectie
 
@@ -70,13 +69,13 @@ energie is voor fotosynthese.
 
 - PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
 - 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
-- PPFD spectra verdeling: R:60% FR:20% BL:20%
+- PPFD spectra verdeling: R:60% FR:20% BL:20% (Dit zijn **NIET** de waardes om in te stellen via HomeAssistant, zie verder)
   
 #### Koriander
 
 - PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
 - Optimale prestaties bij verhoogde worteltemperatuur en CO2.
-- PPFD spectra verdeling: R:60% FR:20% BL:20%
+- PPFD spectra verdeling: R:60% FR:20% BL:20% (Dit zijn **NIET** de waardes om in te stellen via HomeAssistant, zie verder)
 
 Aanbevolen richtlijn: Voor bladgewassen is 200–250 µmol m⁻² s⁻¹ geschikt, afhankelijk vanruimtegebruik en teeltstrategie. Voor de verdeling van deze PPFD raden we volgend startpunt aan R:60% FR:20% BL:20% (dit komt **NIET** overeen met de procentuele waardes van de sliders op het Home Assistant dashboard! Zie "Aangeraden Instelling" voor meer info)
 
@@ -133,12 +132,12 @@ Voor goede plantgroei raden we volgende waardes aan om in te stellen:
 - Diep Rood: 40%
 - Blauw: 40%
 
-Dit zorgt voor (ongeveer, educated guess) volgende PPF outputs per spectra:
+Dit zorgt voor (ongeveer) volgende PPF outputs per spectra:
 - Rood: 136 µmol m⁻² s⁻¹
 - Diep Rood: 47 µmol m⁻² s⁻¹
 - Blauw: 44 µmol m⁻² s⁻¹
 
-Dit is een goed startpunt, hieruit kan de beslist worden om meer of minder diep-rood of blauw toe te voegen afhankelijk van hoe de plantegroei vordert. Als de planten te veel in de hoogte toenemen en slappe stengels hebben, verhoog dan het blauwe licht of/en verlaag het diep-rode licht. Het rode licht kan best altijd op 100% staan voor maximale fotosynthese. Voor meer info over de lichtspectra lees dan verder deze pagina.
+Dit is een goed startpunt, hieruit kan dan beslist worden om meer of minder diep-rood of blauw toe te voegen afhankelijk van hoe de plantegroei vordert. Als de planten te veel in de hoogte toenemen en slappe stengels hebben, verhoog dan het blauwe licht en/of verlaag het diep-rode licht. Het rode licht kan best altijd op 100% staan voor maximale fotosynthese.
 
 ## Afstand en uniformiteit
 
