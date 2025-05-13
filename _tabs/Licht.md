@@ -3,9 +3,6 @@ icon: fas fa-lightbulb
 order: 3
 ---
 
-> Under construction
-{: .prompt-warning }
-
 ## Inhoud
 1. [Introductie](#introductie)
 2. [led-selectie](#led-selectie)
