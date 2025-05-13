@@ -87,3 +87,12 @@ p {
   padding-left: 1.2em;
   list-style-type: disc;
 }
+
+.responsive-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
