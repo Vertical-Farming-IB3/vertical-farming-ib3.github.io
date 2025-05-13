@@ -120,7 +120,8 @@ De specificaties die één led-Driver moet voorzien, per licht spectra en per PC
 | **Current (mA)** | 140   | 140   | 140    | 420         | 840       |
 | **Consumption (W)** | 2.5 | 3     |  2.5   | 8           | 16        |
 
-In de volgende tabel staan de PPF/PPFD outputs van elk lichtspectra voor één lade
+In de volgende tabel staan de PPF/PPFD outputs van elk lichtspectra voor één lade.
+
 |         | FR    | R     | B      | Totaal|
 |------------------|-------|-------|--------|-------------|
 | **PPF (umol s⁻¹)** | 13.4 | 15.2     | 12.2   | 40.8        |
