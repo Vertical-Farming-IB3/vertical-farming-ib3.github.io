@@ -53,11 +53,3 @@ Met onderstaande wachtwoorden kan u met het lokaal WiFi-netwerk verbinden om daa
 |----------------------|----------------|----------------------|
 | WiFi (IB3)           | /              | ingenieursbeleving3  |
 | Home Assistant       | Gast           | ib3gast              |
-
-
-Onderstaande login-gegevens dienen enkel gebruikt te worden code of instellingen te wijzigen.
-
-| Toepassing           | Gebruikersnaam | Wachtwoord           |
-|----------------------|----------------|----------------------|
-| Raspberry Pi ssh     | ib3            | ingenieursbeleving3  |
-| Home Assistant admin | ib3            | ingenieursbeleving3  |
