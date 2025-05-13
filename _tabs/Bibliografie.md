@@ -3,9 +3,6 @@ icon: fas fa-info-circle
 order: 8       
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-
 Onze gebruikte bronnen:
 - “Vertical farm - IB3”, Vertical Farm - IB3. https://verticalfarmib3.github.io/
 - K. Al-Kodmany en Department of Urban Planning and Policy, College of Urban Planning and Public Affairs, University of Illinois at Chicago, “The Vertical Farm: A Review of Developments and Implications for the Vertical City”, feb. 2018. doi: 10.3390/buildings8020024.
