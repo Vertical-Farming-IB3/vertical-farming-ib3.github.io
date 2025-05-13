@@ -25,7 +25,7 @@ Elke lade krijgt zijn eigen dashboard. Hier bevindt zich alle info over die spec
 
 ## Energieverbruik
 
-<img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Energieverbuik.png' | relative_url }}" alt="Energie dashboard" />
+<img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Energieverbruik.png' | relative_url }}" alt="Energie dashboard" />
 
 Op dit dashboard vindt u het vermogenverbruik van het volledige systeem en alle subsystemen terug. Ook het energieverbruik wordt hier weergegeven. U kunt terugkeren in de tijd en het verbruik per lade analyseren.
 
