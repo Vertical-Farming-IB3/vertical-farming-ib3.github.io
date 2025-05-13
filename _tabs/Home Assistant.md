@@ -21,7 +21,9 @@ Het 'Home' dashboard toont enkel de meest belangrijke zaken. Hier kunt u in een 
 
 <img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Lade1.png' | relative_url }}" alt="Lade dashboard" />
 
-Elke lade krijgt zijn eigen dashboard. Hier bevindt zich alle info over die specifieke lade: het planttype, de bodemvochtigheid, temperatuur, CO2-gehalte, ... Ook het vermogen- en energieverbruik zijn hier terug te vinden. Verder kan op deze pagina makkelijk het lichttype gewijzigd worden.
+Elke lade krijgt zijn eigen dashboard. Hier bevindt zich alle info over die specifieke lade: het planttype, de bodemvochtigheid, temperatuur, CO2-gehalte, ... Ook het vermogen- en energieverbruik zijn hier terug te vinden. Verder kan op deze pagina makkelijk het lichtspectrum gewijzigd worden.
+
+De aangeraden spectrum instelling is R:100%, FR:40% en BL:40%. Voor meer informatie zie "Aangeraden Instelling" op de pagina "Licht". 
 
 ## Energieverbruik
 
