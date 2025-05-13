@@ -71,7 +71,6 @@ Voor de plantenbakken werd een al gemaakte module gebruikt. Een teamlid had deze
 <img src="{{ '/assets/img/Plantenbak/acs712.png' | relative_url }}" alt="Hall effect" width="400" />
 
 ### ZXCT1107 Stroommonitor (team licht)
-
 Voor team Licht gebeurt de powermeting via een stroommonitor: de ZXCT1107, een high-side stroommonitor van Diodes Incorporated. Alles wordt duidelijk uitgelegd in de bijgevoegde pdf.
 
  [Powermeting (PDF)](https://vertical-farming-ib3.github.io/assets/files/Licht/powermeting.pdf)

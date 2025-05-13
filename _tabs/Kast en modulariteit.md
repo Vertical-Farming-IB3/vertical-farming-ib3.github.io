@@ -3,6 +3,7 @@ icon: fas fa-screwdriver-wrench
 order: 6       
 ---
 
+## Binnen-en buitenkast
 De kast bestaat uit twee grote delen, een binnenkast en een buitenkast. Ze is ontworpen met voorradige materialen, grotendeels gerecupereerd uit het project van afgelopen jaar. De binnenkast huist de elektronica en de lades. De buitenkast trekt de binnenkast in plaats en zorgt voor een mooie afwerking van het geheel. De buitenkast kan aan de hand van enkele bouten losgemaakt worden van de binnenkast, dit is ideaal voor onderhoud of het verplaatsen van de kast. De gebruikte onderdelen zijn ook te vinden in de BOM.
 
 De plannen voor de buitenkast kunt u hier bekijken: <!--Of verwijzing naar git.-->
@@ -10,6 +11,7 @@ De plannen voor de buitenkast kunt u hier bekijken: <!--Of verwijzing naar git.-
 
 <img src="{{ '/assets/img/Kast/Buitenkast_concept.png' | relative_url }}" alt="Buitenkast concept" width="400" style="border-radius: 15px;" />
 
+## Modulariteit
 Een belangrijk aspect waarmee we rekening hebben gehouden tijdens het ontwerpen van de vertical farm is de modulariteit. Dit slaat zowel op de mogelijkheid de kast te personaliseren aan verschillende noden als op de mogelijkheid om de kast (makkelijk) te verplaatsen en te onderhouden. Bij de opdracht van een vertical farm voor een huishoudelijke setting dachten we aan een kast. De vertical farm is dan ook gebaseerd op een (koel)kastontwerp. Er is hierbij een vast deel elektronica en schappen (lades) in de kast die naar persoonlijke voorkeur ingericht kunnen worden.
 
 De volledige kast staat ook op wieltjes, dit maakt het mogelijk de kast makkelijker te verplaatsen. De kast is momenteel 2m33 hoog, dit wil zeggen dat ze rechtop niet onder een normale deuropening past. Dit is echter een designkeuze verbonden aan de beschikbare aluminiumprofielen waaruit het frame is gemaakt. In de toekomst zou de kast kleiner gemaakt kunnen worden aangezien de volledige hoogte niet wordt benut. De kast heeft wel een normaal kastformaat en kan verplaatst worden met een aanhangertje of een kleine bestelwagen. Door het gebruik van aluminiumprofiel is de kast ook relatief zwaar. Dit is een overweging gemaakt in verband met meerdere factoren. Het gebruikte aluminiumprofiel heeft namelijk meerdere voordelen zoals stevigheid en het in plaats houden van buigend hout. Voor het verplaatsen van de kast kunnen de reservoirs makkelijk uitgenomen worden. Dit werkt net als de lades met een simpel schuifsysteem. Voor het mengreservoir moeten de UV-C lamp en mogelijk de probes eerst losgekoppeld worden. Ook de lades kunnen uit de kast gehaald worden, er dienen slechts enkele verbindingen verbroken te worden.

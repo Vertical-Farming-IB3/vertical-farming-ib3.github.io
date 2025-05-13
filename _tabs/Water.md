@@ -3,7 +3,6 @@ icon: fas fa-droplet
 order: 2
 ---
 
-
 ## Inhoud
 
 1. [Introductie](#introductie)

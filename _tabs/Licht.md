@@ -27,6 +27,7 @@ Bij Team Licht werken we aan led-verlichtingssystemen die speciaal zijn afgestem
 Photosynthetic Photon Flux Density (PPFD), afgestemd op bladgroenten. 
 
 ## led-selectie
+
 Om de juiste leds te bepalen hebben we ons gebaseerd op het uitgebreid onderzoek van vorig en de expertise van het team van Labo Licht. We hebben voor leds gekozen met een uniforme lichtverdeling voor optimale groei van de planten in de vertical farm. Zo zijn we uitgekomen bij de volgende Cree leds: 
 
 | Type       | Kleur       | Golflengte (nm) | PPF (µmol/s⁻¹) | View Angle (°) |
@@ -41,13 +42,16 @@ De keuze van lichtkleuren is cruciaal voor het sturen van de fotosynthese, blado
 morfologie. Dit project gebruikt drie spectraalkleuren:
 
 #### Blauw licht (450–460 nm)
+
 Bevordert bladontwikkeling, fotomorfogenese, pigmentvorming en compactheid van de plant.
 Het helpt overmatige strekking voorkomen.
 
 #### Rood licht (650–670 nm)
+
 Stimuleert fotosynthese en draagt sterk bij aan biomassavorming. Rood licht is bijzonder efficiënt in de activering van chlorofyl.
 
 #### Far-Red licht (720–740 nm)
+
 Hoewel buiten het PAR-bereik, versterkt far-red in combinatie met rood licht de fotosynthese via
 het Emerson-effect. Het wordt beperkt ingezet om ongewenst schieten en bloei te vermijden.
 
@@ -68,10 +72,12 @@ plantoppervlak bereikt. Dit is essentieel in vertical farming, waar kunstlicht d
 energie is voor fotosynthese.
 
 #### Sla en basilicum
+
 - PPFD van 250 µmol m⁻² s⁻¹ is optimaal voor biomassa, kwaliteit en energiegebruik.
 - 200 µmol m⁻² s⁻¹ volstaat bij hoge plantdichtheid (680 planten/m2).
   
 #### Koriander
+
 - PPFD van 250–300 µmol m⁻² s⁻¹ bevordert biomassatoename en antioxidantproductie.
 - Optimale prestaties bij verhoogde worteltemperatuur en CO2.
 
@@ -87,6 +93,7 @@ PPFD<sub>totaal</sub> = (12 × 1.01) + (20 × 0.72) + (16 × 0.72)
 PPFD = 38.04 / 0.173 = 219.05 µmol/m²/s
 
 #### Verhouding en doel
+
 Per lade wordt gebruikgemaakt van:
 - 12 blauwe leds
 - 20 rode leds
@@ -100,6 +107,7 @@ Deze zijn gekozen om zowel compacte groei als efficiënte fotosynthese te bevord
 veel far-red dat tot bloei of strekking kan leiden.
 
 ## Elektrisch Dimensioneren
+
 De volgende tabel toont de elektrische karakteristieken van de individuele leds.
 
 | **led Specifications (CreeLed)** | **Far-Red (FR)** | **Red (R)** | **Blue (B)** |
@@ -184,6 +192,7 @@ Totaal per lade: 12 blauwe, 20 rode, 16 far-reds.
 </div>
 
 ## Afgewerkt product
+
 In de kast worden er 2 lades voorzien met verlichting in.
 
 

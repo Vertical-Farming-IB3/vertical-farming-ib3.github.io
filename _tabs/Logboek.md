@@ -3,7 +3,6 @@ icon: fas fa-calendar-check
 order: 6
 ---
 
-
 # 🌱 Vertical Farm Project "Plan-T" Logboek
 
 ---
@@ -573,6 +572,8 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ---
 
 ### 📅 Dinsdag 13-05-2025:
+- Update home assistant
+- Laatste hand aan de kast
 - Eindpresentatie
 
 ---

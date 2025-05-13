@@ -82,12 +82,6 @@ p {
   margin-bottom: 0.2em; /* optional for spacing */
 }
 
-/* Bedankt Section */
-#bedankt ul {
-  padding-left: 1.2em;
-  list-style-type: disc;
-}
-
 .responsive-image {
   width: 100%;
   max-width: 100%;
@@ -95,4 +89,10 @@ p {
   display: block;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+/* Bedankt Section */
+#bedankt ul {
+  padding-left: 1.2em;
+  list-style-type: disc;
 }
