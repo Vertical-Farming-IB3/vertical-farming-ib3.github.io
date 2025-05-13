@@ -3,9 +3,6 @@ icon: fas fa-plug
 order: 4
 ---
 
-> Under construction
-{: .prompt-warning }
-
 ## Inhoud 
 1. [Simple and safe](#simple-and-safe)
    - [Fuse](#fuse)
