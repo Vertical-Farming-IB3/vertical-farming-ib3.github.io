@@ -124,7 +124,7 @@ In de volgende tabel staan de PPF/PPFD outputs van elk lichtspectra voor één l
 |         | FR    | R     | B      | Totaal|
 |------------------|-------|-------|--------|-------------|
 | **PPF (umol s⁻¹)** | 13.4 | 15.2     | 12.2   | 40.8        |
-| **PPFD, 0.4cm², 80% (µmol m⁻² s⁻¹)** | 320 |   360   |  290  |  970   |
+| **PPFD, 0.1m², 80% (µmol m⁻² s⁻¹)** | 120 |   136   |  110  |  366   |
 
 ## Afstand en uniformiteit
 
