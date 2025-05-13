@@ -13,25 +13,25 @@ Wanneer u surft naar het Home Assistant dashboard <em>(http://homeassistant.loca
 
 ## Home
 
-<img src="{{ '/assets/img/HomeAssistant/Home.png' | relative_url }}" alt="Home dashboard" />
+<img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Home.png' | relative_url }}" alt="Home dashboard" />
 
 Het 'Home' dashboard toont enkel de meest belangrijke zaken. Hier kunt u in een oogopslag zien of alle subsystemen van de vertical farm online zijn, wat de hoogtes van de reservoirs zijn en wat het energieverbruik is.
 
 ## Lades
 
-<img src="{{ '/assets/img/HomeAssistant/Lade_1.png' | relative_url }}" alt="Lade dashboard" />
+<img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Lade1.png' | relative_url }}" alt="Lade dashboard" />
 
 Elke lade krijgt zijn eigen dashboard. Hier bevindt zich alle info over die specifieke lade: het planttype, de bodemvochtigheid, temperatuur, CO2-gehalte, ... Ook het vermogen- en energieverbruik zijn hier terug te vinden. Verder kan op deze pagina makkelijk het lichttype gewijzigd worden.
 
 ## Energieverbruik
 
-<img src="{{ '/assets/img/HomeAssistant/Energie.png' | relative_url }}" alt="Energie dashboard" />
+<img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Energieverbuik.png' | relative_url }}" alt="Energie dashboard" />
 
 Op dit dashboard vindt u het vermogenverbruik van het volledige systeem en alle subsystemen terug. Ook het energieverbruik wordt hier weergegeven. U kunt terugkeren in de tijd en het verbruik per lade analyseren.
 
 ## Watersysteem
 
-<img src="{{ '/assets/img/HomeAssistant/HomeAssistantWater.png' | relative_url }}" alt="Watersysteem dashboard" />
+<img src="{{ '/assets/img/HomeAssistant/HomeAssistant_Watersysteem.png' | relative_url }}" alt="Watersysteem dashboard" />
 
 Dit dashboard bevat enkele veiligheidschakelaars. Wanneer deze schakelaars zijn ingeschakeld krijgt het systeem 'controle' over de waterpompjes en wordt het waterpeil op hoogte gehouden. Deze schakelaars komen van pas bij het uitkuisen van de reservoirs of bij het verplaatsen van een lade. De schakelaar 'Pompen mixer' geeft aan of er water uit het water- en voedingsstoffenreservoir mogen gepompt worden naar het mixreservoir. De 'Pomp lade' geeft telkens aan of er water naar bijhorende lade mag gepompt worden.
 
