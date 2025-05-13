@@ -4,9 +4,6 @@ title: Plantenbak
 order: 1
 ---
 
-> Under construction
-{: .prompt-warning }
-
 ## Inhoud 
 1. [Introductie](#introductie)
 2. [Componentenlijst](#componentenlijst)
