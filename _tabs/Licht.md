@@ -7,9 +7,9 @@ order: 3
 1. [Introductie](#introductie)
 2. [led-selectie](#led-selectie)
 3. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
-    - [Blauw licht (450-460 nm)](#blauw-licht-450-460-nm)
-    - [Rood licht (560-670 nm)](#rood-licht-560-670-nm)
-    - [Far-red licht (720-740 nm)](#far-red-licht-720-740-nm)
+    - [Blauw licht (450-460 nm)](#blauw-licht)
+    - [Rood licht (560-670 nm)](#rood-licht)
+    - [Far-red licht (720-740 nm)](#far-red-licht)
     - [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
         * [Sla en basilicum](#sla-en-basilicum)
         * [Koriander](#koriander)
@@ -43,16 +43,16 @@ Om de juiste leds te bepalen hebben we ons gebaseerd op het uitgebreid onderzoek
 De keuze van lichtkleuren is cruciaal voor het sturen van de fotosynthese, bladontwikkeling en
 morfologie. Dit project gebruikt drie spectraalkleuren:
 
-### Blauw licht (450–460 nm)
+### Blauw licht (450–460 nm) {#blauw-licht}
 
 Bevordert bladontwikkeling, fotomorfogenese, pigmentvorming en compactheid van de plant.
 Het helpt overmatige strekking voorkomen door de plant laag te houden en de stengels stevig te maken.
 
-### Rood licht (650–670 nm)
+### Rood licht (650–670 nm) {#rood-licht}
 
 Stimuleert fotosynthese en draagt sterk bij aan biomassavorming. Rood licht is bijzonder efficiënt in de activering van chlorofyl.
 
-### Far-Red licht (720–740 nm)
+### Far-Red licht (720–740 nm) {#far-red-licht}
 
 Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
 het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
