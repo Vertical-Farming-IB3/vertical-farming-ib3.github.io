@@ -4,7 +4,7 @@ order: 6
 ---
 
 ## Inhoud 
-1. [Binnen-en buitenkast](#binnen-en-buitenkast)
+1. [Binnen- en buitenkast](#binnen--en-buitenkast)
 2. [Modulariteit](#modulariteit)
 
 ## Binnen- en buitenkast

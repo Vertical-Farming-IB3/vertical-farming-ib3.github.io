@@ -9,7 +9,7 @@ order: 3
 3. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
     - [Blauw licht (450-460 nm)](#blauw-licht-450-460-nm)
     - [Rood licht (560-670 nm)](#rood-licht-560-670-nm)
-    - [Far-red licht (720-740 nm)](#blauw-licht-720-740-nm)
+    - [Far-red licht (720-740 nm)](#far-red-720-740-nm)
     - [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
         * [Sla en basilicum](#sla-en-basilicum)
         * [Koriander](#koriander)
