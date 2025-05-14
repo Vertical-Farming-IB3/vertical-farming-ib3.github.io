@@ -6,20 +6,23 @@ order: 3
 ## Inhoud
 1. [Introductie](#introductie)
 2. [led-selectie](#led-selectie)
-3. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
-4. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
-   - [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
-   - [Sla en basilicum](#sla-en-basilicum)
-   - [Koriander](#koriander)
-   - [PPFD-berekening](#ppfd-berekening)
-5. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
-6. [Aangeraden Instelling](#aangeraden-instelling) 
-7. [Afstand en uniformiteit](#afstand-en-uniformiteit)
-8. [Fotoperiode](#fotoperiode)
-9. [Thermische berekeningen led PCB](#thermische-berekeningen-led-pcb)
-10. [Ontwerp](#ontwerp)
-11. [Uitvoering](#uitvoering)
-12. [Afgewerkt product](#afgewerkt-product)
+3. [Spectrum en kleurverhouding](#spectrum-en-kleurverhouding)
+    - [Blauw licht (450-460 nm)](#blauw-licht-450-460-nm)
+    - [Rood licht (560-670 nm)](#rood-licht-560-670-nm)
+    - [Far-red licht (720-740 nm)](#blauw-licht-720-740-nm)
+    - [Photosynthetic Photon Flux Density (PPFD)](#photosynthetic-photon-flux-density-ppfd)
+        * [Sla en basilicum](#sla-en-basilicum)
+        * [Koriander](#koriander)
+        * [PPFD-berekening](#ppfd-berekening)
+4. [Elektrisch Dimensioneren](#elektrisch-dimensioneren)
+5. [Aangeraden Instelling](#aangeraden-instelling) 
+6. [Afstand en uniformiteit](#afstand-en-uniformiteit)
+7. [Fotoperiode](#fotoperiode)
+8. [Thermische berekeningen led-PCB](#thermische-berekeningen-led-pcb)
+9. [Ontwerp](#ontwerp)
+10. [Uitvoering](#uitvoering)
+11. [Afgewerkt product](#afgewerkt-product)
+11. [Bronnen](#bronnen) <!--kan ook in bibliografie-->
 
 ## Introductie
 
@@ -40,16 +43,16 @@ Om de juiste leds te bepalen hebben we ons gebaseerd op het uitgebreid onderzoek
 De keuze van lichtkleuren is cruciaal voor het sturen van de fotosynthese, bladontwikkeling en
 morfologie. Dit project gebruikt drie spectraalkleuren:
 
-#### Blauw licht (450–460 nm)
+### Blauw licht (450–460 nm)
 
 Bevordert bladontwikkeling, fotomorfogenese, pigmentvorming en compactheid van de plant.
 Het helpt overmatige strekking voorkomen door de plant laag te houden en de stengels stevig te maken.
 
-#### Rood licht (650–670 nm)
+### Rood licht (650–670 nm)
 
 Stimuleert fotosynthese en draagt sterk bij aan biomassavorming. Rood licht is bijzonder efficiënt in de activering van chlorofyl.
 
-#### Far-Red licht (720–740 nm)
+### Far-Red licht (720–740 nm)
 
 Hoewel far-red licht buiten het fotosynthetisch actieve spectrum (PAR) valt, draagt het bij aan
 het Emerson-effect, waarbij de combinatie van rood en far-red licht leidt tot een verhoogde
@@ -150,7 +153,7 @@ als reflectieve achtergrond en zo schaduwvorming vermindert.
 Een cyclus van 16 uur licht en 8 uur donker (16L/8D) is toegepast, wat bewezen effectief is voor
 bladgroenten.
 
-## Thermische berekeningen led PCB
+## Thermische berekeningen led-PCB
 
 Uit de berekeningen blijkt dat de totale thermische weerstand zonder koeling vrij hoog is, wat resulteert in
  een junctietemperatuur van net boven de 70°C. Dit is wel onder de maximaal toegelaten waarde van 125°C

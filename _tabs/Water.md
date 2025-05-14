@@ -4,7 +4,6 @@ order: 2
 ---
 
 ## Inhoud
-
 1. [Introductie](#introductie)
 2. [Componentenlijst](#componentenlijst)
 3. [Stuurlogica](#stuurlogica)
@@ -29,13 +28,11 @@ Om plantjes te laten groeien zijn water en voedingsstoffen onmisbaar. Met Team w
 In de volgende secties bespreken we elk onderdeel van dit systeem in meer detail.
 
 ## Componentenlijst
-
 Hier vindt u de benodigde componenten voor het Project, voor dit onderdeel kan u kijken bij sectie Team Water binnen de bestellijst.
 
 📄 [Bestellijst (Excel)](https://vertical-farming-ib3.github.io/assets/files/BOM.xlsx)
 
 ## Stuurlogica
-
 <img src="{{ '/assets/img/Watersysteem/PCB-Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB" width="400" />
 
 <img src="{{ '/assets/img/Watersysteem/Connecties_PCB_Watersysteem.png' | relative_url }}" alt="Afbeelding van de PCB met connecties" width="1000" />
@@ -227,7 +224,7 @@ Naast de dubbele connectoren zijn er ook [Push-to-Connect koppelingen](https://n
 ### Pompaansturing
 De watercirculatie wordt op regelmatige tijdsintervallen geactiveerd om algengroei tegen te gaan. Om de pompen te beschermen, wordt het waterpeil van de reservoirs gemonitord en aangevuld wanneer dit te laag komt te staan. Zo zit er ook een veiligheid ingebouwd die voorkomt dat de pompen activeren wanneer het waterniveau te laag is. De lades worden voorzien van water wanneer zij dit nodig hebben, aan de hand van routines in de [Home Assistant](https://vertical-farming-ib3.github.io/Home-Assistant/){:target="_blank"}. 
 
-#### Waterpomp: 
+#### Waterpomp
 1. Twee pompen brengen water en voedingsstoffen vanuit hun respectievelijke reservoirs naar het mengreservoir.
 2. Vanuit het mengreservoir transporteren aparte pompen de gemengde vloeistof naar de lades. In de kast is er voldoende ruimte voor twee laden met planten (variërend in hoogte). Om deze reden maken we gebruik van twee pompen voor de toevoer. Aan elke pomp kunnen darmpjes op verschillende hoogtes worden aangesloten, waardoor we een modulair systeem hebben gecreëerd dat eenvoudig uitbreidbaar en aanpasbaar is. De watertoevoer kan gemakkelijk met quick-connectors aan de lades van plantenbak verbonden worden.
 
@@ -273,7 +270,6 @@ Voor het mengreservoir werd een [onderwaterpomp](https://www.tinytronics.nl/nl/m
 📄 [Research mixen](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Research.md#mixer){:target="_blank"}
 
 ## Afvoer
-
 <img src="{{ '/assets/img/Watersysteem/Afvoer.png' | relative_url }}" alt="Afvoer" width="400" style="border-radius: 15px;" />
 
 De afvoer van water gebeurt op basis van de zwaartekracht. De lade staat licht gekanteld, zodat overtollig water terugstroomt naar het mengreservoir. Hierdoor is er geen extra pomp nodig voor de afvoer. Om de kast te beschermen tegen waterschade wordt gebruikgemaakt van een centrale pvc-buis. De pvc-buis is deels open gesneden en voorzien van afdekkingen om spatten op te vangen. In deze opening kunnen de plantenbakken dan via een buisje gecontroleerd leeglopen. Als de lade uitgetrokken word willen we niet dat dit water door de kast loopt, om dit probleem op te lossen hebben we ook een module ontworpen met een gootje die onder de lade geschoven kan worden. Bij het uitrekken van de lade zal het water dan via dit gootje in de PVC-pijp belanden. Op deze manier behouden we een hoge mate van modulariteit in het systeem.

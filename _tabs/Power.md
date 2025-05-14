@@ -5,14 +5,15 @@ order: 4
 
 ## Inhoud 
 1. [Simple and safe](#simple-and-safe)
-   - [Fuse](#fuse)
-   - [Ingang en hoofdschakelaar](#ingang-en-hoofdschakelaar)
-   - [Connectoren](#connectoren)
-   - [Kabels](#kabels)
-3. [Energieverbruik en vermogen](#energieverbruik-en-vermogen)
-   - [ACS712 Hall-effect stroomsensor (team water)](#acs712-hall-effect-stroomsensor-team-water)
-   - [ACS712 module (team plantenbak)](#acs712-module-team-plantenbak)
-   - [ZXCT1107 Stroommonitor (team licht)](#zxct1107-stroommonitor-team-licht)
+  - [Fuse](#fuse)
+  - [Ingang en hoofdschakelaar](#ingang-en-hoofdschakelaar)
+  - [Spanningen](#spanningen)
+  - [Connectoren](#connectoren)
+  - [Kabels](#kabels)
+2. [Energieverbruik en vermogen](#energieverbruik-en-vermogen)
+  - [ACS712 Hall-effect stroomsensor (team water)](#acs712-hall-effect-stroomsensor-team-water)
+  - [ACS712 module (team plantenbak)](#acs712-module-team-plantenbak)
+  - [ZXCT1107 Stroommonitor (team licht)](#zxct1107-stroommonitor-team-licht)
    
 ## Simple and safe
 Als team Power willen we alle groepen op een zo veilig en eenvoudig mogelijke manier van stroom voorzien. Daarnaast moet het voor team Licht en team Plantenbak mogelijk zijn om op verschillende niveaus in de kast stroom af te halen.

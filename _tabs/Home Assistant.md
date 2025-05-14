@@ -5,6 +5,16 @@ order: 5
 layout: default
 ---
 
+## Inhoud 
+1. [Dashboard](#dashboard)
+  - [Home](#home)
+  - [Lades](#lades)
+  - [Energieverbruik](#energieverbruik)
+  - [Watersysteem](#watersysteem)
+2. [Data aggregatie](#data-aggregatie)
+3. [Automatisaties](#automatisaties)
+4. [Wachtwoorden](#wachtwoorden)
+
 # Dashboard
 
 Bij onze slimme vertical farm hoort natuurlijk ook een interactief dashboard waar ook alle data wordt verzameld. 

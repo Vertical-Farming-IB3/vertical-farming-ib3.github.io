@@ -3,7 +3,11 @@ icon: fas fa-screwdriver-wrench
 order: 6       
 ---
 
-## Binnen-en buitenkast
+## Inhoud 
+1. [Binnen-en buitenkast](#binnen-en-buitenkast)
+2. [Modulariteit](#modulariteit)
+
+## Binnen- en buitenkast
 De kast bestaat uit twee grote delen, een binnenkast en een buitenkast. Ze is ontworpen met voorradige materialen, grotendeels gerecupereerd uit het project van afgelopen jaar. De binnenkast huist de elektronica en de lades. De buitenkast trekt de binnenkast in plaats en zorgt voor een mooie afwerking van het geheel. De buitenkast kan aan de hand van enkele bouten losgemaakt worden van de binnenkast, dit is ideaal voor onderhoud of het verplaatsen van de kast. De gebruikte onderdelen zijn ook te vinden in de BOM.
 
 De plannen voor de buitenkast kunt u hier bekijken: <!--Of verwijzing naar git.-->
