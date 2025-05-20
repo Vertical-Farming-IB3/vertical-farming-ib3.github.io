@@ -58,7 +58,7 @@ De spanning is gekend (een constante 12V) waardoor we door een simpele formule h
 
 We voerden een kalibratie uit met deze sensor die [hier](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Vermogensmeting.md) terug te vinden is. Bij deze kalibratie merken we op dat er een hogere accuratie behaald wordt bij grote vermogens. Over het gehele meetbereik behalen we een gemiddelde meetfout van 6%.
 
-De UV-C-lamp zit op een afzonderlijke vermogenskring, deze wordt niet rechtstreeks gemeten (hoge spanning!) <!--Was wel mogelijk geweest-->. Er wordt hiervoor een theoretisch verbruik bij de meting opgeteld.
+De UV-C-lamp zit op een afzonderlijke vermogenskring, deze wordt niet rechtstreeks gemeten (hoge spanning!). Er wordt hiervoor een theoretisch verbruik bij de meting opgeteld.
 
 - **Voordelen:**
     - Output eenvoudig in te lezen op een microcontroller
