@@ -4,6 +4,7 @@ order: 8
 ---
 
 Onze gebruikte bronnen:
+
 - “Vertical farm - IB3”, Vertical Farm - IB3. https://verticalfarmib3.github.io/
 - K. Al-Kodmany en Department of Urban Planning and Policy, College of Urban Planning and Public Affairs, University of Illinois at Chicago, “The Vertical Farm: A Review of Developments and Implications for the Vertical City”, feb. 2018. doi: 10.3390/buildings8020024.
 - K.-H. Yeo, G.-L. Choi, J.-H. Lee, K.-S. Park, en K.-Y. Choi, “Development of Nutrient Solution Compositions for Paprika Cultivation in a Closed Coir Substrate Hydroponic System in Republic of Korea’s Winter Cropping Season”, Horticulturae, vol. 9, nr. 4, p. 412, mrt. 2023, doi: 10.3390/horticulturae9040412.

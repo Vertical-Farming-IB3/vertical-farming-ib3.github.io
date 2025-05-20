@@ -22,8 +22,6 @@ order: 2
         - [Onderwaterpomp](#onderwaterpomp)
 6. [Afvoer](#afvoer)
 
-<!--Hebben we de theoretische vermogenberekening er nu volledig uitgehaald?-->
-
 ## Introductie
 Om plantjes te laten groeien zijn water en voedingsstoffen onmisbaar. Met Team water staan wij in voor het aanvoeren en afvoeren van deze voedingsoplossing met de juiste kwaliteit. Dit gebeurt via een slim watersysteem dat instaat voor het mengen, verdelen en recupereren van het water.
 
@@ -143,9 +141,9 @@ De reden waarom we het calciumgehalte opmeten en niet het fosfaatgehalte is omda
 <p><img src="{{ '/assets/img/Watersysteem/PH-probe.png' | relative_url }}" alt="PH-probe" width="400" /></p>
 <p><img src="{{ '/assets/img/Watersysteem/RefProbe.png' | relative_url }}" alt="Referentieprobe" width="400" /></p>
 
-📄 [Belangrijkste karakteristieken Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Chemie.md){:target="_blank"}
+📄 [Belangrijkste karakteristieken Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Chemische_probes.md){:target="_blank"}
 
-Dit maakt dat in totaal 5 probes zijn geïntegreerd. De PH-sensor is geïntegreerd omdat verschillende planten houden van een verschillende zuurtegraad van de 'bodem'. De referentieprobe is essentieel voor het uitlezen van de overige probes, belangrijk hierbij is dat ze gevuld is met de juiste referentievloeistof. De overige probes worden gekalibreerd voor ze gebruikt kunnen worden, daarvoor zijn nog enkele componenten nodig, deze zullen we hieronder bespreken. De probes worden uitgelezen aan de hand van ADC-convertoren. De probes zijn temperatuurgevoelig, dit wil zeggen dat bij een verschillende watertemperatuur de probes verschillende meetwaarden kunnen teruggeven bij eenzelfde concentratie. Onze Vertical Farm bevindt zich echter in een omgeving binnenshuis, we gaan er hierbij vanuit dat de temperatuurschommeling in de kast minimaal is. Hiernaast wordt de temperatuur bijgehouden in de plantenbak, deze meetwaarde is voldoende referentie om de probes af te stellen op temperatuurswijzigingen. <!-- Nakijken!!! Dit hebben we nog niet geverifieerd.-->
+Dit maakt dat in totaal 5 probes zijn geïntegreerd. De PH-sensor is geïntegreerd omdat verschillende planten houden van een verschillende zuurtegraad van de 'bodem'. De referentieprobe is essentieel voor het uitlezen van de overige probes, belangrijk hierbij is dat ze gevuld is met de juiste referentievloeistof. De overige probes worden gekalibreerd voor ze gebruikt kunnen worden, daarvoor zijn nog enkele componenten nodig, deze zullen we hieronder bespreken. De probes worden uitgelezen aan de hand van ADC-convertoren. De probes zijn temperatuurgevoelig, dit wil zeggen dat bij een verschillende watertemperatuur de probes verschillende meetwaarden kunnen teruggeven bij eenzelfde concentratie. Onze Vertical Farm bevindt zich echter in een omgeving binnenshuis, we gaan er hierbij vanuit dat de temperatuurschommeling in de kast minimaal is. Hiernaast wordt de temperatuur bijgehouden in de plantenbak, deze meetwaarde is voldoende referentie om de probes af te stellen op temperatuurswijzigingen. 
 
 - **Voordelen:**
     - Digitale uitlezing van de aanwezige voedingsstoffen
@@ -156,7 +154,7 @@ Dit maakt dat in totaal 5 probes zijn geïntegreerd. De PH-sensor is geïntegree
     - Duurder (in vergelijking met manuele testen)
     - Temperatuursafhankelijk
 
-📄 [Kalibratie Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Chemische_probes.md){:target="_blank"}
+📄 [Kalibratie Probes](https://github.com/Vertical-Farming-IB3/Plan-T/blob/main/Water/Kalibratie_probes.md){:target="_blank"}
 
 ## Toevoer
 <img src="{{ '/assets/img/Watersysteem/Plan_Watersysteem.png' | relative_url }}" alt="Schematische tekening van het watersysteem" width="600" />
