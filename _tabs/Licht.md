@@ -22,7 +22,7 @@ order: 3
 9. [Ontwerp](#ontwerp)
 10. [Uitvoering](#uitvoering)
 11. [Afgewerkt product](#afgewerkt-product)
-11. [Bronnen](#bronnen) <!--kan ook in bibliografie-->
+11. [Bronnen](#bronnen)
 
 ## Introductie
 

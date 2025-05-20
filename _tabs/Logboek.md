@@ -99,7 +99,6 @@ We stelden onze vooruitgang voor en vergaarden feedback in onze **ClickUp notiti
 ### 📸 Concepttekeningen
 <div style="display: flex; gap: 10px;">
   <!-- Tekeningen en 3D-modellen toevoegen -->
-  <!-- <img src="/assets/img/Logboek/figure1.jpg" alt="Concept 1" width="200"/> -->
   <img src="/assets/img/Logboek/Sem2/figure1.png" alt="Concept 1" width="200" style="border-radius: 15px;"/>
   <img src="/assets/img/Logboek/Sem2/figure2.png" alt="Concept 2" width="200" style="border-radius: 15px;"/>
   <img src="/assets/img/Logboek/Sem2/figure3.png" alt="Concept 3" width="200" style="border-radius: 15px;"/>
@@ -385,25 +384,25 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ### 📅 Paasvakantie: 07-04-2025 tot en met 20-04-2025
 ##### Team Water: 
 - Verder gewerkt aan afvoer: montage + boren regenpijp
--	Gekeken naar buitenkast
--	Nagemeten kapotte probe
--	Test op lekkages + lekken opgelost
--	Waterproofen
--	Hoogtesensoren aangesloten en gekalibreerd
--	Houder voor middelste hoogtesensor ontworpen
--	Kabels in kabelhulzen gestoken
--	Kraantjeswater en voedingsstoffen uitgemeten
--	Reservoirs gevuld, pompjes getest, mixer getest, circulatie getest
+- Gekeken naar buitenkast
+- Nagemeten kapotte probe
+- Test op lekkages + lekken opgelost
+- Waterproofen
+- Hoogtesensoren aangesloten en gekalibreerd
+- Houder voor middelste hoogtesensor ontworpen
+- Kabels in kabelhulzen gestoken
+- Kraantjeswater en voedingsstoffen uitgemeten
+- Reservoirs gevuld, pompjes getest, mixer getest, circulatie getest
 
 ##### Team Plantenbak: 
 - Houdersysteem voor plantenpotjes gemaakt
-- Volledige elekronicasysteem verbonden en getest
-- Lang bugfixen op probleem bij relais ( Schottky-diode )
+- Volledig elektronicasysteem verbonden en getest
+- Lang bugfixen op probleem bij relais (Schottky-diode)
 - Nieuwe batch plantjes gezaaid
 
 ##### Team Licht: 
-- Led PCB's monteren in de lades
-- Driver + led PCB's te samen testten
+- Led-PCB's monteren in de lades
+- Driver + led-PCB's samen testen
 - Code verder schrijven
 
 ---
@@ -411,7 +410,7 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 ### 📅 Dinsdag 22-04-2025:
 ##### Team Water: 
 - Site verderwerken
-- Power aansluiten pcb water
+- Power aansluiten PCB van water
 - Automatisaties schrijven (circulatie, mengreservoir bijvullen, waarschuwingen laag waterniveau, ventilatie, water pompen naar lades)
 - Reservoirs uitkuisen
 - Hoogtesensoren op nieuwe brackets gemonteerd
@@ -577,5 +576,3 @@ Met de meeste componenten besteld en Mr. Coppens die aan de kast werkt, werken w
 - Eindpresentatie
 
 ---
-
-<!-- Komt er nog ergens een verklarende woordenlijst?-->
